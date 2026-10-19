@@ -1,0 +1,31 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+Facultad de Matem´aticas
+Departamento de Matem´aticas
+Primer semestre de 2020
+Interrogaci´ on 5
+MAT1107 - Introducci´ on al C´ alculo
+(1) Sea f : [ a, b]→ R una funci´ on estr´ ıctamente creciente, es decir, six1, x2∈ [a, b] y
+x1 < x 2, entonces f(x1) < f (x2).
+(a) Demuestre que f es invertible. (1 punto)
+(b) Demuestre que f −1 es estr´ ıctamente creciente.(2 puntos)
+Soluci´ on.
+(a) Si x1⁄= x2, entonces, o bien f(x1) < f (x2), o bien f(x1) > f (x2). En cualquier
+caso, f(x1)⁄= f(x2) y, por lo tanto, f es inyectiva.
+(b) Sean y1 < y 2 en el dominio de f −1. Supongamos que f −1(y1)≥ f −1(y2).
+(1 punto hasta un planteo de este tipo)
+Como f es estr´ ıctamente creciente, se tiene quef(f −1(y1))≥ f(f −1(y2)), es decir,
+y1≥ y2. Esto es una contradicci´ on.(1 punto)
+(2) Sea x∈ R. Demuestre que ex + e−x≥ 2. (3 puntos)
+Soluci´ on.
+Como ex > 0, la desigualdad es equivalente a
+e2x + 1≥ 2ex,
+y, por lo tanto, equivalente a
+e2x− 2ex + 1≥ 0.
+Esto ´ ultimo es equivalente a
+(ex− 1)2≥ 0,
+que es verdadera.
+• Reducir a una inecuaci´ on cuadr´ atica(2 puntos)
+• Concluir. (1 punto)
+1

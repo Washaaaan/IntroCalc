@@ -1,0 +1,142 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Facultad de Matem´ aticas
+Departamento de Matem´ atica
+5 de Noviembre 2025
+MAT1107 ⋆ Introducci´ on al C´ alculo
+Interrogaci´ on 3
+1. Calcule los siguientes l ´ ımites justificando su respuesta con el teorema del sandwich
+o con ´ algebra de l ´ ımites..
+(a) lim n→∞
+cos(n3 + 1)
+n .
+(b) lim n→∞
+3n3 + 2n2 + n
+5n3 + 8 .
+(c) lim n→∞
+n
+2n .
+Soluci´ on:
+(a) Como | cos(x)| ≤1 para cualquier x ∈ R, entonces
+−1
+n ≤ cos(n3 + 1)n ≤ 1n , ∀n ≥ 1.
+Sabemos que limn→∞
+1
+n = 0, y por lo tanto el teorema del sandwich nos permite
+concluir que lim n→∞
+cos(n3 + 1)
+n = 0.
+(b) Como
+3n3 + 2n2 + n
+5n3 + 8 = 3 + 2/n + 1/n25 + 8/n3 ,
+por ´ algebra de l ´ ımites,
+lim
+n→∞
+3n3 + 2n2 + n
+5n3 + 8 = 3 + limn→∞(2/n) + limn→∞(1/n2)5 + limn→∞ 8/n3 = 3 + 0 + 05 + 0 = 35 .
+(c) Como 2 n = (1 + 1)n ≥ 1 + n + n(n − 1)/2 para todo n ≥ 0 entonces
+0 ≤ n2n ≤ n1 + n + n(n − 1)/2 ≤ 2n − 1 , ∀n ≥ 2.
+Sabemos que la sucesi´ on constante cero converge a cero y que 2 /(n + 1) con-
+verge a cero, y por lo tanto, el teorema del sandwich nos permite concluir que
+limn→∞
+n
+2n = 0.
+Puntaje:
+----- pagina 2 -----
+(a) (1 punto) por acotar −1 ≤ cos(n2 + 1) ≤ 1 y
+(1 punto ) por ocupar bien el teorema del sandwich con −1/n y 1/n
+como sucesiones que van a cero.
+(b) (1 punto) por la factorizaci´ on3n3 + 2n2 + n5n3 + 8 = 3 + 2/n + 1/n25 + 8/n3 y
+(1 punto) por ocupar correctamente ´ algebra de l ´ ımites con1/n, 1/n2
+y 1/n3 llendose a cero.
+(c) (1 punto) por acotar n/2n de alguna manera similar a la pauta y
+(1 punto) por ocupar teorema del sandwich correctamente.
+2. Demuestre por definici´ on quean =
+r
+4 + 1n , n∈ N, satisface lim n→∞ an = 2.
+Soluci´ on:
+Tenemos que para todo n ∈ N
+|an − 2| =
+r4 + 1n − 2
+=
+(p4 + 1/n − 2) · p4 + 1/n + 2p4 + 1/n + 2
+=
+ 1n · 1p4 + 1/n + 2
+≤ 14n .
+Fijemos un ϵ > 0. Escogiendo N ∈ N tal que N > 1/(4ϵ) > 0, que existe por el
+principio arquimediano, tenemos que 1 /(4N ) < ϵy entonces ∀n ≥ N ,
+|an − 2| ≤14n ≤ 14N < ϵ,
+es decir, se cumple que ∀ϵ >0, ∃N ∈ N tal que ∀n ≥ N, |an − 2| < ϵ.
+Puntaje:
+• (2 puntos) por la estimaci´ on|an − 2| ≤1/4n u otra estimaci´ on semejante
+y ´ util.
+• (2 puntos) por dado ϵ > 0 encontrar un N ∈ N adecuado, en base a
+la cota anterior (por ejemplo N >1/4ϵ con la estimaci´ on de la pauta),
+mencionando que tal N existe por el principio arquimediano.
+• (2 puntos) por verificar que con el N encontrado se cumple que ∀n ≥
+N, |an − 2| < ϵ.
+3. Sean ( an)n∈N y ( bn)n∈N dos sucesiones convergentes. Sean L = lim n→∞ an y M =
+limn→∞ bn. Demuestre que la sucesi´ on (cn)n∈N definida por cn = an + bn, n∈ N, es
+convergente y limn→∞ cn = L + M .
+Soluci´ on:
+----- pagina 3 -----
+Tenemos que
+∀ϵ1 > 0, ∃N1 ∈ N : ∀n ≥ N1, |an − L| < ϵ1, y tambi´ en
+∀ϵ2 > 0, ∃N2 ∈ N : ∀n ≥ N2, |bn − M | < ϵ2,
+y queremos demostrar que
+∀ϵ >0, ∃N ∈ N : ∀n ≥ N, |cn − (L + M )| < ϵ.
+Fijemos un ϵ >0. Considerando ϵ1 = ϵ/2 existe N1 ∈ N tal que |an − L| < ϵ/2 para
+todo n ≥ N1.
+Considerando ϵ2 = ϵ/2 existe N2 ∈ N tal que |bn − L| < ϵ/2 para todo n ≥ N2.
+Tomemos N = max{N1, N2} ∈N. Luego, si n ≥ N tenemos que |an − L| < ϵ/2 y
+que |bn − L| < ϵ/2. Por desigualdad triangular del valor absoluto esto implica que
+|cn − (L + M )| =|(an + bn) − (L + M )|
+=|(an − L) + (bn − M )|
+≤|an − L| + |bn − M |
+<ϵ/2 + ϵ/2 = ϵ,
+es decir, para ϵ > 0 encontramos N ∈ N tal que para todo n ≥ N se cumple
+|cn − (L + M )| < ϵ. Esto demuestra que ( cn) es convergente y su l ´ ımite es (L + M ).
+Puntaje:
+• (1 punto) por aclarar (o que dentro del argumento se vea claramente)
+cual es la aseveraci´ on que se quiere demostrar.
+• (1 punto) por escoger ϵ1 = ϵ/2 y obtener N1 (o lo que corresponda en el
+argumento del alumno).
+• (1 punto) por escoger ϵ2 = ϵ/2 y obtener N2 (o lo que corresponda en el
+argumento del alumno).
+• (1 punto) por escoger N = max{N1, N2}.
+• (2 puntos) por verificar que para n ≥ N se cumple |cn − (L + M )| < ϵ,
+ocupando correctamente la desigualdad triangular del valor absoluto.
+4. Considere la sucesi´ on (an)n∈N definida recursivamente como
+a1 = −1, a n+1 = an
+a2n + 1, ∀n ≥ 1.
+Demuestre que (an) es convergente y calcule su l ´ ımite.
+Indicaci´ on: Observe que para todox ∈ R se tiene que x2 + 1 ≥ 1.
+Soluci´ on:Primero vemos que a1 = −1, a2 = −1/2, a3 = −2/5, a4 = −10/29, ...por
+lo que ( an) parece ser creciente y siempre negativa. Probemos eso.
+(a) (Negativa) Demostremos por inducci´ on quean < 0, ∀n ∈ N.
+Caso base: a1 = −1 < 0 as ´ ı que esta listo.
+Paso inductivo: Supongamos que an < 0, como x2 +1 ≥ 1 > 0 para cualquier
+x ∈ R, a2n + 1 > 0 y por lo tanto an+1 = an · 1a2n+1 es el producto de un n´ ueronegativo y uno positivo, por lo que an+1 < 0. □
+----- pagina 4 -----
+(b) (Creciente) Como x2 + 1 ≥ 1 para cualquier x ∈ R, se tiene que a2n + 1 ≥ 1 > 0
+y por lo tanto 1a2n+1 ≤ 1. Al multiplicar esta desigualdad por an, que es negaivo,
+se da vuelta la desigualdad y concluimos an · 1a2n+1 ≥ an, es decir an+1 ≥ an. □.
+Demostramos que ( an) es creciente (parte (b)), que an ≥ a1 = −1, ∀n ∈ N (parte
+(b)) y que an < 0, ∀n ∈ N (parte (a)). Es decir ( an) es creciente y acotada. Por
+teorema de clases podemos asegurar que la sucesi´ on (an) es convergente.
+Para calcular el valor de L = limn→∞ an usaremos ´ algebra de l ´ ımites en la realci´ on
+de recurrencia.
+Como an → L, entonces an+1 → L. Tambi´ en tenemos, por ´ algebra de l ´ ımites, que
+(a2n + 1) → (L2 + 1), que es distinto de cero (es mayor o igual a 1). Al tomar l ´ ımite
+en la relaci´ on de recurrenciaan+1 = an
+a2n + 1 obtenemos (nuevamente por ´ algebra de
+l ´ ımites) la ecuaci´ on
+L = LL2 + 1.
+Resolvemos la ecuaci´ on,
+L = LL2 + 1 ⇒ L3 + L = L ⇒ L3 = 0 ⇒ L = 0,
+y concluimos que L = 0 y lim n→∞ an = 0.
+Puntaje:
+• (2 puntos) por demostrar que an es negativa (o acotada superiormente).
+• (2 puntos) por demostrar que es creciente.
+• (2 puntos) por encontrar el valor l ´ ımite.

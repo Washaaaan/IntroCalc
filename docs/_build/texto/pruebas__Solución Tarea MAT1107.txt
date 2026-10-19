@@ -1,0 +1,492 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Tarea
+1. Sean a, b y c la medida de los lados de un tri´ angulo y A su ´ area. Demuestre que
+a2 + b2 + c2 /greaterorequalslant 4√3A .
+Soluci´ on.Si el tri´ angulo es equil´ atero entonces su altura ser ´ ıaa
+√
+3/2 y su ´ areaa2√3/4, por lo tanto
+se cumplir ´ ıa la igualdad. Seana el lado de medida mayor y h la altura trazada desde el v´ ertice A como
+se muestra en la Figura 1:
+B C
+A
+a
+bc h
+Figura 1
+B C
+A
+D
+x
+y
+h
+Figura 2
+Considere un tri´ angulo equil´ ateroBCD y las medidas x e y como lo muestra la Figura 2.
+B C
+A
+P
+xa
+2
+a
+2
+h
+bc
+Aplicando el teorema de Pit´ agoras al tri´ angulo
+P AC se obtiene que
+b2 =( a2 + x)2 + h2 .
+De manera similar, aplicando el teorema de Pit´ agoras al tri´ angulo P AB obtenemos
+c2 =( a2 − x)2 + h2 .
+----- pagina 2 -----
+Adem´ as el tri´ angulo equil´ ateroBCD (Figura 2) tiene altura H =
+√
+3
+2 a, entonces se cumple que
+√
+3
+2 a = y + h =⇒ h =
+√
+3
+2 a − y .
+Entonces sustituyendo los valores de b2 y c2 se ve que
+a2 + b2 + c2 − 4A√3 = a2 +(a2 + x)2 + h2 +( a2 − x)2 + h2 − 2ah√3
+= a2 + a2
+4 + ax + x2 + a24 − ax + x2 + 2h2 − 2ah√3
+= 32 a2 + 2x2 + 2h2 − 2ah√3
+= 32 a2 + 2x2 + 2h(h − a√3)
+= 32 a2 + 2x2 + 2
+(√
+3
+2 a − y
+)( √
+3
+2 a − y − a
+√
+3
+)
+= 32 a2 + 2x2 + 2
+(√
+3
+2 a − y
+)(
+−
+√
+3
+2 a − y
+)
+= 32 a2 + 2x2 − 2
+(√
+3
+2 a − y
+)( √
+3
+2 a + y
+)
+= 32 a2 + 2x2 − 2(34 a2 − y2)
+= 2( x2 + y2) /greaterorequalslant 0
+como quer ´ ıamos probar.
+Puntaje Pregunta 1.
+1 punto por considerar las variables x e y que miden cuanto le falta al tri´ angulo ABC para ser
+equil´ atero.
+1 punto por usar el teorema de Pit´ agoras y obtener expresiones para b2 y c2 que dependen de a,
+x y h.
+1 punto por expresar la altura h en t´ erminos dea e y.
+2 puntos por obtener que la expresi´ on a2 + b2 + c2 − 4A√3 = 2( x2 + y2)
+1 punto por concluir que la expresi´ on 2( x2 + y2) no es negativa.
+Nota. En caso de que los alumnos se encuentre lejos de la soluci´ on, sugerir la ﬁgura 2 para intentar
+llegar a una soluci´ on.
+----- pagina 3 -----
+2. Resuelva la siguiente inecuaci´ on ⏐⏐⏐⏐|x − 2| − 3|x| − 1 ⏐⏐⏐⏐ /greaterorequalslant 4 .
+Soluci´ on.Las restricciones de la inecuaci´ on son x ⁄= 1 y x ⁄= −1. Observe que la inecuaci´ on es
+equivalente con resolver
+||x − 2| − 3| ≥ 4||x| − 1| .
+Aqu ´ ı los puntos cr ´ ıticos se obtiene de resolver las ecuacionesx = 0, |x|− 1 = 0, x−2 = 0 y |x−2|− 3 = 0,
+resolviendo se obtienen los siguientes puntos cr ´ ıticos:
+x = 1 , x = −1 , x = 0 , x = 2 y x = 5 .
+Notemos que
+|x| − 1 < 0 ⇐ ⇒ | x| < 1 ⇐ ⇒ − 1 < x < 1
+|x| − 1 /greaterorequalslant 0 ⇐ ⇒ | x| /greaterorequalslant 1 ⇐ ⇒x ⩽ −1 o x /greaterorequalslant 1
+Por lo que se tiene que
+||x| − 1| =
+{
+|x| − 1 si x ∈ (−∞, −1] ∪ [1, ∞)
+−(|x| − 1) si x ∈ (−1, 1)
+(1)
+De manera similar, se puede ver que
+||x − 2| − 3| =
+{
+|x − 2| − 3 si x ∈ (−∞, −1] ∪ [5, ∞)
+−(|x − 2| − 3) si x ∈ (−1, 5)
+(2)
+Usando la informaci´ on proporcionada en (1) y (2) y separando el a n´ alisis en casos obtenemos
+Caso 1: Para x ∈ (−∞, −1) tenemos que resolver
+|x − 2| − 3 ≥ 4(|x| − 1)
+que en este caso es equivalente a resolver
+−(x − 2) − 3 ≥ 4(−x − 1) .
+Lo que equivalente a x ≥ −3/4 ⇒ x ∈
+(
+− 34 , ∞). Luego la soluci´ on es
+S1 = (−∞, −1) ∩ (−3/4, ∞) = ∅ .
+Caso 2: Para x ∈ (−1, 0) tenemos que resolver
+−|x − 2| + 3 ≥ 4(−|x| + 1)
+que en este caso es equivalente a resolver
+(x − 2) + 3 ≥ 4(x + 1) .
+Se sigue que x ≤ −1 ⇒ x ∈ (−∞, −1). Luego la soluci´ on es
+S2 = (−1, 0) ∩ (−∞, −1) = ∅ .
+----- pagina 4 -----
+Caso 3: Para x ∈ [0, 1) tenemos que resolver
+−|x − 2| + 3 ≥ 4(−|x| + 1)
+que en este caso es equivalente a resolver
+(x − 2) + 3 ≥ 4(−x + 1) .
+Se sigue que x ≥ 3/5 ⇒ x ∈ [3/5, ∞). Luego la soluci´ on es
+S3 = [0, 1) ∩ [3/5, ∞) = [3 /5, 1) .
+Caso 4: Para x ∈ (1, 2) tenemos que resolver
+−|x − 2| + 3 ≥ 4(−|x| + 1)
+que en este caso es equivalente a resolver
+(x − 2) + 3 ≥ 4(x − 1) .
+Se sigue que x ≤ 5/3. Luego la soluci´ on es
+S4 = (1, 2) ∩ (−∞, 5/3] = (1 , 5/3] .
+Caso 5: Para x ∈ [2, 5) tenemos que resolver
+−|x − 2| + 3 ≥ 4(|x| − 1)
+que en este caso es equivalente a resolver
+−(x − 2) + 3 ≥ 4(x − 1) .
+Se sigue que x ≤ 9/5 ⇒ x ∈ (−∞, 9/5]. Luego la soluci´ on es
+S5 = [2, 5) ∩ (−∞, 9/5] = ∅ .
+Caso 6: Para x ∈ [5, ∞) tenemos que resolver
+|x − 2| − 3 ≥ 4(|x| − 1)
+que en este caso es equivalente a resolver
+(x − 2) − 3 ≥ 4(x − 1) .
+Se sigue que x ≤ −1/3 ⇒ x ∈ (−∞, −1/3]. Luego la soluci´ on es
+S5 = (5, ∞) ∩ (−∞, −1/3] = ∅ .
+Por lo tanto la soluci´ on ﬁnal es
+SF = S1 ∪ S2 ∪ S3 ∪ S4 ∪ S5 ∪ S6 =
+[3
+5 , 1
+)
+∪
+(
+1, 53] .
+----- pagina 5 -----
+Puntaje Pregunta 2.
+1 punto por mostrar los puntos cr ´ ıticos y las restricciones. En cas o de no obtener todos los puntos
+cr ´ ıticos se˜ nalarlo en la revisi´ on (Faltan puntos cr ´ ıticos).
+1 punto por establecer los intervalos en donde la expresi´ on |x| − 1 es positiva y negativa. En caso
+de no establecer este hecho indicarlo en la correcci´ on.
+1 punto por establecer los intervalos en donde la expresi´ on |x − 2| − 3 es positiva y negativa. En
+caso de no establecer este hecho indicarlo en la correcci´ on.
+0,5 puntos por establecer las soluciones en el caso 1.
+0,5 puntos por establecer las soluciones en el caso 2.
+0,5 puntos por establecer las soluciones en el caso 3.
+0,5 puntos por establecer las soluciones en el caso 4.
+0,5 puntos por establecer las soluciones en el caso 5.
+0,5 puntos por establecer las soluciones en el caso 6.
+----- pagina 6 -----
+3. Sea f : (−1, ∞) → R dada por
+f (x) = x1 + x .
+a) Pruebe que f es estrictamente creciente.
+b) Demuestre que f es acotada superiormente
+Soluci´ on.
+(a) Sean x, y ∈ (−1, ∞) con x < y entonces
+f (y) − f (x) = yy + 1 − xx + 1
+= y(x + 1) − x(y + 1)(y + 1)(x + 1)
+= xy + y − xy − x(y + 1)(x + 1)
+= y − x(y + 1)(x + 1) > 0 .
+La ´ ultima desigualdad se debe a lo siguiente que si x < y ⇒ y − x > 0, si x > −1 ⇒ x + 1 > 0
+y si y > −1 ⇒ y + 1 > 0, es decir, tanto numerador como denominador son positivos. Lue go,
+f (y) − f (x) > 0 ⇒ f (x) < f (y). Por lo tanto, f es estrictamente creciente.
+(b) Sabemos que 0 < 1 sumando ambos lados en la ´ ultima expresi´ on porx, obtenemos x < x + 1. Como
+x > −1 ⇒ x + 1 > 0 entonces al multiplicar a ambos lados de la desigualdad anterior por 1 /(x + 1)
+no se invierte la desigualdad, luego
+x
+x + 1 < 1 ⇒ f (x) < 1 ∀ x > −1 .
+Por lo tanto, f es acotada superiormente.
+Puntaje Pregunta 3.
+3 puntos por mostrar que f es estrictamente creciente.
+3 puntos por mostrar que f est´ a acotada superiormente.
+----- pagina 7 -----
+4. Dadas las funciones
+f (x) =
+{
+2 − x2 si √3 ⩽ x ⩽ 2 ,
+1 −
+√
+x2 − 4 si x ⩽ −4 y g(x) =
+√
+|x2 − 4| − 3 ,
+con Dom( g) = ( −∞, −2
+√
+2) ∪ [0, 1] tal que f = h−1 ◦ g.
+a) Demostrar que f y g son funciones inyectivas.
+b) Hallar la funci´ on h.
+Soluci´ on.
+a) Mostraremos que f es inyectiva.
+Caso 1. x1, x2 ∈ [
+√
+3, 2].
+f (x1) = f (x2) = ⇒ 2 − x21 = 2 − x22 =⇒ x21 = x22 =⇒ |x1| = |x2|
+Como x1 y x2 son positivos se sigue que x1 = x2.
+Caso 2. x1, x2 ∈ (−∞, −4]
+f (x1) = f (x2) = ⇒ 1 −
+√
+x21 − 4 = 1 −
+√
+x22 − 4 =⇒ x21 − 4 = x22 − 4 =⇒ |x1| = |x2|
+Como x1 y x2 son negativos obtenemos que |x1| = |x2| =⇒ − x1 = −x2 =⇒ x1 = x2.
+Caso 3. x1 ∈ [
+√
+3, 2] y x2 ∈ (−∞, −4]
+f (x1) = f (x2) = ⇒ 2 − x21 = 1 −
+√
+x22 − 4 =⇒ x21 =
+√
+x22 − 4 + 1 =⇒ |x1| =
+√√
+x22 − 4 + 1
+=⇒ x1 =
+√√
+x22 − 4 + 1
+Como x1 ∈ [
+√
+3, 2] entonces
+√
+3 ⩽
+√√
+x22 − 4 + 1 ⩽ 2 ⇐ ⇒ 3 ⩽
+√
+x22 − 4 + 1 ⩽ 4
+⇐ ⇒ 2 ⩽
+√
+x22 − 4 ⩽ 3
+⇐ ⇒ 4 ⩽ x22 − 4 ⩽ 9
+⇐ ⇒ 8 ⩽ x22 ⩽ 13
+⇐ ⇒
+√
+8 ⩽ |x2| ⩽
+√
+13
+Como x2 es negativo se sigue que
+√
+8 ⩽ −x2 ⩽
+√
+13 ⇐ ⇒ −
+√
+13 ⩽ x2 ⩽ −
+√
+8 lo cual es una
+contradicci´ on con el hecho de que la x2 ⩽ −4.
+----- pagina 8 -----
+Por lo tanto, f es inyectiva.
+Ahora mostraremos que g es inyectiva. Notemos que la funci´ on g se puede escribir en la forma
+g(x) =
+√
+|x2 − 4| − 3 =
+
+
+
+√
+−(x2 − 4) − 3 si 0 ⩽ x ⩽ 1
+√
+x2 − 4 − 3 si x < −2√2
+=
+
+
+
+√
+1 − x2 si 0 ⩽ x ⩽ 1
+√
+x2 − 7 si x < −2√2
+Caso 1. x1, x2 ∈ [0, 1]
+g(x1) = g(x2) = ⇒
+√
+1 − x21 =
+√
+1 − x22 =⇒ 1 − x21 = 1 − x22 =⇒ |x1| = |x2|
+Como x1 y x2 son positivos se sigue que x1 = x2.
+Caso 2. x1, x2 ∈ (−∞, −2
+√
+2)
+g(x1) = g(x2) = ⇒
+√
+x21 − 7 =
+√
+x22 − 7 =⇒ x21 − 7 = x22 − 7 =⇒ |x1| = |x2|
+Como x1 y x2 son negativos obtenemos que |x1| = |x2| =⇒ − x1 = −x2 =⇒ x1 = x2.
+Caso 3. x1 ∈ [0, 1] y x2 ∈ (−∞, −2
+√
+2)
+g(x1) = g(x2) = ⇒
+√
+1 − x21 =
+√
+x22 − 7 =⇒ 1 − x21 = x22 − 7 =⇒ x21 = 8 − x22
+=⇒ | x1| =
+√
+8 − x22
+Como x1 es positivo entonces x1 =
+√
+8 − x22. Adem´ as,x1 ∈ [0, 1] por lo que
+0 ⩽
+√
+8 − x22 ⩽ 1 = ⇒ 0 ⩽ 8 − x22 ⩽ 1 =⇒ − 8 ⩽ −x22 ⩽ −7
+=⇒ 8 /greaterorequalslant x12 /greaterorequalslant 7 =⇒ √7 ⩽ |x2| ⩽ √8
+Como x2 es negativo entonces
+√
+7 ⩽ −x2 ⩽
+√
+8 ⇐ ⇒ − 2
+√
+2 ⩽ x2 ⩽ −
+√
+7 lo cual es una
+contradicci´ on con el hecho de que x2 < −2
+√
+2.
+Por lo tanto, g es inyectiva.
+b) Sabemos que f = h−1 ◦ g. Como f y g son inyectivas existen las funciones f −1 y g−1, entonces
+f = h−1 ◦ g ⇐ ⇒f ◦ g−1 = h−1 ◦ g ◦ g−1 ⇐ ⇒f ◦ g−1 = h−1
+Se sigue que h = (f ◦ g−1)−1 = g ◦ f −1. La inversa de la funci´ on f es
+f −1(x) =
+
+
+
+√2 − x si −2 ⩽ x ⩽ −1
+−
+√
+(1 − x)2 + 4 si x ⩽ 1 − √12
+Para determinar la composici´ ong ◦ f −1, primero determinaremos el dominio
+x ∈ Dom(g ◦ f −1) ⇐ ⇒ (x ∈ Dom(f −1)) ∧ (f −1(x) ∈ Dom(g))
+⇐ ⇒ (x ∈ (−∞, 1 −
+√
+12) ∪ [−2, −1]) ∧ (f −1(x) ∈ (−∞, −2√2) ∪ [0, 1])
+separando el an´ alisis en casos
+----- pagina 9 -----
+Caso 1. x ∈ [−2, −1]
+f −1(x) ∈ (−∞, −2√2) ∪ [0, 1] ⇐ ⇒ √2 − x ∈ (−∞, −2√2) ∪ [0, 1]
+⇐ ⇒ 0 ⩽
+√
+2 − x ⩽ 1 ⇐ ⇒0 ⩽ 2 − x ⩽ 1 ⇐ ⇒1 ⩽ x ⩽ 2
+Como x ∈ [−2, −1] obtenemos en este caso el conjunto S1 = [−2, −1] ∩ [1, 2] = ∅.
+Caso 2. x ∈ (−∞, 1 −
+√
+12]
+f −1(x) ∈ (−∞, −2√2) ∪ [0, 1] ⇐ ⇒ − √(1 − x)2 + 4 ∈ (−∞, −2√2) ∪ [0, 1]
+⇐ ⇒ −
+√
+(1 − x)2 + 4 < −2√2 ⇐ ⇒2√2 <√(1 − x)2 + 4
+⇐ ⇒ 8 < (1 − x)2 + 4 ⇐ ⇒4 < (1 − x)2
+⇐ ⇒ 2 < |1 − x| ⇐ ⇒1 − x < −2 ´ o 1 − x > 2
+⇐ ⇒ 3 < x ´ o x < −1
+⇐ ⇒ x ∈ (3, ∞) ∪ (−∞, −1)
+En este caso el conjunto S2 = (−∞, 1 −
+√
+12) ∩ [(−∞, −1) ∪ (3, ∞)] = ( −∞, 1 −
+√
+12).
+Por lo tanto, Dom( g ◦ f −1) = ( −∞, 1 − √12) y est´ a dada por
+h(x) = ( g ◦ f −1)(x) = g(f −1(x)) = g(−√(1 − x)2 + 4)
+=
+√
+|(−
+√
+(1 − x)2 + 4 − 4| − 3 =√|(1 − x)2| − 3 =√(1 − x)2 − 3 .
+Puntaje Pregunta 4.
+1,5 puntos por mostrar que f es inyectiva.
+1,5 puntos por mostrar que g es inyectiva.
+1,5 puntos por obtener que h = g ◦ f −1.
+1,5 puntos por obtener expl ´ ıcitamente la funci´ onh y su dominio.
+----- pagina 10 -----
+5. Demuestre que si xn > 0 para todo n ∈ N y l ´ ımn→∞
+xn+1
+xn
+= a < 1 entonces l ´ ım
+n→∞
+xn = 0.
+Soluci´ on.En efecto, tomemos c ∈ R con a < c < 1. Entonces 0 < x n+1/xn < c para todo n
+suﬁcientemente grande. Se sigue que
+0 < x n+1 =
+(xn+1
+xn
+)
+· xn < cx n < x n ,
+luego, para n suﬁcientemente grande, la sucesi´ on ( xn) es mon´ otona decreciente y acotada por 0 por
+abajo. Entonces {xn} es convergente. Sea b = l ´ ımn→∞ xn. De xn+1 < c · xn para todo n suﬁcientemente
+grande resulta, haciendo n → ∞, que b ⩽ c · b, esto es (1 − c)b ⩽ 0. Como b /greaterorequalslant 0 y 0 < c < 1 concluimos
+que b = 0.
+Otra Forma. Tomemos c ∈ R tal que a < c < 1. Dado que l ´ ım
+n→∞
+xn+1
+xn
+= a y xn > 0 entonces existe N
+tal que xn+1
+xn
+≤ c ∀ n ≥ N .
+Luego,
+0 < x n+1 = xn+1xn · xn
+≤ c · xn = c xn
+xn−1
+· xn−1
+≤ c2 · xn−1
+...
+≤ cn−N +1xN = bn
+es decir, 0 < x n+1 ≤ bn y como
+l ´ ım
+n→∞
+bn = l ´ ımn→∞ cn−N +1xN = xN l ´ ımn→∞ cn−N +1/bracehtipupleft /bracehtipdownright/bracehtipdownleft /bracehtipupright
+0
+= 0
+luego por el Teorema del Sandwich
+l ´ ım
+n→∞
+xn = 0 .
+Puntaje Pregunta 5.
+2 puntos por mostrar que xn es mon´ otona.
+2 puntos por mostrar que xn est´ a acotada inferiormente.
+2 puntos por encontrar el l ´ ımite.
+----- pagina 11 -----
+Puntaje Pregunta 5. Otra forma
+4 puntos por mostrar que 0 < x n+1 ⩽ cn−N +1xN
+1 punto por usar que l ´ ım
+n→∞
+cn = 0.
+1 punto por encontrar el l ´ ımite.
+----- pagina 12 -----
+6. El siguiente m´ etodo iterativo para obtener, con error tan peq ue˜ no cuanto se desee, ra ´ ıces cuadradas de
+un n´ umero reala > 0 ya era conocido por los babilonios 17 siglos antes de la era cristiana. S e toma de
+forma arbitraria un valor x1 > 0 y se deﬁne inductivamente
+xn+1 = 12(xn + axn) .
+a) Use la sucesi´ on iterativa para calcular
+√
+11 con 6 decimales exactos tomando x1 = 1.
+b) Demuestre que la sucesi´ on (xn) converge a √a.
+Soluci´ on.
+a) Tenemos que
+x2 = 12(1 + 11) = 6
+x3 = 12(6 + 116) = 4712 = 3, 916
+x4 = 12(4712 + 1147 · 12) = 37931128 = 3, 362588652
+x5 = 12(37931128 + 11 · 11282793 ) = 3, 316938935
+x6 = 12(x5 + 11x5) = 3, 316624805
+donde en 5 iteraciones hemos obtenido 6 cifras decimales exactas. D espu´ es del punto, la s´ eptima
+cifra es incorrecta.
+b) Notemos que para todo x ⁄= 0 se tiene [ x + a/x]2 /greaterorequalslant 4a. En efecto, desarrollando el cuadrado y
+pasando 4a al primer t´ ermino, vemos que esta desigualdad es equivalente a aﬁrmar que (x−a/x)2 /greaterorequalslant
+0, lo que es obvio. De aqu ´ ı resulta
+x2n+1 = 14(xn + axn)2 /greaterorequalslant a
+para todo n ∈ N. Adem´ as, six2 /greaterorequalslant a entonces [x + a/x]2 ⩽ x2. En efecto,
+a ⩽ x2 =⇒ [x + a/x]2/4 ⩽ [x + x2/x]2/4 = x2 .
+Como x2n+1 /greaterorequalslant a para todo n, se sigue que x2n+2 ⩽ x2n+1, luego xn+2 ⩽ xn+1, pues son n´ umeros
+positivos. Por lo tanto, inclusive si x1 < √a, siempre se cumple x2 /greaterorequalslant x3 /greaterorequalslant x4 /greaterorequalslant · · ·, con x2n+1 /greaterorequalslant a
+para todo n. Por lo tanto, existe c = l ´ ım
+n→∞
+xn. Haciendo n → ∞ en la igualdad xn+1 = [xn +a/xn]/2
+obtenemos c = [c + a/c]/2, de donde c2 = a, esto es l ´ ım
+n→∞
+xn = √a.
+----- pagina 13 -----
+Puntaje Pregunta 6.
+1,5 puntos por iterar 5 veces la sucesi´ on para obtener 6 cifras dec imales exactas.
+1,5 puntos por mostrar que xn es mon´ otona.
+1,5 puntos por mostrar que xn es acotada.
+1,5 puntos por calcular el l ´ ımite.

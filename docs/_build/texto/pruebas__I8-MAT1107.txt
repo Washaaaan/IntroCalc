@@ -1,0 +1,59 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+Facultad de Matem´aticas
+Departamento de Matem´aticas
+Primer semestre de 2020
+Interrogaci´ on 7
+MAT1107 - Introducci´ on al C´ alculo
+(1) Calcule el valor de
+n∑
+k=0
+(n
+k
+) 1
+2k .
+(3 puntos)
+Soluci´ on.Usamos el teorema del binomio:
+n∑
+k=0
+(n
+k
+) 1
+2k =
+n∑
+k=0
+(n
+k
+)( 1
+2
+)k
+1n−k =
+(
+1 + 12)n =(32)n .
+Identiﬁcar como una suma proveniente del teorema del binomio: (1.5 puntos)
+Respuesta ﬁnal: (1.5 puntos)
+(2) Encuentre el coeﬁciente que acompa˜ na el t´ eminox13 en la expansi´ on de
+(
+x2 + 1x)17 .
+Puede dejar su respuesta expresada en t´ erminos de coeﬁcientes binomiales.(3 pun-
+tos)
+Soluci´ on.
+Usamos el teorema del binomio:
+(
+x2 + 1x)17 = 17∑k=0(17k)(x−1)k(x2)17−k (1 punto)
+=
+17∑
+k=0
+(17
+k
+)
+x34−3k. (0.5 puntos)
+Vemos que tenemos que elegir el coeﬁciente correspondiente a k = 7. (1 punto)
+Luego, el coeﬁciente buscado es
+(17
+7
+)
+. (0.5 puntos)
+No es necesario dar un resultado num´ erico.
+1

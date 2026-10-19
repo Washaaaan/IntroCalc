@@ -1,0 +1,32 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2023
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 0
+1. Demuestre que si a < 2 y b > 3 entonces 3 a + 2b > ab + 6.
+Soluci´ on.Tenemos que
+a < 2 ⇐ ⇒2 − a > 0 ⇐ ⇒2 − a ∈ R+
+b > 3 ⇐ ⇒b − 3 > 0 ⇐ ⇒b − 3 ∈ R+
+Como R+ es cerrado bajo el producto entonces
+(2 − a)(b − 3) > 0 ⇐ ⇒2b − 6 − ab + 3a > 0 ⇐ ⇒3a + 2b > ab + 6
+como quer ´ ıamos probar.
+Puntaje Pregunta 1.
+1,5 puntos por concluir que 2 − a > 0.
+1,5 puntos por deducir que b − 3 > 0.
+3 puntos por mostrar que (2 − a)(b − 3) > 0 y concluir que 3 a + 2b < ab + 6.
+----- pagina 2 -----
+2. Demuestre que si 0 < a < b entonces b−1 < a −1.
+Soluci´ on.Dado que b−1 < a −1 ⇐ ⇒a−1 − b−1 ∈ R+, calculamos a−1 − b−1. Tenemos
+a−1 − b−1 = 1a − 1b = b − aab = (b − a) · a−1 · b−1 .
+Por hip´ otesis,a < b ⇐ ⇒b − a ∈ R+. Adem´ as, por teorema visto en clases, 0 < a =⇒ a−1 ∈ R+ y
+0 < b =⇒ b−1 ∈ R+, por lo que dado que R+ es cerrado para el producto, concluimos que
+a−1 − b−1 = (b − a) · a−1 · b−1 ∈ R+ .
+Puntaje Pregunta 1.
+2 puntos por obtener que a−1 − b−1 = (b − a)a−1b−1.
+1 puntos por deducir que b − a > 0.
+1 puntos por deducir que a−1 > 0.
+1 puntos por deducir que b−1 > 0.
+1 puntos por deducir que a−1 − b−1 > 0.

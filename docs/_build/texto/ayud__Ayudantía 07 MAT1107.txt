@@ -1,0 +1,21 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 07 - Jueves 05 de mayo del 2022
+Problema 1.Sea x ∈ R. Demuestre que ex + e−x ≥ 2.
+Problema 2.Usando la desigualdad de Bernoulli deduzca que
+cn ≥ c para todo n ∈ N, c >1
+Problema 3. Sea f : R → R tal que f (x + y) = f (x)f (y) para todo x, y∈ R. Suponga que
+f (0) ̸= 0. Demuestre que
+a) f (0) = 1.
+b) f (x) > 0 para todo x ∈ R.
+Problema 4.Sea f : (5, ∞) → B dada por f (x) = 1 + 1x2−9 .
+a) Determine B para que f sea sobreyectiva.
+b) Pruebe que f es inyectiva.
+c) Calcule f −1 e identifique su dominio.
+Problema 5.Sean las funciones
+f (x) = x + 2x , g (x) =  1x x <3, x̸= 0√x x ≥ 3.
+Determine una expresi´ on parag ◦ f , identificando su dominio.

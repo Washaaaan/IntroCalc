@@ -1,0 +1,199 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 13 - Jueves 16 de junio del 2022
+Problema 1. Consideremos la sucesi´ on (sn) definida por la recurrencia
+s1 =
+√
+2 y sn+1 =
+√
+2 + sn.
+a) demuestre que sn es acotada
+b) demuestre que sn es creciente
+c) demuestre que sn converge y halle su l ´ ımite
+Soluci´ on:
+a) Veamos que es acotada superiormente por 2, probando que
+∀n ∈ N, sn ≤ 2
+Para n = 1 es cierto ya que s1 =
+√
+2. Suponiendo que sn ≤ 2 tenemos que 2 + sn ≤ 4 lo que
+permite concluir que
+sn+1 =
+√
+2 + sn ≤
+√
+4 = 2
+b) Probemos que
+∀n ∈ N, sn+1 ≥ sn
+De la definici´ on desn+1 se tiene que
+s2n+1 − s2n = 2 + sn − s2n
+Entonces,
+s2n+1 − s2n = (2 − sn) (1 +sn) .
+El lado derecho de la ´ ultima igualdad es mayor o igual a cero, ya que 0≤ sn ≤ 2. Concluimos
+que s2n+1 − s2n ≥ 0 Esto ´ ultimo demuestra quesn+1 ≥ sn.
+c) Dado que sn es creciente y acotada superiormente. En virtud del Teorema de las Sucesiones
+Mon´ otonas se concluye que (sn) es convergente. Veremos que en este caso, la recurrencia
+sn+1 =
+√
+2 + sn,
+permite calcular L = l ´ ımsn.
+Sabemos que si ( sn) → L entonces (sn+1) → L. De este modo, se tiene la siguiente ecuaci´ on
+para L.
+L =
+√
+2 + L
+Esta ecuaci´ on tiene como ´ unica soluci´ on aL = 2. Se concluye que sn → 2.
+Problema 2. Calcule los siguientes l ´ ımites
+----- pagina 2 -----
+a) l ´ ımx→∞
+√
+x2 − x − x
+b) l ´ ımx→+∞
+√x−1
+4√x2+1
+c) l ´ ımn→∞
+1+ 1n
+n+ 1n
+d) l ´ ımn→∞(√n + 1 − √n)√n + 2.
+Soluci´ on:
+a)
+l ´ ım
+x→∞
+p
+x2 − x − x = l ´ ım
+x→∞
+−x√
+x2 − x + x = l ´ ımx→∞
+−1q
+1 − 1x + 1 = − 12
+b)
+l ´ ım
+x→+∞
+√x − 1
+4√x2 + 1 = l ´ ımx→+∞
+q
+1 − 1x
+4
+q
+1 + 1x2
+=
+√1 − 0
+4√1 + 0 = 1
+c)
+l ´ ım
+n→∞
+1 + 1n
+n + 1n = l ´ ımn→∞
+1
+n + 1n2
+1 + 1n2 = 0 + 01 + 0 = 0
+d)
+l ´ ım
+n→∞
+(
+√
+n + 1 − √n)√n + 2 = l ´ ım
+n→∞
+n + 1 − n√n + 1 + √n √n + 2 = l ´ ımn→∞
+√n + 2√n + 1 + √n
+= l ´ ım
+n→∞
+q
+1 + 2n
+q
+1 + 1n + 1 =
+√1 + 0√1 + 0 + 1 = 12
+Problema 3. Considere la sucesi´ on{an} definida mediante la recurrencia
+a0 > 0, ∀n ∈ N, an+1 = an1 + na2n
+a) Demuestre que la sucesi´ on es decreciente
+b) Concluya que la sucesi´ on es covergente, y calcule su l ´ ımite
+Soluci´ on:
+a) Como na2n ≥ 0 entonces el denominador 1 + na2n ≥ 1. Para concluir, basta con verificar que
+se trata de una sucesi´ on de t´ erminos no negativos, lo cual se hace por inducci´ on.a0 > 0 por
+dato. Si an > 0 entonces an+1 = an1+na2n > 0. Por lo tanto es positiva y decreciente.
+b) Al ser decreciente y acotada inferiormente por cero, es una sucesi´ on convergente a L ≥ 0
+De la recurrencia, se tiene que:
+an+1 ≤ an1 + a2n
+Por lo tanto, el l ´ ımiteL satisface la desigualdad L ≤ L1+L2 , de donde se concluye L = 0.
+Otra forma de observar lo anterior es viendo que an+1 =
+an
+n
+1
+n +a2n → 0L2 = 0.
+----- pagina 3 -----
+Problema 4. Usando el Teorema del S´ andwich, calcule el l ´ ımite
+l ´ ım
+n→∞
+nX
+k=1
+1√
+n2 + k
+Soluci´ on:Acotando se tiene que
+nX
+k=1
+1√
+n2 + k ≤
+nX
+k=1
+1√
+n2 = n√n2 = 1
+nX
+k=1
+1√
+n2 + k ≥
+nX
+k=1
+1√
+n2 + n = n√n2 + n
+Luego, usando el teorema del Sandwich se concluye que
+nX
+k=1
+1√
+n2 + k → 1
+Problema 5. Usando el Teorema del Sandwich, calcule el l ´ ımite de la sucesi´ onn!nn .
+Soluci´ on:
+Primero es claro que 0 ≤ n!nn y por otro lado
+n!
+nn = 1 × 2 × · · · ×nn × n × · · · ×n = 1n × 2n × · · · ×nn < 1n
+como 1n → 0, entonces por teorema del Sandwich n!nn → 0.
+Problema 6. Calcula el l ´ ımite de
+l ´ ım
+n→∞
+n
+q
+aknk + ak−1nk−1 + . . .+ a0
+para a0, a1, . . . , ak > 1.
+Soluci´ on:
+Sea a′ el m´ aximo entre todos losai entonces
+l ´ ım
+n→∞
+n
+q
+aknk + ak−1nk−1 + . . .+ a0 ≤ l ´ ımn→∞ n
+q
+(k + 1) · a′nk
+y por el otro lado
+l ´ ım
+n→∞
+n
+p
+aknk ≤ l ´ ımn→∞ n
+q
+aknk + ak−1nk−1 + . . .+ a0
+Como
+l ´ ım
+n→∞
+n1/n = 1
+entonces n
+p
+(k + 1) · a′nk → 1 y n
+p
+aknk → 1. Por teorema del Sandwich
+l ´ ım
+n→∞
+n
+q
+aknk + ak−1nk−1 + . . .+ a0 = 1

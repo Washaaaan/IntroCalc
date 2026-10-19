@@ -1,0 +1,23 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 04 - Jueves 7 de abril del 2022
+Problema 1.Teniendo en cuenta la gr´ aficaf (x) = x2 esboce la gr´ afica de las funciones:
+1. g(x) = x2 + 3,
+2. h(x) = x2 − 2,
+3. k(x) = x2 − 14x − 36.
+Problema 2.Sea [·] : R → Z la funci´ on parte entera definida por
+[x] = n ⇔ n ≤ x < n+ 1 ∀n ∈ Z
+Gr´ afique:
+1. f (x) = [x] + 5,
+2. g(x) = [x − 4],
+3. h(x) = [2x].
+Problema 3.Considerando la gr´ afica def (x) = 1x dibuje las gr´ aficas de:
+1. g(x) = 1−x
+2. h(x) = 1|x|
+Problema 4.Considerando la gr´ afica def (x) = 3√x dibuje las gr´ aficas de:
+1. g(x) = f (x − 2)
+2. h(x) = f ( x5 ) + 5

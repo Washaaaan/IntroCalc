@@ -1,0 +1,124 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 1 / 16
+Transformaciones de Funciones
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontiﬁcia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontiﬁcia Universidad Cat´ olica de Chile, Chile
+6 de Abril de 2022
+----- pagina 2 -----
+Transformaciones de Funciones
+Desplazamientos verticales de gr´ aﬁcas
+Suponga c > 0.
+1 Para graﬁcar y = f (x) + c, desplace la gr´ aﬁca dey = f (x)
+c unidades hacia arriba.
+2 Para graﬁcar y = f (x)− c, desplace la gr´ aﬁca dey = f (x)
+c unidades hacia abajo.
+c
+c
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 2 / 16
+----- pagina 3 -----
+Transformaciones de Funciones
+EJEMPLO 1 Use la gr´ aﬁca def (x) = x 2 para trazar la gr´ aﬁca de
+cada funci´ on
+1 g(x) = x 2 + 3 ,
+2 h(x) = x 2− 2 .
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 3 / 16
+----- pagina 4 -----
+Transformaciones de Funciones
+Desplazamientos horizontales de gr´ aﬁcas
+Suponga c > 0.
+1 Para graﬁcar y = f (x− c), desplace la gr´ aﬁca dey = f (x)
+c unidades a la derecha.
+2 Para graﬁcar y = f (x + c), desplace la gr´ aﬁca dey = f (x)
+c unidades a la izquierda.
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 4 / 16
+----- pagina 5 -----
+Transformaciones de Funciones
+EJEMPLO 2 Use la gr´ aﬁca def (x) = x 2 para trazar la gr´ aﬁca de
+cada funci´ on
+1 g(x) = (x + 4)2
+2 h(x) = (x− 2)2
+EJEMPLO 3 Trace la gr´ aﬁca def (x) =√x− 1 + 3. Determine el
+dominio y el recorrido.
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 5 / 16
+----- pagina 6 -----
+Transformaciones de Funciones
+Alargamiento y contracci´ on verticales de gr´ aﬁcas
+Para graﬁcar y = cf (x):
+1 Si c > 1, alargue la gr´ aﬁca dey = f (x) verticalmente en un
+factor c.
+2 Si 0 < c < 1, contraiga la gr´ aﬁca dey = f (x) verticalmente en
+un factor de c.
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 6 / 16
+----- pagina 7 -----
+Transformaciones de Funciones
+EJEMPLO 4 Use la gr´ aﬁca def (x) = x 2 para trazar la gr´ aﬁca de
+cada funci´ on
+1 g(x) = 3x 2 ,
+2 h(x) = 13 x 2 .
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 7 / 16
+----- pagina 8 -----
+Transformaciones de Funciones
+Alargamiento y contracci´ on horizontales de gr´ aﬁcas
+Para graﬁcar y = f (cx):
+1 Si c > 1, contraiga la gr´ aﬁca dey = f (x) horizontalmente en un
+factor 1/c.
+2 Si 0 < c < 1, alargue la gr´ aﬁca dey = f (x) verticalmente en un
+factor de 1 /c.
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 8 / 16
+----- pagina 9 -----
+Transformaciones de Funciones
+EJEMPLO 5 Use la gr´ aﬁca dey = f (x) que se muestra en la ﬁgura.
+y
+x0 1
+1
+Trace la gr´ aﬁca de cada funci´ on
+1 y = f (2x)
+2 y = f ( 12 x)
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 9 / 16
+----- pagina 10 -----
+Transformaciones de Funciones
+Gr´ aﬁcas que se reﬂejan
+1 Para graﬁcar y =−f (x), reﬂeje la gr´ aﬁca dey = f (x) en el eje x.
+2 Para graﬁcar y = f (−x), reﬂeje la gr´ aﬁca dey = f (x) en el eje
+y.
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 10 / 16
+----- pagina 11 -----
+Transformaciones de Funciones
+EJEMPLO 6 Trace la gr´ aﬁca de cada funci´ on
+1 f (x) =−x 2
+2 f (x) =√−x.
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 11 / 16
+----- pagina 12 -----
+Transformaciones de Funciones
+EJEMPLO 7 Considere la funci´ onf : [−2, 4]→ [−2, 2] dada en la
+siguiente gr´ aﬁca.
+Deﬁnimos la funci´ ong(x) = 2− 12 f (−x + 3) , determine:
+1 Las transformaciones apropiadas que aplicadas a f den como
+resultado la funci´ ong.
+2 El dominio y recorrido de la funci´ on g.
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 12 / 16
+----- pagina 13 -----
+Transformaciones de Funciones
+Soluci´ onConsidere las transformaciones
+r(x) =f (−x) Reﬂexi´ on con respecto al eje Y
+h(x) =r(x− 3) Traslaci´ on 3 unidades a la derecha.
+𝓁(x) = 12 h(x) Alargamiento vertical de factor 2
+m(x) =− 𝓁(x) Reﬂexi´ on con respecto al eje X
+n(x) =m(x) + 2 Traslaci´ on 2 unidades hacia arriba.
+Note que
+n(x) = m(x) + 2 =−𝓁(x) + 2 =−12 h(x) + 2 =−12 r(x− 3) + 2
+= −12 f (−(x− 3)) + 2 = g(x) .
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 13 / 16
+----- pagina 14 -----
+Transformaciones de Funciones
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 14 / 16
+----- pagina 15 -----
+Transformaciones de Funciones
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 15 / 16
+----- pagina 16 -----
+Transformaciones de Funciones
+Se sigue que el dominio de g es [−1, 5] y el recorrido es [1 , 3].
+Rodrigo Vargas (LIES) Transformaciones 6 de Abril de 2022 16 / 16

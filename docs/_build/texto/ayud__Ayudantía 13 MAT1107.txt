@@ -1,0 +1,46 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 13 - Jueves 16 de junio del 2022
+Problema 1.Consideremos la sucesi´ on (sn) definida por la recurrencia
+s1 =
+√
+2 y sn+1 =
+√
+2 + sn.
+a) Demuestre que sn es acotada.
+b) Demuestre que sn es creciente.
+c) Demuestre que sn converge y halle su l ´ ımite.
+Problema 2.Calcule los siguientes l ´ ımites
+a) l ´ ımx→∞
+√
+x2 − x − x
+b) l ´ ımx→+∞
+√x−1
+4√x2+1
+c) l ´ ımn→∞
+1+ 1n
+n+ 1n
+d) l ´ ımn→∞(√n + 1 − √n)√n + 2.
+Problema 3.Considere la sucesi´ on{an} definida mediante la recurrencia
+a0 > 0; ∀n ∈ N : an+1 = an1 + na2n
+a) Demuestre que la sucesi´ on es decreciente.
+b) Concluya que la sucesi´ on es convergente y calcule su l ´ ımite.
+Problema 4.Usando el Teorema del S´ andwich, calcule el l ´ ımite
+l ´ ım
+n→∞
+nX
+k=1
+1√
+n2 + k
+Problema 5.Usando el Teorema del Sandwich, calcule el l ´ ımite de la sucesi´ onn!nn .
+Problema 6.Calcule el l ´ ımite
+l ´ ım
+n→∞
+n
+q
+aknk + ak−1nk−1 + . . .+ a0
+para a0, a1, . . . , ak > 1.

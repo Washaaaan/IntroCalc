@@ -1,0 +1,110 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 14 - Jueves 23 de junio del 2022
+Problema 1. Sea ( xn)n una sucesi´ on tal que l ´ ımn→∞ xn = +∞. Sea M ∈ R un n´ umero real
+arbitrario. Muestre que la sucesi´ onyn = xn + M tambi´ en diverge a infinito.
+Soluci´ on:Sea A > 0 un n´ umero real positivo. Queremos N ∈ N tal que si n ≥ N entonces
+yn > A.
+Tomemos el n´ umero m´ ax{A − M, A} > 0. Sabemos que existe N ∈ N tal que si n ≥ N entonces
+xn > m´ ax{A − M, A} ⇔yn > m´ ax{A − M, A} + M ≥ A. Por tanto l ´ ımn→∞ yn = +∞.
+Problema 2. Dado α ∈ R+, demuestre que l ´ ım
+n→∞
+nα = +∞.
+Soluci´ on:Primero notemos que por propiedad Arquimediana, existe k0 ∈ N tal que k0 ≥ 1α ⇔
+α · k0 ≥ 1.
+Ahora sea A >0 arbitrario. Por Arquimediana (de nuevo), existe N ∈ N tal que
+A < N≤ N α·k0 = (N k0)α
+Luego, si n ≥ N k0, entonces nα ≥ (N k0)α > A. As ´ ı concluimos que l ´ ımn→∞ nα = +∞.
+Problema 3. Pruebe que la sucesi´ on
+αn =
+nX
+k=1
+1
+k
+converge (diverge) a infinito.
+Soluci´ on:Usaremos el teorema de la pizza (?), o sea, acotaremos esta sucesi´ on inferiormente
+por una sucesi´ on que sabemos que tiende a infinito.
+Sea m ∈ N. Notemos que si 2 m−1 ≤ k <2m, entonces 12m < 1k ≤ 12m−1 . O sea,
+2m−1X
+k=2m−1
+1
+k >
+2m−1X
+k=2m−1
+1
+2m = 2m−1 12m = 12 .
+Luego, sumando desde k = 1 = 20 hasta 2m − 1 tenemos que
+α2m−1 =
+2m−1X
+k=1
+1
+k =
+mX
+j=1
+2m−1X
+k=2m−1
+1
+k >
+mX
+j=1
+1
+2 = m2 .
+----- pagina 2 -----
+As ´ ı, dadoA >0, existe m ∈ N tal que m2 > A. Por lo tanto, si n ≥ 2m − 1, entonces
+αn ≥ α2m−1 > m2 > A
+Por lo tanto, αn diverge.
+Problema 4. Sea m ≥ 2 un n´ umero entero fijo. Pruebe que la sucesi´ on
+βn =
+nX
+k=1
+1
+km
+no diverge. ¿Converge?
+Soluci´ on:Por motivos pedag´ ogicos, primero lo probaremos param = 2. Notemos entonces que
+para cada k ≥ 2, 1k2 ≤ 1k(k−1) = 1k−1 − 1k . Luego,
+βn
+nX
+k=1
+1
+k2 ≤ 1 +
+nX
+k=2
+ 1
+k − 1 − 1k  = 1 + 1 − 1n < 2
+Por lo tanto, βn < 2 para todo n ∈ N. Como la sucesi´ on es acotada superiormente, no puede tender
+a infinito.
+Similarmente, si m ≥ 2 es un natural arbitrario, entonces 1km ≤ 1k2 . Por tanto,
+nX
+k=1
+1
+km ≤
+nX
+k=1
+1
+k2 < 2
+Y concluimos de la misma manera.
+Por otro lado, sabemos que en cada caso, todos los t´ erminos de las sumatorias son n´ umeros reales
+positivos, de modo que las sucesiones son estrictamente crecientes. Como son sucesiones crecientes
+y acotadas superiormente, entonces convergen a un n´ umero real.
+Como comentario general, el teorema de sucesiones mon´ otonas y acotadas es la manera que
+tenemos de concluir que el l ´ ımite existe, pues los valores de estos l ´ ımites son extremadamente
+dif ´ ıciles de calcular. Por ejemplo, se requiere de herramientas de an´ alisis funcional y series de
+Fourier para concluir que
+∞P
+k=1
+1
+k2 = π26 . Similarmente hay f´ ormulas cerradas param par, pero no se
+conoce ninguna expresi´ on cerrada para los casos dondem es impar.
+Problema 5. Considere la sucesi´ on definida recursivamente
+y1 = 1
+yn+1 = yn + 2 · (−1)n, ∀n ∈ N.
+Estudie el comportamiento de la sucesi´ on cuandon tiene a infinito.
+Soluci´ on:Notemos que si n ∈ N, se tiene que
+yn+2 = yn+1 + 2 · (−1)n+1 = yn + 2 · (−1)n − 2 · (−1)n = yn
+Con esto tenemos que la sucesi´ on es peri´ odica con per ´ ıodo = 2, es decir,yn = 1 para n impar,
+yn = −1 para n par. Como yn es una sucesi´ on acotada, entonces no puede tener l ´ ımite igual a±∞.
+Ejercicio recomendado: demostrar por definici´ on por qu´ eyn no converge a ning´ un n´ umero real.

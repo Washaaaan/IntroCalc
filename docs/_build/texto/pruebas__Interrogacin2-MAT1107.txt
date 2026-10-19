@@ -1,0 +1,62 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer Semestre 2025
+Introducci´ on al C´ alculo - MAT1107
+Interrogaci´ on N° 2
+1. a) Si x es un n´ umero real tal que 0 < x < 1, determine el valor de |4x + 1| − |x − 1|x .
+b) Resolver la ecuaci´ on |2x + 2| = 6x − 18.
+Soluci´ on.
+a) Notemos que
+|4x + 1| =
+{
+4x + 1 si 4 x + 1 /greaterorequalslant 0
+−4x − 1 si 4 x + 1 < 0
+=
+{
+4x + 1 si x /greaterorequalslant − 14
+−4x − 1 si x < − 14
+y de manera similar
+|x − 1| =
+{
+x − 1 si x − 1 /greaterorequalslant 0
+−x + 1 si x − 1 < 0
+=
+{
+x − 1 si x /greaterorequalslant 1
+−x + 1 si x < 1
+Si x ∈ (0, 1) entonces |4x + 1| = 4x + 1 y |x − 1| = 1 − x. Luego
+|4x + 1| − |x − 1|
+x = 4x + 1 − (1 − x)x = 5xx = 5 .
+b) Tenemos que
+|2x + 2| = 6x − 18 ⇐ ⇒ [6x − 18 /greaterorequalslant 0 ∧ [(2x + 2 = 6 x − 18) ∨ (2x + 2 = −6x + 18)]]
+⇐ ⇒ [x /greaterorequalslant 3 ∧ [(x = 5) ∨ (x = 2)]]
+Luego la soluci´ on de la ecuaci´ on esx = 5.
+Puntaje Pregunta 1a).
+• 1 punto por obtener que |4x + 1| = 4x + 1 si x ∈ (0, 1)
+• 1 punto por obtener que |x − 1| = 1 − x si x ∈ (0, 1)
+• 1 punto por obtener que |4x + 1| − |x − 1|x = 5.
+Puntaje Pregunta 1b).
+• 1 punto por obtener la restricci´ on 6x − 18 /greaterorequalslant 0 ⇐ ⇒x /greaterorequalslant 3.
+• 1,5 puntos por obtener la soluci´ on 2x + 2 = 6 x − 18 y de 2 x + 2 = −(6x − 18)
+• 0,5 puntos por descartar el caso x = 2.
+----- pagina 2 -----
+2. Resuelva la inecuaci´ on x
+x − 4 < x − 4x .
+Soluci´ on.Tenemos que
+x
+x − 4 < x − 4x ⇐ ⇒ xx − 4 − x − 4x < 0 ⇐ ⇒x2 − (x − 4)2x(x − 4) < 0 ⇐ ⇒8(x − 2)x(x − 4) < 0 .
+Los puntos cr ´ ıticos de la inecuaci´ on sonx = 0, x = 2, x = 4 y la tabla de signos es:
+x − 2 − − + +
+x − + + +
+x − 4 − − − +
+− + − +
+−∞ 0 2 4 ∞
+Por lo tanto, el conjunto soluci´ on de la inecuaci´ on esS = (−∞, 0) ∪ (2, 4).
+Puntaje Pregunta 2.
+• 2 puntos por reducir la inecuaci´ on y obtener una versi´ on factorizada igual a: 8(x − 2)x(x − 4) < 0
+• 1 punto por encontrar los puntos cr ´ ıticos de la inecuaci´ on.
+• 2 puntos por realizar la tabla de signos.
+• 1 punto por obtener el conjunto soluci´ on.

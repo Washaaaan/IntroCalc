@@ -1,0 +1,25 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 09 - Jueves 19 de mayo del 2022
+Problema 1.. Si {an} es una progresi´ on aritm´ etica con diferenciad, verifique que se tiene:
+a) a1 + · · ·+ an = a1+an2 · n = 2a1+(n−1)d2 · n, para n = 1, 2, . . .
+b) an = an−1+an+12 , para n = 2, 3, 4, . . .. Es decir, cada t´ ermino es el promedio aritm´ etico de sus
+dos vecinos.
+Problema 2.. Dado r ̸= 1, calcule el valor de 1 + r + · · ·+ rn−1 con n ≥ 1. ¿Qu´ e ocurre cuando
+r = 1?
+Problema 3.. Sea {an} una progresi´ on geom´ etrica con raz´ onr ̸= 1. Verifique que:
+a) a1 + a2 + · · ·+ an = a1 1−rn1−r , para n = 1, 2, 3, . . .
+b) Si los t´ erminosan son positivos, se tiene que an = √an−1an+1, para n = 2, 3, 4, . . .
+Problema 4. Sea r ∈ R tal que 0 < r < 1. Sea sn =
+nX
+i=1
+ri, para cada n ≥ 1. Demuestre
+que sn+1 > sn para n ≥ 1. Demuestre que la sucesi´ on{sn}n≥1 est´ a acotada superior e inferiormente.
+Problema 5.Encuentre el valor de la suma 1 · 2 + 2 · 22 + · · ·+ n · 2n.
+Problema 6.Sea an = 2n3 para n ≥ 1. Considere la sucesi´ on dada por
+Pn = a1 · a2 · a3 · . . .· an, n ≥ 1.
+Calcule P100.

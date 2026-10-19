@@ -1,0 +1,75 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 08 - Jueves 12 de mayo del 2022
+Problema 1. Sea x ∈ R. Demuestre que ex + e−x ≥ 2.
+Soluci´ on.
+Como ex > 0, la desigualdad es equivalente a
+e2x + 1 ≥ 2ex,
+y, por lo tanto, equivalente a
+e2x − 2ex + 1 ≥ 0.
+Esto ´ ultimo es equivalente a
+(ex − 1)2 ≥ 0
+que es verdadero.
+Problema 2. Usando la desigualdad de Bernoulli deduzca que
+cn ≥ c para todo n ∈ N, c >1
+Soluci´ on.
+Veamos que 1 + n(c − 1) ≥ c ya que ( n − 1)(c − 1) ≥ 0. Luego usando la desigualdad de
+Bernoulli con el cambio de variable x = c − 1 tenemos que (1 +x)n ≥ 1 +nx ⇔ cn ≥ 1 +n(c − 1) ≥ c.
+Problema 3. Resuelva la ecuaci´ on (2x)ln(2x) = e3(2x)2.
+Soluci´ on.
+Aplicamos logaritmo natural a ambos lados de la ecuaci´ on y por las propiedades del logaritmo
+obtenemos
+(ln(2x))(ln(2x)) = 3 ln(e) + 2(ln(2))
+Esto nos da
+(ln(2x))2 = 3 + 2 ln(2x)
+Y esto es una ecuaci´ on cuadr´ atica en ln(2x) as ´ ı que con el cambio de variabley = ln(2x) nos queda
+la ecuaci´ ony2 − 2y − 3 = 0 que tiene soluciones 3 y −1. Esto nos da las soluciones para x:
+ln(2x) = 3 = ⇒ x = 12 e3
+ln(2x) = −1 = ⇒ x = 12e
+----- pagina 2 -----
+Problema 4. Considere la funci´ on
+f (x) =
+ |x| x <3
+x2 + 1 x ≥ 3
+Determine un conjunto A ⊂ Dom(f ), lo m´ as mayor posible, de modo quef sea inyectiva. Determine
+f −1 : B → A, identificando B.
+Soluci´ on.
+Una forma de entender esta funci´ on es graficarla. Una vez hecho eso, nos damos cuenta de
+que hay m´ as de una forma de elegir A. La m´ as simple es A = ( −∞, 0], donde la funci´ on vale
+f (x) = |x| = −x y tiene recorrido B = [0, ∞), la inversa en este caso ser ´ ıaf −1(x) = −x.
+Una de las otras opciones es elegir A = (−10, 0] ∪ [3, ∞) que tiene recorrido B = [0, 10) ∪ [10, ∞) =
+[0, ∞). La inversa en este caso estar ´ ıa dada por
+f −1(x) =
+ −x x ∈ [0, 10)√x − 1 x ∈ [10, ∞)
+Problema 5. Sea f : (−1, 1) → R dada por
+f (x) = xx + 1.
+Asuma que f es estrictamente creciente (lo debe demostrar en la tarea). determine f −1 (incluyendo
+su dominio).
+Soluci´ on.
+Primero notemos que como f es estrictamente creciente, es inyectiva y por tanto podemos
+calcular una inversa sobre su recorrido. Para calcular el recorrido def usemos que f es estrictamente
+creciente, y que cuando x se acerca a −1 por la derecha, f (x) se acerca a −∞ (puede verlo con la
+as ´ ıntota vertical que hay enx = −1) y cuando x se acerca a 1, f (x) se acerca a 12 , por lo que el
+recorrido de f es ( −∞, 12 ). La inversa la calculamos haciendo y = xx+1 y despejando x. Haciendo
+esto obtenemos f −1 : (−∞, 12 ) → (−1, 1), f −1(x) = xx−1 .
+Problema 6. Encuentre la inversa de f : Z2 → Z2, f (m, n) = (m + n, m+ 2n).
+Soluci´ on.
+Para obtener la inversa hacemos el siguiente procedimiento: Tomamos ( a, b) ∈ Z2 y asumimos
+que (a, b) = f (m, n), es decir, (a, b) = (m+n, m+2n) y tratando esto como un sistema de ecuaciones,
+despejamos m y n, obteniendo m = 2a − b, n = b − a. Con esto, tomamos f −1(a, b) = (2a − b, b− a),
+que est´ a bien definida pues si a, bson enteros, 2 a − b, b− a tambi´ en lo son. Y verificamos que
+efectivamente es la inversa de f . Por un lado
+f (f −1(a, b)) = f (2a − b, b− a)
+= ( (2a − b) + (b − a), (2a − b) + 2(b − a) )
+= (a, b)
+----- pagina 3 -----
+Y por otro
+f −1(f (m, n)) = f −1(m + n, m+ 2n)
+= ( 2(m + n) − (m + 2n), (m + 2n) − (m + n) )
+= (2m + 2n − m − 2n, m + 2n − m − n)
+= (m, n)
+Con lo que se concluye que f −1 : Z2 → Z2 con f −1(a, b) = (2a − b, b− a) es la inversa de f .

@@ -1,0 +1,26 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Profesor: Alejandra Schild
+Ayudantes: Gustavo Blanco y Esteban V ´asquez
+Ayudant ´ ıa 7 – MAT1107
+Primer Semestre 2024
+Pregunta 1Demuestre que la sucesi´ on de raices:
+c
+1
+n
+es estrictamente decreciente, para c >1.
+Pregunta 2Encuentre la funci´ on inversa de:
+f (x) = e2x+1
+Pregunta 3Sean f1(x) = 2x, f2(x) = x − 3, f3(x) = −x, donde f1 : R → (0, ∞) y f2, f3 : R → R.
+a) Halle el orden de las composiciones para obtener la funci´ on
+f (x) = −3 −
+ 1
+2
+x−3
+.
+b) Pruebe que f es invertible. Demuestre que la funci´ onf −1 −(f −12 ◦f −13 ◦f −11 ◦f −13 ◦f −12 ) no es invertible.
+Pregunta 4La funci´ onf (x) = 2 − 3√x + 1 con dominio (0 , 8] admite inversa.
+Calcule f −1 y determine su dominio
+1

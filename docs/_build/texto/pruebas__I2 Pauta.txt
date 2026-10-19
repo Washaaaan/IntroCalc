@@ -1,0 +1,153 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Facultad de Matem´ aticas
+Departamento de Matem´ atica
+8 de Octubre 2025
+MAT1107 ⋆ Introducci´ on al C´ alculo
+Interrogaci´ on 2
+1. Sea a ∈ R fijo y definamos f (x) =
+√
+x2 + 2x + a. Encuentre lo m´ as expl ´ ıcitamente
+posible el dominio maximal y el recorrido de f . Observaci´ on: estos conjuntos de-
+penden del valor de a.
+Soluci´ on:El dominio de f es el conjunto {x ∈ R : x2 + 2x + a ≥ 0}.
+Completando cuadrados observamos que
+x2 + 2x + a = (x + 1)2 + (a − 1),
+y para a < 1 las ra ´ ıces distintas dex2 + 2x + a son x1 = −1 − √1 − a y x2 =
+−1 +√1 − a. Si a ≥ 1 entonces la cuadr´ atica tiene una sola ra ´ ız o no tiene ra ´ ıces y
+es siempre mayor o igual a 0. Esto tambi´ en se puede concluir ocupando la f´ ormula
+de las ra ´ ıces, el discriminante y el signo que tiene el coeficiente principal de la
+cuadr´ atica.
+Con esto concluimos dos casos:
+(a) Si a ≥ 1 entonces Dom(f ) = R.
+(b) So a <1, entonces x2 + 2x + a ≥ 0 si x ≤ x1 o si x ≥ x2, es decir Dom( f ) =
+(−∞, −1 − √1 − a] ∪ [−1 + √1 − a, ∞).
+Para calcular el recorrido primero observamos que f (x) =
+√
+x2 + 2x + a ≥ 0 para
+cualquier x en el dominio de f . Por lo que el recorrido de f est´ a contenido en [0, ∞).
+Veamos ahora que valore y ≥ 0 est´ an efectivamente en el recorrido def .
+y ≥ 0 ∧ y ∈ Rec(f ) ⇔ y ≥ 0 ∧ existe x ∈ Dom(f ) tal que
+√
+x2 + 2x + a = y
+⇔ y ≥ 0 ∧ existe x ∈ Dom(f ) tal que x2 + 2x + a = y2
+⇔ y ≥ 0 ∧ existe x ∈ Dom(f ) tal que x2 + 2x + a − y2 = 0
+lo cual se cumple si y solo si (discriminante)
+y ≥ 0 ∧ 4 − 4(a − y2) ≥ 0 ⇔ y ≥ 0 ∧ y2 ≥ (a − 1).
+Con esto concluimos dos casos:
+(a) Si a ≥ 1 entonces Rec(f ) = [√a − 1, ∞).
+(b) Si a <1, entonces Rec(f ) = [0, ∞).
+----- pagina 2 -----
+Una segunda manera de calcular el recorrido es observar que
+(a) Si a ≥ 1 entonces la cuadr´ atica (x+1)2+(a−1) toma todos los valores mayores o
+iguales a a − 1 al considerar x ∈ R. Luego f (x) = sqrt(x + 1)2 + (a − 1) toma
+todos los valores mayores o iguales a √a − 1 al variar x ∈ R.
+(b) Por otro lado, a < 1, entonces la cuadr´ atica (x + 1)2 + (a − 1) toma todos
+los valores mayores o iguales a 0 al considerar todos los x ∈Dom(f ). Luego,
+al tomar ra ´ ız cuadrada, concluimos que f toma todos los valores mayores o
+iguales a 0.
+Este segundo argumento tambi´ en se puede presentar a travez del gr´ afico de la
+cuadr´ atica y luego considerar quef es la ra ´ ız cuadrada de la cuadr´ atica.
+Puntaje:
+(a) (1 pto.) por justificar que la cuadr´ atica tiene una o ninguna ra ´ ız
+cuando a >1.
+(b) (1 pto.) por encontrar las dos ra ´ ıces de la cuadr´ atica cuandoa <1.
+(c) (1 pto.) por justificar Dom (f ) = R cuando a ≥ 1.
+(d) (1 pto.) por encontrar el Dom (f ) cuando a <1.
+(e) (1 pto.) por encontrar que Rec (f ) = [√a − 1, ∞) cuando a ≥ 1.
+(f ) (1 pto.) por justificar que Rec (f ) = [0, ∞) cuando a <1.
+2. Dada la funci´ onf , cuyo gr´ afico est´ a dado abajo, obtenga el gr´ afico de la funci´ ong
+dada por g(x) = f (−2x − 3) − 4, indicando todas las transformaciones realizadas
+para obtenerlo. Indique suficientes puntos de referencia en la figura.
+Soluci´ on:Escribiendo g(x) = f (−2x − 3) − 4 = f (−1 · 2 · (x + 3/2)) − 4 vemos que
+las transformaciones que corresponden hacer son:
+(a) Reflexi´ on en la direcci´ on horizontal (el -1 dentro del argumento)).
+(b) Complesi´ on horizontal a la mitad de ancho (el 2 dentro del argumento)
+(c) Traslaci´ on horizontal en 3/2 hacia la izquierda (el +3/2 dentro del argumento)
+(d) Traslaci´ on vertical de 4 hacia abajo (el -4 afuera de la funci´ on).
+----- pagina 3 -----
+abajo se bosquejan los gr´ aficos de estas transformaciones donde se pueden identificar
+las coordenadas de varios puntos relevantes.
+Puntaje:
+(a) (1 pto.) por re-escribir f (−2x − 3) − 4 = f (−1 · 2 · (x + 3/2)) − 4 o de
+alguna otra manera equivalente que permita identificar bien el orden
+de las transformaciones que se deben realizar
+(b) (0.5 ptos.) por identificar la reflexi´ on horizontal,
+(c) (0.5 ptos.) por el gr´ afico de correspondiente a la reflexi´ on horizontal,
+----- pagina 4 -----
+(d) (0.5 ptos.) por identificar la compresi´ on horizontal,
+(e) (0.5 ptos.) por el gr´ afico de correspondiente a la compresi´ on hori-
+zontal,
+(f ) (0.5 ptos.) por identificar la traslaci´ on horizontal,
+(g) (0.5 ptos.) por el gr´ afico de correspondiente a la traslaci´ on horizon-
+tal,
+(h) (0.5 ptos.) por identificar la traslaci´ on vertical,
+(i) (0.5 ptos.) por el gr´ afico de correspondiente a la traslaci´ on vertical,
+(j) (1 pto.) por rastrear donde van a parar al menos tres puntos rele-
+vantes del gr´ afico original, despu´ es de todas las transformaciones.
+3. Determine los ceros, signos y as ´ ıntotas (cuando existan) de la funci´ on racional
+f (x) = x2 + 2x − 8x2 − 4x + 3. Luego bosqueje el gr´ afic de f ocupando (e indicando) toda
+la informaci´ on anterior.
+Soluci´ on:Al factorizar obtenemos
+f (x) = (x + 4)(x − 2)(x − 1)(x − 3) .
+La tabla de signos es
+−4 1 2 3
+(x + 4) - 0 + + + +
+(x − 1) - - 0 + + +
+(x − 2) - - - 0 + +
+(x − 3) - - - - 0 +
+Total + 0 - X + 0 - X +
+y
+obtenemos que f tiene ceros en x = −4 y x = 2, adem´ as de tener as ´ ıntotas verticales
+en x = 1 y x = 3.
+Para estudiar las as ´ ıntotas horizontales observamos
+f (x) = x2 + 2x − 8x2 − 4x + 3 = 1 + 2x − 8x21 − 4x + 3x2
+y cuando |x| → ∞obtenemos que f (x) ≈ 1, es decir, f tiene asintotas horizontales
+en +∞ y en −∞ a altura y = 1.
+Con todo lo anterior se puede realizar el siguiente bosquejo del gr´ afico de f
+----- pagina 5 -----
+Puntaje:
+(a) (1 pto.) por la factorizaci´ on correcta en terminos lineales de la
+funci´ on racionalf
+(b) (1 pto.) por obtener correctamente los signos de los factores lineales.
+(c) (0.5 ptos.) por identificar los ceros x = −4 y x = 2 de f .
+(d) (0.5 ptos.) por identificar las as ´ ıntotas verticales enx = 1 y x = 3 de
+f
+(e) (1 pto.) por identificar la as ´ ıntota horizontal a alturay = 1 de f
+(f ) (2 ptos.) por bosquejar el gr´ afico de f adecuadamente, y con todos
+los elementos anteriores identificados en el gr´ afico.
+4. Sea f (x) = 3x − 23 − 2x . Encuentre A el dominio maximal de la funci´ onf y encuentre
+B el recorrido de f . Demuestre que f : A → B es inyectiva (por lo tanto biyectiva)
+y encuentre su funci´ on inversa. Justifique su respuesta.
+Soluci´ on:La funci´ onf es una funci´ on racional, por lo que su dominio es todo R
+salvo donde el divisor se hace 0, es decir A =Dom(f ) = (−∞, 32 ) ∪ ( 32 , ∞).
+Para ver que f es inyectiva, supongamos que x, z∈ Dom(f ) y f (x) = f (z), entonces
+x ̸= 2/3, tambi´ enz ̸= 2/3 y
+f (x) = f (z) ⇒ 3x − 23 − 2x = 3z − 23 − 2z
+⇒ (3x − 2)(3 − 2z) = (3z − 2)(3 − 2x)
+⇒ 9x − 6xz − 6 + 4z = 9z − 6zx − 6 + 4x
+⇒ 5x = 5z
+⇒ x = z,
+----- pagina 6 -----
+es decir, se demuestra que f es inyectiva.
+Para encontrar el recorrido primero observamos que
+f (x) + 32 = 3x − 23 − 2x + 32 = 2(3x − 2) + 3(3 − 2x)2(3 − 2x) = 56 − 4x ̸= 0 ∀x ∈ Domf,
+es decir f nunca toma el valor − 32 y entonces − 32 /∈ Rec(f ).
+Posteriormente observamos que
+y ∈ Recf ⇔ y ̸= − 32 ∧ ∃ x ̸= 32 : y = 3x − 23 − 2x
+⇔ y ̸= − 32 ∧ ∃ x ̸= 32 : (3 − 2x)y = (3x − 2)
+⇔ y ̸= − 32 ∧ ∃ x ̸= 32 : −2xy − 3x = −2 − 3y
+⇔ y ̸= − 32 ∧ ∃ x ̸= 32 : x(2y + 3) = (2 + 3y)
+⇔ y ̸= − 32 ∧ ∃ x ̸= 32 : x = 2 + 3y3 + 2y = 32 − 56 + 4y ,
+pero la ´ ultima expresi´ on es distinta de32 para cualquier valor de y admisible, es
+decir, concluimos que Rec( f ) = (−∞, − 32 ) ∪ (− 32 , ∞).
+Em el c´ alculo anterior tambi´ en encontramos que
+x ̸= 32 ∧ f (x) = y ⇔ y ̸= − 32 ∧ x = 2 + 3y3 + 2y ,
+y por lo tanto f −1(y) = 2+3y3+2y .
+Puntaje:
+(a) (1 pto.) por encontrar el dominio maximal.
+(b) (2 ptos.) por demostrar la inyectividad.
+(c) (1 pto.) por obtener que −3/2 no est´ a en el recorrido def .
+(d) (1 pto.) por justificar que el recorrido de f es todo R salvo {−3/2}.
+(e) (1 pto.) por obtener la expresi´ on de la funci´ on inversa.

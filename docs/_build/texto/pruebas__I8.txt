@@ -1,0 +1,113 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2023
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 8
+1. Considere la sucesi´ on an = n + sen
+( nπ
+2
+)
+2n + 1 , encuentre l ´ ımn→∞ an.
+Soluci´ on.Sabemos que para todo n ∈ N se cumple que
+−1 ⩽ sen
+(nπ
+2
+)
+⩽ 1
+Se sigue que para todo n ∈ N se cumple
+n − 1 ⩽ n + sen
+( nπ
+2
+)
+⩽ n + 1 ⇐ ⇒ n − 12n + 1 ⩽ n + sen
+(nπ
+2
+)
+2n + 1 ⩽ n + 12n + 1
+Ahora bien, como l ´ ım
+n→∞
+n − 1
+2n + 1 = l ´ ımn→∞
+1 − 1n
+2 + 1n = 12 y l ´ ımn→∞ n + 12n + 1 = 12 entonces por el Teorema delSandwich se sigue que
+l ´ ım
+n→∞
+an = l ´ ımn→∞
+n + sen
+( nπ
+2
+)
+2n + 1 = 12 .
+Puntaje Pregunta 1.
+2 puntos por acotar la sucesi´ on an.
+2 puntos por calcular los l ´ ımites l ´ ım
+n→∞
+n − 1
+2n + 1 y l ´ ımn→∞
+n + 1
+2n + 1
+2 puntos por usar el teorema del sandwich y concluir que la sucesi´ o n converge a 1 /2.
+----- pagina 2 -----
+2. Considere la sucesi´ on deﬁnida mediante la recurrencia
+s1 = 1, s n+1 = √72 + sn.
+(a) (3pts) Es f´ acil ver que 0 < s n ∀n ∈ N, por lo que la sucesi´ on est´ a bien deﬁnida. Demuestre (usando
+inducci´ on) quesn < 9 ∀n ∈ N.
+(b) (3pts) Pruebe que sn+1 − sn > 0 ∀n ∈ N, es decir, que ( sn)n es estrictamente creciente.
+Soluci´ on.
+(a) Procedemos por inducci´ on. El paso base se tiene de forma dire cta, dado que s1 = 1 < 9. Asumimos
+que sn < 9 para alg´ unn ∈ N. Mostremos que lo anterior es cierto para sn+1. Tenemos
+sn < 9 ⇒ 72 + sn < 81 ⇒
+√
+72 + sn = sn+1 <
+√
+81 = 9 .
+(b) Tenemos
+sn+1−sn =
+√
+72 + sn−sn =
+√
+72 + sn−sn
+√72 + sn + sn√72 + sn + sn = (72 + sn) − s2n√72 + sn + sn = (9 − sn)(8 + sn)√72 + sn + sn > 0,
+donde en la ´ ultima desigualdad usamos que sn ∈ (0, 9) ∀n ∈ N.
+Puntaje Pregunta 2.
+(a) 0.5 pts por el paso base y 2.5 pts por el paso inductivo (asignar 0 .5 pts a la hip´ otesis inductiva).
+(b) 1 pto por racionalizar, 1 pto por factorizar el nominador y 1 pto por concluir.
+----- pagina 3 -----
+3. Considere la sucesi´ on deﬁnida en la pregunta anterior. Concluya de 2. (a) y 2. (b) que converge y calcule
+su l ´ ımite.
+Soluci´ on.Dado que ( sn)n es una sucesi´ on mon´ otona y acotada, por teorema visto en clases deducimos
+que converge a un l ´ ımite, el que denotaremos porL. Dado que sn ∈ (0, 9) ∀n ∈ N, tenemos que L ∈ [0, 9].
+Usando la relaci´ on de recurrencia, concluimos que
+L2 = l ´ ım
+n→∞
+s2n+1 = l ´ ımn→∞(72 + sn) = 72 + L,
+donde usamos ´ algebra de l ´ ımites y el hecho de que ( sn+1)n es una subsucesi´ on de ( sn)n, por lo que
+converge a L. Luego, L = −8 ´ oL = 9. La primera soluci´ on se descarta, dado que L ∈ [0, 9], y por lo
+tanto, L = 9.
+Alternativamente, la relaci´ onL2 = 72 + L se pude obtener de la siguiente forma: dado que sn > 0 y por
+lo tanto L ≥ 0, tenemos que
+l ´ ım
+n→∞
+√
+72 + sn =
+√
+l ´ ım
+n→∞
+(72 + sn) =
+√
+72 + L,
+y por lo tanto
+L = l ´ ım
+n→∞
+sn+1 = l ´ ımn→∞
+√
+72 + sn =
+√
+72 + L ⇒ L2 = 72 + L.
+Puntaje Pregunta 3.
+1 pto por concluir que ( sn)n converge, 1 pto por mostrar que L ∈ [0, 9], 1 pto por indicar que
+(sn+1)n converge a L al ser subsucesi´ on de ( sn)n, 1 ptp por utilizar correctamente ´ algebra de
+l ´ ımites, 1 pto por obtenerL2 = 72 + L y 1 pto por concluir que L = 9.

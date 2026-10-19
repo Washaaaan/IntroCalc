@@ -1,0 +1,39 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Godofredo Iommi – Ayudante: Rodrigo Galaz
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 14
+1 de Diciembre de 2023
+1. Sea an > 0 para todo n ∈ N, demuestre que
+l ´ ım
+n→∞
+an = 0 ⇐ ⇒l ´ ımn→∞
+1
+an
+= +∞
+2. Demuestre que los siguientes l ´ ımites no existen:
+a) l ´ ım
+n→∞
+(n + 1)3
+n2 + 1
+b) l ´ ım
+n→∞
+1 + √n
+cos(2n2)
+c) l ´ ım
+n→∞
+n
+r
+nn
+2
+3. Use el hecho de que l ´ ımn→∞ ln n = +∞ para verificar que
+l ´ ım
+n→∞
+ ln(n + 1)
+ln(n) − 1
+
+= 0
+1

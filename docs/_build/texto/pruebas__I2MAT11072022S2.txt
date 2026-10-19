@@ -1,0 +1,138 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Segundo semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 2
+1. Considere la funci´ on racional R(x) = x2 − 1x2 − x − 6.
+a) Determine las as ´ ıntotas de la funci´ onR.
+b) Determine signos de la funci´ on R mediante una tabla de signos.
+c) Realice el esbozo de la gr´ aﬁca de R indicando las intersecciones con los ejes coordenados.
+Soluci´ on.
+a) Notemos que
+R(x) = x2 − 1x2 − x − 6 = (x − 1)(x + 1)(x − 3)(x + 2) .
+Se sigue que R tiene as ´ ıntotas verticales enx = 3 y x = −2. Como la funci´ on racional R es el
+cociente de dos polinomios de grado 2, entonces tiene una as ´ ıntota horizontal en y = a2
+b2
+= 1.
+b) A continuaci´ on se presenta una tabla de signos para la funci´ on R.
+x − 1 − − − + +
+x + 1 − − + + +
+x − 3 − − − − +
+x + 2 − + + + +
++ − + − +
+−∞ − 2 −1 1 3 ∞
+----- pagina 2 -----
+c) El gr´ aﬁco de la funci´ onR se presenta a continuaci´ on
+1
+2
+3
+4
+5
+−1
+−2
+−3
+−4
+−5
+1 2 3 4 5 6 7−1−2−3−4−5
+x
+y
+Puntaje Pregunta 1.
+2 puntos por encontrar las as ´ ıntotas de R.
+2 puntos por la tabla de signos.
+2 puntos por la gr´ aﬁca de R.
+----- pagina 3 -----
+2. Considere la funci´ on deﬁnida por
+g(x) =
+
+
+
+−|x| − 1 si |x| < 1
+(1 − x)2 si x /greaterorequalslant 1
+x2 + 2x + 1 si x ⩽ −1
+a) Realice el gr´ aﬁco de la funci´ ong.
+b) Utilice el gr´ aﬁco para determinar el recorrido de la funci´ on g y decida si g es una funci´ on inyectiva.
+c) Determine a trav´ es del gr´ aﬁco, los intervalos de crecimiento ydecrecimiento de la funci´ on, e indique
+si son estrictos o no.
+Soluci´ on.
+a) El gr´ aﬁco de la funci´ ong es:
+1
+2
+3
+4
+5
+−1
+−2
+1 2 3−1−2−3
+x
+y
+b) A partir del gr´ aﬁco, vemos que Rec ( g) =] − 2, −1] ∪ [0, +∞[.
+Adem´ as,g no es inyectiva, en efecto g(2) = 1 = g(−2) pero 2 ⁄= −2.
+c) La funci´ on g es estrictamente creciente en ] − 1, 0] ∪ [1, +∞[ y es estrictamente decreciente en
+] − ∞, −1] ∪ [0, 1[.
+Puntaje Pregunta 2.
+1.a) 1 punto por cada rama correctamente gr´ aﬁcada (3 puntos e n total).
+1.b) 0,7 puntos por determinar el recorrido y 0,8 puntos por justiﬁc ar que f no es inyectiva.
+1.c) 0,5 puntos por determinar el intervalo de crecimiento, 0,5 punto s por determinar el intervalo
+de decrecimiento y 0,5 puntos por indicar que el crecimiento es estric to.
+----- pagina 4 -----
+3. Considere la funci´ on h : R \ {−1} → B deﬁnida por
+h(x) = x3
+1 + x3 .
+a) Pruebe que h es una funci´ on inyectiva.
+b) Encuentre la inversa de la funci´ on h.
+c) ¿Cu´ al es el dominio de la funci´ on inversa?
+Soluci´ on.
+a) Supongamos que h(x1) = h(x2) entonces
+x31
+1 + x31 = x321 + x32 ⇐ ⇒ x31(1 + x32) = x32(1 + x31)
+⇐ ⇒ x31 + x31x32 = x32 + x31x32
+⇐ ⇒ x31 = x32
+⇐ ⇒ x1 = x2
+por lo que h es una funci´ on inyectiva.
+b) Tenemos que si y = f (x) entonces
+y = x3
+1 + x3 ⇐ ⇒ y(1 + x3) = x3
+⇐ ⇒ y + yx3 = x3
+⇐ ⇒ y = x3(1 − y)
+⇐ ⇒ x3 = y1 − y
+⇐ ⇒ x = 3
+√ y
+1 − y
+Entonces, la funci´ on inversa def es f −1(x) = 3
+√ x
+1 − x.
+c) Observe que el dominio de la funci´ on f −1 corresponde a los puntos x ∈ R tales que 1 − x ⁄= 0 lo que
+equivale a que x ∈ R − {1}. Por lo tanto, Dom( f −1) = R − {1}.
+Puntaje Pregunta 3.
+2 puntos por demostrar la inyectividad.
+2 puntos por determinar la funci´ on inversa.
+2 puntos por determinar el dominio de la funci´ on inversa.
+----- pagina 5 -----
+4. Sean f : ( −∞, 5) → R, f (x) =
+√
+x2 + 4 y g : [6 , ∞) → R, g(x) = 2 x + 3. Deﬁna la funci´ on compuesta
+g ◦ f indicando cu´ al es el dominio de la composici´ on.
+Soluci´ on.Se tiene que
+(g ◦ f )(x) = g(f (x)) = g(
+√
+x2 + 4) = 2 √x2 + 4 + 3 .
+Ahora vamos a determinar el dominio de la funci´ on g ◦ f . Sabemos que
+x ∈ Dom(g ◦ f ) ⇐ ⇒(x ∈ Dom(f )) ∧ (f (x) ∈ Dom(g)) ⇐ ⇒(x ∈ (−∞, 5)) ∧ (f (x) ∈ [6, ∞))
+Notemos que
+f (x) /greaterorequalslant 6 ⇐ ⇒
+√
+x2 + 4 /greaterorequalslant 6 ⇐ ⇒x2 + 4 /greaterorequalslant 36 ⇐ ⇒x2 − 32 /greaterorequalslant 0 ⇐ ⇒x ∈ (−∞, −√32] ⋃ [√32, ∞) .
+Por lo tanto, Dom( g ◦ f ) =
+(
+−∞, −
+√
+32
+]
+.
+Puntaje Pregunta 4.
+2 puntos por determinar una f´ ormula para g ◦ f .
+2 puntos por obtener que x ∈ Dom(g ◦ f ) ⇐ ⇒(x ∈ (−∞, 5)) ∧ (f (x) ∈ [6, ∞)).
+2 puntos por obtener correctamente el dominio de g ◦ f .

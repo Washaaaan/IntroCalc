@@ -1,0 +1,45 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2023
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 1
+1. Demuestre que si a, b > 0 con a ⁄= b, entonces
+(a + b)(a−1 + b−1) > 4.
+Soluci´ on.Notemos que
+(a + b)(a−1 + b−1) = ( a + b)
+( 1
+a + 1b ) = (a + b) (a + b)ab = (a + b)2ab . (1)
+Luego,
+(a + b)(a−1 + b−1) − 4 = (a + b)2 − 4abab = a2 + 2ab + b2 − 4abab = (a − b)2ab = (a − b)2a−1b−1. (2)
+Dado que a ⁄= b, tenemos que ( a − b)2 > 0. Adem´ as, dado que a, b > 0, obtenemos a−1, b−1 > 0.
+Finalmente, dado que R+ es cerrado bajo el producto, deducimos que ( a − b)2a−1b−1 > 0. Esto concluye
+la demostraci´ on.
+Puntaje Pregunta 1.
+1.5 puntos por obtener (1).
+2 puntos por obtener (2).
+1 punto por deducir que ( a − b)2 > 0.
+0.5 puntos deducir que a−1, b−1 > 0.
+1 punto por concluir usando la cerradura de R+ bajo el producto.
+----- pagina 2 -----
+2. Resuelva la siguiente inecuaci´ on
+x2 + 4x − 12
+x2 − 6x + 8 ⩽ −1 .
+Soluci´ on.Notemos que
+x2 + 4x − 12
+x2 − 6x + 8 ⩽ −1 ⇐ ⇒ x2 + 4x − 12 + x2 − 6x + 8x2 − 6x + 8 ⩽ 0
+⇐ ⇒ 2x2 − 2x − 4x2 − 6x + 8 ⩽ 0
+⇐ ⇒ x2 − x − 2x2 − 6x − 8 ⩽ 0
+⇐ ⇒ (x − 2)(x + 1)(x − 4)(x − 2) ⩽ 0
+⇐ ⇒ x + 1x − 4 ⩽ 0 y x ⁄= 2
+Los puntos cr ´ ıticos de la inecuaci´ on sonx1 = −1 y x2 = 4 y la tabla de signos queda
+x + 1 − + +
+x − 4 − − +
++ − +
+−∞ − 1 4 ∞
+Por lo tanto, el conjunto soluci´ on es S = [−1, 4) \ {2} = [−1, 2) ∪ (2, 4).
+Puntaje Pregunta 2.
+3 puntos por obtener que la inecuaci´ on es equivalente a (x − 2)(x + 1)(x − 4)(x − 2) ⩽ 0.
+3 puntos por encontrar el conjunto soluci´ on de la inecuaci´ on.

@@ -1,0 +1,56 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2024
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 1
+1. a) Dados 0 < x, 0 < y , 0 < w , 0 < z , demuestre que
+x < y ∧ w < z =⇒ x · w < y · z.
+b) Dados 0 < a, 0 < b, 0 < c, demuestre que
+8abc ⩽ (a + b)(b + c)(c + a) .
+Soluci´ on.
+a) Por el axioma (O4), podemos escalar la desigualdad x < y por w ∈ R+ y obtener x · w < y · w.
+Por el axioma (O4), podemos escalar la desigualdad w < z por y ∈ R+ y obtener y · w < y · z.
+Como x · w < y · w y y · w < y · z, usando el axioma (O2) se deduce que x · w < y · z.
+b) Usando la desigualdad MA-MG tres veces, obtenemos que
+√
+ab ⩽ a + b2 ∧ √bc ⩽ b + c2 ∧ √ca ⩽ c + a2 .
+Como a, b, c ∈ R+, tambi´ en√ab, √bc, √ca ∈ R+. Luego podemos usar la parte (a) y multiplicar las
+tres desigualdades anteriores, obteniendo que
+√
+ab ·
+√
+bc · √ca ⩽ ( a + b2 ) · (b + c2 ) · (c + a2 ) .
+Como
+√
+ab ·
+√
+bc · √ca = √a2b2c2 = abc, de la desigualdad anterior se obtiene que
+8abc ⩽ (a + b)(b + c)(c + a).
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 1 punto por obtener que x · w < y · w.
+CC 2. 1 punto por obtener que y · w < y · z.
+CC 3. 1 punto por usar transitividad y concluir que x · w < y · z.
+CC 4. 2 puntos por usar la desigualdad MA-MG tres veces
+CC 5. 1 punto por deducir la desigualdad requerida.
+----- pagina 2 -----
+2. Encuentre todos los valores de x ∈ R tales que
+|x − 3| = |x + 5|.
+Soluci´ on.
+(i) Primera soluci´ on
+Lo que se pide es encontrar los x ∈ R tales que d(x, 3) = d(x, −5). El ´ unico punto de la recta real
+que cumple esto es el punto medio entre −5 y 3, es decir, x = −1.
+(ii) Segunda soluci´ on
+Separamos en casos:
+• Si 3 < x, entonces 0 < x − 3. Como −3 < 5, tambi´ en tenemosx − 3 < x + 5, y entonces, por
+transitividad, tambi´ en se tiene que 0 < x + 5. Luego, en este caso, la ecuaci´ on se simpliﬁca a
+x − 3 = x + 5, que claramente no tiene soluciones.
+• Si −5 ≤ x ≤ 3, entonces x − 3 < 0 y 0 < x + 5. Luego, en este caso, la ecuaci´ on se simpliﬁca
+a x − 3 = −(x + 5), que tiene como unica soluci´ on x = −1.
+• Si x < −5, entonces x + 5 < 0. Como −3 < 5, tambi´ en tenemosx − 3 < x + 5, y entonces, por
+transitividad, tambi´ en se tiene quex − 3 < 0. Luego, en este caso, la ecuaci´ on se simpliﬁca a
+−(x − 3) = −(x + 5), que claramente no tiene soluciones.
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 6 puntos por encontrar el valor de x = −1.

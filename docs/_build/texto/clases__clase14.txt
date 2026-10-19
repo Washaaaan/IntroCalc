@@ -1,0 +1,151 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) ´Algebra y composici´ on de funciones 25 de Abril de 2022 1 / 10
+´Algebra y composici´ on de funciones
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+25 de Abril de 2022
+----- pagina 2 -----
+´Algebra y composici´ on de funciones
+Definici´ on. (´Algebra de Funciones)
+Sean f : A → C y g : B → D funciones. Entonces f + g , f − g , fg y
+f /g est´ an definidas como sigue
+1 (f + g )(x) = f (x) + g (x) con dominio A ∩ B.
+2 (f − g )(x) = f (x) − g (x) con dominio A ∩ B.
+3 (fg )(x) = f (x)g (x) con dominio A ∩ B.
+4
+ f
+g
+
+(x) = f (x)g (x) con dominio {x ∈ A ∩ B | g (x) ̸= 0}.
+Rodrigo Vargas (LIES) ´Algebra y composici´ on de funciones 25 de Abril de 2022 2 / 10
+----- pagina 3 -----
+´Algebra y composici´ on de funciones
+EJEMPLO 1 Dadas las funciones
+f (x) = x + 1√x + 2 y g (x) = x 2 − 1x 2 − x − 6
+1 Calcule ( f + g )(2)
+2 Verifique que  f
+g
+
+(x) = (x − 3)√x + 2x − 1
+con dominio (2 , ∞) − {−1, 1, 3}.
+Rodrigo Vargas (LIES) ´Algebra y composici´ on de funciones 25 de Abril de 2022 3 / 10
+----- pagina 4 -----
+´Algebra y composici´ on de funciones
+Definici´ on. (Funci´ on compuesta)
+Sean f : A → C y g : B → D funciones tales que el recorrido de f
+est´ a contenido en el dominio deg , esto es, Rec( f ) ⊆ Dom(g ). En este
+caso, podemos definir la funci´ on compuestag ◦ f : A → D, que
+consiste en aplicar primero f y despu´ esg . M´ as precisamente,
+(g ◦ f )(x) = g (f (x)) para todo x ∈ A .
+Observaci´ onDadas dos funciones f : A → R y g : B → R, no siempre
+se cumple que Rec( f ) ⊂ B, luego la definici´ on de la composici´ on no
+siempre se puede realizar. En estos casos, definimos el dominio de la
+composici´ on por
+Dom(g ◦ f ) = {x ∈ Dom(f ) | f (x) ∈ Dom(g )}
+Rodrigo Vargas (LIES) ´Algebra y composici´ on de funciones 25 de Abril de 2022 4 / 10
+----- pagina 5 -----
+´Algebra y composici´ on de funciones
+Proposici´ on.
+Sean f : A → C y g : B → D son funciones tales que g ◦ f est´ a bien
+definida. Entonces
+1 Si f y g son funciones inyectivas entonces g ◦ f es inyectiva.
+2 Si f y g son funciones sobreyectivas entonces g ◦ f es
+sobreyectiva.
+En particular, la compuesta de dos biyecciones es una biyecci´ on.
+Rodrigo Vargas (LIES) ´Algebra y composici´ on de funciones 25 de Abril de 2022 5 / 10
+----- pagina 6 -----
+´Algebra y composici´ on de funciones
+No siempre se tiene que g ◦ f y f ◦ g son iguales, m´ as a´ un, en
+ocasiones es imposible definirlas. Por ejemplo
+EJEMPLO 2 Sean f : R → R definida por f (x) = 2x + 1 y g : R → R
+definida por g (x) = x 2. Entonces, ( g ◦ f )(x) = (2x + 1)2 mientras
+que (f ◦ g )(x) = 2x 2 + 1. Obviamente g ◦ f ̸= f ◦ g .
+EJEMPLO 3 Sean las funciones f : N → N y g : P → Z donde
+P = {2n | n ∈ N} es el conjunto de los n´ umeros naturales pares,
+definidas por f (n) = 2n y g (m) = −m
+Es posible definir g ◦ f : N → Z dada por ( g ◦ f )(n) = −2n.
+Pero no es posible definir f ◦ g , pues g (n) ∈ Z ̸= N, el dominio de f .
+Rodrigo Vargas (LIES) ´Algebra y composici´ on de funciones 25 de Abril de 2022 6 / 10
+----- pagina 7 -----
+´Algebra y composici´ on de funciones
+EJEMPLO 4 Sean f :] − ∞, 5[→ R, f (x) =
+√
+x 2 + 4.
+y g : [6, ∞[→ R, g (x) = 2x + 3. Defina la funci´ on compuestag ◦ f .
+Soluci´ onTenemos que el dominio de la funci´ on composici´ on es
+x ∈ Dom(g ◦ f ) ⇐ ⇒(x ∈ Dom(f )) ∧ (f (x) ∈ Dom(g ))
+⇐ ⇒(x < 5) ∧ (
+p
+x 2 + 4 ⩾ 6)
+⇐ ⇒(x < 5) ∧ (x ⩾
+√
+32 o x ⩽ −
+√
+32)
+⇐ ⇒x ⩽ −
+√
+32
+Por lo tanto, Dom( g ◦ f ) = (−∞, −
+√
+32].
+(g ◦ f )(x) = g (f (x)) = g (
+p
+x 2 + 4) = 2px 2 + 4 + 3 .
+Rodrigo Vargas (LIES) ´Algebra y composici´ on de funciones 25 de Abril de 2022 7 / 10
+----- pagina 8 -----
+´Algebra y composici´ on de funciones
+EJEMPLO 5 Sean g : R → R, g (x) = −3x + 1 y
+f (x) =
+
+
+
+x 2 + 5 si x < −1
+1 − x si x ⩾ −1
+Definir las funciones f ◦ g y g ◦ f .
+Soluci´ onTenemos que
+x ∈ Dom(f ◦ g ) ⇐ ⇒(x ∈ Dom(g )) ∧ (g (x) ∈ Dom(f ))
+⇐ ⇒(x ∈ R) ∧ (−3x + 1 ∈ R)
+⇐ ⇒x ∈ R
+Luego, Dom(f ◦ g ) = R.
+Rodrigo Vargas (LIES) ´Algebra y composici´ on de funciones 25 de Abril de 2022 8 / 10
+----- pagina 9 -----
+´Algebra y composici´ on de funciones
+Se tiene que
+(f ◦ g )(x) = f (−3x + 1) =
+
+
+
+(−3x + 1)2 + 5 si −3x + 1 < −1
+1 − (−3x + 1) si −3x + 1 ⩾ −1
+=
+
+
+
+9x 2 − 6x + 6 si x > 2/3
+3x si x ⩽ 2/3
+Ahora bien,
+x ∈ Dom(g ◦ f ) ⇐ ⇒(x ∈ Dom(f )) ∧ (f (x) ∈ Dom(g ))
+⇐ ⇒(x ∈ R) ∧ (f (x) ∈ R)
+⇐ ⇒x ∈ R
+Luego, Dom(g ◦ f ) = R.
+Rodrigo Vargas (LIES) ´Algebra y composici´ on de funciones 25 de Abril de 2022 9 / 10
+----- pagina 10 -----
+´Algebra y composici´ on de funciones
+Tenemos que
+(g ◦ f )(x) = g (f (x)) = −3f (x) + 1
+=
+
+
+
+−3(x 2 + 5) + 1 si x < −1
+−3(1 − x) + 1 si x ⩾ −1
+=
+
+
+
+−3x 2 − 14 si x < −1
+3x − 2 si x ⩾ −1
+Rodrigo Vargas (LIES) ´Algebra y composici´ on de funciones 25 de Abril de 2022 10 / 10

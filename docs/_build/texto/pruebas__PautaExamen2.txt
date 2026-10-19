@@ -1,0 +1,197 @@
+
+----- pagina 1 -----
+Pontiﬁcia Universidad Cat´ olica de Chile
+Facultad de Matem´ aticas
+Departamento de Matem´ atica
+09/diciembre/2024.
+MAT 1207
+Pauta Examen.
+Justiﬁque claramente sus respuestas.
+1. a) Determine un polinomio p(x) de grado 4, en que dos de sus ra´ ıces son 1 y −2 y
+1 es una ra´ ız de multiplicidad 2. Adem´ asp(0) = 4 y p(−1) = 20.
+Soluci´ on:
+a) Como 1 y −2 son dos ra´ ıces dep(x) y 1 es ra´ ız de multiplicidad 2, entoncesp(x)
+es divisible por (x− 1)2 y por (x + 2), adem´ as como ya tiene tres ra´ ıces reales, esto
+signiﬁca que las cuatro ra´ ıces son reales.
+b) Luego p(x) es de la forma:
+p(x) = (x− 1)2(x + 2)(ax +b)
+c) De acuerdo a las condiciones del problema:
+p(0) = 4 = ⇒ 2b = 4 = ⇒ b = 2
+p(−1) = 20 =⇒ 4(−a +b) = 20 =⇒ −a +b = 5
+
+
+ =⇒a =−3 ∧ b = 2
+d) As´ ıp(x) = (x− 1)(x + 2)(−3x + 2).
+Puntaje:
+0,5 puntos por la parte a).
+1 punto por la parte b).
+1 punto por la parte c).
+0,5 puntos por la parte d).
+----- pagina 2 -----
+b) Determine todas las ra´ ıces del polinomio
+p(x) =x3 +x + 10
+Soluci´ on:
+a) Supongamos que ab es una ra´ ız racional dep(x), entonces
+a|10
+b|1
+
+
+ =⇒
+a = ± 1,± 2,± 5,± 10
+b = ± 1
+
+
+ =⇒ ab =± 1,± 2,± 5,± 10
+b) Se tiene que p(−2) = 0, luego 2 es una ra´ ız dep(x), por lo tanto, x + 2 es un factor
+de p(x).
+c) Dividiendo p(x) por x + 2, se tiene que
+p(x) = (x + 2)(x2− 2x + 5)
+d) Las restantes ra´ ıces dep(x) se obtienen resolviendo:
+x2− 2x + 5 = 0 =⇒x = 2±√4− 202 = 2±√−162 = 2± 4i2 = 1± 2i
+e) Por lo tanto las 3 ra´ ıces dep(x) son:−2, 1 + 2i, 1− 2i.
+Puntaje:
+0,5 puntos por la parte a).
+0,5 puntos por la parte b).
+0,5 puntos por la parte c).
+1 punto por la parte d).
+0,5 puntos por la parte e).
+----- pagina 3 -----
+2. a) El tri´ angulo ∆ABC es rect´ angulo enC, AB =
+√
+70 y ∢BAC =α es tal que
+tan(α) = 3√5. Determine BC y el ´ area del tri´ angulo.
+Soluci´ on:
+a) Se tiene:
+b) Como tan(α) = 3√5, entonces
+a
+b = 3√5 =⇒a = 3b√5
+c) Usando Pit´ agoras, ya que el tri´ angulo es rect´ angulo, se tiene:
+a2 +b2 = 70 =⇒ 9b2
+5 +b2 = 70 =⇒ 14b25 = 70 =⇒b2 = 25 =⇒b = 5
+d) Luego BC =a = 3
+√
+5.
+e) Por ´ ultimo el ´ area del ∆ABC es:
+(∆ABC) = 12ab = 12 3√5· 5 = 15√52
+Puntaje:
+0,5 puntos por la parte a).
+0,5 puntos por la parte b).
+0,5 puntos por la parte c).
+0,5 puntos por la parte d).
+1 punto por la parte e).
+----- pagina 4 -----
+b) Resuelva la ecuaci´ on trigonom´ etrica:
+tan(x)− cot(x) = csc(x)
+Soluci´ on:
+tan(x)−cot(x) = csc(x) =⇒ tan(x)−cot(x)−csc(x) = 0 =⇒ sen(x)cos(x)−cos(x)sen(x)− 1sen(x) = 0
+=⇒ sen2(x)− cos2(x)− cos(x)sen(x) cos(x) = 0 =⇒ (1− cos2(x))− cos2(x)− cos(x)sen(x) cos(x) = 0
+=⇒−2 cos2(x)− cos(x) + 1sen(x) cos(x) = 0 =⇒− 2 cos2(x)− cos(x) + 1 = 0 (1)
+De donde se tiene:
+cos(x) = 1±√1 + 8−4 =⇒ cos(x) = 1± 3−4 =⇒
+
+
+
+cos(x) = −1 ( I)
+∨
+cos(x) = 12 (II ) (2)
+Para (I):
+cos(x) =−1 =⇒x =± arc cos(−1) +kπ , k∈ Z =⇒x =±π +kπ , k∈ Z (3)
+Para (II ):
+cos(x) = 12 =⇒x =± arc cos(12) +kπ , k∈ Z =⇒x =±π3 +kπ , k∈ Z (4)
+Puntaje:
+0,5 puntos hasta obtener (1).
+0,5 puntos hasta obtener (2)
+1 punto por (3).
+1 punto por (4).
+----- pagina 5 -----
+3. a) Calcule (1 −i)12 y exprese la respuesta en la forma a +bi.
+Soluci´ on:
+i) 1−i =
+√
+2 cis
+(7π
+4
+)
+.
+ii) Luego
+(1−i)12 =
+(√
+2 cis
+(7π
+4
+))12
+= 2 6 cis (21π)
+iii) Como
+cis (21π) = cis (20π +π) = cis (10· (2π) +π) = cis (π) =−1
+iv) Luego
+(1−i)12 =−2 6
+Puntaje:
+1 puntos por i).
+0,5 puntos por ii).
+1 punto por iii).
+0,5 puntos por iv).
+----- pagina 6 -----
+b) Determine A y B∈ R, sabiendo que w∈ C es ra´ ız c´ ubica de la unidad distinta de 1 y
+(1 +w)5 =A +Bw
+Soluci´ on:
+(1 +w)5 = (−w2)5 =−w10 =−w9·w =− *1(w3)3·w =−w
+Por lo tanto A = 0 y B =−1.
+Puntaje:
+1 puntos por usar el que 1 + w =−w2.
+0,5 puntos por obtener−w10
+1 punto por obtener−w
+0,5 puntos por concluir que A = 0 y B =−1.
+----- pagina 7 -----
+4. Determine las rectas tangentes a la circunferencia C de ecuaci´ on:
+C : (x− 2)2 + (y− 3)2 = 5
+que son paralelas a la recta y = 2x.
+Soluci´ on:
+i) La recta tangente T aC en un punto (x0,y o) est´ a dada por la ecuaci´ on desdoblada:
+(x0− 2)(x− 2) + (y0− 3)(y− 3) = 5
+ii) Como T debe ser paralela a la recta y = 2x entonces la pendiente de T debe ser 2, luego
+−x0− 2y0− 3 = 2 =⇒x0 = 8− 2y0
+iii) Como (x0.y0)∈C , entonces:
+(x0− 2)2 + (y0− 3)2 = 5 =⇒ (8− 2y0− 2)2 + (y0− 3)2 = 5 =⇒ (6− 2y0)2 + (y0− 3)2 = 5
+=⇒ 5y20− 30y0 + 40 = 0 =⇒y20− 6y0 + 8 = 0 =⇒ (y0− 4)(y0− 2) = 0
+=⇒yo = 4 ∨ y0 = 2
+iv) Luego los puntos de tangencia son (0 , 4) y (4, 2).
+v) De donde las rectas tangentes a C paralelas a la recta y = 2x son:
+T1 :y = 2x + 4
+T2 :y = 2x− 6
+Puntaje:
+1 puntos por i).
+1 punto por ii).
+2 puntos por iii).
+1 punto por iv).
+1 punto por v).
+----- pagina 8 -----
+5. Dada la elipse E de ecuaci´ on:
+x2
+36 + y216 = 1
+a) Determine los focos y v´ ertices deE.
+Soluci´ on:
+Como el eje de la elipse es el eje X, entonces los v´ ertices son (± 6, 0).
+Adem´ asc2 = 36− 16 = 20, luego los focos son (±√20, 0).
+Puntaje:
+1 puntos por los v´ ertices.
+2 puntos por los focos.
+b) Determine la ecuaci´ on de la hip´ erbolaH que tiene por focos y v´ ertices respectivamente,
+los v´ ertices y los focos de la elipseE.
+Soluci´ on:
+i) Como la hip´ erbola tiene focos y v´ ertices que son respectivamente los v´ ertices y los
+focos de la elipse, entonces el eje de la hip´ erbola es el ejeX, luegoH es de la forma:
+H : x2
+a2− y2b2 = 1
+ii) Como los v´ ertices son (±
+√
+20, 0), entonces a2 = 20.
+iii) Por otra parte como los focos son ( ± 6, 0), entonces c2 = 36 y como
+c2 =a2 +b2 =⇒ 36 = 20 +b2 =⇒b2 = 16
+iv) As´ ı la ecuaci´ on de la hip´ erbolaH es:
+H : x2
+20− y216 = 1
+Puntaje:
+1 punto por i).
+0,5 puntos por ii).
+1 punto por iii).
+0,5 puntos por iv).

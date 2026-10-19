@@ -1,0 +1,79 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Rodrigo V argas
+Ayudantes: Mateo de la Cuadra y Math´ıas Luengo
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 10
+25 de Mayo 2023
+Pregunta 1
+Resuelva los siguientes problemas de poblaci´ on:
+a) Una comunidad de conejos ha sido liberada en una isla perdida. Se ha estimado que el nivel
+de crecimiento de dicha poblaci´ on est´ a dado por
+N (t) = N0e0,1t
+siendo t medido en meses y N0 el n´ umero de conejos existentes al ser liberados en la isla.
+Determine el tiempo transcurrido para que la poblaci´ on se haya triplicado.
+b) Si se detuviera de repente la contaminaci´ on del lago Erie, se ha estimado que el nivel de
+contaminantes decrecer ´ ıa de acuerdo con la f´ ormula
+C(t) = C0e− t4
+donde t est´ a en a˜ nos yC0 es el nivel de contaminantes cuando se dej´ o de contaminar. ¿Cu´ antos
+a˜ nos tomar´ a eliminar el 50 % de los contaminantes?
+Pregunta 2
+La poblaci´ on de cierta naci´ on en desarollo se determin´ o que est´ a dada por medio de la f´ ormula
+P = 15e0,02t
+donde t es el n´ umero de a˜ nos medidos a partir de 1960 (en millones de personas). Determine la
+poblaci´ on en 1980 y la poblaci´ on proyectada en 2000.
+Repaso I6
+Pregunta 3
+Sean f1(x) = 2x, f2(x) = x − 3, f3(x) = −x, donde f1 : R → (0, ∞) y f2, f3 : R → R.
+1
+----- pagina 2 -----
+a) Halle el orden de las composiciones para obtener la funci´ on
+f (x) = −3 −
+ 1
+2
+x−3
+.
+b) Pruebe que f es invertible. Demuestre que la funci´ onf −1 − (f −12 ◦ f −13 ◦ f −11 ◦ f −13 ◦ f −12 ) no
+es invertible.
+c) Halle una funci´ onh(x) tal que f −1 ◦ h(x) = √x.
+Pregunta 4
+Resuelva los siguientes problemas sobre funciones definidas a trozos:
+a) Considere la funci´ onf : R → R dada por
+f (x) =
+ x3 + 2 si x ≤ 0
+3x + 2 si x >0 .
+Asuma que es biyectiva (demu´ estrelo, es un buen ejercicio) y hallef −1.
+b) Considere x0 < x1, dos reales y la funci´ on
+f (x) =
+ f1(x) si x ≤ x0
+f2(x) si x ≥ x1
+.
+Donde f1(x0) = f2(x1) y f1 : (−∞, x0] → (−∞, f1(x0)], f2 : [x1, ∞) → [f2(x1), ∞). Demuestre
+que incluso si f1, f2 son biyecciones, f no es invertible.
+c) Considere la misma funci´ on de la parte anterior. Demuestre que existe una restricci´ on para
+f1, o bien, f2 que hace a f invertible.
+d) Halle una inversa para f de la parte anterior.
+Pregunta 5
+Resuelva las siguientes ecuaciones:
+a.) Sabiendo que a2 + b2 = 7ab, con a, b̸= 0, demuestre que:
+log(( 13 ) · |a + b|) = ( 12 ) · (log |a| + log |b|)
+b.)
+ex − 5e−x + 4e−3x = 0
+c.)
+log(35 − x3)
+log(5 − x) = 3
+2
+----- pagina 3 -----
+Pregunta 6
+Encuentre las funciones inversas correspondientes:
+a.) f (x) = e2x+1
+b.) Encontrar h−1 tal que g(x) ◦ h(x) = f (x), donde,
+g(x) = √x + 3
+f (x) =
+q
+1+3x
+x
+3

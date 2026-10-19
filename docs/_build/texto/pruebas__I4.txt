@@ -1,0 +1,89 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2023
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 4
+1. (a) (3pts) Suponga que un familiar dispone de un terreno, en el c ual quiere hacer un huerto en forma
+rectangular. Para evitar que los animales se coman las frutas y verd uras que crecer´ an en ´ el, desea
+cercarlo. Un lado del terreno colinda con la propiedad de un vecino, p or lo que no necesitar´ a cercar
+ese lado. Adem´ as, su familiar tambi´ en quiere usar material para separar el huerto rectangular en
+dos secciones (ver Figura 1). El presupuesto con que cuenta su f amiliar le permite comprar 80
+metros de cerca para usar en el per ´ ımetro y la secci´ on que dividir´a el huerto. Plantee un problema
+de optimizaci´ on deuna inc´ ognita, que le permita a su familiar maximizar el uso del terreno. No
+debe resolver el problema.
+Figura 1: Plano esquem´ atico del huerto y la cerca con divisi´ on a con struir
+(b) (3pts) Sea λ ∈ R. Considere la funci´ on deﬁnida por f (x) = 3 x2 + λx + 10. Escriba la funci´ on
+cuadr´ atica en su forma normal y determine el o los valores que pue de tomar λ de forma que el
+valor de m ´ ınimo de la funci´ on sea−2.
+Soluci´ on.
+(a) De la ﬁgura vemos que 80 = 3 y + x. Para utilizar la mayor cantidad de terreno, se debe maximizar
+el ´ area del huerto, es decir, xy. Despejando x de la primera ecuaci´ on, tenemos x = 80 − 3y, e
+insertando en la segunda, encontramos la funci´ on a maximizar de un a variable (s´ olo depende de
+y)
+A(y) = (80 − 3y)y.
+An´ alogamente, despejandoy de la primera ecuaci´ on e insertando en la segunda, se encuentra la
+funci´ on a maximizar
+A(x) = x(80 − x)3 .
+(b) Tenemos
+f (x) = 3
+(
+x2 + λ3 x) + 10 = 3 (x + λ6 )2 − λ212 + 10,
+----- pagina 2 -----
+que corresponde a la forma normal de la funci´ on cuadr´ atica. El m ´ ınimo de la funci´ on se alcanza
+en − λ6 , y su valor es − λ212 + 10. Luego, para encontrar λ, resolvemos
+− λ2
+12 + 10 = −2 ⇐ ⇒ λ2 = 144 ⇐ ⇒ λ = ±12.
+Puntaje Pregunta 1.
+Respecto a la parte (a)
+1 punto por obtener la condici´ on 80 = 3 y + x.
+1 punto por se˜ nalar que se debe maximizar el ´ area A = xy.
+1 punto por escribir el problema de maximizaci´ on con respecto a una sola de las variables (ya sea
+en funci´ on dex ´ o dey).
+Respecto a la parte (b)
+1 punto por escribir la funci´ on en forma normal.
+1 punto por encontrar el valor de m ´ ınimo (identiﬁcar el punto donde el m ´ ınimo se alcanza no tiene
+puntaje).
+1 punto por obtener λ = ±12 (0.5 puntos por obtener cada valor).
+----- pagina 3 -----
+2. Considere la funci´ on r(x) = x − 1x2 − x − 6.
+a) Determine los ceros, signos y la intersecci´ on con el eye Y de la funci´ onr .
+b) Determine las as ´ ıntotas verticales y horizontales (si es que exist en) de r.
+c) Trace la gr´ aﬁca de r.
+Soluci´ on.
+a) Los ceros de r satisfacen r(x) = 0 ⇐ ⇒x − 1 = 0 ⇐ ⇒x = 1. Luego, r tiene un ´ unico cero enx = 1.
+Factorizando el numerador vemos que
+r(x) = x − 1x2 − x − 6 = x − 1(x − 3)(x + 2) .
+Realizando una tabla de signos se obtienen los signos de la funci´ on:
+x − 1 − − + +
+x − 3 − − − +
+x + 2 − + + +
+− + − +
+−∞ − 2 1 3 ∞
+La intersecci´ on con el eje Y ocurre cuando x = 0 =⇒ y = r(0) = 16, entonces la curva y = r(x)
+corta al eje Y en (0 , 16 ).
+b) El grado del numerador de r(x) es menor que el grado del denominador, luego por el teorema de
+las as ´ ıntotas horizontales, el ejeX es una as ´ ıntota horizontal. Notemos que el denominador es cero
+cuando x = 3 y x = −2, luego las rectas x = 3 y x = −2 son as ´ ıntotal verticales der.
+c) El gr´ aﬁco de la funci´ onr se muestra a continuaci´ on
+1
+2
+3
+4
+5
+−1
+−2
+−3
+−4
+−5
+1 2 3 4 5−1−2−3−4−5 X
+Y
+----- pagina 4 -----
+Puntaje Pregunta 2.
+1 punto por realizar la tabla de signos.
+1 punto por hallar los ceros y la intersecci´ on con el eje Y .
+1 punto por determinar las as ´ ıntotas verticales.
+1 punto por determinar las as ´ ıntotas horizontales.
+2 puntos por trazar la gr´ aﬁca.

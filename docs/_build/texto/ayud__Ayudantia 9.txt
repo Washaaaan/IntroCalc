@@ -1,0 +1,28 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Godofredo Iommi – Ayudante: Rodrigo Galaz
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 9
+20 de Octubre de 2023
+1. Resuelva las siguientes ecuaciones:
+a) exp(x) = exp(−x)
+b) (exp(x))10 = 2 exp(2x)
+c) 5x − 25x = −6
+d ) x22x − 2x = 0
+2. Expanda las siguientes expresiones:
+a) log5
+q
+x−1
+x+1
+b) log
+q
+x
+p
+y√z
+3. Combine las siguientes expresiones:
+a) 4 logx − 13 log(x2 + 1) + 2 log(x − 1)
+b) ln 5 + 2 lnx + 3 ln(x2 + 5)
+1

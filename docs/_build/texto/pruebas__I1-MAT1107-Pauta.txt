@@ -1,0 +1,139 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Estad´ıstica
+Primer Semestre 2026
+Introducci´ on al C´ alculo - MAT1107
+Interrogaci´ on N° 1
+Pregunta N º 1. Consid´ erese el polinomioP (x) = 4 x6 + 2x5 − 2x4 − 4x3 + 3x − 1.
+(a) [1.5 puntos] Aplique el algoritmo de la divisi´ on para dividir P (x) por 2 x−1, indicando expl ´ ıcitamente
+el cociente y el resto.
+(b) [1.5 puntos] Utilizando el Teorema del Resto, veriﬁque que el re sto obtenido en la divisi´ on anterior
+es cero.
+(c) [1.5 puntos] Determine, usando el Teorema del Factor, si x + 1 es un factor del polinomio P (x).
+(d) [1.5 puntos] Demuestre que 2 x4 − 2x + 1 tambi´ en es un factor del polinomio P (x) y entregue una
+factorizaci´ on deP (x) con tres factores.
+Soluci´ on.
+(a) Aplicando el algoritmo de la divisi´ on (Regla de Ruﬃni), vemos que:
+4x6 + 2x5 − 2x4 − 4x3 + 3x − 1 : 2 x − 1 = 2 x5 + 2x4 − 2x2 − x + 1
+− (4x6 − 2x5)
+4x5 − 2x4 − 4x3 + 3x − 1
+− (4x5 − 2x4)
+−4x3 + 3x − 1
+− (−4x3 + 2x2)
+−2x2 + 3x − 1
+− (−2x2 + x)
+2x − 1
+− (2x − 1)
+0
+Entonces, el cociente de la divisi´ on es Q(x) = 2 x5 + 2x4 − 2x2 − x + 1 y el resto es 0.
+(b) Por el Teorema del Resto, el resto obtenido al dividir P (x) por 2 x − 1 = 2( x − 12) es
+P
+(1
+2
+)
+= 426 + 225 − 224 − 423 + 32 − 1 = 124 + 124 − 123 − 12 + 32 − 1 = 123 − 123 + 1 − 1 = 0 ,
+lo cual coincide con el resultado obtenido en el inciso (a).
+----- pagina 2 -----
+(c) Por el Teorema del Factor, x + 1 es factor de P (x) si y solo si −1 es ra ´ ız deP (x). En este caso,
+vemos que
+P (−1) = 4( −1)6 + 2(−1)5 − 2(−1)4 − 4(−1)3 − 3 − 1 = 4 − 2 − 2 + 4 − 4 = 0 .
+Por ende, −1 es ra ´ ız deP (x) y x + 1 es factor de P (x).
+(d) Por los incisos (a) y (c) tenemos que (2 x − 1)(x + 1) = 2 x2 + x − 1 es factor de P (x). Realizando la
+divisi´ on se tiene que
+4x6 + 2x5 − 2x4 − 4x3 + 3x − 1 : 2 x2 + x − 1 = 2 x4 − 2x + 1
+− (4x6 + 2x5 − 2x4)
+−4x3 + 3x − 1
+− (−4x3 − 2x2 + 2x)
+2x2 + x − 1
+− (2x2 + x − 1)
+0
+Por lo tanto, obtenemos la siguiente factorizaci´ on (con tres fact ores) de P (x):
+P (x) = (2 x − 1)(x + 1)(2x4 − 2x + 1).
+Criterio de Correcci´ on (CC) - Pregunta N º 1.
+(CC1) [(a)] 1.5 puntos por obtener el cociente y el resto de la divisi´ on.
+(CC2) [(b)] 1.5 puntos por veriﬁcar que el resto es cero usando el Teorema del Resto.
+(CC3) [(c)] 1.5 puntos por veriﬁcar que −1 es ra ´ ız y concluir que (x + 1) es factor.
+(CC4) [(d)] 1.5 puntos por demostrar (a trav´ es de la divisi´ on de po linomios) que 2 x4 − 2x + 1 es un factor
+de P (x), y obtener la sucesiva factorizaci´ on de P (x).
+----- pagina 3 -----
+Pregunta N º 2. Consid´ erese el polinomioP (a) = 4 a3 + 4a2 − 19a + 6.
+(a) [1 punto] Veriﬁque que a = 32 es ra ´ ız deP (a).
+(b) [3 puntos] Aplique el algoritmo de la divisi´ on para dividir P (a) por 2 a − 3, indicando expl ´ ıcitamente
+el cociente y el resto.
+(c) [2 puntos] Factorice completamente el polinomio P (a).
+Soluci´ on.
+(a) Evaluamos directamente:
+P
+( 3
+2
+)
+= 4 · 33
+23 + 4 · 3222 − 19 · 32 + 6 = 272 + 9 − 572 + 6 = 0 .
+(b) Aplicando el algoritmo de la divisi´ on (Regla de Ruﬃni), vemos que:
+4a3 + 4a2 − 19a + 6 : 2 a − 3 = 2 a2 + 5a − 2
+− (4a3 − 6a2)
+10a2 − 19a + 6
+− (10a2 − 15a)
+−4a + 6
+− (−4a + 6)
+0
+Entonces, el cociente de la divisi´ on es Q(a) = 2 a2 + 5a − 2 y el resto es 0.
+(c) En base al resultado del inciso (b), debemos determinar las ra ´ ıces reales (en caso de que existan) del
+polinomio Q(a). Para ello, resolvemos la ecuaci´ on cuadr´ aticaQ(a) = 0, cuyo discrimante es
+∆ = 25 − 4 · 2 · (−2) = 25 + 16 = 41 .
+Por ende, las dos soluciones reales de la ecuaci´ on Q(a) = 0 ser´ an
+−5 −
+√
+41
+4 y −5 +
+√
+41
+4 ,
+y as ´ ı:
+Q(a) = 2
+(
+a + 5 +
+√
+41
+4
+)(
+a + 5 −
+√
+41
+4
+)
+=
+(
+2a + 5 +
+√
+41
+2
+)(
+a + 5 −
+√
+41
+4
+)
+.
+Esto nos permite factorizar completamente el polinomio P (a), de la siguiente forma:
+P (a) = (2 a − 3)
+(
+2a + 5 +
+√
+41
+2
+)(
+a + 5 −
+√
+41
+4
+)
+.
+----- pagina 4 -----
+Criterio de Correcci´ on (CC) - Pregunta N º 2.
+(CC1) [(a)] 1 punto por evaluar correctamente P (3/2).
+(CC2) [(b)] 3 puntos por obtener el cociente y el resto de la divisi´ o n en base a la Regla de Ruﬃni.
+(CC3) [(c)] 1 punto por calcular correctamente las ra ´ ıces del polin omio Q(a), y factorizarlo adecuadamente.
+(CC4) [(c)] 1 punto por entregar la factorizaci´ on completa de P (a).

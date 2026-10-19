@@ -1,0 +1,121 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer Semestre 2025
+Introducci´ on al C´ alculo - MAT1107
+Interrogaci´ on N° 6
+1. Calcule el siguiente l ´ ımite
+lim
+n→∞
+3√n2 + 1
+n + 1 .
+Soluci´ on.Ampliﬁcando por 1 /n se obtiene que
+lim
+n→∞
+3√n2 + 1
+n + 1 = limn→∞
+3√n2 + 1
+n + 1 ·
+1
+n
+1
+n
+= lim
+n→∞
+3√n2 + 1
+n
+n + 1
+n
+= lim
+n→∞
+3
+√
+n2 + 1
+n3
+n + 1
+n
+= lim
+n→∞
+3
+√
+1
+n + 1n3
+1 + 1n = 01 = 0
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 2 puntos por ampliﬁcar la fracci´ on por 1 /n.
+CC 2. 2 puntos por ingresar n dentro de la ra ´ ız c´ ubica
+CC 3. 2 puntos por determinar el l ´ ımite.
+----- pagina 2 -----
+2. Calcule el siguiente l ´ ımite
+lim
+n→∞
+(
+√
+n2 + 5n + 6 − n) .
+Soluci´ on.Se tiene que
+lim
+n→∞
+(
+√
+n2 + 5n + 6 − n) = lim
+n→∞
+(
+√
+n2 + 5n + 6 − n) · (
+√
+n2 + 5n + 6 + n)
+(
+√
+n2 + 5n + 6 + n)
+= lim
+n→∞
+(
+√
+n2 + 5n + 6)2 − n2
+√
+n2 + 5n + 6 + n
+= lim
+n→∞
+5n + 6√
+n2 + 5n + 6 + n
+= lim
+n→∞
+5n + 6√
+n2 + 5n + 6 + n ·
+1
+n
+1
+n
+= lim
+n→∞
+5 + 6n√
+1 + 5n + 6n2 + 1
+= 5√1 + 1 = 52
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 2 puntos por ampliﬁcar la fracci´ on por
+√
+n2 + 5n + 6 + n.
+CC 2. 2 puntos por ampliﬁcar por 1 /n.
+CC 3. 2 puntos por determinar el l ´ ımite.
+----- pagina 3 -----
+3. Demuestre, usando la deﬁnici´ on de l ´ ımite, que la sucesi´ onan = 2n + 3n + 2 converge a L = 2.
+Soluci´ on.Dado ε > 0 debemos encontrar N tal que si n /greaterorequalslant N, entonces
+|an − L| =
+⏐⏐⏐⏐2n + 3n + 2 − 2⏐⏐⏐⏐ = ⏐⏐⏐⏐2n + 3 − 2(n + 2)n + 2 ⏐⏐⏐⏐ = ⏐⏐⏐⏐ −1n + 2 ⏐⏐⏐⏐ = 1n + 2
+debe ser menor que ε. Imponiendo la condici´ on despejamos n.
+Para que 1n + 2 < ε es necesario y suﬁciente que 1ε − 2 < n.
+As ´ ı, usando la propiedad arquimediana, dado el n´ umeroa = 1ε −2 existe un N ∈ N tal que N > 1ε −2,de modo que si n /greaterorequalslant N, entonces
+n > 1ε − 2 .
+Despejando ε obtenemos que si n /greaterorequalslant N, entonces
+1
+ε < n + 2 =⇒ 1n + 2 < ε =⇒ |an − L| < ε .
+Por lo tanto, hemos probado que lim
+n→∞
+2n + 3
+n + 2 = 2.
+Criterio de Correcci´ on (CC) Pregunta 3.
+CC 1. 2 puntos determinar |an − L| = 1n+2
+CC 2. 2 puntos por utilizar la propiedad arquimediana, encontrando N.
+CC 3. 2 puntos por concluir la demostraci´ on.

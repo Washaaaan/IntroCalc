@@ -1,0 +1,35 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Profesor: Alejandra Schild
+Ayudantes: Gustavo Blanco y Esteban V ´asquez
+Ayudant ´ ıa 8 – MAT1107
+Primer Semestre 2024
+Pregunta 1
+Determine una formula para el n-´ esimo t´ ermino de la siguiente sucesi´ on.
+√
+2,
+q
+2
+√
+2,
+r
+2
+q
+2
+√
+2, ...
+Pregunta 2
+Se tiene una progresi´ on geometrica, cuyo d´ ecimo t´ ermino es 55/2 y el segundo es 7/2. Se le pide obtener
+el primer t´ ermino de esta sucesi´ on.
+Pregunta 3
+Calcule la suma de los multiplos de 3 que son menores a 100.
+Pregunta 4
+Calcule el valor de
+S =
+201X
+k=7
+1
+(k + 1)(k + 3)
+1

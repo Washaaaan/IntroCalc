@@ -1,0 +1,78 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2024
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 6
+1. Considere funciones f : R → [3, +∞) y g : [3 , +∞) → R dadas por
+f (x) = ( x − 1)2 + 3 , g (x) = √x − 3 + 1.
+Determine las funciones f ◦ g y g ◦ f , y decida si f es o no invertible.
+Soluci´ on.Notemos que ambas composiciones est´ an bien deﬁnidas. Si x ∈ [3, +∞), entonces
+(f ◦ g) (x) =
+(√
+x − 3 + 1 − 1
+)2
++ 3 =
+(√
+x − 3
+)2
++ 3 = x − 3 + 3 = x.
+Por lo tanto, f ◦ g = id [3,+∞).
+Ahora sea x ∈ R. Entonces
+(g ◦ f ) (x) =
+√
+(x − 1)2 + 3 − 3 + 1 =
+√
+(x − 1)2 + 1 = |x − 1| + 1.
+Como g ◦ f ⁄= id R, f y g no son inversas una de la otra. De hecho, f no es invertible porque no es
+inyectiva (por ejemplo, se cumple que f (0) = f (2)).
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 2 puntos por determinar f ◦ g.
+CC 2. 2 puntos por determinar g ◦ f .
+CC 3. 2 puntos por mostrar que f no es invertible.
+----- pagina 2 -----
+2. Considere la sucesi´ on {Fn}n∈N deﬁnida por los t´ erminos iniciales F1 = 1, F2 = 1 y la recursi´ on
+Fn = Fn−1 + Fn−2 ∀n ≥ 3.
+a) Demuestre que
+Fn
+Fn−1
+≤ 2 ∀n ≥ 2.
+b) Demuestre que
+3
+2 ≤ FnFn−1 ∀n ≥ 3.
+Soluci´ on.
+a) Notemos que todos los t´ erminos de la sucesi´ on son positivos, pu es F1 > 0, F2 > 0 y los dem´ as
+t´ erminos se obtienen sumando los dos t´ erminos que lo preceden (e sto se puede justiﬁcar usando
+inducci´ on). De esto concluimos tambi´ en que la sucesi´ on es no decreciente, pues para todo n ≥ 3
+tenemos que
+Fn = Fn−1 + Fn−2 ≥ Fn−1 + 0 = Fn−1.
+Si n = 2, entonces FnFn−1 = 11 = 1 ≤ 2. Por otro lado, si n ≥ 3, tenemos que
+Fn
+Fn−1
+= Fn−1 + Fn−2
+Fn−1
+= 1 + Fn−2
+Fn−1
+≤ 1 + Fn−1
+Fn−1
+= 1 + 1 = 2 .
+b) Si n ≥ 3, por la parte (a) tenemos que
+0 < Fn−1
+Fn−2
+≤ 2 ⇐ ⇒ 12 ≤ Fn−2Fn−1 .
+Con esto, tenemos que
+Fn
+Fn−1
+= Fn−1 + Fn−2
+Fn−1
+= 1 + Fn−2
+Fn−1
+≥ 1 + 12 = 32.
+Obsevaci´ on:No es necesario que el estudiante justiﬁque por inducci´ on que la su cesi´ on es positiva.
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 1,5 puntos por mostrar que la sucesi´ on {Fn} es no decreciente.
+CC 2. 1,5 puntos por mostrar que Fn/Fn−1 ⩽ 2 para todo n /greaterorequalslant 2.
+CC 3. 1,5 puntos por concluir que Fn−2/Fn−1 /greaterorequalslant 1/2.
+CC 4. 1,5 puntos por mostrar que Fn/Fn−1 /greaterorequalslant 3/2 para todo n /greaterorequalslant 3.

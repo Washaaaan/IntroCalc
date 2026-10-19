@@ -1,0 +1,82 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Funci´ on Racional 13 de Abril de 2022 1 / 8
+Funciones racionales
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+13 de Abril de 2022
+----- pagina 2 -----
+Funciones racionales
+Definici´ on (Funciones racionales)
+Una funci´ on racional es de la forma
+f (x) = P(x)Q(x) = anx n + · · ·+ a1x + a0bmx m + · · ·+ b1x + b0
+donde P(x) y Q(x) son funciones polin´ omicas.
+El dominio de una funci´ on racional es R salvo los puntos en donde la
+funci´ onQ se anula, es decir
+Dom(f ) = R \ {x ∈ R | Q(x) = 0} .
+Rodrigo Vargas (LIES) Funci´ on Racional 13 de Abril de 2022 2 / 8
+----- pagina 3 -----
+Funciones racionales
+Definici´ on. (As ´ ıntotas verticales y horizontales)
+1 La recta x = a es una as ´ ıntota verticalde la funci´ ony = f (x) si
+y se aproxima a ±∞ cuando x se aproxima a a por la derecha o
+la izquierda
+ycuandox ycuandox ycuandox ycuandox
+2 La recta y = b es una as ´ ıntota horizontalde la funci´ on
+y = f (x) si y se aproxima a b cuando x se aproxima a ±∞.
+y bcuandox y bcuandox
+Rodrigo Vargas (LIES) Funci´ on Racional 13 de Abril de 2022 3 / 8
+----- pagina 4 -----
+Funciones racionales
+Observaci´ onUna funci´ on racional de la forma
+r (x) = ax + bcx + d
+puede graficarse al desplazar, estirar o reflejar la gr´ afica de f (x) = 1x .
+EJEMPLO 1 Grafique la funci´ on racional, y exprese el dominio y
+recorrido
+1 r (x) = 2x − 3
+ 2 s(x) = 3x + 5x + 2
+Rodrigo Vargas (LIES) Funci´ on Racional 13 de Abril de 2022 4 / 8
+----- pagina 5 -----
+Funciones racionales
+Teorema. (As ´ ıntotas de Funciones racionales)
+Sea r la funci´ on racional
+r (x) = anx n + an−1x n−1 + · · ·+ a1x + a0
+bmx m + bm−1x m−1 + · · ·+ b1x + b0
+1 Las as ´ ıntotas verticales der son las recta x = a, donde a es un
+cero del denominador.
+2
+ a Si n < m, entonces r tiene as ´ ıntota horizontaly = 0.
+b Si n = m, entonces r tiene as ´ ıntota horizontaly = an
+bm
+.
+c Si n > m, entonces r no tiene as ´ ıntota horizontal.
+Rodrigo Vargas (LIES) Funci´ on Racional 13 de Abril de 2022 5 / 8
+----- pagina 6 -----
+Funciones racionales
+EJEMPLO 2 Hallar las as ´ ıntotas vertical y horizontal de
+r (x) = 3x 2 − 2x − 12x 2 + 3x − 2 .
+Rodrigo Vargas (LIES) Funci´ on Racional 13 de Abril de 2022 6 / 8
+----- pagina 7 -----
+Funciones racionales
+Trazado de gr´ aficas de funciones racionales
+1 Factorizar. Factorice el numerador y denominador.
+2 Puntos de intersecci´ on.Encuentre los puntos de intersecci´ onx
+al determinar los ceros del numerador, as ´ ı como los puntos de
+intersecci´ ony a partir del valor de la funci´ on en x = 0.
+3 As ´ ıntotas verticales.Encuentre las as ´ ıntotas verticales al
+determinar los ceros del denominador y, a continuaci´ on, vea si
+y → ∞o y → −∞en cada lado de cada as ´ ıntota vertical
+mediante el uso de valores de prueba.
+4 As ´ ıntota horizontal.Encuentre la as ´ ıntota horizontal (si la hay).
+5 Trazar la gr´ afica.Grafique la informaci´ on dada por los primeros
+cuatro pasos.
+Rodrigo Vargas (LIES) Funci´ on Racional 13 de Abril de 2022 7 / 8
+----- pagina 8 -----
+Funciones racionales
+EJEMPLO 3 Grafique r (x) = 2x 2 + 7x − 4x 2 + x − 2 y exprese dominio y
+recorrido.
+EJEMPLO 4 Grafique r (x) = 5x + 21x 2 + 10x + 25 y exprese dominio y
+recorrido.
+Rodrigo Vargas (LIES) Funci´ on Racional 13 de Abril de 2022 8 / 8

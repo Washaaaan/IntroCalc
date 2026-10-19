@@ -1,0 +1,46 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Godofredo Iommi – Ayudante: Rodrigo Galaz
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 11
+10 de Noviembre de 2023
+1. Calcule las siguientes sumas:
+a)
+nX
+k=1
+log
+
+1 + 1k 
+b)
+nX
+k=1
+k + 2
+k(k + 1)2k
+c)
+nX
+k=2
+n
+k
+ 1
+2 + 122 + . . .+ 12k
+
+2. Determine una f´ ormula para eln−´ esimo t´ ermino de la sucesi´ on
+√
+2,
+q
+2
+√
+2,
+r
+2
+q
+2
+√
+2, . . .
+3. Grafique 2 x − 5
+4. Determine el dominio de f (x) = ln(4 − x2)
+5. Sean f (x) = 2x y g(x) = x2 + 1. Determine f ◦ g.
+1

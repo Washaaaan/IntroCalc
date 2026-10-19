@@ -1,0 +1,96 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2023
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 7
+1. Sean {an} una progresi´ on geom´ etrica y{bn} una progresi´ on aritm´ etica tales que los primeros 3 t´ erminos
+de cada sucesi´ on son
+a1 = a , a 2 = 10 , a 3 = c , b 1 = a − 1 , b 2 = 8 , b 3 = c − 8 ,
+donde a y c son n´ umeros reales. Determine los valores de las constantes a y c.
+Soluci´ on.Si {an} es progresi´ on geom´ etrica entonces
+a2
+a1
+= a3
+a2
+⇐ ⇒10a = c10 ⇐ ⇒ ac = 100 (∗)
+Si {bn} es progresi´ on aritm´ etica entonces
+b2 − b1 = b3 − b2 ⇐ ⇒8 − (a − 1) = ( c − 8) − 8 ⇐ ⇒ a + c = 25
+(∗∗)
+Sustituyendo (∗∗) en ( ∗) se obtiene la ecuaci´ ona2 − 25a + 100 = 0 cuyas soluciones son a = 20 o a = 5.
+Entonces, si a = 20 =⇒ c = 5 y si a = 5 =⇒ b = 20.
+Puntaje Pregunta 1.
+2 puntos por obtener la relaci´ on (∗)
+2 puntos por obtener la relaci´ on (∗∗)
+2 puntos por resolver el sistema ( ∗) y ( ∗∗).
+----- pagina 2 -----
+2. Calcule n∑
+k=1
+(k2 + 1)k!.
+Sugerencia: muestre primero que ( k2 + 1)k! = k(k + 1)! − (k − 1)k!.
+Soluci´ on.Mostremos primero lo indicado en la sugerencia. Tenemos
+k(k + 1)! − (k − 1)k! = k(k + 1)k! − (k − 1)k! = [ k(k + 1) − (k − 1)]k! = ( k2 + 1)k!.
+Deﬁniendo ak = (k − 1)k!, vemos que la suma que se quiere calcular se puede escribir como una s uma
+telesc´ opica, y por lo tanto
+n∑
+k=1
+(k2 + 1)k! =
+n∑
+k=1
+[ak+1 − ak] = an+1 − a1 = n(n + 1)! − 0 · 1! = n(n + 1)!.
+Puntaje Pregunta 2.
+3 puntos por mostrar lo indicado en la sugerencia y 3 puntos por calcu lar la suma usando la
+estructura de una suma telesc´ opica.
+----- pagina 3 -----
+3. Use el teorema del binomio para mostrar que, para n ∈ N y x ⁄= 0, se tiene
+(1 + x)n+1 − 1
+(n + 1)x =
+n∑
+k=0
+1
+k + 1
+(n
+k
+)
+xk.
+Sugerencia: puede usar (sin demostrar) que
+(n+1
+k+1
+)
+= n+1k+1 (nk).
+Soluci´ on.Calculamos
+(1 + x)n+1 − 1 =
+n+1∑
+k=0
+(n + 1
+k
+)
+1n+1−kxk − 1
+=
+n+1∑
+k=1
+(n + 1
+k
+)
+xk
+=
+n∑
+k=0
+(n + 1
+k + 1
+)
+xk+1
+= x(n + 1)
+n∑
+k=0
+1
+k + 1
+(n
+k
+)
+xk.
+Dividiendo ambos lados por x(n + 1), se obtiene el resultado.
+Puntaje Pregunta 3.
+1.5 puntos por cada una de las 4 igualdades del desarrollo (no tiene pu ntaje dividir por x(n + 1)).

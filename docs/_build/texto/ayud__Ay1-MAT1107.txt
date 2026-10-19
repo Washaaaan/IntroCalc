@@ -1,0 +1,19 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Profesor: Alejandra Schild
+Ayudantes: Gustavo Blanco y Esteban V ´asquez
+Ayudant ´ ıa 14 – MAT1107
+Primer Semestre 2024
+Pregunta 1 Dados los n´ umeros reales positivos a, bdemuestre la desigualdad de las medias aritm´ etica y
+geom´ etrica: √
+ab ≤ a + b2
+¿En cuales casos se cumple la igualdad?
+Pregunta 2Demostrar que si a, b, c ∈ R+ entonces:
+(a + b + c)(bc + ca + ab) ≥ 9 abc
+¿Cuando se cumple la igualdad de forma estricta?
+Pregunta 3Sean x, y∈ R
+a) ¿Bajo qu´ e condiciones se cumple|x + y| = |x| + |y|?
+b) Demuestre que ||x| − |y|| ≤ |x − y|
+1

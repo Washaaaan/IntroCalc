@@ -1,0 +1,95 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2024
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 7
+1. Determine el coeﬁciente de x20 en la expansi´ on de
+(
+x3 − 2x2
+)10
+.
+Soluci´ on.Usando el teorema del binomio, obtenemos que
+(
+x3 − 2x2
+)10
+=
+10∑
+k=0
+(10
+k
+) (
+x3)10−k
+(−2
+x2
+)k
+=
+10∑
+k=0
+(10
+k
+)
+(−2)kx30−3kx−2k
+=
+10∑
+k=0
+(10
+k
+)
+(−2)kx30−5k.
+Necesitamos x30−5k = x20, por lo que 30 − 5k = 20 y k = 2. El coeﬁciente correspondiente en la
+expansi´ on es (10
+2
+)
+(−2)2 = 10!2! · 8! · 4 = 10 · 92 · 4 = 180 .
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 2 puntos por usar el teorema del binomio y obtener
+(
+x3 − 2x2
+)10
+=
+10∑
+k=0
+(10
+k
+) (
+x3)10−k
+(−2
+x2
+)k
+.
+CC 2. 2 puntos por simpliﬁcar las expresiones y obtener que
+(
+x3 − 2x2
+)10
+=
+10∑
+k=0
+(10
+k
+)
+(−2)kx30−5k
+CC 3. 2 puntos por obtener el valor de k = 2 y el coeﬁciente 180.
+----- pagina 2 -----
+2. Sea {an}n∈N una sucesi´ on convergente y tal que an ≥ 0 para todo n ∈ N. Demuestre que
+lim
+n→∞
+an ≥ 0.
+Sugerencia: Suponga lo contrario y deduzca una contradicci´ on.
+Soluci´ on.Sea L = lim
+n→∞
+an. Supongamos por contradicci´ on que L < 0. Si aplicamos la deﬁnici´ on de
+l ´ ımite paraǫ = −L > 0, obtendremos un N ∈ N tal que para todo n > N se cumple que
+|an − L| < ǫ = −L
+⇐ ⇒ − (−L) < a n − L < −L
+⇐ ⇒ L < a n − L < −L
+⇐ ⇒ 2L < a n < 0.
+En particular, esto nos dice que an < 0 para todo n > N . Pero eso es absurdo, pues por hip´ otesis
+sabemos que an ≥ 0 para todo n ∈ N. Luego, por contradicci´ on, concluimos que L ≥ 0.
+Observaci´ on:El mismo argumento funciona para cualquier ǫ ∈ (0, −L].
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 2 puntos por realizar la demostraci´ on por contradicci´ on y dar la deﬁnici´ on de convergencia.
+CC 2. 2 puntos por elegir ε = −L o cualquier ε ∈ (0, −L).
+CC 3. 2 puntos por llegar a una contradicci´ on.

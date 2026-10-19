@@ -1,0 +1,19 @@
+
+----- pagina 1 -----
+GU´IA 1, INTRODUCCI ´ON AL C ´ALCULO, MAT1107
+GODOFREDO IOMMI
+1. Orden
+(1) Demuestre que si a, b, c, d∈ R son tales que a < b y c < d entonces ad+bc <
+ac + bd.
+(2) Demuestre que si n∈ N entonces n2≥ n
+(3) Demuestre que si x, y, z∈ R son tales que x < y , z > 0 entonces xz < yz .
+(4) Demuestre que si x, y, z∈ R son tales que x < y , z < 0 entonces xz > yz
+(5) Demuestre que si a, b, c son n´ umeros reales positivos entonces
+(a + b + c)(bc + ca + ab) > 9abc−
+(6) Demuestre que la ecuaci´ onx2 + 1 = 0 no tiene ra´ ıces reales.
+(7) Sean a, b∈ R tales que a + b = 1. Demuestre que 4 ab≤ 1.
+Facultad de Matem´aticas, Pontificia Universidad Cat´olica de Chile (PUC), Avenida
+Vicu˜na Mackenna 4860, Santiago, Chile
+E-mail address : giommi@mat.puc.cl
+URL: http://www.mat.puc.cl/~giommi/
+1

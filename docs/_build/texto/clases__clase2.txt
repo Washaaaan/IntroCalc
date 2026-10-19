@@ -1,0 +1,100 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Orden 9 de Marzo de 2022 1 / 9
+R es ordenado
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontiﬁcia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontiﬁcia Universidad Cat´ olica de Chile, Chile
+9 de Marzo de 2022
+----- pagina 2 -----
+Axiomas de Orden
+El sistema de n´ umeros reales tambi´ en disfruta de una estructura de
+orden. Parte de nuestra imagen habitual de los reales es la sensaci´ on
+de que algunos n´ umeros son “m´ as grandes” que otros o m´ as a la
+“derecha” que otros. Expresamos esto usando desigualdades a < b o
+a ⩽ b. La estructura de orden est´ a estrechamente relacionada con la
+estructura de cuerpo. Por ejemplo, cuando usamos desigualdades en
+cursos de primaria, usamos frecuentemente el hecho de que si a < b y
+c > 0, entonces ac < bc (es decir, que las desigualdades se pueden
+multiplicar por n´ umeros positivos).
+Esta estructura tambi´ en puede axiomatizarse y reducirse a un
+peque˜ no conjunto de reglas. Cuando estas reglas se agregan a los
+axiomas de cuerpo, el resultado se denomina cuerpo ordenado.
+Rodrigo Vargas (LIES) Orden 9 de Marzo de 2022 2 / 9
+----- pagina 3 -----
+Axiomas de Orden
+El sistema de n´ umeros reales es un cuerpo ordenado que satisface los
+cuatro axiomas adicionales. Aqu ´ ıa < b es ahora una declaraci´ on que
+es verdadera o falsa.
+O1 Tricotom ´ ıa:Se cumple una y solo una de las siguientes tres
+condiciones
+1 a = b
+ 2 a < b
+ 3 b < a
+O2 Transitividad: Si a < b y b < c, entonces a < c.
+O3 Si a < b, entonces a + c < b + c, para todo c∈ R.
+O4 Si a < b, y c > 0 entonces a· c < b· c.
+Rodrigo Vargas (LIES) Orden 9 de Marzo de 2022 3 / 9
+----- pagina 4 -----
+Axiomas de Orden
+Al conjunto de los n´ umeros reales que son mayores que 0 lo
+denotaremos por R+ y ser´ a llamado el conjunto de los n´ umeros
+reales positivos . En s ´ ımbolos,R+ ={x∈ R| x > 0}.
+Teorema. (R+ es cerrado)
+1 Si a, b∈ R+ entonces a + b∈ R+
+2 Si a, b∈ R+ entonces a· b∈ R+
+Rodrigo Vargas (LIES) Orden 9 de Marzo de 2022 4 / 9
+----- pagina 5 -----
+Axiomas de Orden
+Demostraci´ on
+1 Si a, b∈ R+ entonces a > 0 y b > 0. Usando el axioma 3
+tenemos
+a > 0 =⇒ a + b > 0 + b =⇒ a + b > b .
+Como a + b > b y b > 0, usando el axioma de transitividad
+concluimos que a + b > 0⇐⇒a + b∈ R+.
+2 Si a∈ R+ entonces a > 0 y por el axioma 4 como b > 0 entonces
+a· b > 0· b⇐⇒a· b > 0⇐⇒a· b∈ R+ .
+Rodrigo Vargas (LIES) Orden 9 de Marzo de 2022 5 / 9
+----- pagina 6 -----
+Axiomas de Orden
+Observaci´ onSi a < b, sumando a ambos lados −a obtenemos por
+axioma 3 que
+a < b =⇒ a− a < b− a⇐⇒0 < b− a⇐⇒b− a∈ R+ .
+Es decir, hemos obtenido la siguiente equivalencia
+a < b⇐⇒b− a∈ R+
+Rodrigo Vargas (LIES) Orden 9 de Marzo de 2022 6 / 9
+----- pagina 7 -----
+Axiomas de Orden
+EJEMPLO 1 Usando los axiomas de orden, pruebe que
+ad + bc < ac + bd si a < b y c < d.
+Soluci´ onSi a < b y c < d entonces b− a∈ R+ y d− c∈ R+.
+Como R+ es cerrado por multiplicaci´ on se sigue que
+(b− a)(d− c)∈ R+⇐⇒(b− a)(d− c) > 0
+Desarrollando los productos obtenemos
+bd− bc− ad + ac > 0⇐⇒ac + bd > ad + bc .
+Deﬁnici´ on
+1 a ⩽ b si y s´ olo si (a < b)∨ (a = b)
+2 a > b si y s´ olo si (a > b)∨ (a = b)
+Rodrigo Vargas (LIES) Orden 9 de Marzo de 2022 7 / 9
+----- pagina 8 -----
+Axiomas de Orden
+EJEMPLO 2 Demuestre que para todo n∈ N se cumple que n2 > n.
+Soluci´ onSeparamos la demostraci´ on en casos.
+Caso 1: n⁄= 1. Entonces,
+n > 1 ∧ n > 0⇐⇒n− 1∈ R+ ∧ n∈ R+
+Como R+ es cerrado por multiplicaci´ on, entonces
+(n− 1)· n∈ R+⇐⇒(n− 1)· n > 0⇐⇒n2− n > 0⇐⇒n2 > n .
+Caso 2: n = 1. En este caso es claro que 1 2 es igual a 1, es decir
+12 = 1 luego se cumple que 1 2 > 1.
+Por la deﬁnici´ on, obtenemos de los casos 1 y 2 que n2 > n para todo
+n∈ N.
+Rodrigo Vargas (LIES) Orden 9 de Marzo de 2022 8 / 9
+----- pagina 9 -----
+Axiomas de Orden
+Teorema
+1 Para todo a∈ R se cumple que a2 > 0
+2 Si a > 0 entonces a−1 > 0
+3 Si a < 0 entonces a−1 < 0
+4 Si a· b > 0 si y s´ olo si (a > 0∧ b > 0)∨ (a < 0∧ b < 0)
+Rodrigo Vargas (LIES) Orden 9 de Marzo de 2022 9 / 9

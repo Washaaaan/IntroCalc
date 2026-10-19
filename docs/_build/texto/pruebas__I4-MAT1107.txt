@@ -1,0 +1,21 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+Facultad de Matem´aticas
+Departamento de Matem´aticas
+Primer semestre de 2020
+Interrogaci´ on 4
+MAT1107 - Introducci´ on al C´ alculo
+(1) Esboce la gr´ aﬁca dep(x) = 2x(x − 1)3(x − 2)2(x − 3). (3 puntos)
+Soluci´ on.
+• Comportamiento en inﬁnito (1 punto)
+• Comportamiento cerca de x = 0 (0.5 puntos)
+• Comportamiento cerca de x = 1 (0.5 puntos)
+• Comportamiento cerca de x = 2 (0.5 puntos)
+• Comportamiento cerca de x = 3 (0.5 puntos)
+(2) Esboce la gr´ aﬁca def(x) = x + 22x − 1. (3 puntos)
+Soluci´ on.
+• As´ ıntota horizontal(1 punto)
+• As´ ıntota vertical(1 punto)
+• L´ ımites laterales en la as´ ıntota vertical(1 punto)
+1

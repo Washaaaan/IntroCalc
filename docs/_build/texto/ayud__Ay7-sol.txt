@@ -1,0 +1,181 @@
+
+----- pagina 1 -----
+Ayudantia7
+GustavoBlanco
+----- pagina 2 -----
+1.Demostrarquela sucesiónderaices: *Esunademostracióndistintaalaquedesarrollamos
+Y enlaayudantia,peroambasconvalidas.
+C
+esestrictamentedecrecientepara 1.
+-ASabemos que
+n<n+1
+siaplicamosf(x)=c,con1,sabemos quees creciente :Semantieneladesigualdad
+n+1
+=>
+I-
+Siaplicamos f(x)=X
+ninth
+,
+también escreciente:ladesigualdadsemantiene.
+↓ ↓
+N
+=> (C)n(n+1)2((n+1ynsn+1
+=-
+=c)
+.. es unasucesióndecreciente.
+2.
+f(x)=eex+1 1asumiendoqueesinvertible
+⊥
+y=e2x+1
+(n(y)=Ince+)
+(n(y)=(2x+1)Inse) *Iniex
+:.
+In(ex)=X
+(n(y)=2x+1
+(n(y)-1=2x
+X=
+(
+=>f(x)=
+1
+----- pagina 3 -----
+3.f,(x)=(,f(=X-3,((x)=-x (R-(0,0) y fafs:IR-IR
+X-3
+a)f(x)=-3-(42
+(x=(2
+-(x-
+3)-3
+= (2
+-
+(-
+3))-3
+=
+(2
+-
+(x-
+3)-3
+=>fa(x)=x-3(fy(x)
+(jof(x)=-(x-3)/f,(x)
+(,07s%z()=2
+-
+(-
+3/fy(x)
+fi+,0 fjof(=-2(-31/fz(x)
+frotjt,jot(=([(x-3)-3
+-(X-
+3)
+=>
+f(x)=f(037,jof(x)=-3-()
+b)
+f(x)=-z-()-(x-3)
+-
+>
+enprimerlugarrevisemoselrecorrido
+⊥>fot,ojof(
+⊥ Fa: IR-IR
+⊥Faltz(XII:IR--19
+⊥ f,(faltz(II):IR-1(0,d
+FalttIII:IR(-0,%
+SibienelDominiodefasontodos losrealesysurecorridotambién
+comoelrecorridodef,es10,001 afasololeLlega"(0,0)
+=>fy((0,011->(0,%
+⊥abusodenotación
+ta(fy(f.(talta(x)((I):Ir+(-0,-3)
+igualqueenelpasoanterior,afa sololellega(-0,0
+fa(to,a)-(-0,0-3
+4(-8.-3)
+:totsof,tok: 1R-(-0,-3)
+----- pagina 4 -----
+⊥ahoracalcolemos lainversa
+f(x)=-3-
+(4)
+*-3
+y=-3-()x-3
+y+3=-()x-3
+-
+(y+3)=(x)*-3 recorrido
+(logy((y+31) tienesentido,yayou y=(8,-3)
+log(y+3)=-3 -Sya-3
+4y+340/-1
+=
+logy)-(y+3))+3=x -(y+3) x0
+..f'(x)=
+logy)-(x+3))+3
+⊥Fot=
+logy(-(-3-((**+3))+3
+=
+loyy)-1-(Y11+3
+=
+loyy((((
+**
+)+3
+=
+X-3+3
+=
+x-
+⊥ fot=-y-(y(loyy)-(x+31+3-3)
+=-
+3-
+(()(logy)-x-3)
+== 3-(2)(-x-3)
+=
+=3-
+(-x-3)
+=-
+3+x+3
+=x
+y
+->
+ciereablecon inversa fixh=
+logy(-(x+3)+3
+pordet
+JoflaFC
+-yoth⊥(fltot,ot,otzot -
+.
+S5
+=
+byof,otsoth
+I
+#(otyofak)
+-
+AsAnte
+%+z(
+⊥Xot,ot,tal =X
+Fotyofa =>Fotofofot/
+----- pagina 5 -----
+-
+-1-⊥fAf S/O31A(t0X,y ()(x)2
+=X-
+I
+:F=
+fotofOtof
+=>-fotofotof=0
+⊥ O esunaconstante
+:noesinvertible
+4.
+f(x=2-30x(0,8]
+Comof(x)es estrictamentedecreciate
+elrecorrido vaaser [f(0),f(0)
+4f(d=2-3T=-1
+f(8)=2-3
+=2-35=2-3.3
+=
+2-9 =-7
+-7=>
+y ((-,-1)
+-
+>
+y=2-35+1 Comoelrecorridodef(x)es[-7+1)=>eDomIf"(x)=EF.-1)
+-
+>
+y-z=-3x+1
+-
+(y-2)=3x+
+-2)=x+1
+3
+(y-2)
+2
+=x+1
+9
+2
+(-1 =X
+...f(x)=(

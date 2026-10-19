@@ -1,0 +1,102 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Orden 14 de Marzo de 2022 1 / 9
+R es ordenado
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontiﬁcia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontiﬁcia Universidad Cat´ olica de Chile, Chile
+14 de Marzo de 2022
+----- pagina 2 -----
+Axiomas de Orden
+Teorema
+1 Para todo a∈ R se cumple que a2 > 0
+2 Si a > 0 entonces a−1 > 0
+3 Si a < 0 entonces a−1 < 0
+4 Si a· b > 0 si y s´ olo si (a > 0∧ b > 0)∨ (a < 0∧ b < 0)
+Rodrigo Vargas (LIES) Orden 14 de Marzo de 2022 2 / 9
+----- pagina 3 -----
+Axiomas de Orden
+Demostraci´ on
+1 Por el axioma de tricotomia separamos la demostraci´ on en 3
+casos:
+Caso 1: a > 0.
+Como R+ es cerrado entonces a· a > 0⇐⇒a2 > 0.
+Caso 2. a = 0.
+Entonces a2 = 0 lo que implica que a2 > 0.
+Caso 3. a < 0
+Entonces−a > 0 y como R+ es cerrado entonces
+(−a)· (−a) > 0⇐⇒a2 > 0 .
+2 Por contradicci´ on, supongamos quea−1 < 0. Por el inciso 1 del
+teorema sabemos que a2 > 0 si a⁄= 0. Entonces,
+a2· a−1 < 0⇐⇒a < 0 .
+Lo cual es una contradicci´ on con la hip´ otesisa > 0.
+Rodrigo Vargas (LIES) Orden 14 de Marzo de 2022 3 / 9
+----- pagina 4 -----
+Axiomas de Orden
+3 Similar al inciso 2.
+4 ( =⇒ ) Si a· b > 0 se sigue que a⁄= 0, b⁄= 0.
+Caso 1. a > 0
+Por inciso 2, obtenemos que a−1 > 0 entonces
+ab· a−1 > 0⇐⇒b > 0 .
+Caso 2. a < 0
+Por el inciso 3, obtenemos que a−1 < 0 entonces
+ab· a−1 < 0⇐⇒b < 0 .
+(⇐=)
+Caso 1. a > 0 y b > 0 entonces a· b > 0 ya que R+ es cerrado.
+Caso 2. a < 0 y b < 0 entonces−a > 0 y−b > 0 lo que implica
+que (−a)· (−b) > 0⇐⇒a· b > 0
+Rodrigo Vargas (LIES) Orden 14 de Marzo de 2022 4 / 9
+----- pagina 5 -----
+Axiomas de Orden
+EJEMPLO 1 Demuestre que si 0 < a < b entonces a2 < b2.
+Soluci´ onSi a < b entonces b− a > 0.
+Por hip´ otesisa > 0 y b > 0 luego a + b > 0. (Ya que R+ es cerrado)
+Como b− a > 0 y b + a > 0 entonces ( b− a)(b + a) > 0. (Ya que
+R+ es cerrado).
+La ´ ultima desigualdad es equivalente ab2− a2 > 0 es decir b2 > a2
+como quer ´ ıamos probar.
+Rodrigo Vargas (LIES) Orden 14 de Marzo de 2022 5 / 9
+----- pagina 6 -----
+Axiomas de Orden
+EJEMPLO 2 Pruebe la desigualdad
+√
+ab ⩽ a + b2
+para cualquier a, b∈ R con a > 0 y b > 0.
+Soluci´ onPor contradicci´ on, supongamos quea + b2 <√ab.
+Note que a + b > 0 ya que a y b son positivos, luego a + b2 > 0.Aplicando lo demostrado en el ejemplo 1 obtenemos
+0 < a + b2 <√ab =⇒ (a + b)24 < ab
+Desarrollando los t´ erminos obtenemos
+a2 + 2ab + b2 < 4ab⇐⇒a2− 2ab + b2 < 0⇐⇒(a− b)2 < 0
+lo cual es una contradicci´ on.
+Rodrigo Vargas (LIES) Orden 14 de Marzo de 2022 6 / 9
+----- pagina 7 -----
+Axiomas de Orden
+EJEMPLO 3 Demuestre que si a, b y c son positivos y no todos
+iguales, entonces
+(a + b + c)(bc + ca + ab) > 9abc .
+Soluci´ onPor demostrar que ( a + b + c)(bc + ca + ab)− 9abc > 0.
+En efecto, tenemos que
+(a + b + c)(bc + ca + ab)− 9abc
+= abc + ca2 + a2b + b2c + abc + ab2 + bc 2 + c 2a + abc− 9abc
+= ca2 + a2b + b2c + ab2 + bc 2 + c 2a− 6abc
+= c(a2 + b2) + b(a2 + c 2) + a(b2 + c 2)− 6abc
+= c(a2− 2ab + b2) + b(a2− 2ac + c 2) + a(b2− 2bc + c 2)
+= c(a− b)2 + b(a− c)2 + a(b− c)2
+Rodrigo Vargas (LIES) Orden 14 de Marzo de 2022 7 / 9
+----- pagina 8 -----
+Axiomas de Orden
+Como los n´ umeros al cuadrado son positivos ya que los n´ umeros son
+distintos (hip´ otesis) y positivos, entonces
+c(a− b)2 > 0 , b(a− c)2 > 0 , a(b− c)2 > 0
+se sigue que la suma de estos tres n´ umeros positivos es positivo, es
+decir
+c(a− b)2 + b(a− c)2 + a(b− c)2 > 0
+lo que equivale a que
+(a + b + c)(bc + ca + ab)− 9abc > 0
+como quer ´ ıamos probar.
+Rodrigo Vargas (LIES) Orden 14 de Marzo de 2022 8 / 9
+----- pagina 9 -----
+Axiomas de Orden
+EJERCICIO 1 Demuestre que si x > 0 entonces x + 1x > 2.
+Rodrigo Vargas (LIES) Orden 14 de Marzo de 2022 9 / 9

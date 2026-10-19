@@ -1,0 +1,152 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 1 / 12
+Funciones reales
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+30 de Marzo de 2022
+----- pagina 2 -----
+Funciones
+Definici´ on.
+Una funci´ onf : A → B consta de tres partes:
+1 un conjunto A llamado el dominio de la funci´ on (o el conjunto
+donde la funci´ on est´ a definida),
+2 un conjunto B llamado el recorrido de la funci´ on (o el conjunto
+donde la funci´ on toma valores) y
+3 una regla que permite asociar de modo bien determinado, a cada
+elemento x ∈ A, un ´ unico elementof (x) ∈ B, llamado el valor
+que la funci´ on asume enx.
+En s ´ ımbolos,f : A → B es funci´ on si y solo si
+(∀ x ∈ A)(∃!y ∈ B)(y = f (x)) .
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 2 / 12
+----- pagina 3 -----
+Funciones
+EJEMPLO 1 Sea P el conjunto de todos los pol ´ ıgonos del plano,R el
+conjunto de los n´ umeros reales yf : P → R la funci´ on que asocia a
+cada pol ´ ıgonox su ´ areaf (x).
+EJEMPLO 2 Sea T el conjunto de todos los tri´ angulos en el plano y
+R+ el conjunto de los n´ umeros reales positivos. Consideramos la
+tentativa de definir la funci´ onf : R+ → T por la siguiente regla: a
+cada n´ umero realx > 0 le hacemos corresponder el tri´ angulof (x)
+cuya ´ area esx. Evidentemente hay ambig¨ uedad: dadox > 0 hay una
+infinidad de tri´ angulos cuya ´ area esA. La regla no define una funci´ on.
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 3 / 12
+----- pagina 4 -----
+Funciones
+Observaci´ on
+y = f (x) se llama imagen de x por f o variable dependiente.
+x se llama variable de la funci´ on o variable independiente.
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 4 / 12
+----- pagina 5 -----
+Funciones
+Definici´ on.
+Dos funciones f : A → B y g : A′ → B ′ son iguales si y solo si
+A = A′, B = B ′ y f (x) = g (x) para todo x ∈ A.
+O sea que dos funciones son iguales cuando tienen el mismo dominio,
+el mismo recorrido y la misma regla de asignaci´ on.
+EJEMPLO 3 Consideremos las funciones f y g definidas por
+f (x) = (x − 1)(x + 2)x − 1 y g (x) = x + 2 .
+Aunque a primera vista ambas funciones nos parecen iguales, esto no
+es as ´ ı. Ya que no poseen el mismo dominio.
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 5 / 12
+----- pagina 6 -----
+Funciones
+Definici´ on.
+El gr´ afico de una funci´ onf : A → B es el subconjunto G (f ) del
+producto cartesiano A × B formado por los pares ordenados ( x, f (x))
+donde x ∈ A es arbitrario. Es decir,
+G (f ) = {(x, y ) ∈ A × B | y = f (x)} .
+Se sigue de la definici´ on de igualdad de funciones que dos funciones
+son iguales si y solo si poseen el mismo gr´ afico.
+El gr´ afico es una curva que est´ a contenida enR2.
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 6 / 12
+----- pagina 7 -----
+Funciones
+Observaci´ onUna curva en el plano de coordenadas es la gr´ afica de
+una funci´ on si y s´ olo si ninguna recta vertical cruza la curva m´ as de
+una vez.
+EJEMPLO 4 Gr´ afica de curvas que no son funciones
+.
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 7 / 12
+----- pagina 8 -----
+Funciones
+Observaci´ onUna funci´ on puede especificarse dando s´ olo la ley
+y = f (x) que permite calcular la imagen de x. Cuando esto suceda,
+entenderemos que el dominio de la funci´ on es el mayor subconjunto
+de R donde la ley es aplicable para calcular f (x), es decir
+Dom(f ) = {x ∈ R | y = f (x) ∈ R} .
+EJEMPLO 5
+1 Si f (x) = xx 2 − 1 entonces
+Dom(f ) = R \ {−1, 1} =] − ∞, −1[∪] − 1, 1[∪]1, ∞[ .
+2 Si f (x) = √x entonces Dom(f ) = R+ ∪ {0} = [0, +∞[.
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 8 / 12
+----- pagina 9 -----
+Funciones
+EJEMPLO 6 Sea f : A → R una funci´ on definida por
+f (x) =
+r
+2x − 3
+x 2 − 1 .
+Encontrar el dominio de la funci´ on real f .
+Soluci´ onTenemos que
+x ∈ Dom(f ) ⇐ ⇒f (x) ∈ R ⇐ ⇒2x − 3x 2 − 1 ⩾ 0 ∧ (x 2 − 1 ̸= 0)
+Note que x 2 − 1 ̸= 0 ⇐ ⇒x ̸= ±1. Resolviendo la inecuaci´ on racional
+se ve que
+2x − 3
+x 2 − 1 ⩾ 0 ⇐ ⇒x ∈] − 1, 1[∪[3/2, ∞[ .
+Por lo tanto, Dom( f ) =] − 1, 1[∪
+ 3
+2 , ∞
+
+.
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 9 / 12
+----- pagina 10 -----
+Funciones
+Observaci´ onUna funci´ on puede especificarse dando la ley y = f (x)
+que permite calcular la imagen de x y su dominio sin especificar el
+conjunto donde la funci´ on toma valores, es decir sin indicar su
+recorrido. Cuando esto suceda, entenderemos que el recorrido de la
+funci´ on es el menor subconjuntoB de R en donde se cumpla que para
+todo y ∈ B exista x ∈ A tal que y = f (x). Es decir, asumiremos que
+Rec(f ) = {y ∈ R | existe x ∈ Dom(f ) tal que y = f (x)} .
+EJEMPLO 7 Sea f : [1, ∞[→ B, f (x) = √x − 1 + 3. Hallar el
+recorrido de f .
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 10 / 12
+----- pagina 11 -----
+Funciones
+Soluci´ onTenemos que
+y ∈ Rec(f ) ⇐ ⇒existe x ∈ Dom(f ) tal que f (x) = y
+⇐ ⇒existe x, x ⩾ 1 tal que
+√
+x − 1 + 3 = y
+De √x − 1 + 3 = y se obtiene que x = (y − 3)2 + 1. Vemos que
+x ⩾ 1, por lo tanto x ∈ Dom(f ), adem´ as estex debe ser tal que
+f (x) = y .
+f (x) = f ((y − 3)2 + 1) =
+q
+(y − 3)2 + 1 − 1 + 3 =
+q
+(y − 3)2 + 3
+= |y − 3| + 3
+para que esto resulte igual a y , debe ser necesariamente y ⩾ 3.
+Luego, Rec( f ) = [3, ∞[ .
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 11 / 12
+----- pagina 12 -----
+Funciones
+EJEMPLO 8 Determine el recorrido de la funci´ onf : R → B definida
+por f (x) = xx 2 + 1.
+Soluci´ onTenemos que
+y ∈ Rec(f ) ⇐ ⇒existe x ∈ R tal que y = xx 2 + 1
+⇐ ⇒existe x ∈ R tal que x = 1 ±
+p
+1 − 4y 2
+2y
+⇐ ⇒1 − 4y 2 ⩾ 0 ∧ y ̸= 0
+⇐ ⇒ −12 ⩽ y ⩽ 12 ∧ y ̸= 0
+Notemos que f (0) = 0 por lo tanto 0 ∈ Rec(f ), por lo tanto
+B = Rec(f ) =
+
+− 12 , 12  .
+Rodrigo Vargas (LIES) Funciones 30 de Marzo de 2022 12 / 12

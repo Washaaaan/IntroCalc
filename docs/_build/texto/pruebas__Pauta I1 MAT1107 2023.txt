@@ -1,0 +1,64 @@
+
+----- pagina 1 -----
+Pontiﬁcia Universidad Cat´ olica de Chile
+Facultad de Matem´ aticas
+13 de Septiembre de 2023
+MAT 1107 Introduccci´ on al C´ alculo - Pauta Interrogaci´ on 1
+Tiempo: 2:00 horas
+1. Resuelva, √
+(x + 2)(x + 3) <
+√
+2.
+Soluci´ on.Notemos que para que la ra´ ız
+√
+(x + 2)(x + 3) est´ e bien deﬁnida es ne-
+cesario que ( x + 2)(x + 3)≥ 0. Por lo tanto, las soluciones de la inecuaci´ on deben
+buscarse en el conjunto:
+R = (−∞,−3]∪ [−2, +∞).
+Suponiendo que x∈R tenemos que,
+√
+(x + 2)(x + 3) <
+√
+2 si y s´ olo si
+(x + 2)(x + 3) < 2 si y s´ olo si
+x2 + 5x + 6− 2 < 0 si y s´ olo si
+(x + 4)(x + 1) < 0.
+El producto de ( x + 4) con (x + 1) es negativo cuando x pertenece al conjunto,
+S1 = (−4,−1).
+Luego, el conjunto soluci´ on de la inecuaci´ on es:
+S =R∩S 1 = (−4,−3]∪ [−2,−1).
+2. Resuelva la siguiente inecuaci´ on
+|x2− 3|√2x− 2
+x2− x− 2 ≥ 0.
+Soluci´ onNotemos, en primer lugar, que la ra´ ız solo tiene sentido six≥ 1. Adem´ as,
+como x2− x− 2 = ( x− 2)(x + 1) y el denominador no puede ser igual a cero, es
+necesario que x⁄= 2 y x⁄=−1.
+El valor absoluto es siempre mayor o igual a cero. As´ ı, para todox∈ R se tiene que
+|x2−3|≥ 0. Tenemos, adem´ as, que la ra´ ız cuadrada es siempre mayor o igual a cero.
+Por otra parte, x2− x− 2 > 0 si y s´ olo six∈ (−∞,−1)∪ (2,∞). As´ ı,
+|x2− 3|√2x− 2
+x2− x− 2 ≥ 0,
+si y s´ olo si (2,∞)∪{ 1,
+√
+3}.
+3. Demuestre que si x, y, z, r∈ R son tales que x < y y z < r entonces x + z < y + r.
+Demostraci´ onPor la monoton´ ıa de la suma tenemos que, six < y entonces x+ z <
+y+z. Por la misma raz´ on, comoz < r tenemos que y+z < y +r. Por la transitividad
+de la relaci´ on de orden, tenemos que
+x + z < y + r.
+----- pagina 2 -----
+4. Sean x, y∈ R. Demuestre que
+||x|−| y||≤| x− y|.
+Soluci´ on.Por la desigualdad triangular tenemos que:
+|x| =|(x− y) + y|≤| x− y| +|y|.
+Es decir,
+|x|−| y|≤| x− y|. (1)
+Del mismo modo,
+|y| =|(y− x) + x|≤| y− x| +|x|.
+Es decir,|y|−|x|≤| y−x|. Como|y−x| =|x−y|, tenemos que− (|y|−| x|)≥−| x−y|.
+Luego
+|x|−| y|≥−| x− y| (2)
+Por lo tanto, de las ecuaciones (1) y (2) conclu´ ımos que:
+−|x− y|≤| x|−| y|≤| x− y|.
+Lo que equivale a,
+||x|−| y||≤| x− y|.

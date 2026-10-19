@@ -1,0 +1,25 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Profesor: Alejandra Schild
+Ayudantes: Gustavo Blanco y Esteban V ´asquez
+Ayudant ´ ıa 3 – MAT1107
+Primer Semestre 2024
+Pregunta 1Encuentre para que valores de x se cumple la siguiente inecuaci´ on:
+x
+x − 4 < x − 4x
+Pregunta 2Sea f (x) = x3.
+Dibuje el grafico de las siguientes funciones:
+1. -f(x)
+2. f(-x)
+3. f(x) + 1
+4. f(x+1)
+5. 2f(x)
+6. f(x/2)
+7. f(-x) - 1
+Pregunta 3Determine el Dominio y Recorrido de las siguientes funciones.
+a. log(x)
+b. xk+x donde k ∈ R - {0}
+c. √mx + n, con m,n > 0
+1

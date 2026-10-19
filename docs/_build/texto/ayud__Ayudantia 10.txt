@@ -1,0 +1,41 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Godofredo Iommi – Ayudante: Rodrigo Galaz
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 10
+2 de Noviembre de 2023
+1. Calcule la suma de los n´ umeros impares menores a 100 y determine una f´ ormula general para
+la suma de los n primeros n´ umeros impares.
+2. Determine el t´ ermino independiente dex en la expresi´ on
+(2x + 1)
+
+1 + 2x 15
+3. Determine la suma de los seis primeros t´ erminos de una progresi´ on geom´ etrica de primer
+t´ ermino 5 y raz´ on 2.
+4. Considere la progresi´ on aritm´ etica dada por
+3, 8, 13, . . .
+¿Cu´ antos t´ erminos deben sumarse para obtener 25050?
+5. Calcule las siguientes sumas:
+a)
+nX
+k=1
+log
+
+1 + 1k 
+b)
+nX
+k=1
+k + 2
+k(k + 1)2k
+c)
+nX
+k=2
+n
+k
+ 1
+2 + 122 + . . .+ 12k
+
+1

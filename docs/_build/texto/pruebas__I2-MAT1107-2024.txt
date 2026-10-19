@@ -1,0 +1,53 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2024
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 2
+1. Determine el conjunto soluci´ on de la siguiente inecuaci´ on:
+0 ⩽ (x2 + 4x + 6)(x − 3)(x − 4) .
+Soluci´ on.Notemos que el factor ( x2 + 4x + 6) es siempre positivo, pues
+x2 + 4x + 6 = ( x + 2)2 + 2 /greaterorequalslant 2 .
+(Tambi´ en se puede justiﬁcar lo anterior notando que se trata de una cuadr´ atica con discriminante
+∆ = −8 < 0 y coeﬁciente principal a2 = 1 > 0).
+Los puntos cr ´ ıticos son x = 3 y x = 4. El primero pertenece al conjunto soluci´ on, mientras que el
+segundo es una restricci´ on.
+El conjunto en el que ( x − 3) y ( x − 4) tienen igual signo (y por lo tanto su producto es positivo) es
+(−∞, 3) ∪ (4, +∞).
+Por lo tanto, el conjunto soluci´ on de la inecuaci´ on es (−∞, 3] ∪ (4, +∞).
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 2 puntos por justiﬁcar que x2 + 4x + 6 > 0 para todo x ∈ R.
+CC 2. 1 punto por determinar los puntos cr ´ ıticos x = 3, x = 4 y la restricci´ on x ⁄= 4.
+CC 3. 3 puntos por determinar el conjunto soluci´ on de la inecuaci´ on.
+----- pagina 2 -----
+2. Determine el conjunto soluci´ on de la siguiente inecuaci´ on:
+|3x + 2| ⩽ |x + 1| + |2x + 1| .
+Soluci´ on.
+(i) Primera soluci´ on.
+Por desigualdad triangular, para todo x ∈ R se cumple que
+|3x + 2| = |(x + 1) + (2x + 1)| ≤ | x + 1| + |2x + 1|.
+(ii) Segunda soluci´ on
+Los puntos cr ´ ıticos sonx = − 23, x = −1 y x = − 12 . Separamos en casos:
+• Si x ≤ −1, la inecuaci´ on se simpliﬁca a
+−(3x + 2) ≤ −(x + 1) − (2x + 1).
+Note que siempre se cumple la igualdad, por lo que la soluci´ on restringid a a este caso es
+(−∞, −1].
+• Si −1 < x ≤ − 23 , la inecuaci´ on se simpliﬁca a
+−(3x + 2) ≤ (x + 1) − (2x + 1) ⇐ ⇒ 0 ≤ 2x + 2.
+El conjunto soluci´ on de la inecuaci´ on anterior es [ −1, +∞). Intersecando con el intervalo
+(−1, − 23] de este caso, obtenemos ( −1, − 23 ].
+• Si − 23 < x ≤ − 12, la inecuaci´ on se simpliﬁca a
+(3x + 2) ≤ (x + 1) − (2x + 1) ⇐ ⇒ 4x + 2 ≤ 0.
+El conjunto soluci´ on de la inecuaci´ on anterior es ( −∞, − 12 ]. Intersecando con el intervalo
+(− 23, − 12 ] de este caso, obtenemos ( − 23, − 12 ].
+• Si − 12 < x, la inecuaci´ on se simpliﬁca a
+(3x + 2) ≤ (x + 1) + (2x + 1).
+Note que siempre se cumple la igualdad, por lo que la soluci´ on restringid a a este caso es
+[− 12, ∞].
+Uniendo los cuatro casos obtenemos toda la recta real.
+Observaci´ on:Cualquier otro m´ etodo que resuelva correctamente la inecuaci´ ones v´ alido. Por ejemplo,
+elevar al cuadrado o usar las propiedades de los valores absolutos.
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 6 puntos por justiﬁcar que R es el conjunto soluci´ on de la inecuaci´ on.

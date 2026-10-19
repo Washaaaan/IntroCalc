@@ -1,0 +1,27 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 02 - Jueves 24 de marzo del 2022
+Problema 1.Encuentre el conjunto soluci´ on de:
+a) x2 − 20x + 91 > 0.
+b) x3 − 20x2 + 91x >0.
+c) x4 − 20x2 + 91 > 0.
+Problema 2.Encuentre el conjunto soluci´ on de:
+a)
+√
+x2 − 4 ≤ x.
+b)
+3√x3 − 8 ≤ x
+Problema 3.
+a) Demuestre, usando completaci´ on de cuadrados, que
+x2 − 9x5 − 25 ≥ 0 ⇔ x ≤ −15 ∨ x ≥ 2
+b) Resuelva la inecuaci´ on r
+x2 − 9x5 − 25 >
+r
+3 − 9x
+5 .
+Puede usar la parte a) aunque no la haya demostrado. Recuerde encontrar los valores de x
+para los cuales la expresi´ on tiene sentido.

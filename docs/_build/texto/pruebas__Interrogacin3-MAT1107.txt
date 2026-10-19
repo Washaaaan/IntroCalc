@@ -1,0 +1,67 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer Semestre 2025
+Introducci´ on al C´ alculo - MAT1107
+Interrogaci´ on N° 3
+1. Resuelva la inecuaci´ on √
+x + 3 >
+√
+|x − 2| .
+Soluci´ on.Para que la inecuaci´ on est´ e bien deﬁnida se debe imponer la restricci´ on
+x + 3 /greaterorequalslant 0 ⇐ ⇒x /greaterorequalslant −3 ⇐ ⇒x ∈ R0 = [−3, ∞)
+Elevando al cuadrado se obtiene la desigualdad
+x + 3 > |x − 2| .
+La inecuaci´ on tiene un solo punto cr ´ ıtico enx = 2. Separando el an´ alisis en casos se obtiene:
+• Caso 1. Si x ∈ (−∞, 2] tenemos que
+x + 3 > 2 − x ⇐ ⇒x > −12 =⇒ R1 = (−12 , ∞)
+Por lo que el conjunto soluci´ on en este caso es S1 = R1 ∩ (−∞, 2] =
+(
+− 12, 2] .
+• Caso 2. Si x ∈ (2, ∞) entonces
+x + 3 > x − 2 ⇐ ⇒3 > −2 =⇒ R2 = R
+Por lo que la soluci´ on en este caso es S2 = R2 ∩ (2, ∞) = (2 , ∞).
+Por lo tanto el conjunto soluci´ on ﬁnal es la uni´ on de estas solucion es intersectado con la restricci´ on
+inicial
+SF = (S1 ∪ S2) ∩ R0 =
+(
+−12 , ∞) ∩ [−3, ∞) =(−12 , ∞) .
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 1,5 puntos por determinar la restricci´ on de la inecuaci´ onR0 = [−3, ∞).
+CC 2. 1,5 puntos por determinar la soluci´ on en el caso 1.
+CC 3. 1,5 puntos por determinar la soluci´ on en el caso 2.
+CC 4. 1,5 puntos por obtener el conjunto de soluci´ on ﬁnal.
+----- pagina 2 -----
+2. Determine el dominio y recorrido de la siguiente funci´ on
+f (x) = x2 + 1x .
+Soluci´ on.La ´ unica restricci´ on es que el denominador no puede ser igual a 0, por lo que el dominio
+de f es ( −∞, 0) ∪ (0, ∞).
+Tenemos que
+y ∈ Rec(f ) ⇐ ⇒(∃ x ∈ R − {0})
+(
+y = x2 + 1x )
+⇐ ⇒(∃ x ∈ R − {0})
+(
+yx = x2 + 1)
+⇐ ⇒(∃ x ∈ R − {0})
+(
+0 = x2 − yx + 1)
+Esta ´ ultima igualdad es una ecuaci´ on cuadr´ atica y usando la f´ ormula cuadr´ atica vemos que
+y ∈ Rec(f ) ⇐ ⇒(∃ x ∈ R − {0})
+(
+x = y ±
+√
+y2 − 4
+2
+)
+⇐ ⇒y2 − 4 /greaterorequalslant 0
+⇐ ⇒(y − 2)(y + 2) /greaterorequalslant 0
+⇐ ⇒y ∈ (−∞, −2] ∪ [2, ∞) .
+Por lo tanto, Rec( f ) = ( −∞, −2] ∪ [2, ∞).
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 1,5 puntos por determinar el dominio de la funci´ on f .
+CC 2. 1,5 puntos por obtener que y ∈ Rec(f ) ⇐ ⇒(∃ x ⁄= 0)(0 = x2 − yx + 1)
+CC 3. 1,5 puntos por obtener que y ∈ Rec(f ) ⇐ ⇒(∃ x ⁄= 0)(∆ = y2 − 4 /greaterorequalslant 0)
+CC 4. 1,5 puntos por obtener que Rec( f ) = ( −∞, −2] ∪ [2, ∞).

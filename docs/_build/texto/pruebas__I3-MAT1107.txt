@@ -1,0 +1,28 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+Facultad de Matem´aticas
+Departamento de Matem´aticas
+Primer semestre de 2020
+Interrogaci´ on 3
+MAT1107 - Introducci´ on al C´ alculo
+(1) Sea f : R→ R tal que f(x + y) = f(x)f(y) para todo x, y∈ R. Suponga que
+f(0)⁄= 0. Demuestre que
+(a) f(0) = 1. (1 punto)
+(b) f(x) > 0 para todo x∈ R. (2 punto)
+Soluci´ on.
+(a) Observamos que f(0) = f(0 + 0) = f(0)2.
+Por lo tanto, f(0) = 0 o f(0) = 1.
+La primera alternativa est´ a descartada por hip´ otesis.(1 punto)
+(b) Primero, f(x) = f( x2 + x2) = f( x2)2≥ 0. (1 punto)
+En segundo lugar, vemos que 1 = f(0) = f(x− x) = f(x)f(−x).
+Por lo tanto f(−x) = f(x)−1.
+Luego, como f(−x) est´ a bien deﬁnida,f(x) no puede ser igual a 0. (1 punto)
+(2) Sea f : [0, 2]→ R dada por
+f(x) =
+{
+x, x ∈ [0, 1]
+2− x, x ∈ (1, 2]
+(a) Graﬁque f. (1 punto)
+(b) Graﬁque g(x) = 3f(1− 2x) detallando su razonamiento. (2 puntos)
+1

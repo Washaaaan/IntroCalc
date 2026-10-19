@@ -1,0 +1,66 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+Facultad de Matem´aticas
+Departamento de Matem´aticas
+Primer semestre de 2020
+Interrogaci´ on 7
+MAT1107 - Introducci´ on al C´ alculo
+(1) Calcule el valor de
+S =
+201∑
+k=7
+1
+(k + 1)(k + 3).
+(3 puntos)
+Soluci´ on.Primero, notamos que
+1
+k + 1 − 1k + 3 = 2(k + 1)(k + 3).
+Luego,
+S = 12
+201∑
+k=7
+( 1
+k + 1 − 1k + 3) .
+(1 punto)
+Separamos la suma en dos:
+S = 12
+201∑
+k=7
+( 1
+k + 1 − 1k + 2) + 12 201∑k=7( 1k + 2 − 1k + 3)
+(1 punto)
+Ambas son telesc´ opicas:
+S = 12(18 − 1203) + 12(19 − 1204) .
+(1 punto)
+1
+----- pagina 2 -----
+2
+(2) Demuestre que, para todo n ≥ 1, se tiene la identidad
+( n∑
+k=1
+k
+)2
+=
+n∑
+k=1
+k3.
+Para esta demostraci´ on, puede asumir el valor exacto del lado izquierdo pero no del
+lado derecho. (3 puntos)
+Soluci´ on.
+Procedemos por inducci´ on. Sean
+Sn =
+n∑
+k=1
+k, Σn =
+n∑
+k=1
+k3.
+Se veriﬁca f´ acimente el cason = 1: 1 = 1 (0.5 puntos)
+Sea m ≥ 1 y supongamos que S2m = Σm. (0.5 puntos)
+Luego,
+S2m+1 = ( Sm + m + 1)2
+= S2m + 2(m + 1)Sn + (m + 1)2
+= Σ m + m(m + 1)2 + (m + 1)2 (0.5 + 0.5puntos)
+= Σ m + (m + 1)3 = Σm+1. (0.5puntos)
+Luego, la identidad que demostrada por inducci´ on.(0.5 puntos)

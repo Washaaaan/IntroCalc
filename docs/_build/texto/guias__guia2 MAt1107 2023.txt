@@ -1,0 +1,14 @@
+
+----- pagina 1 -----
+GU´IA 2, INTRODUCCI ´ON AL C ´ALCULO, MAT1107
+GODOFREDO IOMMI
+1. Valor absoluto y ra´ıces
+(1) Sean x, y,∈ R. Demuestre que |xy| =|x|·| y|.
+(2) Sean x, y,∈ R. Demuestre que |x|−| y|≤|| x|−| y||≤| x− y|.
+(3) Sean x, y, z∈ R. Demuestre que |x− z|≤| x− y| +|y− z|.
+(4) Demuestre que para tofo x∈ R se tiene que |x2| =|x|2.
+Facultad de Matem´aticas, Pontificia Universidad Cat´olica de Chile (PUC), Avenida
+Vicu˜na Mackenna 4860, Santiago, Chile
+E-mail address : giommi@mat.puc.cl
+URL: http://www.mat.puc.cl/~giommi/
+1

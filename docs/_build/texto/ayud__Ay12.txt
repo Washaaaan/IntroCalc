@@ -1,0 +1,24 @@
+
+----- pagina 1 -----
+PONTIFICIA UNIVERSIDAD CAT ´OLICA DE CHILE
+MAT1107 / Introducci´on al C ´alculo / Primer Semestre
+PROFESOR: Alejandra Schild AYUDANTE: Esteban V ´asquez
+Ayudant ´ ıa 12
+1. Dada la sucesi´ on:
+an+1 = 3(1 + an)3 + an
+Con a1 = 3 Calcule su limite.
+Indicaci´ on:
+Muestre que 0 ≤ an ≤ 3 ∀n ∈ N
+Demuestre que la sucesi´ on es decreciente
+Calcule su limite
+2. Dada la sucesi´ on:
+an+1 =
+√
+2 + an
+Con a1 =
+√
+2 Calcule su limite.
+Indicaci´ on:
+Muestre que es creciente
+Demuestre que es acotada
+Calcule su limite

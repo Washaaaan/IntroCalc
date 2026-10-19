@@ -1,0 +1,22 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 08 - Jueves 12 de mayo del 2022
+Problema 1.Sea x ∈ R. Demuestre que ex + e−x ≥ 2.
+Problema 2.Usando la desigualdad de Bernoulli deduzca que
+cn ≥ c para todo n ∈ N, c >1
+Problema 3.Resuelva la ecuaci´ on (2x)ln(2x) = e3(2x)2.
+Problema 4.Considere la funci´ on
+f (x) =
+ |x| x <3
+x2 + 1 x ≥ 3
+Determine un conjunto A ⊂ Dom(f ), lo m´ as mayor posible, de modo quef sea inyectiva. Determine
+f −1 : B → A, identificando B.
+Problema 5.Sea f : (−1, 1) → R dada por
+f (x) = xx + 1.
+Asuma que f es estrictamente creciente (lo debe demostrar en la tarea). determine f −1 (incluyendo
+su dominio).
+Problema 6.Encuentre la inversa de f : Z2 → Z2, f (m, n) = (m + n, m+ 2n).

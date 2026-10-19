@@ -1,0 +1,82 @@
+
+----- pagina 1 -----
+GU´IA 9, INTRODUCCI ´ON AL C ´ALCULO, MAT1107
+GODOFREDO IOMMI
+1. Progresiones, sumas y Teorema del Binomio
+(1) Calcule la suma de los m´ ultiplos de 3 que son menores que 100.
+(2) Sea r > 0. Calcule
+n∑
+i=1
+iri
+(3) Calcule
+n∑
+k=1
+k
+(k + 1)!
+(4) Calcule
+n∑
+k=1
+k + 2
+k(k + 1)2k
+(5) Calcule
+n∑
+k=1
+(−1)k2k2
+(6) Calcule el sexto t´ ermino del desarrollo de (x + y)15
+(7) Calcule
+n∑
+k=2
+((n
+k
+)( 1
+2 +··· + 12k
+))
+(8) Calcule (n
+1
+)
++ 2
+(n
+2
+)
++··· + n
+(n
+n
+)
+.
+(9) Calcule
+2 + 4 + 6 +··· + 20.
+(10) Determine una f´ ormula para eln−´ esimo t´ ermino de la sucesi´ on
+√
+2,
+√
+2
+√
+2,
+√
+2
+√
+2
+√
+2, , . . .
+(11) El d´ ecimo t´ ermino de una progresi´ on aritm´ etica es 55/2 y el segundo es
+7/2. Determine el primer t´ ermino.
+(12) Determine la suma de la progesi´ on artim´ etica
+−3,−32 , 0, 32 , 3. . . . ,30.
+(13) Una progesi´ on artim´ etica tiene primer t´ ermino 5 y diferencia 2. C´ antos
+t’erminos deben sumarse para obtener 2700?
+1
+----- pagina 2 -----
+2 GODOFREDO IOMMI
+(14) El primer t´ ermino de una progresi´ on geom´ etrica es 8 y el tercero es 4.
+Determine el quinto t´ ermino.
+(15) La raz´ on en una progresi´ on geom´ etrica es 3/2 y el quinto t´ ermino es 1.
+Determine el tercer t´ ermino.
+(16) Determine la suma de los seis primeros t´ erminos de una progesi´ on geom´ etrica
+de primer t´ ermino 5 y raz´ on 2.
+(17) Determine la suma
+1− 12 + 14− 18 +···− 1512 .
+(18) Cu´ al es el t´ ermino de la progresi´ on geom´ etrica 2, 6, 8, . . . igual a 118098.
+Facultad de Matem´aticas, Pontificia Universidad Cat´olica de Chile (PUC), Avenida
+Vicu˜na Mackenna 4860, Santiago, Chile
+E-mail address : giommi@mat.puc.cl
+URL: http://www.mat.puc.cl/~giommi/

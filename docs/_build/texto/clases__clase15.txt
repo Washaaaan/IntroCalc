@@ -1,0 +1,136 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Inversa 27 de Abril de 2022 1 / 11
+Funci´ on Inversa
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+27 de Abril de 2022
+----- pagina 2 -----
+Funci´ on Inversa
+Definici´ on.
+Dada f : A → B una funci´ on diremos que:
+1 f es estrictamente creciente si para todo x1, x2 ∈ A con
+x1 < x2 se tiene que f (x1) < f (x2).
+2 f es creciente si para todo x1, x2 ∈ A con x1 < x2 se tiene que
+f (x1) ⩽ f (x2).
+3 f es estrictamente decreciente si para todo x1, x2 ∈ A con
+x1 < x2 se tiene que f (x1) > f (x2).
+4 f es decreciente si para todo x1, x2 ∈ A con x1 < x2 se tiene que
+f (x1) ⩾ f (x2).
+5 f es mon´ otonaen A si es creciente o decreciente.
+Observaci´ onLa mayor ´ ıa de las funciones presentan cierto tipo de
+monoton ´ ıa a tramos, es decir, sobre un intervalo son crecientes y
+sobre otro son decrecientes.
+Rodrigo Vargas (LIES) Inversa 27 de Abril de 2022 2 / 11
+----- pagina 3 -----
+Funci´ on Inversa
+Proposici´ on.
+Sea f : A → B una funci´ on. Sif es estrictamente mon´ otona,
+entonces f es inyectiva.
+Demostraci´ onPara fijar ideas supongamos que f es estrictamente
+creciente. Sean x1, x2 ∈ A con x1 ̸= x2. Entonces x1 < x2 o bien
+x2 < x1. Como f es estrictamente creciente, entonces f (x1) < f (x2) o
+bien f (x2) < f (x1) y en cualquier caso f (x1) ̸= f (x2). Esto muestra
+que f es inyectiva.
+Rodrigo Vargas (LIES) Inversa 27 de Abril de 2022 3 / 11
+----- pagina 4 -----
+Funci´ on Inversa
+Definici´ on. (Funci´ on Inversa)
+Dada f : A → B una funci´ on biyectiva, se define la funci´ on inversa de
+f , denotada por f −1 : B → A, como la funci´ on deB en A dada por:
+(∀ x ∈ A)(∀y ∈ B)(f −1(y ) = x ⇐ ⇒y = f (x)) .
+Rodrigo Vargas (LIES) Inversa 27 de Abril de 2022 4 / 11
+----- pagina 5 -----
+Funci´ on Inversa
+Proposici´ on
+Si f : A → B es funci´ on biyectiva, entonces su inversaf −1 : B → A es
+tal que
+1 (∀ x ∈ A)(f −1(f (x)) = x.
+2 (∀ y ∈ B)(f (f −1(y )) = y .
+Proposici´ on
+Si f : A → B es biyectiva, entonces f −1 es biyectiva y ( f −1)−1 = f .
+Rodrigo Vargas (LIES) Inversa 27 de Abril de 2022 5 / 11
+----- pagina 6 -----
+Funci´ on Inversa
+Si f : A → B es biyectiva, entonces sabemos que existe una funci´ on
+g : B → A que es la inversa de f (es decir, g = f −1) que satisface las
+siguientes tres propiedades
+1 g ◦ f = idA.
+2 f ◦ g = idB .
+3 g es biyectiva.
+El siguiente resultado establece un rec ´ ıproco.
+Proposici´ on
+Sean f : A → B y g : B → A funciones reales. Si de las condiciones
+1 ,
+ 2 y
+ 3 , las funciones f y g satisfacen dos cualesquiera, entonces f
+es biyectiva y su inversa es g (es decir, g = f −1).
+Rodrigo Vargas (LIES) Inversa 27 de Abril de 2022 6 / 11
+----- pagina 7 -----
+Funci´ on Inversa
+Recuerde que la ecuaci´ on que define la inversa de una funci´ on
+biyectiva es
+y = f (x) ⇐ ⇒x = f −1(y )
+Esta ecuaci´ on provee de un m´ etodo para hallar la inversa.
+C´ omo hallar la inversa de una funci´ on biyectiva
+1 Escriba y = f (x).
+2 Despeje x de esta ecuaci´ on en t´ erminos dey (si es posible).
+3 Intercambie x e y . La ecuaci´ on resultante esy = f −1(x).
+Rodrigo Vargas (LIES) Inversa 27 de Abril de 2022 7 / 11
+----- pagina 8 -----
+Funci´ on Inversa
+Sabemos que
+b = f (a) ⇐ ⇒a = f −1(b)
+En otras palabras, si ( a, b) ∈ Graf(f ) si y solo si ( b, a) ∈ Graf(f −1).
+Se sabe que el punto ( b, a) se obtiene de ( a, b) al reflejar con respecto
+a la recta y = x. Hemos obtenido el siguiente resultado:
+Gr´ afica de una funci´ on inversa
+La gr´ afica def −1 se obtiene al reflejar la gr´ afica de f en la recta
+y = x.
+Rodrigo Vargas (LIES) Inversa 27 de Abril de 2022 8 / 11
+----- pagina 9 -----
+Funci´ on Inversa
+EJEMPLO 1 Sea h : [0, ∞[→] − ∞, −2] definida por
+h(x) = −
+√
+x 4 + 4. Defina, si existe, la funci´ on inversa de h.
+EJEMPLO 2 Sea
+f (x) =
+
+
+
+−3x 2 + 1 si x < 0
+3x + 2 si x ⩾ 0
+Halle, si existe, la inversa de f .
+Rodrigo Vargas (LIES) Inversa 27 de Abril de 2022 9 / 11
+----- pagina 10 -----
+Funci´ on Inversa
+EJEMPLO 3 Considere la regla de asignaci´ onf (x) = x2 +
+r
+x 2
+4 − 1.
+1 Determine el dominio de la funci´ onf .
+2 Determine la gr´ afica de la funci´ onf y deduzca su recorrido.
+3 Determine si la funci´ onf es biyectiva, de lo contrario restringa el
+dominio y el codominio para que la funci´ on sea biyectiva.
+4 Calcule la inversa de f y gr´ afiquela.
+Rodrigo Vargas (LIES) Inversa 27 de Abril de 2022 10 / 11
+----- pagina 11 -----
+Funci´ on Inversa
+EJEMPLO 4 Considere la funci´ ong : R → R definida por
+g (x) =
+3
+q
+x +
+p
+1 + x 2 + 3
+q
+x −
+p
+1 + x 2 .
+1 Calcule la inversa de g
+2 Verifique que g ◦ f = id y f ◦ g = id, donde f = g −1.
+3 Deduzca que g es biyectiva.
+Rodrigo Vargas (LIES) Inversa 27 de Abril de 2022 11 / 11

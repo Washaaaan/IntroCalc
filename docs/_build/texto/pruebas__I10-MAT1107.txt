@@ -1,0 +1,73 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+Facultad de Matem´aticas
+Departamento de Matem´aticas
+Primer semestre de 2020
+Interrogaci´ on 10
+MAT1107 - Introducci´ on al C´ alculo
+(1) Calcule el l´ ımite
+lim
+n→∞
+(√
+n2 + 3n + 5− n
+)
+.
+Justiﬁque su respuesta. (3 puntos)
+Soluci´ on.
+Primero,
+√
+n2 + 3n + 5− n =
+(√
+n2 + 3n + 5− n
+)
+·
+√
+n2 + 3n + 5 + n√
+n2 + 3n + 5 + n
+= 3n + 5√n2 + 3n + 5 + n
+= 3n + 5
+n
+(√
+1 + 3n + 5n2 + 1)
+= 3 + 5n√
+1 + 3n + 5n2 + 1. (1punto)
+Por ´ algebra de l´ ımites,
+lim
+n→∞
+(√
+n2 + 3n + 5− n
+)
+= lim
+n→∞
+3 + 5n√
+1 + 3n + 5n2 + 1
+= limn→∞
+(
+3 + 5n)
+limn→∞
+(√
+1 + 3n + 5n2 + 1) (1punto)
+= 32 . (1punto)
+(2) Sean a, b, c∈ R tales que 1 < a < b < c . Calcule el l´ ımite
+lim
+n→∞
+n√an + bn + cn.
+Justiﬁque su respuesta. (3 puntos)
+Soluci´ on.
+Primero,
+n√an + bn + cn≥ n√cn = c. (1punto)
+1
+----- pagina 2 -----
+2
+Por otro lado,
+n√an + bn + cn≤ n√3cn = c n√3. (1punto)
+Es decir,
+c≤
+n√an + bn + cn≤ c n√3.
+Como sabemos que lim
+n→∞
+n√3 = 1 (0.5 puntos), el teorema del s´ andwich implica que
+lim
+n→∞
+n√an + bn + cn = c. (0.5puntos)

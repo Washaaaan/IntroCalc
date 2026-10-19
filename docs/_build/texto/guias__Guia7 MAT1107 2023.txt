@@ -1,0 +1,18 @@
+
+----- pagina 1 -----
+GU´IA 6, INTRODUCCI ´ON AL C ´ALCULO, MAT1107
+GODOFREDO IOMMI
+1. Composici´on de funciones
+(1) Si f (x) = √x y g(x) = √2− x, determine el dominio de las siguientes
+funciones: ( a) f◦ g (b) g◦ f (c) f◦ f (d) g◦ g.
+(2) Sea F (x) =
+4√x + 9, determine funciones f y g tales que F = f◦ g.
+(3) Determine las funciones f◦ g, g◦ f y sus dominios para:
+(a) f (x) = x3 + 2 y g(x) = 3√x
+(b) f (x) = x2 y g(x) =√x− 3
+(c) f (x) = 1 /x y g(x) = 2 x + 4.
+Facultad de Matem´aticas, Pontificia Universidad Cat´olica de Chile (PUC), Avenida
+Vicu˜na Mackenna 4860, Santiago, Chile
+Email address : giommi@mat.puc.cl
+URL: http://www.mat.puc.cl/~giommi/
+1

@@ -1,0 +1,170 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2024
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Examen
+1. Sean a, b, c, d n´ umeros reales positivos y no nulos. Demuestre que, si ab < cd , entonces
+a
+b < a + cb + d < cd .
+Soluci´ on.Como se trata de n´ umeros positivos, sabemos que ad < cb . Sumando a ambos lados ab
+obtenemos
+ab + ad < ab + cb =⇒ a(b + d) < b(a + c) = ⇒ ab < a + cb + d ,
+donde esta ´ ultima implicancia se obtiene porque los n´ umeros son positivos.
+Si a la desigualdad ad < cb le sumamos a ambos lados dc, obtenemos que
+dc + ad < dc + cb =⇒ d(a + c) < c(b + d) = ⇒ a + cb + d < cd ,
+donde la ´ ultima implicancia se obtiene porque los n´ umeros son positivos.
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 3 puntos por mostrar la desigualdad: ab < a + cb + d
+CC 2. 3 puntos por mostrar la desigualdad: a + cb + d < cd
+----- pagina 2 -----
+2. Determine el conjunto soluci´ on de la siguiente inecuaci´ on:
+x2 + 2x − 15
+x2 + 7x + 10 ≥ 0 .
+Soluci´ on.Factorizando la expresi´ on, obtenemos que
+x2 + 2x − 15
+x2 + 7x + 10 = (x − 3)(x + 5)(x + 2)(x + 5) .
+Los puntos x = −5 y x = −2 son restricciones. Si suponemos que x ∈ R \ {−5, −2}, entonces la
+inecuaci´ on se reduce a x − 3
+x + 2 ≥ 0.
+La expresi´ on anterior es positiva cuando el numerador y el denom inador tienen el mismo signo. In-
+cluimos al punto x = 3, pues la desigualdad pedida no es estricta, pero debemos quitar la s restricciones
+x = −5 y x = −2. Por lo tanto, el conjunto soluci´ on es
+(−∞, −5) ∪ (−5, −2) ∪ [3, +∞) .
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 2 puntos por factorizar el numerador y denominador de la expresi´ on racional.
+CC 2. 2 puntos por reducir la expresi´ on racional a x − 3x + 2 /greaterorequalslant 0.
+CC 3. 2 puntos por resolver la inecuaci´ on, incluyendo las restricciones x = −5 y x = −2.
+----- pagina 3 -----
+3. Sea f una funci´ on a valores reales cuyo dominio es Dom(f ) = [0 , 2]. Determine el dominio de la siguiente
+funci´ on compuesta:
+g(x) = f (x2 − 4x + 5) .
+Soluci´ on.Sea p(x) = x2 − 4x + 5. Un x ∈ R est´ a en el dominio deg si y solo si p(x) ∈ Dom(f ) = [0 , 2].
+La funci´ on cuadr´ aticap(x) tiene v´ ertice en (2, 1) y este es un m ´ ınimo, por lo que su recorrido es [1 , ∞).
+Resolviendo la ecuaci´ onp(x) = 2 obtenemos dos soluciones: x = 1 y x = 3. Por lo tanto, tenemos que
+p(x) ∈ [0, 2] ⇐ ⇒ p(x) ≤ 2 ⇐ ⇒ x ∈ [1, 3].
+Concluimos que Dom( g) = [1 , 3].
+Criterio de Correcci´ on (CC) Pregunta 3.
+CC 1. 2 puntos por indicar que x ∈ Dom(g) ⇐ ⇒p(x) ∈ Dom(f ).
+CC 2. 2 puntos por por resolver la ecuaci´ on p(x) = 2.
+CC 3. 2 puntos por obtener el dominio de la funci´ on g es [1 , 3].
+----- pagina 4 -----
+4. En la expansi´ on de la siguiente expresi´ on, encuentre el coeﬁciente de x2:
+(x3 + 1
+x
+)10
+.
+Soluci´ on.Usando el teorema del binomio, obtenemos que
+( x3 + 1
+x
+)10
+=
+(
+x2 + 1x)10 = 10∑k=0 (10k )(x2)10−k (x−1)k = 10∑k=0 (10k )x20−3k.
+Necesitamos el ´ ındicek tal que x20−3k = x2, por lo que k = 6. El coeﬁciente correspondiente es
+(10
+6
+)
+= 10 · 9 · 8 · 74 · 3 · 2 = 10 · 3 · 7 = 210 .
+Criterio de Correcci´ on (CC) Pregunta 4.
+CC 1. 2 puntos por aplicar el teorema del binomio y obtener que
+( x3 + 1
+x
+)10
+=
+10∑
+k=0
+(10
+k
+)(
+x2)10−k (x−1)k
+CC 2. 1,5 puntos por reducir las expresiones y obtener la expresi´ on
+10∑
+k=0
+(10
+k
+)
+x20−3k.
+CC 3. 1,5 puntoa por hallar el valor de k = 6.
+CC 4. 1 punto por exhibir el coeﬁciente de x2.
+----- pagina 5 -----
+5. Considere la siguiente sucesi´ on deﬁnida por recurrencia:
+x1 = 1 , x n+1 = 1 + 1xn .
+a) Demuestre que la subsucesi´ on (x2k) es decreciente y acotada inferiormente.
+b) Demuestre que la subsucesi´ on (x2k+1) es creciente y acotada superiormente.
+c) Demuestre que ambas subsucesiones convergen al mismo l ´ ımite .
+Soluci´ on.Notemos que
+xn+2 = 1 + 11 + 1xn = 1 + xn1 + xn = 2 − 11 + xn .
+La subsucesi´ onan = x2n veriﬁca entonces
+an+1 = 2 − 1an + 1 .
+Sabemos que a1 = x2 = 2 y que a2 = x4 = 53 < 2. Asumamos inductivamente que 1 ≤ an+1 < a n ≤ 2.
+Luego tenemos
+−12 ≤ − 1an+1 + 1 < − 1an + 1 ≤ − 13 =⇒ 2 − 12 ≤ 2 − 1an+1 + 1 < 2 − 1an + 1 ≤ 2 − 13
+=⇒ 32 ≤ an+2 < a n+1 ≤ 53 ,
+lo que completa la inducci´ on, concluyendo que an es decreciente y acotada inferiormente.
+La sucesi´ onbn = x2n+1 veriﬁca la misma relaci´ on
+bn+1 = 2 − 1bn + 1 ,
+y de manera an´ aloga a an, se prueba que es creciente y acotada superiormente. Por lo tant o ambas
+subsucesiones convergen. Sea La = limn→∞ an y Lb = limn→∞ bn. Ambos l ´ ımites est´ an entre 1 y 2, adem´ as
+satisfacen la ecuaci´ on
+L = 2 − 11 + L =⇒ L2 − L − 1 = 0 ,
+cuyas ra ´ ıces son1 −
+√
+5
+2 < 0 y 1 +
+√
+5
+2 > 0. Luego La = Lb = 1 +
+√
+5
+2 .
+Criterio de Correcci´ on (CC) Pregunta 5.
+CC 1. 2 puntos por mostrar el inciso a).
+CC 2. 2 puntos por mostrar el inciso b)
+CC 3. 2 puntos por concluir que ambas sucesiones son convergentes y ca lcular el l ´ ımite.
+----- pagina 6 -----
+6. Determine el siguiente l ´ ımite:
+lim
+n→∞
+ln
+( 3n
+exp(2n)
+)
+.
+Soluci´ on.Notemos que exp(2 n) > 0 para todo n ∈ N, por lo que la expresi´ on est´ a siempre bien
+deﬁnida. Tenemos que
+ln
+( 3n
+exp(2n)
+)
+= ln (3n) − ln (exp(2n)) = ln(3) + ln( n) − 2n.
+Como ln( n) ≤ n − 1, tenemos que
+ln
+( 3n
+exp(2n)
+)
+= ln(3) + ln( n) − 2n ≤ ln(3) − 1 − n.
+El lado derecho diverge a −∞, as ´ ı que el lado izquierdo tambi´ en lo har´ a. Luego
+lim
+n→∞
+ln
+( 3n
+exp(2n)
+)
+= −∞.
+Criterio de Correcci´ on (CC) Pregunta 6.
+CC 1. 2 puntos por usar las propiedades del logaritmo y obtener ln
+(
+3n
+exp(2n)
+)
+= ln(3) + ln( n) − 2n.
+CC 2. 2 puntos por usar la propiedad ln( n) ⩽ n − 1 y obtener que ln
+(
+3n
+exp(2n)
+)
+⩽ ln(3) − 1 − n.
+CC 3. 2 puntos por usar el teorema del sandwich y concluir que el l ´ ımite d iverge a −∞.

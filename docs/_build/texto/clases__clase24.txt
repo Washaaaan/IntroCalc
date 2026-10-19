@@ -1,0 +1,95 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) C´ alculo de l ´ ımites 1 de Junio de 2022 1 / 5
+C´ alculo de l ´ ımites
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+1 de Junio de 2022
+----- pagina 2 -----
+C´ alculo de l ´ ımites
+EJEMPLO 1 Calcular l ´ ım
+n→∞
+an, donde an est´ a dada por
+an = n + 1n2 + 1 + n + 2n2 + 2 + · · ·+ n + nn2 + n .
+EJEMPLO 2 Analice la convergencia de la sucesi´ onan = n!nn .
+EJEMPLO 3 Calcule l ´ ım
+n→∞
+√
+2n2 + 1
+3n − 5
+EJEMPLO 4 Calcule l ´ ım
+n→∞
+(
+p
+n2 + 1 − n)
+Rodrigo Vargas (LIES) C´ alculo de l ´ ımites 1 de Junio de 2022 2 / 5
+----- pagina 3 -----
+C´ alculo de l ´ ımites
+Teorema.
+Si l ´ ım
+n→∞
+|an| = 0, entonces l ´ ımn→∞ an = 0.
+EJEMPLO 5 Evaluar l ´ ım
+n→∞
+(−1)n
+n si es que existe.
+Soluci´ onTenemos que
+l ´ ım
+n→∞
+ (−1)nn  = l ´ ımn→∞ 1n = 0 .
+Entonces, por el teorema anterior
+l ´ ım
+n→∞
+(−1)n
+n = 0 .
+Rodrigo Vargas (LIES) C´ alculo de l ´ ımites 1 de Junio de 2022 3 / 5
+----- pagina 4 -----
+C´ alculo de l ´ ımites
+EJEMPLO 6 Si |x| < 1, entonces l ´ ım
+n→∞
+x n = 0.
+Soluci´ onDado ε >0 queremos encontrar N tal que si n > N entonces
+|x n − 0| = |x|n
+debe ser menor que ε. Imponiendo la condici´ on vemos que
+|x|n < ε⇐ ⇒n ln(|x|) < ln(ε) ⇐ ⇒n > ln(ε)ln(|x|)
+Dado a = ln(ε)/ ln(|x|), por el principio de Arqu ´ ımedes existeN ∈ N
+tal que a < N. Se sigue que si n > N entonces
+ln(ε)
+ln(|x|) < n ⇐ ⇒ln(ε) > n ln(|x|) ⇐ ⇒ε >|x|n ,
+como quer ´ ıamos probar.
+Rodrigo Vargas (LIES) C´ alculo de l ´ ımites 1 de Junio de 2022 4 / 5
+----- pagina 5 -----
+C´ alculo de l ´ ımites
+EJEMPLO 7 Si p > 0 entonces l ´ ım
+n→∞
+n√p = 1.
+Soluci´ onSi p > 1, tomando xn = n√p − 1. Entonces xn > 0 y por la
+desigualdad de Bernoulli
+p = (1 + xn)n ⩾ 1 + nxn
+luego
+0 < xn ⩽ p − 1n .
+Por el teorema del Sandwich se sigue que l ´ ım
+n→∞
+xn = 0.
+Si p = 1 el resultado es trivial.
+Si 0 < p < 1 el resultado se obtiene tomando rec ´ ıprocos.
+Rodrigo Vargas (LIES) C´ alculo de l ´ ımites 1 de Junio de 2022 5 / 5
+----- pagina 6 -----
+C´ alculo de l ´ ımites
+EJEMPLO 8 l ´ ım
+n→∞
+n√n = 1.
+Soluci´ onTomando xn = n√n − 1. Entonces xn ⩾ 0 y por el teorema
+del binomio
+n = (1 + xn)n ⩾ n(n − 2)2 x 2n :
+Luego, obtenemos que
+0 ⩽ xn ⩽
+r
+2
+n − 1
+Por el teorema del Sandwich, se sigue que l ´ ım
+n→∞
+xn = 0.
+Rodrigo Vargas (LIES) C´ alculo de l ´ ımites 1 de Junio de 2022 6 / 5

@@ -1,0 +1,19 @@
+
+----- pagina 1 -----
+PONTIFICIA UNIVERSIDAD CAT ´OLICA DE CHILE
+MAT1107 / Introducci´on al C ´alculo / Primer Semestre
+PROFESOR: Alejandra Schild AYUDANTE: Esteban V ´asquez
+Ayudant ´ ıa 13
+1. Determine el dominio de
+f (x) = log3(4 − x2)
+2. Resuelve las siguientes ecuaciones logar ´ ıtmicas.
+log3(x + 1) − log3(x − 1) = 1
+log2(x − 1) + log2(x + 2) = 2
+3. Resuelve las siguientes ecuaciones exponenciales.
+3 + 25x = 9
+e2x − ex − 12 = 0
+4. En un peque˜ no lago se introduce cierta especie de peces. La poblaci´ on de peces est´ a modelada
+por la funci´ on
+P (t) = 90001 + 8e−0,4t
+donde P es el n´ umero de peces y t se mide en a˜ nos desde que el lago fue poblado por estos
+peces. ¿Al cabo de cu´ anto tiempo la poblaci´ on de peces ser´ a 3000?

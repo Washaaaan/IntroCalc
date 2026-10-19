@@ -1,0 +1,35 @@
+
+----- pagina 1 -----
+GU´IA 8, INTRODUCCI ´ON AL C ´ALCULO, MAT1107
+GODOFREDO IOMMI
+1. Logaritmo y exponencial
+(1) Graﬁque 2 x− 5
+(2) Determine el dominio de f(x) = ln(4− x2).
+(3) Sean f(x) = 2x y g(x) = x2 + 1. Determine f◦ g.
+(4) Expanda las siguientes expresiones:
+(a) log 5
+√
+x−1
+x+1.
+(b) log
+√
+x
+√
+y√z.
+(c) ln
+(
+x2√x−1
+3x+4
+)
+.
+(5) Combine las siguientes expresiones
+(a) 4 log x− 13 log(x2 + 1) + 2 log(x− 1).
+(b) ln 5 + 2 lnx + 3 ln(x2 + 5).
+(c) log a b + c loga d− r loga s.
+(6) Resuelva x22x− 2x = 0
+(7) Resuelva x2ex + xex− ex = 0.
+Facultad de Matem´aticas, Pontificia Universidad Cat´olica de Chile (PUC), Avenida
+Vicu˜na Mackenna 4860, Santiago, Chile
+Email address : giommi@mat.puc.cl
+URL: http://www.mat.puc.cl/~giommi/
+1

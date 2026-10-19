@@ -1,0 +1,32 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 0
+1. Demuestre que si 0 < a < b entonces a2 < b 2.
+Soluci´ on.Si a < b entonces b − a > 0.
+Por hip´ otesisa > 0 y b > 0 luego a + b > 0. (Ya que R+ es cerrado)
+Como b − a > 0 y b + a > 0 entonces ( b − a)(b + a) > 0. (Ya que R+ es cerrado).
+La ´ ultima desigualdad es equivalente a b2 − a2 > 0 es decir b2 > a 2 como quer ´ ıamos probar.
+Puntaje Pregunta 1.
+2 puntos por concluir que b − a > 0.
+2 puntos por deducir que a + b > 0.
+2 puntos por mostrar que ( b − a)(a + b) > 0 y concluir que a2 < b 2.
+----- pagina 2 -----
+2. Pruebe la desigualdad √
+ab ⩽ a + b2
+para cualquier a, b ∈ R con a > 0 y b > 0.
+Soluci´ on.Por contradicci´ on, supongamos que a + b2 < √ab.
+Note que a + b > 0 ya que a y b son positivos, luego a + b2 > 0.
+Aplicando lo demostrado en el inciso 1 de esta evaluaci´ on obtenemos
+0 < a + b2 < √ab =⇒ (a + b)24 < ab
+Desarrollando los t´ erminos obtenemos
+a2 + 2ab + b2 < 4ab ⇐ ⇒a2 − 2ab + b2 < 0 ⇐ ⇒(a − b)2 < 0
+lo cual es una contradicci´ on.
+Puntaje Pregunta 2.
+1 punto por deducir que ( a + b)/2 > 0.
+2 puntos por usar el inciso 1 de la interrogaci´ on 0.
+3 puntos por llegar a la contradicci´ on.

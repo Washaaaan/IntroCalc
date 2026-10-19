@@ -1,0 +1,62 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2024
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 3
+1. Determine el mayor dominio posible para la siguiente regla de asignac i´ on:
+f (x) =
+√
+√
+1 − 2x +
+√ x
+x2 + 1 .
+Soluci´ on.En primer lugar, necesitamos que ninguna de las dos ra ´ ıces interiores se indeﬁna, por lo que
+1 − 2x /greaterorequalslant 0 ∧ xx2 + 1 /greaterorequalslant 0.
+La primera condici´ on es cierta si y solo si x ∈
+(
+−∞, 12 ], mientras que la segunda es cierta si y solo si
+x ∈ [0, +∞) (note que el denominador x2 + 1 es siempre positivo). Necesitamos que ambas condiciones
+se cumplan a la vez, es decir, x ∈
+(
+−∞, 12 ] ∩ [0, +∞) = [0, 12]. Finalmente, note que si x ∈ [0, 12],
+entonces √
+1 − 2x +
+√ x
+x2 + 1 /greaterorequalslant 0,
+por lo que la ra ´ ız exterior no se indeﬁne. Luego el mayor dominio posib le es
+[
+0, 12 ].
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 2 puntos por ﬁjar la condici´ on 1 − 2x /greaterorequalslant 0 y obtener el conjunto soluci´ on (−∞, 12].
+CC 2. 2 puntos por ﬁjar la condici´ on xx2 + 1 /greaterorequalslant 0 y obtener el conjunto soluci´ on [0, ∞).
+CC 3. 2 puntos por obtener la intersecci´ on
+(
+−∞, 12] ∩ [0, +∞) y notar que √1 − 2x + √ xx2 + 1 /greaterorequalslant 0.
+----- pagina 2 -----
+2. Determine el mayor dominio posible para la regla de asignaci´ on
+f (x) = x + 1x,
+y, para dicho dominio, determine el recorrido de la funci´ on resultan te.
+Soluci´ on.La ´ unica restricci´ on es que el denominador no puede ser igual a 0, por lo que el mayor
+dominio posible es ( −∞, 0) ∪ (0, +∞).
+Ahora busquemos el recorrido de la funci´ onf con dominio ( −∞, 0) ∪(0, +∞) y codominio R. Tenemos
+que un y0 ∈ Rec(f ) si y solo si existe un x0 ∈ (−∞, 0) ∪ (0, +∞) tal que f (x0) = y0, es decir, que
+x0 + 1x0 = y0.
+Como x0 ⁄= 0, lo anterior es equivalente a
+x02 − y0x0 + 1 = 0 .
+Recapitulando, tenemos que y0 ∈ Rec(f ) si y solo si la ecuaci´ on cuadr´ aticax2 − y0x + 1 = 0 tiene una
+soluci´ on distinta de 0. De hecho, la ´ ultima condici´ on es irrelevante,pues evaluar la funci´ on cuadr´ atica
+x2 − y0x + 1 = 0 en x = 0 resulta en 1, independientemente del valor de y0. Por lo tanto, la equivalencia
+se reduce a que el discriminante de la cuadr´ atica no sea negativo:
+∆ = y02 − 4 /greaterorequalslant 0.
+Aplicando ra ´ ız cuadrada a la desigualdady02 ≥ 4 > 0, obtenemos que |y0| ≥ 2, es decir
+y0 ∈ (−∞, −2] ∪ [2, +∞) .
+Luego este ´ ultimo es el recorrido de la funci´ on correspondiente.
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 1,5 puntos por determinar el dominio de f .
+CC 2. 1,5 puntos por escribir la deﬁnici´ on de recorrido:
+y0 ∈ Rec(f ) ⇐ ⇒(∃ x0 ∈ R − {0})(f (x0) = y0) .
+CC 3. 1,5 puntos por obtener la equivalencia ∆ = y02 − 4 /greaterorequalslant 0.
+CC 4. 1,5 puntos por resolver la inecuaci´ on y concluir que el recorrido de f es ( −∞, −2] ∪ [2, +∞).

@@ -1,0 +1,301 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Examen
+1. Resuelva la siguiente inecuaci´ on
+x2 + 4x − 12
+x2 − 6x + 8 ⩽ −1 .
+Soluci´ on.Notemos que la inecuaci´ on es equivalente con
+x2 + 4x − 12
+x2 − 6x + 8 ⩽ −1 ⇐ ⇒ x2 + 4x − 12x2 − 6x + 8 + 1 ⩽ 0
+⇐ ⇒ x2 + 4x − 12 + x2 − 6x + 8x2 − 6x + 8 ⩽ 0
+⇐ ⇒ 2x2 − 2x − 4x2 − 6x + 8 ⩽ 0
+⇐ ⇒ 2(x2 − x − 2)(x − 4)(x − 2) ⩽ 0
+⇐ ⇒ 2(x − 2)(x + 1)(x − 4)(x − 2) ⩽ 0 .
+Tenemos tres puntos cr ´ ıticosx = −1, x = 2 y x = 4 y dos restricciones para la inecuaci´ on x ⁄= 2 y
+x ⁄= 4. Note que podemos cancelar el t´ ermino (x − 2) en el cociente y que x ⁄= 2 ya que en la desigualdad
+original estar ´ ıamos dividiendo por cero. Luego, tenemos que
+2(x − 2)(x + 1)
+(x − 4)(x − 2) ⩽ 0 ⇐ ⇒x + 1x − 4 ⩽ 0 y x ⁄= 2 .
+Realizando una tabla de signos para esta ´ ultima
+Entonces el conjunto soluci´ on es S = [−1, 4[−{2} = [−1, 2[∪]2, 4[.
+Puntaje Pregunta 1.
+2 puntos por desarrollar y obtener una inecuaci´ on con numerador y denominador factorizados.
+2 puntos por obtener la tabla de signos correctamente.
+2 puntos por obtener el conjunto soluci´ on considerando los punt os de restricci´ on.
+----- pagina 2 -----
+2. Considere la funci´ on deﬁnida por tramos
+f (x) =
+
+
+
+x3 si −1 ⩽ x ⩽ 1 ,
+−x2 + 2 si 1 < x < 2 ,
+x − 1 si 2 < x ⩽ 4 .
+a) Trace la gr´ aﬁca de la funci´ onf .
+b) Determine el dominio de f .
+c) Determine el recorrido de f .
+Soluci´ on.
+a) El gr´ aﬁco de la funci´ onf se muestra a continuaci´ on
+1
+2
+3
+−1
+−2
+1 2 3 4−1−2
+y
+x
+b) A partir del gr´ aﬁco se ve que Dom( f ) = [ −1, 2) ∪ (2, 4].
+c) A partir del gr´ aﬁco se ve que Rec( f ) = ( −2, 3].
+Puntaje Pregunta 2.
+2 puntos por realizar el gr´ aﬁco de f .
+2 puntos por determinar el dominio de f .
+2 puntos por determinar el recorrido de f .
+----- pagina 3 -----
+3. Usando la deﬁnici´ on de l ´ ımite, demuestre que l ´ ım
+n→∞
+3n2 + 1
+n2 + n + 1 = 3.
+Soluci´ on.Dado ε > 0 debemos encontrar N tal que si n > N , entonces
+|an − L| =
+⏐⏐⏐⏐ 3n2 + 1n2 + n + 1 − 3⏐⏐⏐⏐ = ⏐⏐⏐⏐ −3n − 2n2 + n + 1 ⏐⏐⏐⏐ = 3n + 2n2 + n + 1
+debe ser menor que ε. Notemos que
+3n + 2
+n2 + n + 1 ⩽ 3n + 2nn2 + n + 1 = 5nn2 + n + 1 < 5nn2 + n = 5n + 1
+Imponiendo la condici´ on a este ´ ultimo valor, vemos que
+5
+n + 1 < ε ⇐ ⇒5ε < n + 1 ⇐ ⇒5ε − 1 < n .
+Dado a = 5 /ε − 1 por el principio de Arquimides existe N ∈ N tal que a < N . Entonces, si n > N
+implica que
+5
+ε − 1 < n ⇐ ⇒ 5n + 1 < ε .
+Se sigue que
+|an − L| = 3n + 2n2 + n + 1 < 5n + 1 < ε ,
+como quer ´ ıamos probar.
+Puntaje Pregunta 3.
+6 puntos por obtener de manera correcta la demostraci´ on.
+----- pagina 4 -----
+4. Sean f : R − {−1} → R una funci´ on deﬁnida por f (x) = xx + 1 y {an} una sucesi´ on que satisface la
+siguiente desigualdad
+10n − 21
+2n ⩽ f (an) ⩽ 5√n√n + 1
+para todo n ∈ N. Calcule l ´ ım
+n→∞
+an.
+Soluci´ on.Notemos que f es una funci´ on racional por lo que podemos obtener su gr´ aﬁca:
+1
+2
+3
+−1
+−2
+−3
+1 2 3−1−2−3
+f
+Del gr´ aﬁco de f se ve que f es creciente, entonces su funci´ on inversa f −1(x) = x1 − x tambi´ en es
+creciente. Aplicando f −1 a la desigualdad dada, se obtiene
+f −1
+( 10n − 21
+2n
+)
+⩽ f −1(f (an)) ⩽ f −1
+( 5√n√n + 1 ) ⇐ ⇒10n − 21−8n + 21 ⩽ an ⩽ 5√n√n + 1 − 5√n .
+Ahora bien,
+l ´ ım
+n→∞
+5√n√n + 1 − 5√n = l ´ ımn→∞ 5√1 + 1n − 5 = −54
+l ´ ım
+n→∞
+10n − 21
+−8n + 21 = l ´ ımn→∞
+10 − 21n
+−8 + 21n = −108 = −54
+Por el teorema del Sandwich se sigue que l ´ ım
+n→∞
+an = −54
+Puntaje Pregunta 4.
+2 puntos por obtener cotas para la sucesi´ on an
+1,5 puntos por calcular el l ´ ımite l ´ ım
+n→∞
+5√n√n + 1 − 5√n
+1,5 puntos por calcular el l ´ ımite l ´ ım
+n→∞
+10n − 21
+−8n + 21
+1 punto por usar el teorema del Sandwich para obtener el l ´ ımite d e an.
+----- pagina 5 -----
+5. Sea a1 =
+√
+2 y an+1 = √2 + an. Demostrar que {an} es convergente y encontrar su l ´ ımite.
+Soluci´ on.
+Veamos por inducci´ on que{an} es sucesi´ on creciente.
+En efecto para n = 1 se tiene que a1 =
+√
+2 y a2 =
+√
+2 +
+√
+2 y es sencillo ver que a1 < a 2.
+Por la hip´ otesis inductivaan < a n+1 entonces
+an + 2 < a n+1 + 2 ⇐ ⇒
+√
+an + 2 <
+√
+an+1 + 2 ⇐ ⇒an+1 < a n+2 .
+Por demostrar que an < 2 para todo n ∈ N.
+En efecto, para n = 1 se tiene que a1 =
+√
+2 < 2. Ahora por la hip´ otesis inductiva an < 2 entonces
+an + 2 < 2 + 2 = 4 ⇐ ⇒
+√
+an + 2 <
+√
+4 = 2 ⇐ ⇒an+1 < 2 .
+Como {an} es creciente y acotada superiormente entonces es convergente . Sea L = l ´ ımn→∞ an.
+Haciendo n → ∞ en la f´ ormula recursiva
+l ´ ım
+n→∞
+an+1 = l ´ ımn→∞
+√
+an + 2 ⇐ ⇒ L =
+√
+l ´ ım
+n→∞
+an + 2
+⇐ ⇒ L =
+√
+L + 2
+⇐ ⇒ L2 − L − 2 = 0
+⇐ ⇒ (L − 2)(L + 1) = 0
+Como an > 0 para todo n ∈ N, descartamos L = −1 y por las propiedades vistas anteriormente
+obtenemos l ´ ım
+n→∞
+an = 2.
+Puntaje Pregunta 5.
+2 puntos por demostrar por inducci´ on que la sucesi´ on es creciente.
+2 puntos por demostrar por inducci´ on que la sucesi´ on est´ a acotada.
+2 puntos por encontrar el l ´ ımite de la sucesi´ on.
+----- pagina 6 -----
+6. Si l ´ ım
+n→∞
+an = +∞, pruebe que
+l ´ ım
+n→∞
+[√
+ln(an + 2) −
+√
+ln(an)
+]
+= 0 .
+[Ayuda: Puede usar sin demostraci´ on que l ´ ım
+n→∞
+ln(bn) = ln
+(
+l ´ ım
+n→∞
+bn
+)
+]
+Soluci´ on.Notemos que
+√
+ln(an + 2) −
+√
+ln(an) =
+(√
+ln(an + 2) −
+√
+ln(an)
+)
+·
+√
+ln(an + 2) +
+√
+ln(an)√
+ln(an + 2) +
+√
+ln(an)
+= (ln( an + 2) − ln(an)) · 1√ln(an + 2) + √ln(an)
+= ln
+(an + 2
+an
+)
+· 1√
+ln(an + 2) +
+√
+ln(an)
+Como l ´ ım
+n→∞
+an = +∞ entonces l ´ ımn→∞
+1
+an
+= 0 y usando la ayuda vemos que
+l ´ ım
+n→∞
+ln
+( an + 2
+an
+)
+= ln
+(
+l ´ ım
+n→∞
+an + 2
+an
+)
+= ln
+(
+l ´ ım
+n→∞
+1 + 2an
+)
+= ln(1) = 0 .
+Por otro lado, como l ´ ım
+n→∞
+an = +∞ entonces
+√
+ln(an + 1) +
+√
+ln(an) no est´ a acotado ya que las funcio-
+nes logaritmo natural y ra ´ ız cuadrada son funciones crecientes y se sigue que 1√
+ln(an + 2) +
+√
+ln(an)
+est´ a acotado. Entonces, el l ´ ımite del producto va a cero.
+Puntaje Pregunta 6.
+1,5 puntos por obtener la igualdad
+√
+ln(an + 2)−
+√
+ln(an) = ln
+( an + 2
+an
+)
+· 1√
+ln(an + 2) +
+√
+ln(an)
+1,5 puntos por mostrar que l ´ ım
+n→∞
+ln
+(an + 2
+an
+)
+= 0
+1,5 puntos por mostrar que 1√
+ln(an + 2) +
+√
+ln(an)
+est´ a acotado.
+1,5 puntos por concluir que el producto entre ln
+( an + 2
+an
+)
+y 1√
+ln(an + 2) +
+√
+ln(an)
+converge a
+cero.

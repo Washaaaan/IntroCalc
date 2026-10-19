@@ -1,0 +1,26 @@
+
+----- pagina 1 -----
+GU´IA 5, INTRODUCCI ´ON AL C ´ALCULO, MAT1107
+GODOFREDO IOMMI
+1. Biyecciones
+(1) Demuestre que la funci´ onf : [0,∞)→ [0,∞) es una biyecci´ on.
+(2) Demuestre que no existe una biyecci´ on entre los conjuntosA ={1, 2, 3, 4,}
+y B ={1, 2}.
+(3) Demuestre que la funci´ onf : N→ N deﬁnida por f(n) = n2 es inyectiva.
+Es sobreyectiva?
+(4) Determine si las siguientes funciones deﬁnidas en R son inyectivas, f(x) =
+x2− 2x, g(x) =|x|, h(x) = 1x2 , r(x) = 2− 2x + x2
+(5) Determine si al siguiente funci´ on es inyectiva y sobreyectiva,
+f(x) =
+{
+x2 + 1, si x≥ 0;
+x− 1, si x < 0.
+(6) Sean a, b, c, d∈ R con ad⁄= bc. Demuestre que la funci´ onf : R\{ d/c}→
+R\{ a/c} deﬁnida por
+f(x) = ax− bcx− d ,
+es biyectiva.
+Facultad de Matem´aticas, Pontificia Universidad Cat´olica de Chile (PUC), Avenida
+Vicu˜na Mackenna 4860, Santiago, Chile
+E-mail address : giommi@mat.puc.cl
+URL: http://www.mat.puc.cl/~giommi/
+1

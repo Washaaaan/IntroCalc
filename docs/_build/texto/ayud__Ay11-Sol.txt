@@ -1,0 +1,128 @@
+
+----- pagina 1 -----
+SolAyII
+----- pagina 2 -----
+Pontificia Universidad Cat´olica de Chile
+Fa c u lta d d e M at e m´aticas
+Profesor: Alejandra Schild
+Ayudante: Gustavo Blanco
+Ayudant ´ ıa 11 – MAT1107
+Primer Semestre 2024
+Pregunta 1
+Se tiene la sucesi´ on recursiva deﬁnida por:
+a1=1 2 an+1=
+p
+7an+2
+Demuestre que la sucesi´ on es creciente y acotada. Tras esto encuentre el limite.
+Pregunta 2
+Se tiene la sucesi´ on recursiva deﬁnida por:
+a2=1 an+1=a2n+14
+Asuma que el limite converge y calcule su valor. ¿Tiene sentido el resultado?
+Pregunta 3
+Demuestre que el siguiente limite no existe.
+limn!1
+n2Cos(⇡n)
+n2+1
+1
+->limz
+----- pagina 3 -----
+==
+Ve
+Ta n ⊥an
+Ant=Enta
+2
+-
+>Demostración an creciente.
+->an Anti
+->a,=1 an=
+Fi
+:a,a,
+LNI
+anak+1
+⊥PD
+ak+1 Ak+2
+7arzak+1
+⊥Fan+2<EGr+2 /5
+Fant2
+Rak+<XAkta
+ak+1 Okta
+:Ancant, +>Lasucesión escreciente.
+----- pagina 4 -----
+Demostración anacotadasuperiormente por2.
+anb
+b=2
+-
+>Casobase
+a=12
+-
+DMI PD
+arh ak+12
+Ear14
+Fak+216/
+Fanty
+29k+ 4
+:
+ak+2
+=
+An<2
+&
+----- pagina 5 -----
+-
+>Sucesión acotadaycreciente ->Limiteexiste
+:podemosafirmar
+↓iman=L-> afirmaciónciertan+g
+imanmismolimite *Lim2an-n->-
+~Any=Enta/im
+=
+2limEn e
+n-3
+=2L
+⊥=LimFtzn->g
+2) limibe
+24=E
+42=72+2
+:42-72-2=0
+⊥---
+Y
+->
+notienesentidoyaquelasucesióescrece enOJ
+L=2
+-
+>
+himan
+----- pagina 6 -----
+Pregunta2
+⊥ 2
+-
+an definidapor
+a,=2 Ant=an+
+I
+⑪=C lima=hn-> n- Δ
+·-also:peroparaelejercicioloasumimosverdadero
+ane=an+/him
+Unimnen e
+↓=
+Clea
+L=2+
+y
+2-
+L+Y=0
+(L-y=0
+L=
+1
+->notienesentidoqueellimitade anseay,cuando an parteen 2ydespuésSeleaplicanfunciones quesoloaumentansuvalor.
+-
+>Estosucede
+yaqueellimitenoconverge:esta malasumir lea
+----- pagina 7 -----
+->Paraestoutilizamos subsucesiones.Sabemosquesiellimitedeanexiste entonces ellimite
+delas subsucesiones tambiénexistenyson igualesaliman
+⊥Sitomamoslassubsucesiones definidaspor an
+yEnt1
+=>
+inten=n toir
+-I
+=>
+intanteDom=li-Miln->
+04n+41+2
+⊥comolassubsucesionesnotienenelmismolimitaentoncesellimiteannopuedeexistir.

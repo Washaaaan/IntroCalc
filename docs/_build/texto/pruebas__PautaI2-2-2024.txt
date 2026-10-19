@@ -1,0 +1,210 @@
+
+----- pagina 1 -----
+Pontiﬁcia Universidad Cat´ olica de Chile
+Facultad de Matem´ aticas
+Departamento de Matem´ atica
+10/octubre/2024.
+MAT 1207
+Pauta Interrogaci´ on 2.
+1. a) Determine un polinomio p(x) de grado 3, en que dos de sus ra´ ıces son 1 y−2 ,p(−1) = 4
+y p(2) = 28.
+Soluci´ on:
+a) Como 1 y −2 son dos ra´ ıces dep(x), entonces p(x) es divisible por (x− 1) y
+por (x + 2), adem´ as como ya tiene dos ra´ ıces reales, esto signiﬁca que las tres
+ra´ ıces son reales.
+b) Luego p(x) es de la forma:
+p(x) = (x− 1)(x + 2)(ax +b)
+c) De acuerdo a las condiciones del problema:
+p(−1) = 4 =⇒ −2(−a +b) = 4 =⇒ a−b = 2
+p(2) = 28 = ⇒ 4(2a +b) = 4 = ⇒ 2a +b = 7
+
+
+
+=⇒
+a−b = 2
+2a +b = 7
+=⇒a = 3 ∧ b = 1
+d) As´ ıp(x) = (x− 1)(x + 2)(3x + 1).
+Puntaje:
+1 punto por a)
+0,5 puntos por b).
+1 punto por c).
+0,5 puntos por d).
+----- pagina 2 -----
+b) Determine a y b∈ R de modo que el polinomio
+p(x) =−x4 + 6x3− 10x2 +ax +b
+sea divisible por x2− 4x + 5.
+Soluci´ on:
+a) p(x) es divisible por x2− 4x + 5, si el resto de la divisi´ on es el polinomio nulo.
+b) Dividiendo p(x) por x2− 4x + 5, se obtiene como cociente a q(x) =−x2 + 2x + 3 y
+resto r(x) = (a + 2)x + (b− 15).
+c) Como el resto debe ser el polinomio nulo, entonces a + 2 = 0 y b− 15 = 0,
+luego a =−2 y b = 15.
+Puntaje:
+0,5 puntos por a)
+2 puntos por b).
+0,5 puntos por c).
+----- pagina 3 -----
+2. a) [4 puntos.] Determine una f´ ormula para el polinomio de grado 6, cuya gr´ aﬁca es:
+Soluci´ on:
+a) De acuerdo al gr´ aﬁco, para p(x) se tiene que: x =−5 es ra´ ız de multiplicidad 1;
+x =−3 es una ra´ ız de multiplicidad 3 yx = 2 es una ra´ ız de multiplicidad 2.
+b) Por lo tanto, p(x) es de la forma:
+p(x) =a (x + 5)(x + 3)3(x− 2)2
+c) Adem´ asp(0) = 60, y como
+p(0) =a· 5· 27· 4 = 60 =⇒a = 19
+d) As´ ı
+p(x) = 19 (x + 5)(x + 3)3(x− 2)2
+Puntaje:
+• 2 puntos por a)
+• 1 punto por b).
+• 0,5 puntos por c).
+• 0,5 puntos por d).
+----- pagina 4 -----
+b) [2 puntos.] Determine k∈ R de modo que el polinomio p(x) =x3 +kx2−kx + 9, tenga
+a ( x + 3) como factor.
+Soluci´ on:Si (x + 3) es un factor de p(x), entonces−3 es ra´ ız dep(x), luego:
+p(−3) = 0 =⇒− 27 + 9k + 3k + 9 = 0 =⇒ 12k− 18 = 0
+=⇒k = 1812 = 32
+Puntaje:
+1 punto por concluir que −3 es ra´ ız dep(x), luego p(−3) = 0.
+1 puntos por obtener k.
+----- pagina 5 -----
+3. a) Dado el tri´ angulo ∆ABC con a = 2, b= 1, ∡γ = 60o, determine ∡β.
+Soluci´ on:Se tiene:
+Por Teorema del coseno:
+c2 = 4 + 1− 2· 2· 1· cos(γ) =⇒c2 = 4 + 1− 2 = 3 =⇒c =√3
+Ahora por teorema del seno
+sen(β)
+1 = sen(60o)√3 =⇒ sen(β) =
+√
+3
+2√
+3 = 12 =⇒ ∡β = 30o
+Puntaje:
+0,5 puntos por ubicar los valores en el tri´ angulo.
+1 punto por usar el teorema del coseno y obtener c =
+√
+3.
+1 punto por usar el teorema del seno y obtener sen( β) = 12.
+0,5 puntos por determinar que β = 30o.
+----- pagina 6 -----
+b) Demuestre la identidad:
+(
+sen(α) + csc(α)
+)2
++
+(
+cos(α) + sec(α)
+)2
+= tan2(α) + cot2(α) + 7
+Soluci´ on:
+(
+sen(α) + csc(α)
+)2
++
+(
+cos(α) + sec(α)
+)2
+=
+(
+sen2(α) + 2 sen(α) csc(α) + csc2(α))
++
+(
+cos2(α) + 2 cos(α) sec(α) + sec2(α))
+=
+(
+sen2(α) + cos2(α)) + 2 + csc2(α) + 2 + sec2(α) = 5 + csc2(α) + sec2(α)
+= 5 +
+(
+1 + cot2(α)) +(1 + tan2(α))
+= 7 + cot2(α) + tan2(α)
+Puntaje:
+0,5 puntos por desarrollar los cuadrados de binomio.
+1 punto por obtener 5 + csc 2(α) + sec2(α)
+1 puntos por aplicar las identidades de csc 2 y sec2
+0,5 puntos por obtener el resultado ﬁnal.
+----- pagina 7 -----
+4. a) Determine sen(α−β) sabiendo que α est´ a en el tercer cuadrante,β en el segundo cua-
+drante y que cos(α) =−13 y sen(β) = 2√5.
+Soluci´ on:
+a) Sabemos que sen( α−β) = sen(α) cos(β)− cos(α) sen(β)
+Conocemos cos(α) y sen(β), nos falta determinar sen(α) y cos(β).
+b) Para sen(α):
+cos(α) =−13 y α est´ a en el tercer cuadrante, luego sen(α)< 0 y como
+sen2(α) + cos2(α) = 1 =⇒ sen2(α) = 1− cos2(α) =⇒ sen(α) =−√1− cos2(α)
+=⇒ sen(α) =−
+√
+1− 19 =−
+√
+8
+9 =−2
+√
+2
+3
+c) Para cos(β):
+sen(β) = 2√5 y β est´ a en el segundo cuadrante, luego cos(β)< 0 y como
+sen2(β) + cos2(β) = 1 =⇒ cos2(β) = 1− sen2(β) =⇒ cos(β) =−√1− sen2(β)
+=⇒ cos(β) =−
+√
+1− 45 =−
+√
+1
+5 =− 1√5 =−
+√
+5
+5
+d) Por lo tanto:
+sen(α−β) =
+(
+− 2
+√
+2
+3
+)(
+− 1√5)−(− 13)( 2√5) = 2√2 + 23√5
+Puntaje:
+• 0,5 puntos por a).
+• 1 punto por b).
+• 1 punto por c)
+• 0,5 puntos por d).
+----- pagina 8 -----
+b) Un observador situado en un punto A, ve la parte superior de una torre con un ´ angulo
+de elevaci´ on de 450. Otro observador B situado a 20 metros de A, en el mismo plano
+horizontal y al otro lado de la torre, observa la parte superior de ´ esta, con un ´ angulo de
+elevaci´ on de 150. Determine la altura de la torre.
+Soluci´ on:
+a) Sea h la altura de la torre. Se tiene:
+b) Adem´ as:
+tan(450) = hx
+tan(150) = h20−x
+
+
+ =⇒
+1 = hx (1)
+tan(150) = h20−x (2)
+
+
+
+c) De (1) se tiene que h =x y luego de (2):
+tan(150) = h20−h (∗)
+d) Para tan(15 0), consideramos que:
+tan(150) = tan(450− 300) = tan(450)− tan(300)1 + tan(450) tan(300) = 1− 1√31 + 1· 1√3 =√3− 1√3 + 1
+e) Luego reemplazando en (∗), se tiene:
+√
+3− 1√
+3 + 1 = h20−h =⇒ (√3−1) (20−h) =h (√3+1) =⇒ 20√3−20−h√3+h =h√3+h
+=⇒ 2h
+√
+3 = 20
+√
+3− 20 =⇒h = 10
+√
+3− 10√
+3
+Puntaje:
+0,5 puntos por a).
+0,5 puntos por b).
+1 punto por c).
+0,5 puntos por d).
+0,5 puntos por e).

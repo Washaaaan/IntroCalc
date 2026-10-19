@@ -1,0 +1,43 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+TAREA
+1. Sean a, b y c la medida de los lados de un tri´ angulo y A su ´ area. Demuestre que
+a2 + b2 + c2 /greaterorequalslant 4√3A .
+2. Resuelva la siguiente inecuaci´ on ⏐⏐⏐⏐|x − 2| − 3|x| − 1 ⏐⏐⏐⏐ /greaterorequalslant 4 .
+3. Sea f : (−1, ∞) → R dada por
+f (x) = x1 + x .
+a) Pruebe que f es estrictamente creciente.
+b) Demuestre que f es acotada superiormente
+4. Dadas las funciones
+f (x) =
+{
+2 − x2 si √3 ⩽ x ⩽ 2 ,
+1 −
+√
+x2 − 4 si x ⩽ −4 y g(x) =
+√
+|x2 − 4| − 3 ,
+con Dom( g) = ( −∞, −2
+√
+2) ∪ [0, 1] tal que f = h−1 ◦ g.
+a) Demostrar que f y g son funciones inyectivas.
+b) Hallar la funci´ on h.
+5. Demuestre que si xn > 0 para todo n ∈ N y l ´ ımn→∞
+xn+1
+xn
+= a < 1 entonces l ´ ım
+n→∞
+xn = 0.
+6. El siguiente m´ etodo iterativo para obtener, con error tan peq ue˜ no cuanto se desee, ra ´ ıces cuadradas de
+un n´ umero reala > 0 ya era conocido por los babilonios 17 siglos antes de la era cristiana. S e toma de
+forma arbitraria un valor x1 > 0 y se deﬁne inductivamente
+xn+1 = 12 (xn + axn ) .
+a) Use la sucesi´ on iterativa para calcular
+√
+11 con 6 decimales exactos tomando x1 = 1.
+b) Demuestre que la sucesi´ on (xn) converge a √a.

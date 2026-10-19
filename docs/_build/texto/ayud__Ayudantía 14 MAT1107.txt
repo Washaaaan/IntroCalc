@@ -1,0 +1,30 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 14 - Jueves 23 de junio del 2022
+Problema 1. Sea ( xn)n una sucesi´ on tal que l ´ ımn→∞ xn = +∞. Sea M ∈ R un n´ umero real
+arbitrario. Muestre que la sucesi´ onyn = xn + M tambi´ en diverge a infinito.
+Problema 2.Dado α ∈ R+, demuestre que l ´ ım
+n→∞
+nα = +∞.
+Problema 3.Pruebe que la sucesi´ on
+αn =
+nX
+k=1
+1
+k
+converge (diverge) a infinito.
+Problema 4.Sea m ≥ 2 un n´ umero entero fijo. Pruebe que la sucesi´ on
+βn =
+nX
+k=1
+1
+km
+no diverge. ¿Converge?
+Problema 5.Considere la sucesi´ on definida recursivamente
+y1 = 1
+yn+1 = yn + 2 · (−1)n, ∀n ∈ N.
+Estudie el comportamiento de la sucesi´ on cuandon tiene a infinito.

@@ -1,0 +1,29 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+Facultad de Matem´aticas
+Departamento de Matem´aticas
+Primer semestre de 2020
+Interrogaci´ on 0 - Marcha Blanca
+MAT1107 - Introducci´ on al C´ alculo
+(1) Sea x≥− 3. Demuestre que 1 + 3 x≤ (1 + x)3. 3 puntos
+Soluci´ on.Desarrollando el cubo, obtenemos
+(1 + x)3 = 1 + 3x + 3x2 + x3.
+Por lo tanto, solo necesitamos demostrar que 3x2+x3≥ 0 para x≥− 3. La desiguldad
+es verdadera si x = 0. Si x⁄= 0,
+3x2 + x3≥ 0 ⇔ x2(3 + x)≥ 0
+⇔ 3 + x≥ 0
+⇔ x≥− 3,
+donde usamos que x2 > 0.
+Puntaje:
+Llegar hasta la inecuaci´ on 3x2 + x3≥: 2 puntos
+Resolver/concluir: 1 punto
+(2) Resuelva la inecuaci´ onx2− 6x + 13 > 0. 3 puntos
+Soluci´ on.Completando cuadrados, obtenemos
+x2− 6x + 13 = (x2− 6x + 9) + 4 = (x− 3)2 + 4≥ 4 > 0,
+para todo x∈ R. Por lo tanto, el conjunto de soluciones es R.
+Puntaje:
+Opci´ on 1: completar cuadrados (2 puntos), concluir (1 punto)
+Opci´ on 2: concluir que la par´ abola no cruza el eje horizontal (2 puntos), deducir
+el signo (1 punto)
+1

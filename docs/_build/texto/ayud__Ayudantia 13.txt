@@ -1,0 +1,44 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Godofredo Iommi – Ayudante: Rodrigo Galaz
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 13
+24 de Noviembre de 2023
+1. Sean a, b, c∈ R tales que 1 < a < b < c. Calcule el l ´ ımite
+l ´ ım
+n→∞
+n√an + bn + cn
+2. Demuestre que la sucesi´ on definida por
+a1 = 2, a n+1 = an + 62 para n >1
+es convergente. Calcule su l ´ ımite.
+3. Demuestre que la sucesi´ on dada por
+√
+2,
+q
+2
+√
+2,
+r
+2
+q
+2
+√
+2, . . .
+es convergente. Calcule su l ´ ımite.
+4. Calcule el siguiente l ´ ımite
+l ´ ım
+n→∞
+2nX
+k=n
+1
+k2
+5. Considere la sucesi´ on
+an =
+ n + 1
+n
+n
+Decida su convergencia.
+1

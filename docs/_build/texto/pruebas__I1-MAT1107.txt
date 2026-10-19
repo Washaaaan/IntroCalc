@@ -1,0 +1,63 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+Facultad de Matem´aticas
+Departamento de Matem´aticas
+Primer semestre de 2020
+Interrogaci´ on 1
+MAT1107 - Introducci´ on al C´ alculo
+(1) Resuelva la inecuaci´ on
+|x + 1|≤
+√
+x2− 4x + 4 + 3.
+(3 puntos)
+Soluci´ on.
+Primera opci´on: Notamos que esto se puede reescribir como
+|x + 1|≤
+√
+(x− 2)2 + 3 =|x− 2| + 3. (1)
+Esta desigualdad es siempre verdadera por desigualdad triangular:
+|x + 1| =|x− 2 + 3|≤| x− 2| +|3| =|x− 2| + 3.
+El conjunto soluci´ on es, por lo tanto, igual aR.
+Puntaje:
+Simpliﬁcar correctamente el lado derecho: 1 puntos.
+Resolver la inecuaci´ on (1) por desigualdad triangular u otro m´ etodo: 1 punto.
+Entregar el conjunto soluci´ on: 1 punto.
+Segunda opci´on: Como ambos lados son positivos, podemos elevar al cuadrado:
+nuestra inecuaci´ on es equivalente a
+(x + 1)2≤ x2− 4x + 4 + 6√(x− 2)2 + 9.
+Simpliﬁcando, llegamos a
+x− 2≤| x− 2|. (2)
+Esto siempre se cumple ya que y≤| y| para todo y∈ R. El conjunto soluci´ on es, por
+lo tanto, igual a R.
+Puntaje:
+Justiﬁcar elevar al cuadrado: 0.5 puntos.
+Llegar a la inecuaci´ on (2): 1 punto.
+Resolver (2) usando la desigualdad y≤| y| u otro m´ etodo: 0.5 puntos.
+Entregar el conjunto soluci´ on: 1 punto.
+1
+----- pagina 2 -----
+2
+(2) Demuestre que, para todo entero n≥ 2, se cumple la desigualdad
+1
+n + 1 + 1n + 2 +··· + 12n > 1324 .
+(3 puntos)
+Soluci´ on.
+Veriﬁcamos el caso n = 2: 13 + 14 = 1424 > 1324, lo que es correcto.
+Planteamos nuestra hipotesis de inducci´ on: suponemos que, para alg´ unk≥ 2, se
+cumple
+Sk = 1k + 1 + 1k + 2 +··· + 12k > 1324 .
+Ahora,
+Sk+1 = 1k + 2 + 1k + 3 +··· + 12k + 2
+= Sk + 12k + 1 + 12k + 2− 1k + 1
+= Sk + 12k + 1− 12k + 2 > 1324 + 12k + 1− 12k + 2, (3)
+donde usamos la hip´ otesis de inducci´ on en el ´ ultimo paso.
+Finalmente, observamos que 12k+1− 12k+2 > 0. Luego, la desigualdad se cumple
+para k + 1.
+Luego, por inducci´ on, la desigualdad se cumple para todon≥ 2.
+Puntaje:
+Veriﬁcar el caso n = 2: 0.5 puntos
+Plantear la hip´ otesis de inducci´ on: 0.5 puntos
+Llegar a (3) o algo similar donde se aplique la H.I.: 1 punto
+Concluir que se cumple la desigualdad para n = k + 1: 0.5 puntos
+Invocar el principio de inducci´ on para concluir: 0.5 puntos

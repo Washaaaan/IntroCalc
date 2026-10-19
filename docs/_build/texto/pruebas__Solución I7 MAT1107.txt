@@ -1,0 +1,57 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 7
+1. En el desarrollo de
+(
+xy + 2x2y )13, halle el coeﬁciente del t´ ermino y3x2 .
+Soluci´ on.Por el teorema del binomio
+(
+xy + 2x2y )13 = 13∑k=0 (13k )(xy)13−k ( 2x2y )k = 13∑k=0 (13k )2k · x13−3k · y13−2k .
+Para que contenga el t´ erminoy3/x2 debe ocurrir que
+
+
+
+x13−3k = 1x2
+y13−3k = y3
+⇐ ⇒
+{
+13 − 3k = −2
+13 − 2k = 3
+⇐ ⇒k = 5
+Por lo que el coeﬁciente de y3/x2 es
+(13
+5
+)
+25.
+Puntaje Pregunta 1.
+3 puntos por usar de manera correcta el teorema del binomio.
+1,5 puntos por obtener el valor de k = 5.
+1,5 puntos por obtener el coeﬁciente.
+----- pagina 2 -----
+2. Usando la deﬁnici´ on de l ´ ımite, demuestre que l ´ ım
+n→∞
+3n2 + 1
+n2 + n + 1 = 3.
+Soluci´ on.Dado ε > 0 debemos encontrar N tal que si n > N , entonces
+|an − L| =
+⏐⏐⏐⏐ 3n2 + 1n2 + n + 1 − 3⏐⏐⏐⏐ = ⏐⏐⏐⏐ −3n − 2n2 + n + 1 ⏐⏐⏐⏐ = 3n + 2n2 + n + 1
+debe ser menor que ε. Notemos que
+3n + 2
+n2 + n + 1 ⩽ 3n + 2nn2 + n + 1 = 5nn2 + n + 1 < 5nn2 + n = 5n + 1
+Imponiendo la condici´ on a este ´ ultimo valor, vemos que
+5
+n + 1 < ε ⇐ ⇒5ε < n + 1 ⇐ ⇒5ε − 1 < n .
+Dado a = 5 /ε − 1 por el principio de Arquimides existe N ∈ N tal que a < N . Entonces, si n > N
+implica que
+5
+ε − 1 < n ⇐ ⇒ 5n + 1 < ε .
+Se sigue que
+|an − L| = 3n + 2n2 + n + 1 < 5n + 1 < ε ,
+como quer ´ ıamos probar.
+Puntaje Pregunta 2.
+6 puntos por obtener de manera correcta la demostraci´ on.

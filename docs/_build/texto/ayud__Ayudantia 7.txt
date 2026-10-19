@@ -1,0 +1,38 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Godofredo Iommi – Ayudante: Rodrigo Galaz
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 7
+29 de Septiembre de 2023
+1. Sean α, β∈ R, y la funci´ onf : R → R definida por
+f (x) =
+(
+x2 + α si x ≥ 0
+x + β si x <0
+a) Demuestre que f es sobreyectiva si y solo si α ≤ β.
+b) Demuestre que f es inyectiva si y solo si α ≥ β
+c) ¿Cu´ al es el conjuntoB = {(α, β) ∈ R2 : f es biyectiva}?
+2. Considere la funci´ onf : R \ {1, −1} →R definida por
+f (x) = x + 1|x| −1
+a) Pruebe que f no es inyectiva.
+b) Sea g : [0, 1) → B la funci´ on definida porg(x) = f (x). Demuestre que g es inyectiva.
+c) Determine el conjunto B para que la funci´ ong sea sobreyectiva.
+d ) Calcule la inversa de g.
+3. Sean f : (−∞, 5) → R, f (x) =
+√
+x2 + 4 y g : [6, ∞) → R, g(x) = 2x + 3. Defina la funci´ on
+compuesta g ◦ f indicando cu´ al es el dominio de composici´ on.
+4. Considere la funci´ onh : R \ {−1} →R definida por
+h(x) = x3
+1 + x3
+a) Pruebe que h es una funci´ on inyectiva
+b) Encuentre la inversa de la funci´ onh.
+c) ¿Cu´ al es el dominio de la funci´ on inversa?
+5. Sean f : [−2, 3] → R y g : (0, 2] → R funciones definidas por
+f (x) = 3x + 2x2 + 1, g (x) = x2 − 3x + 2
+a) Determine el dominio de g ◦ f .
+b) Encuentre una expresi´ on para (g ◦ f )(x)
+1

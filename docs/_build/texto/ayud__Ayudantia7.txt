@@ -1,0 +1,48 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Rodrigo V argas
+Ayudantes: Mateo de la Cuadra y Math´ıas Luengo
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 7
+27 de Abril 2023
+Pregunta 1
+Clasifique las siguientes funciones seg´ un su monoton ´ ıa:
+a.) Figura 1: Gr´ afico funci´ on constante.
+b.) Figura 2: Gr´ afico oscilador arm´ onico amortiguado.
+c.) Figura 3: Gr´ afico de una exponencial con potencia negativa.
+1
+----- pagina 2 -----
+d.) Figura 4: Gr´ afico de funci´ on c´ ubica.
+Pregunta 2
+Demuestre que todo polinomio p : R+ → R de la forma p(x) = Pni=1 xi es una funci´ on inyectiva.
+Pregunta 3
+Sean f (x) = 2x2 + 3, g(x) = x + 1. Grafique
+a) g ◦ f
+b) f ◦ g
+c) gf + 1g
+d) f ◦ g−1g
+2
+----- pagina 3 -----
+Repaso I4:
+Pregunta 4
+Considere la funci´ on racional r(x) =x3+6x2+11x+6x2+2x−3 + ax + b
+a.) Determine las as ´ ıntotas verticales de r.
+b.) Cuales deben ser los valores de a y b para que r tenga una as ´ ıntota horizontal en y = 3.
+Pregunta 5
+Resuelva los siguientes problemas utilizando funciones cuadr´ aticas:
+a.) Sea la ecuaci´ on 8x2 + kx + 2. Determine el valor de k a modo de que las ra ´ ıces sean iguales.
+b.) Para llenar una piscina se tienen dos tuberias A y B, se sabe que juntas tardan 2 horas en
+llenar una piscina, adem´ as, sabemos que A demora 3 horas menos que B en llenar la misma
+piscina por si sola. ¿Cuantas horas tarda cada una separadamente?
+Pregunta 6
+Considere las par´ abolasf (x) = ax2 + bx + c, g(x) = px2 + qx + r tales que p, q̸= 0.
+a) Halle condiciones sobre los coeficientes para que las par´ abolas se intersecten solo una vez.
+b) Suponga que a >0 > py que f (− b2a ) = g(− q2p ). Demuestre que al menos una de las par´ abolas
+se intersecta con el eje x.
+c) Suponga que sucede lo expuesto en los incisos anteriores. Demuestre que las par´ abolas se
+intersectan en sus v´ ertices. (Hint: Considere que si m´ ax(f ) y m ´ ın(f ) son el m´ aximo y
+m ´ ınimo de una funci´ on respectivamente,− m´ ax(f ) = m ´ ın(−f )).
+3

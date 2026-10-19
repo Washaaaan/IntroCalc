@@ -1,0 +1,77 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´aticas
+Primer semestre de 2023
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 2
+1. Resuelva la inecuaci´ on
+|x2 − 2x| −5x + 8 > |x2 − 3x + 4|. (1)
+Soluci´ on.Comenzamos notando que el discriminante de x2 − 3x + 4 es −7, por lo que
+|x2 − 3x + 4| = x2 − 3x + 4 ∀x ∈ R. (2)
+Por otro lado, x2 − 2x = x(x − 2), por lo que
+|x2 − 2x| =
+ x2 − 2x si x ∈ (−∞, 0] ∪ [2, ∞)
+−(x2 − 2x) si x ∈ (0, 2). (3)
+Tenemos dos casos que considerar:
+Para x ∈ (−∞, 0] ∪ [2, ∞), tenemos que
+(1) ⇐ ⇒x2 − 2x − 5x + 8 > x2 − 3x + 4 ⇐ ⇒1 > x.
+Luego, el conjunto soluci´ on de (1) parax ∈ (−∞, 0] ∪ [2, ∞) es
+(−∞, 1) ∩ ((−∞, 0] ∪ [2, ∞)) = (−∞, 0].
+Para x ∈ (0, 2), tenemos que
+(1) ⇐ ⇒ −(x2 − 2x) − 5x + 8 > x2 − 3x + 4 ⇐ ⇒2 > x2.
+Luego, el conjunto soluci´ on de (1) parax ∈ (0, 2) es
+h
+−
+√
+2,
+√
+2
+i
+∩ (0, 2) = (0,
+√
+2).
+Finalmente, el conjunto soluci´ on de (1) enR es
+(−∞, 0] ∪ (0,
+√
+2) = (−∞,
+√
+2).
+Puntaje Pregunta 1.
+1 punto por obtener (2).
+1.5 puntos por obtener (3).
+1 punto por mostrar que (1) equivale a 2 > xpara x ∈ (−∞, 0] ∪ [2, ∞).
+0.5 puntos por obtener el conjunto soluci´ on de (1) parax ∈ (−∞, 0] ∪ [2, ∞).
+1 punto por mostrar que (1) equivale a 2 > x2 para x ∈ (0, 2).
+0.5 puntos por obtener el conjunto soluci´ on de (1) parax ∈ (0, 2).
+0.5 puntos por obtener el conjunto soluci´ on de (1) enR.
+Si se resuelve con puntos cr ´ ıticos, i.e. se analiza la inecuaci´ on en los intervalos (−∞, 0], (0 , 2] y
+(2, ∞), distribuir el puntaje de acuerdo a la asignaci´ on anterior.
+----- pagina 2 -----
+2. Resuelva la siguiente inecuaci´ on √
+3 − 3x ⩽
+√
+21 + 4x − x2 .
+Soluci´ on.Para que la inecuaci´ on est´ e bien definida las cantidades subradicales deben ser no negativas,
+es decir
+3 − 3x ⩾ 0 ⇐ ⇒x ⩽ 1 ⇐ ⇒x ∈ (−∞, 1]
+21 + 4x − x2 ⩾ 0 ⇐ ⇒x2 − 4x − 21 ⩽ 0 ⇐ ⇒(x − 7)(x + 3) ⩽ 0 ⇐ ⇒x ∈ [−3, 7]
+Entonces, el conjunto en donde la inecuaci´ on est´ a bien definida es
+B = (−∞, 1] ∩ [−3, 7] = [−3, 1] .
+Ahora bien, elevando a ambos lados de la desigualda se obtiene
+0 ⩽
+√
+3 − 3x ⩽
+√
+21 + 4x − x2 ⇐ ⇒3 − 3x ⩽ 21 + 4x − x2
+⇐ ⇒0 ⩽ 18 + 7x − x2
+⇐ ⇒0 ⩾ x2 − 7x − 18
+⇐ ⇒0 ⩾ (x − 9)(x + 2)
+⇐ ⇒x ∈ [−2, 9]
+Por lo tanto, el conjunto soluci´ on de la inecuaci´ on es:
+S = B ∩ [−2, 9] = [−2, 1] .
+Puntaje Pregunta 2.
+2 puntos por establecer el conjunto B donde la inecuaci´ on est´ a bien definida.
+3 puntos por resolver la inecuaci´ on con radicales elevando al cuadrado.
+1 punto por dar la soluci´ on final.

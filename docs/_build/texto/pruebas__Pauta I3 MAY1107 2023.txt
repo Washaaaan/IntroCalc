@@ -1,0 +1,152 @@
+
+----- pagina 1 -----
+Pontiﬁcia Universidad Cat´ olica de Chile
+Facultad de Matem´ aticas
+14 de noviembre de 2023
+MAT 1107 Introduccci´ on al C´ alculo - Pauta Interrogaci´ on 3
+Tiempo: 2:00 horas
+1. Resuelva,
+e2x− ex− 6 = 0.
+Soluci´ on.Notemos que
+e2x− ex− 6 = 0 ssi
+(ex)2− ex− 6 = 0 ssi
+(ex− 3)(ex + 2) = 0.
+Por lo tanto ex− 3 = 0 o ex + 2 = 0. Es decir,
+ex = 3 o ex =−2.
+La ecuaci´ onex =−2 no tiene soluci´ on ya que para todo x∈ R se tiene ex > 0. La
+ecuaci´ onex = 3 tiene por soluci´ onx = ln 3. Luego, la ´ unica soluci´ on a la ecuaci´ on
+es x = ln 3.
+2. Resuelva los siguientes problemas
+a) Calcule
+n∑
+k=1
+k
+(n
+k
+)
+Soluci´ on.Notemos que
+n∑
+k=1
+k
+(n
+k
+)
+=
+n∑
+k=1
+k n!k!(n− k)! = n∑k=1 n!(k− 1)!(n− k)! =
+n
+n∑
+k=1
+(n− 1)!
+(k− 1)!(n− k)! = n
+n∑
+k=1
+(n− 1
+k− 1
+)
+= n
+n−1∑
+j=0
+(n− 1
+j
+)
+= n2n−1.
+b) Si el primer, el segundo y el ´ ultimo t´ ermino de una progresi´ on artim´ etica son
+5, 9, 101 respectivamente. Determine el n´ umero total de t´ erminos.
+Soluci´ on.Notemos que el primer t´ ermino esa = 5. La diferencia viene dada
+por d = 4 = 9− 5. As´ ı e t´ ermino general esan = a + (n− 1)d. Luego,
+am = 101 = 5 + (m− 1)4.
+Por lo tanto, m = 25.
+----- pagina 2 -----
+3. Resuelva los siguientes problemas
+a) Calcule
+n∑
+k=1
+k−
+√
+k2− 1√
+k
+√
+k + 1
+.
+Soluci´ on. Problema anulado.Notemos que
+k−
+√
+k2− 1√
+k
+√
+k + 1
+=
+√
+k√
+k + 1−
+√
+k− 1√
+k
+.
+As´ ı por la propiedad telesc´ opica tenemos que
+n∑
+k=1
+k−
+√
+k2− 1√
+k
+√
+k + 1
+=
+n∑
+k=1
+( √
+k√
+k + 1−
+√
+k− 1√
+k
+)
+=
+√n√n + 1−√1− 1√1 = √n√n + 1.
+b) La raz´ on en una progresi´ on geom´ etrica es 3/2 y el quinto t´ ermino es 1. Deter-
+mine el tercer t´ ermino.
+Soluci´ on.Notemos que la raz´ on esr = 3/2. El t´ ermino general esan = arn−1.
+As´ ı,
+1 = a5 = a
+(3
+2
+)5−1
+= a
+(3
+2
+)4
+.
+Es decir, a =
+( 3
+2
+)−4. Por lo tanto,
+a3 =
+(3
+2
+)−4(3
+2
+)2
+=
+(3
+2
+)−2
+.
+4. Recuerde que log := log 10. Resuelva,
+log(x + 1)− log(x− 1) = 2.
+Soluci´ on.Notemos que
+log(x + 1)− log(x− 1) = log
+( x + 1
+x− 1
+)
+= 2.
+Es decir,
+x + 1
+x− 1 = 102 = 100.
+Por lo tanto
+x + 1 = 100(x− 1) = 100x− 100
+As´ ı,
+101 = 99x
+Luego, x = 10199 .

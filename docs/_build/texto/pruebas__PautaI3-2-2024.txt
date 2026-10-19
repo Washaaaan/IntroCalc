@@ -1,0 +1,247 @@
+
+----- pagina 1 -----
+Pontiﬁcia Universidad Cat´ olica de Chile
+Facultad de Matem´ aticas
+Departamento de Matem´ atica
+07/noviembre/2024.
+MAT 1207
+Pauta Interrogaci´ on 3.
+Justiﬁque claramente sus respuestas.
+1. a) [2 puntos.] Determine en funci´ on de x∈ R, para x∈ (−1, 1)
+tan (2 arctan(x))
+. Soluci´ on:
+i) Sea α = arctan(x), entonces tan( α) = x y −π2 < x <π2 . Queremos calcular
+tan(2α).
+ii) Adem´ as: tan(2α) = 2 tan(α)1− tan2(α) = 2x1−x2 .
+iii) Por lo tanto
+tan (2 arctan(x)) = 2x1−x2 , x∈ (−1, 1)
+Puntaje:
+0,5 puntos por i).
+1 punto por ii).
+0,5 puntos por iii).
+b) [2 puntos.] Determine
+sen
+(
+−π3− arcsin(−12))
+Soluci´ on:
+sen
+(
+−π3− arcsin(−12)) = sen(−π3 + arcsin(12)) = sen(−π3 + π6)
+= sen
+(
+−π6) =− sen(π6) =−12
+Puntaje:
+0,5 puntos por usar el que arcsin es impar.
+1 punto por obtener arcsin
+(1
+2
+)
+.
+0,5 puntos por obtener−12.
+----- pagina 2 -----
+El ejercicio anterior, tambi´ en se puede resolver como:
+i) Sea α = arcsin
+(
+−12), entonces se trata de resolver
+sen
+(
+−π3−α) =− sen(π3 +α) =−[sen(π3) cos(α) + cos(π3) sen(α)] (∗)
+ii) Como α = arcsin
+(
+−12) =⇒
+
+
+
+sen(α) =−12
+−π2≤α≤ π2
+=⇒ cos(α) =
+√
+1− 14 =
+√
+3
+2
+iii) Luego de (∗) :
+sen
+(
+−π3−α) =−[√32 ·√32 + 12·(−12)] =−[34− 14] =−12
+Puntaje:
+0,5 puntos por i)
+1 punto por ii).
+0,5 puntos por iii).
+----- pagina 3 -----
+c) [2 puntos.] Resuelva la ecuaci´ on:
+cos
+(
+arc cos
+(√
+3
+2
+)
++ arcsin(x)
+)
+= 1
+Soluci´ on:
+cos
+(
+arc cos
+(√
+3
+2
+)
++ arcsin(x)
+)
+= 1 =⇒ arc cos
+(√
+3
+2
+)
++ arcsin(x) = arc cos(1)
+=⇒ π6 + arcsin(x) = 0 =⇒ arcsin(x) =−π6 =⇒x = sen(−π6) =⇒x =−12
+Puntaje:
+0,5 puntos por considerar que arc cos(1) = 0.
+0,5 puntos por obtener arcsin(x) =−π6 .
+1 punto por obtener x =−12.
+----- pagina 4 -----
+2. a) [2 puntos.] Calcule ( −1−i)14.
+Soluci´ on:
+i)−1−i =
+√
+2 cis
+(5π
+4
+)
+.
+ii) Luego
+(−1−i)14 =
+(√
+2 cis
+(5π
+4
+))14
+= 2 7 cis
+(70π
+4
+)
+iii) Como
+cis
+(70π
+4
+)
+= cis
+(64π
+4 + 6π4 ) = cis(6π4 ) = cis(3π2 ) =−i
+iv) Luego
+(−1−i)14 =−2 7i
+Puntaje:
+0,5 puntos por obtener i).
+0,5 puntos por obtener ii).
+0,5 puntos por obtener ii).
+0,5 puntos por obtener iv).
+b) [4 puntos.] Determine A y B∈ R, sabiendo que w∈ C es ra´ ız c´ ubica de la unidad y
+(1 +w)7
+w2 =A +Bw
+Soluci´ on:
+(1 +w)7
+w2 = (−w2)7w2 =−w14w2 =−w12 =− >1(w3 )4 =−(1)4 =−1
+Por lo tanto A =−1 y B = 0.
+Puntaje:
+1 punto por obtener usar el que: 1 + w =−w2.
+1 punto por obtener−w12.
+1 punto por obtener−1.
+1 punto por obtener los valores de A y B.
+----- pagina 5 -----
+3. a) [4 puntos] Determine el ´ area del tri´ angulo ∆ABC sabiendo queA(1, 1),B(4, 5) yC(6, 13).
+Soluci´ on:
+Se tiene:
+Calculamos AC.
+AC =d
+(
+(1, 1), (6, 13)
+)
+=
+√
+(1− 6)2 + (1− 13)2 =√(−5)2 + (−12)2
+=
+√
+25 + 144 =
+√
+169 = 13
+La altura h corresponde a la distancia desde B a← →AC para determinar← →AC conside-
+ramos que la pendiente es
+m = 13− 16− 1 = 125
+y← →AC pasa por (1, 1), luego
+← →AC :y− 1 = 125 (x− 1) =⇒← →AC : 12x− 5y− 7 = 0
+As´ ıh es:
+h =d
+(
+B, ← →AC) =|12· 4− 5· 5− 7|√
+122 + (−5)2
+= 1613
+Por lo tanto el ´ area del ∆ABC es:
+1
+2· 13· 1613 = 8
+Puntaje:
+1 punto por obtener AB.
+1,5 puntos por obtener← →AC.
+1 punto por obtener h.
+0,5 puntos por el ´ area del tri´ angulo.
+----- pagina 6 -----
+b) [2 puntos] Dados los puntos A(1, 2) yB(2, 1), determine el lugar geom´ etrico de los puntos
+P (x,y ) tales que d(P,A ) =d(P,B ).
+Soluci´ on:Sea P (x,y ) en el Lugar Geom´ etrico, entonces
+i)P (x,y )∈L.G⇐⇒ d(P,A ) =d(P,B )⇐⇒
+√
+(x− 1)2 + (y− 2)2 =√(x− 2)2 + (y− 1)2
+⇐⇒(x−1)2+(y−2)2 = (x−2)2+(y−1)2⇐⇒x2−2x+1+y2−4y+4 =x2−4x+4+y2−2y+1
+⇐⇒2x = 2y⇐⇒x =y
+De donde el lugar Geom´ etrico es la recta de ecuaci´ ony =x (la simetral).
+Puntaje:
+1 punto por obtener plantear i)
+1 punto por obtener que el lugar geom´ etrico es una recta. (no tienen obligaci´ on de
+reconocer que es la simetral).
+----- pagina 7 -----
+4. Dada la circunferencia: C : (x− 4)2 + (y− 2)2 = 2.
+a) [2 puntos] Determine la ecuaci´ on de la tangente desde el puntoP (5, 3) aC.
+Soluci´ on:Como P∈C , entonces la ecuaci´ on de la recta tangenteT es la ecuaci´ on
+desdoblada de
+C :x2− 8x +y2− 4y + 18 = 0
+´ esto es:
+T :xx 0− 4(x +x0) +yy o− 2(y +y0) + 18 = 0
+y en este caso (x0,y 0) = (5, 3), entonces:
+T : 5x− 4(x + 5) + 3y− 2(y + 3) + 18 = 0
+=⇒T :x +y− 8 = 0
+Puntaje:
+1 punto por usar el que como P ∈ C, entonces la recta tangente es la ecuaci´ on
+desdoblada.
+1 punto por obtener la tangente.
+----- pagina 8 -----
+b) [4 puntos] Determine las ecuaciones de las tangentes trazadas desde el origen O(0, 0)
+aC.
+Soluci´ on:
+i) En este caso P /∈C , luego trazamos la circunferenciaC1 de di´ ametro los puntos (0, 0)
+y (4, 2) y se tiene:
+C1 : (x− 0)(x− 4) + (y− 0)(y− 2) = 0 =⇒C 1 :x2− 4x +y2− 2y = 0
+ii) Para determinar el eje radical entre C yC1, restamos las ecuaciones:
+x2− 8x +y2− 4y + 18 = 0
+x2− 4x +y2− 2y = 0 =⇒ 4x + 2y− 18 = 0
+de donde la ecuaci´ on del eje radical es:
+2x +y− 9 = 0 =⇒y = 9− 2x
+iii) Intersectando el eje radical con C1 (oC) se tiene:
+x2− 4x + (9− 2x)2− 2(9− 2x) = 0 =⇒ 5x2− 36x + 63 = 0
+=⇒x = 36±√1296− 126010 =⇒x = 36±√3610 =⇒x = 36± 610
+=⇒x = 215 ∨ x = 3
+Luego los puntos de tangencia son
+(21
+5 , 35) y (3, 3).
+iv) Las tangentes a C, desde el origen O(0, 0) est´ an dadas por:
+T1 que pasa por (0, 0) y
+(21
+5 , 35), cuya ecuaci´ on es
+y = x7
+y T2 que pasa por (0, 0) y (3, 3), cuya ecuaci´ on es
+y =x
+Puntaje:
+1 punto por obtener i).
+1 punto por obtener ii).
+1 punto por obtener iii).
+1 punto por obtener iv).

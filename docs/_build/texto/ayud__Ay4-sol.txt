@@ -1,0 +1,68 @@
+
+----- pagina 1 -----
+SolAy4
+----- pagina 2 -----
+f(x)=3x+5
+g(x)=002+x-0
+⊥f,(=-f(x)reflexiónEjex
+4)F2(x)=2 f,(Comprime (f2(x=-Yaf(X)
+4)fa(=(x-2)traslaciónhacialaderecha(f,(X-2)=-/2f(x-2)
+4fu(x)=f3(X) Alarga(f2(X-2)=f,(x-2)=2f(3x-2)
+⊥
+g(X)=fu(+ traulaciónhaciaarriba
+=
+G(x)=1 +f3(2X=1 +fa(2x-
+2)
+=1 +y f,(yzx-2)
+=
+1 -
+(f(4yx-2)
+=Dom
+yRec
+⊥porenunciadoelDominiodef(X: 4;4]
+=>elrecorrido,dadoqueesunalinearectadependientepositiva,esevaluarenlosextremosdelDom Una 3x+5=k
+Forma
+=>f(-4)=3(4)+5=-12+5= -7 masmatemática 3x=k-5x=k-j
+Ef(4)=3(4)+5=12+5=17 -4-12k-5=12
+>recorrido: E7,17] -7 k17
+EnelcasodeG
+-
+>Dom
+4SabemosqueelDominiode FX)es 4,4]
+Comoestamosevaluandofen -2 estotienequeperteneceral Dominio
+=-
+473x-2E4a=>-25+16/:
+-2321x-6.32
+-
+31X19 :Dom(f):XEE3,9]
+----- pagina 3 -----
+=>Elrecorrido.YaSabemos quef(X)E 7,-17)*fijemonosenque elrecorrido
+de f-2)eselmismo quef:Ef() E[-3,5;8,5] f((()-2)=f(-y)=-7
+=> f() t[-8,5;3,5] f(((9)-2)=f(4)=17
+=1-
+kf(A) [-7,5;4,5]
+tambiénes
+posibleevaluar
+H((X-2)=3((3x-2)+5
+=2x-6+5
+=2x-1
+=>
+g(x)=1 -y2(2x-1)
+=1 -
+x+y2
+=
+3/2-x
+Siloigualamosaun kCualquiera
+Y-x=k
+=32-k=x
+ySabemosque xEC-3,9]
+=
+3 343-k191
+-
+3-
+32k-k19-32/.-1
+3+37k),3-4
+=7 k3
+= 4,57k3-7,5
+..K
+,queesunValorcualquieradelrecorrido EE-7,5,4,5]

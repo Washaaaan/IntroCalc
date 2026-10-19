@@ -1,0 +1,210 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+Facultad de Matem´aticas
+Departamento de Matem´aticas
+Primer semestre de 2020
+Examen
+MAT1107 - Introducci´ on al C´ alculo
+(1) Resuelva la inecuaci´ on
+x2− 4
+x− 4 > 1.
+(6 puntos)
+Soluci´ on.
+Reescribimos la inecuaci´ on como
+x2− 4
+x− 4 − 1> 0,
+que es equivalente a
+x2−x
+x− 4 = x(x− 1)x− 4 > 0. (3 puntos)
+Mediante tabla de signo (2 puntos), vemos que el conjunto soluci´ on corresponde a
+(0, 1)∪ (4,∞). (1 punto)
+(2) Para todo n≥ 1, sea an≥ 0. Demuestre que
+( n∑
+j=1
+aj
+)2
+≥
+n∑
+j=1
+a2j,
+para todo n≥ 1. (6 puntos)
+Soluci´ on.
+La desigualdad se veriﬁca para n = 1: a21≥a21. (1 punto)
+Supongamos que
+( k∑
+j=1
+aj
+)2
+≥
+k∑
+j=1
+a2j,
+para alg´ unk≥ 1. (1 punto)
+1
+----- pagina 2 -----
+2
+Luego,
+( k+1∑
+j=1
+aj
+)2
+=
+( k∑
+j=1
+aj +ak+1
+)2
+=
+( k∑
+j=1
+aj
+)2
++ 2ak+1
+k∑
+j=1
+aj +a2k+1
+≥
+k∑
+j=1
+a2j + 2ak+1
+k∑
+j=1
+aj +a2k+1 (1.5 puntos)
+≥
+k∑
+j=1
+a2j +a2k+1 (1.5 puntos)
+=
+k+1∑
+j=1
+a2j.
+Se concluye por inducci´ on.(1 punto)
+(3) Esboce la gr´ aﬁca de la funci´ on
+f(x) =|x|3−x3
+x + 1 .
+(6 puntos)
+Soluci´ on.
+Observamos que f(x) = 0 si x≥ 0. (1 punto)
+Si x< 0, tenemos que
+f(x) =−2x3
+x + 1. (1 punto)
+Vemos quef tiene una as´ ıntota vertical enx =−1 con
+lim
+x→−1+
+f(x) = + ∞, (1 punto)
+lim
+x→−1−
+f(x) = −∞. (1 punto)
+Finalmente,
+lim
+x→−∞
+f(x) =−∞. (1 punto)
+Juntar todos los elementos en el gr´ aﬁco:(1 punto).
+(4) (a) Sea a∈ R. Considere la sucesi´ on dada por
+a1 = a,
+an+1 = an +an+1, n ≥ 1.
+Calcule a100. (3 puntos)
+----- pagina 3 -----
+3
+(b) Calcule el coeﬁciente que acompa˜ na ax−30 en la expansi´ on de
+(
+2 +
+(
+x2 + 1x)54)2.
+(3 puntos)
+Soluci´ on.
+(a) Notamos que
+an =
+n∑
+j=1
+aj. (2 puntos) (1)
+Por lo tanto, si a⁄= 1,
+a100 = a101−aa− 1 . (0.5 puntos) (2)
+Si a = 1,
+a100 = 100. (0.5 puntos) (3)
+(b) Primero,
+(
+2 +
+(
+x2 + 1x)54)2 = 4 + 4 (x2 + 1x)54 +(x2 + 1x)108
+= 4 + 4
+54∑
+j=0
+(54
+j
+)
+x2jx−(54−j) +
+108∑
+k=0
+(108
+k
+)
+x2kx−(108−k)
+= 4 + 4
+54∑
+j=0
+(54
+j
+)
+x3j−54 +
+108∑
+k=0
+(108
+k
+)
+x3k−108.
+(2 puntos)
+Por lo tanto tenemos que escoger j = 8 y k = 26. (0.5 puntos)
+Luego, el coeﬁciente buscado es
+4
+(54
+8
+)
++
+(108
+26
+)
+. (0.5 puntos)
+(5) (a) Usando la deﬁnici´ on, demuestre que
+lim
+n→∞
+⌊n + 1⌋3
+n2 + 1 =∞.
+(3 puntos)
+(b) Demuestre que el l´ ımite
+lim
+n→∞
+n2 cos(πn)
+n2 + 1
+no existe. (3 puntos)
+Soluci´ on.
+----- pagina 4 -----
+4
+(a) Usando⌊n + 1⌋≥ n, se obtiene
+⌊n + 1⌋3
+n2 + 1 ≥ n3n2 + 1 =n· n2n2 + 1.
+Vemos que
+n2
+n2 + 1≥ 12, ∀n≥ 1.
+Luego,
+⌊n + 1⌋3
+n2 + 1 ≥ n2. (2 puntos)
+Sea M >0 y sea n0≥ 1 tal que n0≥ 2M. (0.5 puntos)
+Luego, si n≥n0,
+⌊n + 1⌋3
+n2 + 1 ≥ n2≥ n02 ≥M. (0.5 puntos)
+(b) Usamos subsucesiones. Sea
+an = n2 cos(πn)n2 + 1 .
+Luego,
+lim
+n→∞
+a2n = limn→∞
+n2
+n2 + 1 = 1. (1.5 puntos)
+Por otro lado,
+lim
+n→∞
+a2n+1 =− limn→∞
+n2
+n2 + 1 =−1. (1.5 puntos)
+Luego, el l´ ımite no puede existir.

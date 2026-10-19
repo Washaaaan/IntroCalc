@@ -1,0 +1,135 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer Semestre 2025
+Introducci´ on al C´ alculo - MAT1107
+Interrogaci´ on N° 5
+1. Considere la funci´ on f : A ⊆ R → B deﬁnida por
+f (x) =
+√
+2x − 3
+x + 4 .
+a) Determine el mayor conjunto A en el cual f es inyectiva.
+b) Determine el conjunto B para que f sea sobreyectiva.
+c) Determine la inversa de f .
+Soluci´ on.
+a) Observe que las funciones h(x) = √x y ℓ(x) = 2x − 3x + 4 son inyectivas en sus dominios, luego
+f = h ◦ ℓ es inyectiva en su dominio. Basta elegir A = Dom(f ), se tiene que
+x ∈ Dom(f ) ⇐ ⇒
+(2x − 3
+x + 4 /greaterorequalslant 0
+)
+∧ (x ⁄= −4) ⇐ ⇒x ∈ (−∞, −4) ∪
+[ 3
+2, ∞
+)
+Por lo tanto, A = (−∞, −4) ∪
+[ 3
+2, ∞
+)
+.
+b) Se tiene que B = Rec(f ). Basta con hallar el recorrido de la funci´ on f . Se tiene que
+y ∈ Rec(f ) ⇐ ⇒ (∃ x ∈ A) (y = f (x))
+⇐ ⇒ (∃ x ∈ A)
+(
+y =
+√
+2x − 3
+x + 4
+)
+⇐ ⇒ (∃ x ∈ A)
+(
+y2 = 2x − 3x + 4) ∧ (y /greaterorequalslant 0)
+⇐ ⇒ (∃ x ∈ A)
+(
+xy2 + 4y2 = 2x − 3) ∧ (y /greaterorequalslant 0)
+⇐ ⇒ (∃ x ∈ A)
+(
+x(y2 − 2) = −3 − 4y2) ∧ (y /greaterorequalslant 0)
+⇐ ⇒ (∃ x ∈ A)
+(
+x = 4y2 + 3y2 − 2) ∧ (y /greaterorequalslant 0)
+⇐ ⇒
+(
+x ⁄= −
+√
+2
+)(
+x ⁄=
+√
+2
+)
+∧ (y /greaterorequalslant 0)
+Por lo tanto, B = [0,
+√
+2) ∪ (
+√
+2, ∞).
+c) De lo realizado en el inciso b) se sigue que f −1 : B → A est´ a deﬁnida porf −1(x) = 4x2 + 32 − y2 .
+----- pagina 2 -----
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 2 puntos por determinar que A = Dom(f ) = ( −∞, −4) ∪
+[ 3
+2 , ∞
+)
+.
+CC 2. 2 puntos por determinar que B = Rec(f ) = [0 ,
+√
+2) ∪ (
+√
+2, ∞).
+CC 3. 2 puntos por exhibir la inversa de f .
+----- pagina 3 -----
+2. Sean
+f (x) =
+
+
+
+3x − 2 si x ⩽ 1
+x
+x − 1 si x > 1
+y g(x) =
+√
+x + 2 .
+a) Determine el dominio de f ◦ g.
+b) Determine una expresi´ on para ( f ◦ g)(x).
+Soluci´ on.
+a) Se tiene que
+x ∈ Dom(f ◦ g) ⇐ ⇒(x ∈ Dom(g)) ∧ (g(x) ∈ Dom(f )) ⇐ ⇒(x ∈ [−2, ∞)) ∧ (g(x) ∈ R)
+Luego, Dom( f ◦ g) = [ −2, ∞).
+b) Notemos que
+(f ◦ g)(x) = f (g(x)) =
+
+
+
+3g(x) − 2 si g(x) ⩽ 1
+g(x)
+g(x) − 1 si g(x) > 1
+• Rama 1:
+g(x) ⩽ 1 ⇐ ⇒
+√
+x + 2 ⩽ 1 ⇐ ⇒x + 2 ⩽ 1 ⇐ ⇒x ⩽ −1
+• Rama 2:
+g(x) > 1 ⇐ ⇒
+√
+x + 2 > 1 ⇐ ⇒x + 2 > 1 ⇐ ⇒x > −1
+Por lo tanto, obtenemos que
+(f ◦ g)(x) =
+
+
+
+3√x + 2 − 2 si −2 ⩽ x ⩽ −1
+√x + 2√x + 2 − 1 si x > 1
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 2 puntos por determinar el dominio de f ◦ g.
+CC 2. 2 puntos por obtener que f (g(x)) ==
+
+
+
+3g(x) − 2 si g(x) ⩽ 1
+g(x)
+g(x) − 1 si g(x) > 1
+.
+CC 3. 2 puntos por resolver las condiciones de las ramas 1 y 2.

@@ -1,0 +1,64 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Rodrigo V argas
+Ayudantes: Mateo de la Cuadra y Math´ıas Luengo
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 5
+13 de Marzo de 2023
+Pregunta 1
+Determine los valores de a (y b cuando sea necesario) para que las siguientes reglas de asignaci´ on
+sean funciones. Luego, grafique y encuentre el dominio y recorrido de la funci´ on.
+f (x) =
+
+
+
+10 x ≤ 3
+|a − x| 3 ≤ x ≤ 8
+x − 3 x ≥ 8
+g(x) =
+
+
+
+10 x ≤ 1
+ax + b 1 ≤ x ≤ 4
+31 x ≥ 4
+Pregunta 2
+Sea f (x) = x3. Determine los gr´ aficos de las siguientes funciones:
+i. −f (x)
+ii. f (−x)
+iii. f (x) + 1
+iv. f (x + 1)
+v. 2 f (x)
+vi. f ( x2 )
+vii. f (−x) − 1
+1
+----- pagina 2 -----
+Pregunta 3
+Sea f : A → B definidida por f (x) = |x + 1| + |x − 1| + |x − 2|.
+a) Determine el dominio de f .
+b) Encuentre cuando f es 0, cuando es negativa y cuando es positiva.
+c) Determine el recorrido de f .
+d) Bosqueje el gr´ afico def .
+Pregunta 4
+Grafique las siguientes funciones y determine sus recorridos.
+a) f : [-5,5] → R, g: [-3,3] → R, f (x) = [x]2, g(x) = [x2].
+b) f , g: [-5,5] → R, f (x) = 2[x] + 1, g(x) = [2x + 1].
+c) f : [-5,5] → R, f (x) = x − [x].
+Pregunta 5
+Determine el dominio y recorrido de las siguientes funciones.
+a) f1(x) = xk+x , k ∈ R\{0}.
+b) f2(x) = √mx + n, m,n > 0.
+c) f3(x) =
+3√x√x+1 . (Solo calcular dominio)
+Pregunta 6
+Considere f (x) = x2. Se aplicar´ an las siguientes transformaciones:
+i. Se refleja respecto al eje x.
+ii. Se contrae por un factor de 12 verticalmente.
+iii. Se mueve verticalmente tres unidades (hacia los positivos).
+iv. Se elonga horizontalmente por un factor de 13 .
+v. Se refleja respecto al eje y.
+Llame g al resultado. D´ e una f´ ormula expl ´ ıcita para g y graf ´ ıquela.
+2

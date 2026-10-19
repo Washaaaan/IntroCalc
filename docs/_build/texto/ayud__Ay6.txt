@@ -1,0 +1,26 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Profesor: Alejandra Schild
+Ayudantes: Gustavo Blanco y Esteban V ´asquez
+Ayudant ´ ıa 6 – MAT1107
+Primer Semestre 2024
+Pregunta 1Sean g: R → R, g(x) = -3x + 1, y
+f (x) =
+(
+x2 + 5 si x <−1
+1 − x si x ≥ −1
+Definir las funciones f ◦ g y g ◦ f
+Pregunta 2Clasifique las siguientes funciones seg´ un monoton ´ ıa:
+a. f(x) = x
+b. f(x) = -x
+c. f(x) = e x
+d. f(x) = 1x con x ∈ (0,∞)
+e. f(x) = 5
+f. f(x) = x 2
+Pregunta 3Considere las siguientes funciones:
+f (x) = 1 + x2 − x , g(x) = 1x
+• Calcule f ◦ g y su dominio, escribiendo su dominio en notaci´ on de intervalo.
+• Calcule g ◦ f y su dominio, escribiendo su dominio en notaci´ on de intervalo.
+1

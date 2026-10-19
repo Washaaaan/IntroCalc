@@ -1,0 +1,147 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Operaciones con l ´ ımites 1 de Junio de 2022 1 / 10
+Operaciones con l ´ ımites
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+1 de Junio de 2022
+----- pagina 2 -----
+Operaciones con l ´ ımites
+Teorema.
+Si l ´ ım
+n→∞
+an = 0 y {bn} es una sucesi´ on acotada entonces
+l ´ ım
+n→∞
+an · bn = 0 .
+Demostraci´ onExiste c > 0 tal que |bn| ⩽ c para todo n ∈ N. Dado
+cualquier ε >0, existe N ∈ N tal que n > N entonces |an| < ε/c.
+Entonces, si n > N implica que
+|an · bn| = |an| · |bn| < (ε/c) · c = ε .
+Luego l ´ ım
+n→∞
+anbn = 0.
+Rodrigo Vargas (LIES) Operaciones con l ´ ımites 1 de Junio de 2022 2 / 10
+----- pagina 3 -----
+Operaciones con l ´ ımites
+EJEMPLO 1 Si an = 1n y bn = sen(n) entonces {bn} no esconvergente, sin embargo como −1 ⩽ bn ⩽ 1, se tiene
+l ´ ım
+n→∞
+(an · bn) = l ´ ımn→∞
+sen(n)
+n = 0 .
+Rodrigo Vargas (LIES) Operaciones con l ´ ımites 1 de Junio de 2022 3 / 10
+----- pagina 4 -----
+Operaciones con l ´ ımites
+Teorema.
+Si l ´ ım
+n→∞
+an = L y l ´ ımn→∞ bn = M entonces:
+1 l ´ ım
+n→∞
+(an + bn) = l ´ ımn→∞ an + l ´ ımn→∞ bn = L + M
+2 l ´ ım
+n→∞
+(an · bn) =
+
+l ´ ım
+n→∞
+an
+ 
+l ´ ım
+n→∞
+bn
+
+= L · M
+3 l ´ ım
+n→∞
+an
+bn
+=
+l ´ ım
+n→∞
+an
+l ´ ım
+n→∞
+bn
+= LM , cuando M ̸= 0.
+Rodrigo Vargas (LIES) Operaciones con l ´ ımites 1 de Junio de 2022 4 / 10
+----- pagina 5 -----
+Operaciones con l ´ ımites
+Teorema.
+Si p > 0 entonces l ´ ım
+n→∞
+1
+np = 0.
+Demostraci´ onDado ε >0 debemos encontrar N tal que si n > N
+entonces  1np − 0 = 1np
+debe ser menor que ε. Imponiendo la condici´ on, vemos que
+1
+np < ε⇐ ⇒1ε1/p < n
+Por la propiedad arquimediana, dado a = 1/ε1/p existe N ∈ N tal que
+a < N. Luego, si n > N entonces
+1
+ε1/p < n ⇐ ⇒1np < ε .
+Rodrigo Vargas (LIES) Operaciones con l ´ ımites 1 de Junio de 2022 5 / 10
+----- pagina 6 -----
+Operaciones con l ´ ımites
+EJEMPLO 2 Determine el l ´ ımite de la sucesi´ onan = nn + 1
+EJEMPLO 3 Determine el l ´ ımite de la sucesi´ onbn = n3 + 2n2 − 4n4 + 2
+Rodrigo Vargas (LIES) Operaciones con l ´ ımites 1 de Junio de 2022 6 / 10
+----- pagina 7 -----
+Operaciones con l ´ ımites
+Observaci´ onSi P(x) y Q(x) son polinomios reales, entonces para
+encontrar el l ´ ımite de el cociente entre dos polinomios en la variable
+n, esto es
+l ´ ım
+n→∞
+P(n)
+Q(n)
+basta con amplificar por 1np donde p es el grado del polinomio Q
+Rodrigo Vargas (LIES) Operaciones con l ´ ımites 1 de Junio de 2022 7 / 10
+----- pagina 8 -----
+L ´ ımites y desigualdades
+Teorema. (Teorema del Sandwich)
+Si an ⩽ bn ⩽ cn para todo n ⩾ n0 y l ´ ımn→∞ an = l ´ ımn→∞ cn = L, entonces
+l ´ ım
+n→∞
+bn = L.
+Demostraci´ onDado cualquier ε >0, existen N1 y N2 tales que si
+n > N1 =⇒ L − ε <an < L + ε y n > N2 =⇒ L − ε <cn < L + ε.
+Sea N = m´ ax{N1, N2}. Entonces, si n > N implica que
+L − ε <an ⩽ bn ⩽ cn < L + ε =⇒ bn ∈ (L − ε, L + ε)
+luego l ´ ım
+n→∞
+bn = L.
+Rodrigo Vargas (LIES) Operaciones con l ´ ımites 1 de Junio de 2022 8 / 10
+----- pagina 9 -----
+L ´ ımites y desigualdades
+EJEMPLO 4 Calcule l ´ ım
+n→∞
+ln(n)
+n .
+Soluci´ onPor la desigualdad fundamental del logaritmo
+ln(x) ⩽ x − 1 < x
+En particular, para todo n ∈ N se cumple
+0 ⩽ ln(√n) ⩽ √n ⇐ ⇒0 ⩽ ln(n1/2) ⩽ n1/2
+⇐ ⇒0 ⩽ 12 ln(n) ⩽ n1/2
+⇐ ⇒0 ⩽ ln(n)n ⩽ 2n1/2n
+⇐ ⇒0 ⩽ ln(n)n ⩽ 2n1/2
+Por el teorema del Sandwich se sigue que l ´ ım
+n→∞
+ln(n)
+n = 0
+Rodrigo Vargas (LIES) Operaciones con l ´ ımites 1 de Junio de 2022 9 / 10
+----- pagina 10 -----
+L ´ ımites y desigualdades
+EJEMPLO 5 Calcule l ´ ım
+n→∞
+n!
+nn .
+EJEMPLO 6 Calcular l ´ ım
+n→∞
+an , donde
+an = n + 1n2 + 1 + n + 2n2 + 2 + · · ·+ n + nn2 + n .
+Rodrigo Vargas (LIES) Operaciones con l ´ ımites 1 de Junio de 2022 10 / 10

@@ -1,0 +1,29 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Rodrigo V argas
+Ayudantes: Mateo de la Cuadra y Math´ıas Luengo
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 1
+9 de Marzo de 2023
+Pregunta 1:
+Muestre que a < bsi y solo si a3 < b3.
+Pregunta 2:
+Indique si las siguientes afirmaciones son verdadera o falsa. Si es verdadera debe demostrarla
+y si es falsa debe dar un contraejemplo.
+a) Si dos n´ umeros realesx, ysatisfacen que x < yentonces x−1 < y−1.
+b) Sea a, b∈ R, a < b⇐ ⇒a2 < b2.
+c) Para todo b y d en R−, q db + q bd ≥ 2.
+Pregunta 3:
+Dado a, b∈ R, tal que, a > by a >1, demuestre que: a2 + b > a+ ab.
+Pregunta 4:
+Demostrar que a−1 > a =⇒ a <−1 ∨ 0 < a <1.
+Pregunta 5:
+Pruebe que para todo x, yperteneciente a los reales ( R), tales que x, y >0, se tiene que
+x
+y + yx ≥ 2.
+Pregunta 6:
+Demuestre que ∀a, b >0, es cierto que (1 + a2)(1 + b2) ≥ 4ab.
+1

@@ -1,0 +1,64 @@
+
+----- pagina 1 -----
+Pontiﬁcia Universidad Cat´ olica de Chile
+Facultad de Matem´ aticas
+19 de Octubre de 2023
+MAT 1107 Introduccci´ on al C´ alculo - Pauta Interrogaci´ on 2
+Tiempo: 2:00 horas
+1. Sean N ={1, 2, . . .} el conjunto de los n´ umeros naturales y Z ={. . . ,−1, 0, 1, . . .}
+el conjunto de los n´ umeros enteros. Resuelva los siguientes problemas:
+a) Demuestre que la funci´ onf : N→ N deﬁnida por f(n) = n2 es inyectiva. ¿Es
+sobreyectiva?
+Soluci´ on.La funci´ on es inyectiva. En efecto, sif(n) = f(m) entonces n2 = m2.
+Como n, m > 0 tenemos que n =
+√
+n2 =√m2 = m. La funci´ on no es sobreyec-
+tiva, ya que y = 3 no es el cuadrdo de nin´ un n´ umero entero.
+b) Construya una funci´ on biyectivaf : N→ Z.
+Soluci´ on.Sea f : N→ Z deﬁnida por
+f(n) =
+{
+n
+2 si n es par.
+− n−12 si n es impar.
+La funci´ onf es inyectiva. En efecto, si n es par y m es impar entonces sus
+im´ agenes tiene distinto signo y por lo tanto son distintas. Sean n, m n´ umeros
+pares. Si f(n) = f(m) entonces n/2 = m/2 y por lo tanto n = m. Supongamos,
+ﬁnalmente, que n, m son impares. Si f(n) = f(m) entonces −(n− 1)/2 =
+−(m− 1)/2 y por lo tanto n = m. Por lo tanto, f es inyectiva. Probaremos que
+es sobreyectiva. Sea n∈ Z un entero positivo, entonces f(2n) = n. Notemos
+que f(1) = 0. Sea n∈ Z un entero negativo, entonces f(2n + 1) = n. Por lo
+tanto f es sobreyectiva y en consecuencia, biyectiva.
+2. Resuelva los siguientes problemas:
+a) Determine el dominio de la funci´ onf(x) =
+√
+x2+2
+x−1 .
+Soluci´ on.Notemos que para que la funci´ on est´ e bien deﬁnida es suﬁciente que
+x− 1 > 0. Luego dom( f) = (1,∞).
+b) Determine el recorrido de la funci´ onf(x) = 3x2 + 6x + 1.
+Soluci´ on.La func´ onf es una par´ abola convexa. Por lo tanto, si (xv, yv) es el
+v´ ertice entonces el recorrido es [yv,∞). Notemos que xv =−b/(2a) =−6/6 =
+−1, luego yv = f(−1) =−2. As´ ı, ref(f) = [−2,∞).
+3. Sean f : R→ R deﬁnida por f(x) = 3x + 2 y g : [−1, 1]→ R deﬁnida por
+√
+1− x2.
+Determine el dominio una f´ orumla parag◦ f.
+----- pagina 2 -----
+Soluci´ on.Notemos que,
+dom(g◦ f) ={x∈ domf : f(x)∈ domg} ={x∈ R : 3x + 2∈ [−1, 1]}
+{x∈ R :−1≤ 3x + 2≤ 1} ={x∈ R :−1≤ x≤−13} =[−1,−13] .
+Adem´ as,
+(g◦ f)(x) =
+√
+1− (3x + 2)2 =√−3− 13x− 9x2.
+4. Calcule los largos de los lados de un rect´ angulo de per´ ımetro 80mts y ´ area m´ axima.
+Soluci´ on.Sean x e y los largos de los lados del rect´ angulo. Su per´ ımetro viene dado
+por:
+2x + 2y = 80
+Por lo tanto y = 40− x. Por otra parte su ´ area esA = xy. Es decir, A = x(40− x) =
+40x−x2. As´ ı, el ´ area es como func´ on dex es una par´ abola que posee su m´ aximo en el
+v´ ertice. Para calcular el v´ ertice, utilizamos la f´ ormulax′ =−b/2a =−40/− 2 = 20.
+Luego y′ = 40−20 = 20. Por lo tanto las dimensiones buscadas son x = 20 e y = 20,
+es decir el rec´ atngulo de per´ ımetro 80mts que maximiza ´ area es el cuadrado de lado
+20mts.

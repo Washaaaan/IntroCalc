@@ -1,0 +1,85 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 3
+1. La gr´ aﬁca de la funci´ onf (x) = −1 − √2 − x se obtiene a partir de la gr´ aﬁca de g(x) = √x aplicando
+transformaciones de funciones.
+a) Identiﬁque, en el orden que se aplican, las transformaciones qu e permiten obtener la gr´ aﬁca de f a
+partir de la gr´ aﬁca de g.
+b) Graﬁque cada una de estas transformaciones, identiﬁcando los puntos de intersecci´ on con los ejes
+coordenados.
+Soluci´ on.
+(a) Considere las siguientes tranformaciones
+i. h(x) = g(−x) = √−x Reﬂejar en torno al eje Y .
+ii. ℓ(x) = h(x − 2) =
+√
+−(x − 2) = √2 − x Trasladar dos unidades a la derecha.
+iii. ϕ(x) = −ℓ(x) = −√2 − x Reﬂejar en torno al eje X.
+iv. f (x) = ϕ(x) − 1 = −1 − √2 − x Trasladar una unidad hacia abajo.
+(b) La secuencia de gr´ aﬁcas es
+1
+2
+−1
+−1−2−3−4 x
+y
+y = h(x)
+1
+2
+−1
+1 2−1−2 x
+y
+y = ℓ(x)
+1
+2
+−1
+1 2−1−2 x
+y
+y = ϕ(x)
+1
+−1
+−2
+1 2−1−2 x
+y
+y = f (x)
+----- pagina 2 -----
+Puntaje Pregunta 1.
+• 1,5 puntos por la transformaci´ on h y su gr´ aﬁca.
+• 1,5 puntos por la transformaci´ on ℓ y su gr´ aﬁca.
+• 1,5 puntos por la transformaci´ on ϕ y su gr´ aﬁca.
+• 1,5 puntos por la transformaci´ on f y su gr´ aﬁca.
+----- pagina 3 -----
+2. Considere la funci´ on r(x) = 5x + 20x2 + 10x + 25 .
+a) Determine las as ´ ıntotas verticales de r.
+b) Determine las as ´ ıntotas horizontales (si es que existen) de r.
+c) Trace la gr´ aﬁca de r.
+d) Determine si la funci´ on r es inyectiva. Justiﬁque su respuesta.
+Soluci´ on.
+a) Factorizando el denominador vemos que
+r(x) = 5x + 20x2 + 10x + 25 = 5x + 20(x + 5)2 = P (x)Q(x) .
+Entonces Q(x) = 0 ⇐ ⇒x = −5 luego x = −5 es as ´ ıntota vertical der.
+b) Es sencillo ver que y = 0 es as ´ ıntota horizontal, porque el grado del numerador es men or que el
+grado del denominador.
+c) Usamos la informaci´ on que hemos encontrado
+x
+y
+−5
+4/5
+d) Por el test de la recta horizontal se ve que r no es inyectiva. En efecto,
+r(x) = 12 ⇐ ⇒ 5x + 20x2 + 10x + 25 = 12 ⇐ ⇒10x + 40 = x2 + 10x + 25 ⇐ ⇒x2 − 15 = 0 ⇐ ⇒x = ±√15
+Entonces existen x1 =
+√
+15, x2 = −
+√
+15 con x1 ⁄= x2 tales que r(x1) = r(x2) = 12. Luego r no es
+inyectiva.
+----- pagina 4 -----
+Puntaje Pregunta 2.
+• 1,5 puntos por determinar la as ´ ıntota vertical.
+• 1,5 puntos por determinar la as ´ ıntota horizontal.
+• 1,5 puntos por la gr´ aﬁca de la funci´ onr
+• 1,5 puntos por mostrar que r no es inyectiva. Exhibiendo los puntos x1, x2. En caso de solo
+argumentar con el test de la recta horizontal otorgar 0,5 puntos .

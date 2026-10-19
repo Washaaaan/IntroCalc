@@ -1,0 +1,22 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Profesor: Alejandra Schild
+Ayudantes: Gustavo Blanco y Esteban V ´asquez
+Ayudant ´ ıa 4 – MAT1107
+Primer Semestre 2024
+Pregunta 1 (Ejercicio clase 11) Un equipo de hockey juega en una cancha que tiene capacidad de 15.000
+espectadores. Con el precio del boleto a $ 14 d´ olares, el promedio de asistencia en juegos recientes ha sido
+de 9.500. Un estudio de mercado indica que por cada d´ olar que baje el precio del boleto, el promedio de
+asistencia aumenta en 1000. Encuentre el precio que lleve al m´ aximo el ingreso por venta de boletos.
+¿Como cambiar ´ ıa esto si la capacidad fuese 11.000?
+Pregunta 2Se tiene la funci´ on f(x) = x3, definida dentro del dominio x ∈ [-3,3].
+Dibuje las siguientes transformaciones especificando el nuevo dominio:
+• f(3x)
+• f(x + 3)
+• f(3x + 3)
+Pregunta 3Dada la funci´ onf (x) = 3x + 5, con dominio [ −4, 4], definimos g(x) = 1 − 12 f ( 23 x − 2)
+• Identifique cuales y en que orden se aplican las transformaciones que permiten obtener g a partir de f
+• Determine el dominio y recorrido de ambas funciones.
+1

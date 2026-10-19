@@ -1,0 +1,46 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Godofredo Iommi – Ayudante: Rodrigo Galaz
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 6
+22 de Septiembre de 2023
+1. Determine el dominio de las siguientes funciones:
+a) f (x) =
+√
+2x − x2
+b) f (x) =
+√
+x2−1
+8−x3
+c) f (x) = x5−4x4+7x+8√
+(x−8)(x+5)
+d ) f (x) =
+r
+1 −
+q
+x2−1
+|x|−1
+2. Determine el recorrido de las siguientes funciones:
+a) f (x) = −1x−7 + 5
+b) f (x) =
+√
+2x − x2
+c) f (x) = 2x+3x−1
+d ) f (x) =
+√
+−x2 − x + 2
+3. Considere la funci´ on definida por tramos
+f (x) =
+
+
+
+x3 si − 1 ≤ x <1
+−x2 + 2 si 1 < x≤ 2
+x − 1 si 2 < x≤ 4
+a) Trace la gr´ afica de la funci´ onf .
+b) Determine el dominio de f .
+c) Determine el recorrido de f .
+1

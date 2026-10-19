@@ -1,0 +1,21 @@
+
+----- pagina 1 -----
+GU´IA 6, INTRODUCCI ´ON AL C ´ALCULO, MAT1107
+GODOFREDO IOMMI
+1. Funciones cuadr´aticas
+(1) Un canal de agua lluvia se forma doblando hacia arriba los lados de una
+l´ amina met´ alica rectangular de 28 cent´ ımetros de ancho. ¿Cu´ anto es el ´ area
+m´ axima de la secci´ on transversal de la canal?
+(2) Un equipo de hockey juega en una cancha que tiene capacidad de 15 .000
+espectadores. Con el precio del boleto a 14 d´ olares, el promedio de asis-
+tencia en juegos recientes ha sido de 9 .500. Un estudio de mercado indica
+que por cada d´ olar que baje el precio del boleto, el promedio de asistencia
+aumenta en 1000. Encuentre el precio que lleve al m´ aximo el ingreso por
+venta de boletos
+(3) Graﬁque la funci ´’on f(x) = 5x2 − 30x + 49.
+(4) Determine el v´ ertice de la par´ abolaf(x) = −6x2 + 2x − 4.
+Facultad de Matem´aticas, Pontificia Universidad Cat´olica de Chile (PUC), Avenida
+Vicu˜na Mackenna 4860, Santiago, Chile
+Email address : giommi@mat.puc.cl
+URL: http://www.mat.puc.cl/~giommi/
+1

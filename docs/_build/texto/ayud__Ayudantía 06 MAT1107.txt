@@ -1,0 +1,37 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 06 - Jueves 28 de abril del 2022
+Problema 1.Sea f : [a, b] → R una funci´ on estrictamente creciente, es decir, six1, x2 ∈ [a, b] y
+x1 < x2, entonces f (x1) < f(x2).
+a) Demuestre que f es inyectiva y por tanto invertible (en alg´ un conjunto).
+b) Demuestre que f −1 es estrictamente creciente.
+Problema 2.Sea g : R → R una funci´ on definida por:
+g(x) =
+3
+q
+x +
+p
+1 + x2 + 3
+q
+x −
+p
+1 + x2
+a) Encuentre la inversa de g
+b) Sea f = g−1, demuestre que g ◦ f = id y f ◦ g = id.
+Problema 3.Sea f : A → B, g : B → C y h : C → D, demuestre que:
+h ◦ (g ◦ f ) = (h ◦ g) ◦ f
+Problema 4. Consideremos ahora dos funciones, f : A → B y g : B → C, ambas invertibles
+(biyecciones):
+f : A → B, g : B → C
+f −1 : B → A, g −1 : C → B
+Demuestre que:
+g ◦ f es invertible. Adem´ as (g ◦ f )−1 = f −1 ◦ g−1.
+Problema 5. Sean f : A → B, g : B → A dos funciones tales que f ◦ g = idB. Demuestre que
+f es sobreyectiva y que g es inyectiva.
+Problema 6.Sea f : A → B una funci´ on.
+a) Demuestre que si f es inyectiva, entonces existe una funci´ on sobreyectivag : B → A.
+b) Demuestre que si f es sobreyectiva, entonces existe una funci´ on inyectivah : B → A.

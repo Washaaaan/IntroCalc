@@ -1,0 +1,109 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 4
+1. Considere la funci´ on deﬁnida por tramos f : R → R dada por
+f (x) =
+
+
+
+|x + 2| + 1 si x ⩽ −2 ,
+x − 1
+x + 2 si x > −2 .
+a) Demuestre, en forma algebraica, que f es una funci´ on inyectiva
+b) Trace la gr´ aﬁca de la funci´ onf .
+c) Determine, en forma geom´ etrica, el recorrido de la funci´ on f .
+Soluci´ on.
+a) Por demostrar que f es inyectiva.
+• Caso 1. x1 > −2, x2 > −2.
+f (x1) = f (x2) = ⇒ x1 − 1x1 + 2 = x2 − 1x2 + 2
+=⇒ (x1 − 1)(x2 + 2) = ( x1 + 2)(x2 − 1)
+=⇒ x1x2 + 2x1 − x2 − 2 = x1x2 − x1 + 2x2 − 2
+=⇒ x1 = x2
+• Caso 2. x1 ⩽ −2 y x2 ⩽ −2
+f (x1) = f (x2) = ⇒ | x1 + 2| + 1 = |x2 + 2| + 1
+=⇒ | x1 + 2| = |x2 + 2|
+=⇒ − (x1 + 2) = −(x2 + 2)
+=⇒ x1 = x2
+----- pagina 2 -----
+• Caso 3. x1 > −2 y x2 ⩽ −2.
+f (x1) = f (x2) = ⇒ x1 − 1x1 + 2 = |x2 + 2| + 1
+=⇒ x1 − 1x1 + 2 = −(x2 + 2) + 1
+=⇒ x1 − 1x1 + 2 = −x2 − 1
+=⇒ x1 − 1 = ( −x2 − 1)(x1 + 2)
+=⇒ x1 − 1 = −x1x2 − 2x2 − x1 − 2
+=⇒ 0 = x1x2 + 2x2 + 2x1 + 1
+=⇒ 0 = x1(x2 + 2) + 2(y + 2) − 3
+=⇒ 0 = ( x2 + 2)(x1 + 2) − 3
+⇐ ⇒ x2 + 2 = 3x1 + 2
+Como x1 + 2 > 0 entonces 3x1 + 2 > 0 ⇐ ⇒x2 + 2 > 0 ⇐ ⇒x2 > −2 lo cual es una contradicci´ on.
+Por lo tanto, f es inyectiva.
+b) El gr´ aﬁco de la funci´ onf se muestra a continuaci´ on:
+1
+2
+3
+4
+−1
+−2
+−3
+−4
+1 2 3 4−1−2−3−4
+c) Tenemos que Rec( f ) = R.
+Puntaje Pregunta 1.
+• 2 puntos por mostrar que f es inyectiva.
+• 2 puntos por trazar la gr´ aﬁca de f .
+• 2 puntos por determinar de manera geom´ etrica el gr´ aﬁco de f .
+----- pagina 3 -----
+2. Sean f : [−2, 3] → R y g : (0, 2] → R funciones deﬁnidas por
+f (x) = 3x + 2x2 + 1 y g(x) = x2 − 3x + 2 .
+a) Determine el dominio de la funci´ on ( g ◦ f ).
+b) Encuentre una expresi´ on para (g ◦ f )(x).
+Soluci´ on.
+a) Tenemos que
+x ∈ Dom(g ◦ f ) ⇐ ⇒ (x ∈ Dom(f )) ∧ (f (x) ∈ Dom(g))
+⇐ ⇒ (x ∈ [−2, 3]) ∧
+( 3x + 2
+x2 + 1 ∈ (0, 2]
+)
+⇐ ⇒ (−2 ⩽ x ⩽ 3) ∧
+(
+0 < 3x + 2x2 + 1 ⩽ 2)
+⇐ ⇒ (−2 ⩽ x ⩽ 3) ∧
+(
+0 < 3x + 2 ⩽ 2(x2 + 1))
+⇐ ⇒ (−2 ⩽ x ⩽ 3) ∧
+(
+[0 < 3x + 2] ∧ [3x + 2 ⩽ 2(x2 + 1)])
+⇐ ⇒ (−2 ⩽ x ⩽ 3) ∧
+([
+−23 < x] ∧ [0 ⩽ x(2x − 3)])
+⇐ ⇒ (−2 ⩽ x ⩽ 3) ∧
+([
+−23 < x] ∧ [(x ⩽ 0) ∨ (x /greaterorequalslant 32 )])
+⇐ ⇒
+(
+−23 < x ⩽ 0) ∨ (32 ⩽ x ⩽ 3)
+Por lo tanto, Dom( g ◦ f ) =
+(
+−23 , 0] ∪ [ 32, 3].
+b) Se tiene que
+(g ◦ f )(x) = g(f (x)) = g
+(3x + 2
+x2 + 1
+)
+=
+( 3x + 2
+x2 + 1
+)2
+− 3
+(3x + 2
+x2 + 1
+)
++ 2 .
+Puntaje Pregunta 2.
+• 3 puntos por determinar el dominio de la funci´ on g ◦ f .
+• 3 puntos por determinar una expresi´ on para la funci´ ong ◦ f .

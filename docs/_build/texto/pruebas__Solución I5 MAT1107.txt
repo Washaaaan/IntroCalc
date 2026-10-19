@@ -1,0 +1,53 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 5
+1. Considere la funci´ on f : R − {1, −1} → R deﬁnida por
+f (x) = x + 1|x| − 1 .
+a) Pruebe que f no es inyectiva.
+b) Sea g : [0, 1) → B la funci´ on deﬁnida porg(x) = f (x). Demuestre que g es inyectiva.
+c) Determine el conjunto B para que la funci´ ong sea sobreyectiva.
+d) Calcule la inversa de g.
+Soluci´ on.
+a) Tenemos que x1 = −2 y x2 = −3 con x1 ⁄= x2 entonces f (x1) = f (x2) = −1. Luego f no es inyectiva.
+b) Si x ∈ [0, 1) entonces |x| = x por lo que g(x) = x + 1x − 1. Supongamos que g(x1) = g(x2) entonces
+x1 + 1
+x1 − 1 = x2 + 1x2 − 1 =⇒ (x1+1)(x2−1) = ( x2+1)(x1−1) =⇒ x1x2−x1+x2−1 = x2x1−x2+x1−1 =⇒ x1 = x2.
+Por lo tanto, g es inyectiva.
+c) El gr´ aﬁco de la funci´ ong es
+1
+−1
+−2
+−3
+−4
+1 2 3−1
+x
+y
+Por lo tanto, para que g sea sobreyectiva basta que B = (−∞, −1].
+----- pagina 2 -----
+d) Tenemos que
+y = f (x) ⇐ ⇒y = x + 1x − 1 =⇒ yx − y = x + 1 =⇒ x(y − 1) = y + 1 =⇒ x = y + 1y − 1
+Luego, g−1(x) = x + 1x − 1 .
+Puntaje Pregunta 1.
+• 1,5 puntos por encontrar cualquier par de puntos x1 y x2 distintos para los cuales f (x1) = f (x2).
+• 1,5 por mostrar que la funci´ on g es inyectiva.
+• 1,5 puntos por determinar el conjunto B = Rec(f ).
+• 1,5 puntos por encontrar la funci´ on inversa de g.
+----- pagina 3 -----
+2. Sea x ∈ R. Demuestre que ex + e−x /greaterorequalslant 2.
+Soluci´ on.Como ex > 0, la desigualdad es equivalente a
+e2x + 1 ≥ 2ex,
+y, por lo tanto, equivalente a
+e2x − 2ex + 1 ≥ 0.
+Esto ´ ultimo es equivalente a
+(ex − 1)2 ≥ 0,
+que es verdadera.
+Otra Forma. Usando la desigualdad fundamental sabemos que ex /greaterorequalslant 1 + x y e−x /greaterorequalslant 1 − x. Sumando
+estas desigualdadades obtenemos que
+ex + e−x /greaterorequalslant 1 + x + 1 − x = 2 .
+Puntaje Pregunta 2.
+• 6 puntos por mostrar de manera correcta lo solicitado.

@@ -1,0 +1,133 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 1 / 15
+Funciones polin´ omicas
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+11 de Abril de 2022
+----- pagina 2 -----
+Funciones polin´ omicas
+Definici´ on (Funciones polin´ omicas)
+Una funci´ on polin´ omica es de la forma
+f (x) = anx n + an−1x n−1 + · · ·+ a1x + a0
+donde an, an−1, . . . ,a1, a0 son constantes reales, que son llamados los
+coeficiente del polinomio.
+Las funciones polin´ omicas tienen dominio en R, aqu ´ ın es llamado el
+grado del polinomio.
+Si n = 0 el gr´ afico corresponde a una funci´ on constante.
+Si n = 1 el gr´ afico corresponde a una recta.
+Si n = 2 el gr´ afico corresponde a una par´ abola.
+Si n > 2 el gr´ afico no es conocido.
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 2 / 15
+----- pagina 3 -----
+Funciones polin´ omicas
+Definici´ on.
+Una funci´ on cuadr´ aticaes una funci´ on polinomial de grado 2.
+Entonces, una funci´ on cuadr´ atica esf : R → R definida por
+f (x) = ax 2 + bx + c , a ̸= 0 .
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 3 / 15
+----- pagina 4 -----
+Funciones polin´ omicas
+Forma normal de una funci´ on cuadr´ atica
+Una funci´ on cuadr´ aticaf (x) = ax 2 + bx + c se puede expresar en la
+forma normal
+f (x) = a(x − h)2 + k
+completando el cuadrado. La gr´ afica def es una par´ abola con v´ ertice
+(h, k); la par´ abola es convexa (se abre hacia arriba) si a > 0 o
+c´ oncava (se abre hacia abajo) sia < 0.
+Vértice (h, k)
+Vértice (h, k)
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 4 / 15
+----- pagina 5 -----
+Funciones polin´ omicas
+EJEMPLO 1 Sea f (x) = 2x 2 − 12x + 23. Exprese f en su forma
+normal y trace la gr´ afica def .
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 5 / 15
+----- pagina 6 -----
+Funciones polin´ omicas
+Valor M ´AXIMO o m ´ ınimo de una funci´ on cuadr´ atica
+Sea f una funci´ on cuadr´ atica con forma normalf (x) = a(x − h)2 + k.
+El valor m´ aximo o m ´ ınimo def ocurre en x = h.
+1 Si a > 0 entonces el valor m ´ ınimo def es f (h) = k.
+2 Si a < 0 entonces el valor m´ aximo def es f (h) = k.
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 6 / 15
+----- pagina 7 -----
+Funciones polin´ omicas
+EJEMPLO 2 Considere la funci´ on cuadr´ aticaf (x) = 5x 2 − 30x + 49.
+1 Exprese f en forma normal.
+2 Trace la gr´ afica def .
+3 Encuentre el valor m ´ ınimo def .
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 7 / 15
+----- pagina 8 -----
+Funciones polin´ omicas
+Valor M ´AXIMO o m ´ ınimo de una funci´ on cuadr´ atica
+El valor m´ aximo o m ´ ınimo de una funci´ on cuadr´ atica
+f (x) = ax 2 + bx + c se presenta en
+x = − b2a .
+1 Si a > 0 entonces el valor m ´ ınimo esf
+
+− b2a .
+2 Si a < 0 entonces el valor m´ aximo esf
+
+− b2a .
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 8 / 15
+----- pagina 9 -----
+Funciones polin´ omicas
+EJEMPLO 3 Un equipo de hockey juega en una cancha que tiene
+capacidad de 15.000 espectadores. Con el precio del boleto a $14
+d´ olares, el promedio de asistencia en juegos recientes ha sido de 9.500.
+Un estudio de mercado indica que por cada d´ olar que baje el precio
+del boleto, el promedio de asistencia aumenta en 1000. Encuentre el
+precio que lleve al m´ aximo el ingreso por venta de boletos.
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 9 / 15
+----- pagina 10 -----
+Funciones polin´ omicas
+Comportamiento final de polinomios
+El comportamiento final de la funci´ on polinomica
+P(x) = anx n + an−1x n−1 + · · ·+ a1x + a0 est´ a determinado por el
+grado n y el signo del coeficiente principal an como se indica en las
+siguientes gr´ aficas
+Coeficiente principal positivo Coeficiente principal negativo Coeficiente principal positivo Coeficiente principal negativo
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 10 / 15
+----- pagina 11 -----
+Funciones polin´ omicas
+Definici´ on (Ceros de una funci´ on)
+Si f : A → B es una funci´ on, entoncesc se denomina cero de f si
+f (c) = 0.
+Si P es una funci´ on polinomial, los ceros de P son las soluciones de la
+ecuaci´ on polinomialP(x) = 0. Observe que si P(c) = 0, entonces en
+x = c el gr´ afico deP corta al eje x.
+EJEMPLO 4 Los ceros de f (x) = x(x − 1)(x − 2) son 0, 1 y 2.
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 11 / 15
+----- pagina 12 -----
+Funciones polin´ omicas
+EJEMPLO 5 Hallar los ceros y graficar la funci´ on polinomial
+P(x) = x 3 − 2x 2 − 4x + 8.
+EJEMPLO 6 Hallar los ceros y graficar la funci´ on polinomial
+Q(x) = −2x 4 − x 3 + 3x 2.
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 12 / 15
+----- pagina 13 -----
+Funciones polin´ omicas
+Definici´ on. (Multiplicidad)
+Si c es un cero de P, y le corresponde un factor ( x − c) se presenta
+exactamente m veces en la factorizaci´ on deP, entonces decimos que
+c es un cero de multiplicidad m.
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 13 / 15
+----- pagina 14 -----
+Funciones polin´ omicas
+Forma de la gr´ afica cerca de un cero de multiplicidad m
+Si c es un cero de P de multiplicidad m, entonces la forma de la
+gr´ afica deP cerca de c es como sigue.
+Multiplicidad de c Forma de la gr´ afica de f cerca del punto
+de intersecci´ on x de c
+m impar, m > 1
+O
+m par, m > 1
+O
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 14 / 15
+----- pagina 15 -----
+Funciones polin´ omicas
+EJEMPLO 7 Grafique el polinomio f (x) = x 4(x − 2)3(x + 1)2.
+Rodrigo Vargas (LIES) Polinomios 11 de Abril de 2022 15 / 15

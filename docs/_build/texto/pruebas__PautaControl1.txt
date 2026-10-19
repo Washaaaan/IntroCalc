@@ -1,0 +1,65 @@
+
+----- pagina 1 -----
+Pontiﬁcia Universidad Cat´ olica de Chile
+Facultad de Matem´ aticas
+Departamento de Matem´ atica
+Segundo semestre 2024
+MAT 1207− Pauta Control 1.
+1. Si
+[ (p←→ q)∧ p]−→(r∨ s)
+es una proposici´ on falsa, entonces:
+a)• r es falsa y p es falsa.
+b) r es falsa y p es verdadera.
+c) s es verdadera y p es falsa.
+d) s es falsa y q es verdadera.
+2. La negaci´ on de la proposici´ on:
+Si hay un n´ umero natural mayor que 7, entonces su antecedente es menor que 8.
+es:
+a) Hay un n´ umero natural mayor que 7 y su antecedente es menor que 8.
+b)• Hay un n´ umero natural mayor que 7 y su antecedente no es menor que 8.
+c) No hay un n´ umero natural mayor que 7 y su antecedente es menor que 8.
+d) No hay un n´ umero natural mayor que 7 y su antecedente no es menor que 8.
+3. De las siguientes aﬁrmaciones:
+I) La proposici´ on ( p−→ q)∨ (q−→ p) es una tautolog´ ıa.
+II) La proposici´ on ( p−→ q)←→ (p∨ q) es una contradicci´ on.
+Son verdaderas:
+a)• Solo I).
+b) Solo II)
+c) Ambas I) y II)
+d) Ninguna.
+----- pagina 2 -----
+4. La disyunci´ on excluyente entre p y q denotada por:p∨q, es verdadera si y s´ olo si p es verdadera
+o q es verdadera, pero no ambas.
+Entonces
+(p∨ q)−→(p∧ q)
+es falsa si:
+a) p es falsa y q es falsa.
+b) p es verdadera.
+c)• p es falsa y q es verdadera.
+d) q es falsa.
+5. Si se quiere demostrar por contradicci´ on o reducci´ on al absurdo la siguientes propiedad:
+Si n es un m´ ultiplo de 3, entonces 3n− 1 es m´ ultiplo de 8.
+Debemos suponer que:
+a) n es m´ ultiplo de 3 y que 3n− 1 es m´ ultiplo de 8.
+b)• n es m´ ultiplo de 3 y que 3n− 1 no es m´ ultiplo de 8.
+c) n no es m´ ultiplo de 3 y que 3n− 1 es m´ ultiplo de 8.
+d) n no es m´ ultiplo de 3 y que 3n− 1 no es m´ ultiplo de 8.
+6. Dada la sucesi´ onan deﬁnida por:
+a1=3
+an+1 = an + 2 para n≥ 1
+entonces:
+a) an = 2n− 1.
+b) an = 4n− 1.
+c)• an = 2n + 1.
+d) an = 3n.
+7. Si n∑
+k=1
+k2 = n(n + 1)(2n + 1)6
+entonces
+11∑
+k=1
+k2 =
+a) 484.
+b) 253.
+c) 276.
+d)• 506.

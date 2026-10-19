@@ -1,0 +1,100 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2023
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 5
+1. Considere la funci´ on real de variable real deﬁnida por
+f (x) = − x(3 + x2)2 .
+(a) (0.4pts) Demuestre que f es impar.
+(b) (2pts) Sean x1, x2 ∈ [0, ∞). Muestre que
+f (x1) − f (x2) = − (x1 − x2)(3 + x21)2(3 + x22)2
+(
+9 − x1x2(6 + x21 + x1x2 + x22)
+)
+.
+(c) (0.8pts) Deduzca de (b) que f es estrictamente decreciente en [0 , 1].
+(d) (0.8pts) Deduzca de (b) que f es estrictamente creciente en [1 , ∞).
+(e) (1pt) Deduzca de las partes anteriores la monoton ´ ıa (por inte rvalos) de la funci´ on en (−∞, 0].
+(f) (1pt) Bosqueje el gr´ aﬁco de f .
+Soluci´ on.
+(a) f (−x) = − −x(3 + (−x)2)2 = x(3 + x2)2 = −f (x), por lo que f es impar.
+(b) Tenemos que
+f (x1) − f (x2) = − x1(3 + x21)2 + x2(3 + x22)2 = −x1(3 + x22)2 − x2(3 + x21)2(3 + x21)2(3 + x2)2 .
+Por otro lado,
+x1(3+x22)2−x2(3+x21)2 = x1(9+6x22+x42)−x2(9+6x21+x41) = 9( x1−x2)−6x1x2(x1−x2)−x1x2(x31−x32).
+Finalmente, usando que x31 − x32 = (x1 − x2)(x21 + x1x2 + x22), concluimos que
+x1(3 + x22)2 − x2(3 + x21)2 = (x1 − x2)
+(
+9 − x1x2(6 + x21 + x1x2 + x22)
+)
+,
+de donde se deduce la igualdad pedida.
+(c) Sean x1, x2 ∈ [0, 1] con x1 < x 2. Notando que
+9 − x1x2(6 + x21 + x1x2 + x22) > 9 − 1(6 + 1 + 1 + 1) > 0,
+y que (x1−x2)(3+x21)2(3+x22)2 < 0, obtenemos f (x1) − f (x2) > 0 ⇐ ⇒ f (x1) > f (x2), es decir, f esestrictamente decreciente en [0 , 1].
+----- pagina 2 -----
+(d) Sean x1, x2 ∈ [1, ∞) con x1 < x 2. Notando que
+9 − x1x2(6 + x21 + x1x2 + x22) < 9 − 1(6 + 1 + 1 + 1) < 0,
+y que (x1−x2)(3+x21)2(3+x22)2 < 0, obtenemos f (x1) − f (x2) < 0 ⇐ ⇒ f (x1) < f (x2), es decir, f esestrictamente creciente en [1 , ∞).
+(e) Dado que f es impar, de la parte (c) deducimos que f es estrictamente decreciente en [ −1, 0] y de
+la parte (d) que f es estrictamente creciente en ( −∞, 1].
+(f) f no tiene as ´ ıntotas verticales y tiene a y = 0 como ´ unica as ´ ıntota horizontal. Adem´ as, (0, 0) es
+el ´ unico punto de intersecci´ on con los ejes coordenados. De las partes anteriores deducimos que el
+gr´ aﬁco de la funci´ on es como se muestra en la siguiente ﬁgura:
+1
+−1
+1 2 3 4−1−2−3−4
+X
+Y
+Puntaje Pregunta 1.
+(a) 0.4 puntos por mostrar que f (−x) = −f (x).
+(b) 0.5 puntos por cada una de las 4 igualdades del desarrollo.
+(c) 0.3 puntos por cada una de las primeras dos desigualdades y 0.3 pu ntos por concluir.
+(d) An´ alogo a la parte anterior.
+(e) 0.5 por deducir cada uno de los dos intervalos de monoton ´ ıa de la f unci´ on
+(e) 1 punto por el bosquejo.
+----- pagina 3 -----
+2. Demuestre que la funci´ on f : (0, ∞) → (0, ∞) deﬁnida por f (x) =
+√1 + 4x
+x es biyectiva.
+Soluci´ on.
+Para todo x1, x2 ∈ (0, ∞) se tiene que
+f (x1) = f (x2) = ⇒
+√1 + 4x1
+x1
+=
+√1 + 4x2
+x2
+⇐ ⇒ 1 + 4x1
+x21 = 1 + 4x2x22
+⇐ ⇒ x22 + 4x1x22 = x21 + 4x2x21
+⇐ ⇒ (x2 − x1)(x2 + x1) + 4x1x2(x2 − x1) = 0
+⇐ ⇒ (x2 − x1)(x2 + x1 + 4x1x2) = 0
+=⇒ (x1 = x2) ∨ (x2 + x1 = −4x1x2)
+Como x1, x2 ∈ R+ entonces x1 + x2 ∈ R+ y x1x2 ∈ R+ por lo que x2 + x1 ⁄= −4x1x2. Se sigue que
+x1 = x2. Luego f es inyectiva.
+Tenemos que
+y ∈ Rec(f ) ⇐ ⇒ (∃ x > 0)(f (x) = y)
+⇐ ⇒ (∃ x > 0)
+(√1 + 4x
+x = y
+)
+⇐ ⇒ (∃ x > 0)(1 + 4x = x2y2) ∧ (y > 0)
+⇐ ⇒ (∃ x > 0)(y2x2 − 4x − 1 = 0) ∧ (y > 0)
+⇐ ⇒ (∃ x > 0)
+(
+x = 4 ±
+√
+16 + 4y2
+2y2
+)
+∧ (y > 0)
+Como para todo y se cumple que 16 + 4 y2 /greaterorequalslant 0 entonces Rec( f ) = (0 , ∞) = Codom( f ). Luego f
+es sobreyectiva.
+Por lo tanto f es biyectiva.
+Puntaje Pregunta 2.
+3 puntos por probar que f es inyectiva.
+3 puntos por probar que f es sobreyectiva.

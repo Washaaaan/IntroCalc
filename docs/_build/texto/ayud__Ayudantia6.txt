@@ -1,0 +1,54 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Rodrigo V argas
+Ayudantes: Mateo de la Cuadra y Math ´ıas Luengo Cr´ editos a
+Tarea 2 2022-1 y Ayudant ´ ıa 4 2022-2
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 6
+20 de Abril 2023
+Pregunta 1
+Un granjero dispone de 1.000 metros de cerca para construir tres corrales rectangulares, para-
+lelos e id´ enticos, como muestra el dibujo. ¿Cu´ al es la mayor ´ area total que puede cercar? ¿Cu´ ales
+son las dimensiones de cada corral? Resuleva planteando una funci´ on cuadr´ atica.
+Figura 1: Corrales.
+Pregunta 2
+Encuentre las as ´ ıntotas verticales y horizontales de las siguientes funciones racionales:
+a.) 3x4−2x2+1x2−16
+b.) x2−6x+5x3−x
+c.) 2x2+3x+1x2−x−2
+Pregunta 3
+Sea g: [-2,4) → [1, ∞) la funci´ on definida por g(x) = 1 +
+q
+x+2
+4−x .
+Demuestre que g es una funci´ on biyectiva.
+Pregunta 4
+Restrinja cada funci´ on para volverla biyecci´ on. Recuerde que puede restringir dominio y/o
+codominio:
+a) f : [0, 2π] → [−1, 1], f (x) = sin(x)
+1
+----- pagina 2 -----
+b) g : [0, ∞] → R, g(x) = |x|
+c) h : R → R, h(x) = −x2
+d) c : {0, 1, 2, 3} → {2, 3}, c(x) = 2.
+Nota: Claramente todas estas funciones tienen m´ as de una forma de hacerse biyectivas. Elija una
+que haga que el dominio y el recorrido sean maximales (lo m´ as grandes posibles).
+Pregunta 5
+Considere p(x) = x2 + bx + c tal que ∆( p) = b2 − 4c ≥ 0. Sean x1, x2, ceros de p,
+a) Demuestre que el promedio de los ceros pasa por la recta x = − b2 .
+b) Exprese p en su forma normal en funci´ on de sus ceros.
+Pregunta 6
+Considere la siguiente notaci´ on:
+[x1] = x1
+[x1, x2] = x1 + 1x2
+[x1, x2, x3] = x1 + 1x2 + 1x3
+...
+[x1, x2, . . . , xn] = x1 + 1x2 + 1x3+ 1
+... 1xn
+y sea r(x), una funci´ on racional.
+a) Demuestre que [1 , 1, . . . ,1, r(x)] (con n unos) es una funci´ on racional.
+b) Si r(x) = 1x , grafique [0 , 1, r(x)].
+2

@@ -1,0 +1,191 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Facultad de Matem´ aticas
+Departamento de Matem´ atica
+3 de Septiembre 2025
+MAT1107 ⋆ Introducci´ on al C´ alculo
+Pauta Interrogaci´ on 1
+1. Enuncie los axiomas de orden de R (2 ptos.). Solo con los axiomas de orden y
+las propiedades de suma y producto en R, demuestre rigurosamente que si a < b
+entonces a3 < b3 (4 ptos).
+Soluci´ on:
+Los cuatro axiomas de orden (como lo vimos en clases) son:
+(i) Tricotom ´ ıa:∀a, b∈ R se tiene que exactamente solo una de las siguientes
+aseveraciones es verdadera a < bo a = b o a > b.
+(ii) Transitividad: Si a < by b < centonces a < c.
+(iii) Si a < bentonces a + c < b+ c para todo c ∈ R.
+(iv) Si a < by c >0 entonces ac < bc.
+Para demostrar que a < b⇒ a3 < b3,por axioma (i) de tricotom ´ ıa, podemos separar
+en los siguientes casos.
+CASO 1: a >0. Si a > 0, como b > ael axioma (ii) implica que b > 0. Como
+a > 0 y b > 0 entonces, por el axioma (iv), multiplicar por a o por b preserva
+desigualdades. Ocuparemos esto repetidamente. Tenemos que
+a < b ⇒ a · a < a· b ∧ b · a < b· b (axioma (iv), pues a >0 y b >0)
+⇒ a2 < ab ∧ ab < b2
+⇒ a · a2 < a· ab ∧ a · ab < a· b2 ∧ b · ab < b· b2 (axioma (iv))
+⇒ a3 < a2b ∧ a2b < ab2 ∧ ab2 < b3.
+Ocupando el axioma (ii), transitividad, dos veces, concluimos lo que se buscaba
+demostrar, que a3 < b3.
+CASO 2: a = 0. Si a = 0 entonces b > aimplica b >0. Como b >0 el axioma (iv)
+dice que multiplicar por b preserva desigualdades y por lo tanto
+b >0 ⇒ b · b > b· 0 ⇒ b · b · b > b· b · 0,
+(ocupamos en cada paso el axioma (iv)) es decir b3 > 0. Como a = 0 entonces
+a3 = 0, i.e. en este caso tambi´ en concluimosb3 > a3.
+CASO 3: a <0. Este caso lo podemos subdividir en tres subcasos, ocupando el
+axioma (i), tricotom ´ ıa, pero ahora separando en los posibles valores deb.
+----- pagina 2 -----
+SUBCASO 3.1: a <0 y b <0. Como tambi´ en asumimosa < b, entonces
+a < b ⇒ (−b) < (−a) (axioma (iii) sumando ( −a − b) a ambos lados)
+a <0 ⇒ 0 < (−a) (axioma (iii) sumando ( −a) a ambos lados)
+b <0 ⇒ 0 < (−b) (axioma (iii) sumando ( −b) a ambos lados) .
+Es decir, tenemos que ( −b) < (−a) con ( −b) > 0 y ( −a) > 0. Podemos entonces
+ocupar directamente el resultado del CASO 1, para concluir que ( −b)3 < (−a)3.
+Luego −b3 < −a3, sumando a ambos lados ( a3 + b3) (y y ocupando el axioma (iii))
+obtenemos a3 < b3.
+SUBCASO 3.2: a <0 y b = 0. Si a < 0 entonces ( −a) > 0 (axioma (iii)). Ocu-
+pando el axioma (iv), multiplicando dos veces por ( −a), concluimos que ( −a)3 > 0.
+Luego −a3 > 0, sumando a3 a ambos lados (aciona (iii)) obtenemos a3 < 0. Mien-
+tras tanto, como b = 0 entonces b3 = 0, y en este caso tambi´ en obtenemosa3 < b3.
+SUBCASO 3.3: a <0 y b >0. El argumento del SUBCASO 3.2 dice que como
+a < 0 entonces a3 < 0. El argumento del CASO 2 dice que como b > 0 en-
+tonces b3 > 0. Ocupando el axioma (ii) de transitividad concluimos que a3 < b3.
+En resumen, independiente de los signos de a o b, en todos los casos concluimos que
+a < bimplica a3 < b3, completando as ´ ı la demostraci´ on solicitada.
+Puntaje:
+Se asigna 0.5 ptos. por cada axioma enunciado correctamente.
+Adem´ as, CASO 1 (1 pto.), CASO 2 (0.5 ptos), CASO 3.1 (1 pto.), caso
+3.2 (0.5 ptos.), CASO 3.3 (1 pto).
+2. Encuentre el conjunto soluci´ on de la siguiente inecuaci´ on, escribiendolo como inter-
+valo o uni´ on de intervalos.
+1
+2x − 1 + 1x + 2 ≥ 1
+Soluci´ on:Tenemos que
+1
+2x − 1 + 1x + 2 ≥ 1
+⇐ ⇒ 12x − 1 + 1x + 2 − 1 ≥ 0
+⇐ ⇒(x + 2) + (2x − 1) − (2x − 1)(x + 2)(2x − 1)(x + 2) ≥ 0
+⇐ ⇒3x + 1 − (2x2 + 3x − 2)(2x − 1)(x + 2) ≥ 0
+⇐ ⇒ −(2x2 − 3)(2x − 1)(x + 2) ≥ 0 / · −12
+⇐ ⇒ x2 − 3/2(2x − 1)(x + 2) ≤ 0.
+Aqu ´ ı se puede factorizar el numerador como suma por diferencia: ( x2 − 3/2) =
+(x −
+p
+3/2)(x +
+p
+3/2), o se puede observar que
+(x2 − 3/2) ≤ 0 ⇐ ⇒x2 ≤ 3/2 ⇐ ⇒ −p3/2 ≤ x ≤ p3/2.
+----- pagina 3 -----
+Hacemos la tabla de signos, considerando que los puntos cr ´ ıticos son−2, −
+p
+3/2, 1/2
+y
+p
+3/2:
+−2 −
+p
+3/2 1/2
+p
+3/2
+(x2 − 3/2) + + 0 - - 0 +
+(x + 2) - 0 + + + +
+(2x − 1) - - - 0 + +
+Total + X - 0 + X - 0 +
+Concluimos que el conjunto soluci´ on de la inecuaci´ on (donde Total≤ 0) es
+
+−2, −
+p
+3/2
+i
+∪
+
+1/2,
+p
+3/2
+i
+Puntaje: (1 pto.) por pasar todos los elementos hacia un mismo lado y
+juntarlos correctamente en una expresi ´ ıon de la formaP (x)/Q(x) ≥ 0 con
+P (x) y Q(x) polinomios.
+(1.5 ptos.) por encontrar los puntos cr ´ ıticos e intervalos de signos de
+(x2 − 3/2).
+(1 pto.) por encontrar el puntos cr ´ ıtico e intervalos de signos de(x + 2).
+(1 pto.) por encontrar el puntos cr ´ ıtico e intervalos de signos de(2x − 1)
+(1 pto.) por armar la tabla de signos e identificar el sino de la expresi´ on
+completa, incluyendo lo que ocurre en los puntos cr ´ ıticos.
+(0.5 ptos.) por escribir el conjunto soluci´ on correctamente.
+3. Resuelva la inecuaci´ on
+3 < |x + 1| + |x − 1|.
+Soluci´ on:Tenemos que
+(i) |x + 1| =
+(
+−1 − x si x <−1
+x + 1 si x ≥ −1 , mientras que (ii) |x − 1| =
+(
+1 − x si x <1
+x − 1 si x ≥ 1
+por lo que podemos estudiar la inecuaci´ on m´ as simplemente al considerar los sigu-
+ientes tres subdominios de R.
+CASO 1: Si x <−1. En ese caso,
+3 < |x + 1| + |x − 1| ⇔ 3 < (−1 − x) + (1 − x) ⇔ 3 < −2x ⇔ x <−3/2,
+y por lo tanto ( −∞, −3/2) ∩ (−∞, −1) = ( −∞, −3/2) es una parte del conjunto
+soluci´ on de la inecuaci´ on.
+CASO 2: Si −1 ≤ x <1. En ese caso,
+3 < |x + 1| + |x − 1| ⇔ 3 < (x + 1) + (1− x) ⇔ 3 < 2,
+que es siempre falso. Por lo que no existen valores para x ∈ [−1, 1) que resuelvan
+la inecuaci´ on
+CASO 3: Si 1 ≤ x. En ese caso,
+3 < |x + 1| + |x − 1| ⇔ 3 < (1 + x) + (x − 1) ⇔ 3 < 2x ⇔ x >3/2,
+----- pagina 4 -----
+y por lo tanto (3 /2, ∞) ∩ [1, ∞) = (3 /2, ∞) es otra parte del conjunto soluci´ on de
+la inecuaci´ on.
+Entre los tres casoscubrimos todas las posibilidades para x ∈ R, por lo que con-
+cluimos finalmente que x resuelve la inecuaci´ on, si y solo si x ∈ (−∞, −3/2) o si
+x ∈ (3/2, ∞). Es decir, el conjunto soluci´ on de la inecuaci´ on es
+(−∞, −3/2) ∪ (3/2, ∞) .
+Puntaje: (1 pto.) por (i) y (ii) e identificar los puntos cr ´ ıticos donde los
+valores absolutos cambian de signo.
+(1.5 pts.) por resolver correctamente cada uno de los casos 1,2 y 3.
+(0.5 pts.) por finalmente considerar la uni’on de los conjuntos obtenidos
+en cada caso.
+4. Resuelva la siguiente inecuaci´ on
+√
+x2 − 5x + 6√x ≥ √2
+Soluci´ on:
+Para que la inecuaci´ on se pueda satisfacer, necesitaremos varias condiciones.
+Primero. Necesitamos que √x exista y no sea 0. Esto se traduce directamente a la
+condici´ onx >0.
+Segundo. Necesitamos que
+√
+x2 − 5x + 6 existan, es decir, neceistamos que ( x2 −
+5x + 6) ≥ 0. Como ( x2 − 5x + 6) = (x − 2)(x − 3), entonces (x2 − 5x + 6) ≥ 0 si y
+solo si x ≤ 2 o x ≥ 3 (mediante una tabla de signos).
+Combinando las dos condiciones anteriores, para buscar soluciones a la inecuaci´ on
+nos debemos restringir a buscar soluciones dentro del conjunto A = (0, 2] ∪ [3, ∞).
+Restringiendonos entonces a considerar solo x ∈ A, ya tenemos que x >0 y ( x2 −
+5x + 6) ≥ 0 (y 2 > 0 tambi´ en), y por lo tanto tenemos la equivalencia
+√
+x2 − 5x + 6√x ≥ √2
+⇔
+ √x2 − 5x + 6√x 2 ≥ √22
+⇔ x2 − 5x + 6x ≥ 2
+⇔ x2 − 5x + 6x ≥ 2 / · x (ya estamos restringidos a x >0)
+⇔ x2 − 5x + 6 ≥ 2x
+⇔ x2 − 7x + 6 ≥ 0
+⇔ (x − 1)(x − 6) ≥ 0
+⇔ x ≤ 1 o 6 ≤ x.
+donde el ´ ultimo paso se puede hacer con una tabla de signos.
+Concluimos entonces que un x ∈ (0, 2] ∪ [3, ∞) resuelve la inecuaci´ on, si y solo si
+x adem´ a est´ a en el conjunto . (−∞, 1] ∪ [6, ∞) Imponiendo todas las condiciones
+concluimos que el conjunto soluci´ on de la inecuaci´ on es
+(0, 1] ∪ [6, ∞).
+----- pagina 5 -----
+Puntaje: (1 pto.) por observar que se necesita x >0.
+(1.5 ptos.) por observar que se necesita (x2 − 5x + 6) ≥ 0 y deducir que
+esto corresponde a x ≤ 2 o x ≥ 3.
+(1 pto.)por formal el conjunto A y ver que, restringiendose a A, las ex-
+presiones son positivas y la inecuaci´ on se puede elevar al cuadrado man-
+teneniendo equivalencia.
+(1.5 pto.) por encontrar que en A la inecuaci´ on se resuelve parax ≤ 1 o
+x ≥ 6.
+(1 ptos.) por tomar la intersecci´ on de los conjuntos impuestos por las
+distintas condiciones, obteniendo el conjunto soluci´ on(0, 1] ∪ [6, ∞).

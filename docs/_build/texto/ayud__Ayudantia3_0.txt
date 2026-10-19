@@ -1,0 +1,53 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Rodrigo V argas
+Ayudantes: Mateo de la Cuadra y Math´ıas Luengo
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 3
+23 de Marzo de 2023
+Pregunta 1
+¿Para que valores se cumplen las inecuaciones?
+a) Un hombre y su hija fabrican mesas y sillas sin acabado. Cada mesa requiere de 3 horas
+de aserrado y 1 hora de ensamble. Cada silla requiere de 2 horas de aserrado y 2 horas de
+ensamble. Entre los dos pueden trabajar aserrando hasta 12 horas y ensamblando 8 horas
+todos los d ´ ıas. Formule un sistema de desigualdades que describa todas las combinaciones
+posibles de mesas y sillas que pueden fabricar cada d ´ ıa. Grafique el conjunto soluci´ on.
+b)
+√
+x2 + 1 > 2
+c) |x + 1| ≤
+√
+x2 − 4x + 4 + 3
+Pregunta 2
+Encuentre los valores de x para los cuales las siguientes inecuaciones se cumplen:
+a) |5x + 5| −8 ≤ 17
+b)
+ x2+5x+4x2−4x−5  > 2
+c) |3x + 2| ≥ |x + 1| + |2x + 1|
+d) |x2 − 2x| + x|x − 3| ≥3
+Pregunta 3
+Sea z >0, un real fijo y sea Az, el conjunto soluci´ on de la inecuaci´ on
+|x2 + zx + z2| ≤zx + 2z2
+Considere 0 < z1 < z2. Demuestre que Az1 ⊂ Az2.
+1
+----- pagina 2 -----
+Pregunta 4
+Encuentre el conjunto soluci´ on de las siguientes inecuaciones
+a)
+√
+x2 − 4 ≤ x
+b)
+3√x3 − 8 ≤ x
+¿En qu´ e se diferencian ambos conjuntos?
+Repaso I1:
+Pregunta 5
+1. Sean a, b, c y d n´ umeros reales tales que a2 + b2 = 1 y c2 + d2 = 1. Demuestre que:
+ac + bd ≤ 1
+2. Demostrar que si x es real positivo, entonces:
+x3 + 1x3 ≥ x + 1x
+Pregunta 6
+Demuestre que si a2 ≥ 1, b2 ≥ 4 y ab−b2 + a ≤ 1, entonces ab − 2a + b ≤ 2.
+2

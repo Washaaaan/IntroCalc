@@ -1,0 +1,139 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Funci´ on Exponencial 4 de Mayo de 2022 1 / 11
+Funci´ on Exponencial
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+4 de Mayo de 2022
+----- pagina 2 -----
+Funci´ on Exponencial
+El n´ umeroe se define como el valor al que se aproxima
+
+1 + 1n n
+cuando n se hace grande. La tabla muestra los valores de est´ a
+expresi´ on
+n
+
+1 + 1n n
+1 2
+5 2,48832
+10 2,59374
+100 2.70481
+10.000 2,71815
+1.000.000 2,71828
+El valor aproximado a 20 lugares decimales es:
+e ≈ 2, 71828182845904523536
+Se puede mostrar que e es un n´ umero irracional, de modo que no
+podemos escribir de manera exacta su valor en forma decimal.
+Rodrigo Vargas (LIES) Funci´ on Exponencial 4 de Mayo de 2022 2 / 11
+----- pagina 3 -----
+Funci´ on Exponencial
+Una sucesi´ on es una funci´ ona : N → R que tiene dominio en los
+n´ umeros naturales. En este caso la sucesi´ on est´ a definida por
+a(n) =
+
+1 + 1n n
+Se suele emplear la notaci´ onan en vez de a(n).
+El hecho de que los valores de an se aproximen al n´ umero reale
+significa que esta sucesi´ on es convergente.
+La constante de Euler e es el n´ umero irracional, cuyo valor se
+aproxima la sucesi´ on de n´ umerosan
+e = l ´ ım
+n→∞
+
+1 + 1n n
+El s ´ ımbolo l ´ ımn→∞ se lee el l ´ ımite cuandon tiende a infinito y expresa
+el hecho de que el t´ ermino (1 + 1/n)n se aproxima al n´ umeroe a
+medida que n crece.
+Rodrigo Vargas (LIES) Funci´ on Exponencial 4 de Mayo de 2022 3 / 11
+----- pagina 4 -----
+Funci´ on Exponencial
+Definici´ on.
+La funci´ on exponencialf : R → R est´ a definida mediante la expresi´ on
+f (x) = ex
+donde e es la constante de Euler.
+Presentamos el primer resultado sobre la funci´ on exponcial:
+Proposici´ on. (Desigualdad Fundamental)
+La funci´ on exponencial satisface la siguiente desigualdad. Para todo
+x ∈ R se cumple que:
+ex ⩾ 1 + x .
+Para demostrar esta desigualdad necesitamos algunos hechos que
+ser´ an probados m´ as adelante.
+Rodrigo Vargas (LIES) Funci´ on Exponencial 4 de Mayo de 2022 4 / 11
+----- pagina 5 -----
+Funci´ on Exponencial
+En el cap ´ ıtulo de sucesiones, demostraremos el siguiente teorema
+Teorema.
+Para todo x ∈ R y para todo n ∈ N se cumple que
+
+1 + xn n ⩽ ex .
+Mediante el uso de el principio de inducci´ on matem´ atica es posible
+mostrar la desigualdad de Bernoulli que establece que para todo
+n´ umero naturaln se cumple que
+(1 + x)n ⩾ 1 + nx
+para todo x ∈ R.
+Rodrigo Vargas (LIES) Funci´ on Exponencial 4 de Mayo de 2022 5 / 11
+----- pagina 6 -----
+Funci´ on Exponencial
+Demostraci´ onAplicando estos dos ´ ultimos hechos vemos que
+ex ⩾ 1 + xn n ⩾ 1 + n · xn = 1 + x .
+Rodrigo Vargas (LIES) Funci´ on Exponencial 4 de Mayo de 2022 6 / 11
+----- pagina 7 -----
+Funci´ on Exponencial
+Proposici´ on. (Acotamiento y ceros)
+Para todo x ∈ R,
+ex > 0 .
+En consecuencia la funci´ on exponencial es positiva y no tiene ceros.
+Demostraci´ onSeparemos la demostraci´ on en dos casos:
+Caso 1. x > −1 ⇐ ⇒x + 1 > 0.
+Usando la desigualdad fundamental obtenemos que
+ex ⩾ x + 1 > 0 .
+Caso 2. x ⩽ −1.
+Para resolver este caso se necesita el principio de Arqu ´ ımedes:
+N no est´ a acotado superiormente
+o en s ´ ımbolos para todoa ∈ R+ existe n ∈ N tal que a < n.
+Rodrigo Vargas (LIES) Funci´ on Exponencial 4 de Mayo de 2022 7 / 11
+----- pagina 8 -----
+Funci´ on Exponencial
+Como x < −1 entonces x < 0 ⇐ ⇒ −x > 0, entonces usando el
+principio de Arqu ´ ımedes existen ∈ N tal que
+−x < n ⇐ ⇒ −xn < 1 ⇐ ⇒0 < 1 + xn ⇐ ⇒0 < 1 + xn n .
+La ´ ultima desigualdad se debe a que el producto de n t´ erminos
+positivos sigue siendo positivo. Se sigue que
+ex ⩾ 1 + xn n > 0 .
+Observaci´ onEl principio de Arqu ´ ımedes se discutir´ a y ser´ a usado
+ampliamente en el cap ´ ıtulo de sucesiones y es consecuencia del
+axioma del supremo.
+Rodrigo Vargas (LIES) Funci´ on Exponencial 4 de Mayo de 2022 8 / 11
+----- pagina 9 -----
+Funci´ on Exponencial
+Proposici´ on. (Crecimiento e Inyectividad)
+Para todo x, y ∈ R, se cumple que
+x < y =⇒ ex < ey .
+En consecuencia la funci´ on exponencial es estrictamente creciente y
+por lo tanto inyectiva.
+Demostraci´ onUsando el producto de exponenciales y la desigualdad
+ex ⩾ 1 + x se obtiene
+ey = ex ey −x ⩾ ex (1 + y − x) > ex .
+De lo anterior se deduce que el recorrido de la funci´ on exponencial es
+]0, ∞[.
+Rodrigo Vargas (LIES) Funci´ on Exponencial 4 de Mayo de 2022 9 / 11
+----- pagina 10 -----
+Funci´ on Exponencial
+La gr´ afica de la funci´ on exponencial junto con la rectay = x + 1 se
+muestran a continuaci´ on:
+Rodrigo Vargas (LIES) Funci´ on Exponencial 4 de Mayo de 2022 10 / 11
+----- pagina 11 -----
+Funci´ on Exponencial
+EJEMPLO 1 Determine el gr´ afico de las siguientes funciones
+a g (x) = e−x
+b h(x) = 101 + e−x
+EJEMPLO 2 Una enfermedad infecciosa empieza a propagarse en una
+ciudad peque˜ na de 10.000 habitantes. Despu´ es det d ´ ıas, el n´ umero
+de personas que han sucumbido al virus est´ a modelada por la funci´ on
+v (t) = 10.0005 + 1245e−0,97t .
+a ¿Cu´ antas personas infectadas hay inicialmente?
+b Grafique la funci´ onv y describa su comportamiento.
+Rodrigo Vargas (LIES) Funci´ on Exponencial 4 de Mayo de 2022 11 / 11

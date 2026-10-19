@@ -1,0 +1,26 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Godofredo Iommi – Ayudante: Rodrigo Galaz
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 3
+1 de Septiembre de 2023
+1. Resuelva las siguientes inecuaciones
+a) √
+x2 − 3x ≤ 2
+b)  x2 + 5x + 6x2 − 2x − 15  > 2
+c)
+|x − 2| + |2x + 11|
+(x − 2) |x + |x − 2|| < 12
+d ) x2 + 3x + x |x + 3| + x2 ≥ 7 + 1 + x2
+2. Determine si las siguientes reglas de asignaci´ on, dominio y codominio determinan una funci´ on:
+a) f : R → R, f (x) = xx2−1
+b) f : R → R, f (x) = √x
+c) f : R+ → R, f (x) = 1x
+d ) f : R → R+, f (x) = x2
+e) f : R → R, f (x) =
+√
+x2
+1

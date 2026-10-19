@@ -1,0 +1,44 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Rodrigo V argas
+Ayudantes: Mateo de la Cuadra y Math´ıas Luengo
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 9
+18 de Mayo 2023
+Pregunta 1
+Determine el dominio de las siguientes funciones y su inversa:
+a.) f (x) = 5 + ln(x-1)
+b.) g(x) = ln( 3x−13x+1 )
+c.) h(x) = log3(4+log 12 ( 5x+13−x ))
+Pregunta 2
+Demuestre que ex + e−x ≥ 2.
+Pregunta 3
+Resuelva los siguientes sistemas de ecuaciones logaritmicos:
+a.) (
+log(x) + log(y) = log(2)
+x2 + y2 = 5
+b.) (
+log(x) + log(y) = 3
+2log(x) − 2log(y) = −1
+Pregunta 4
+Determine si las siguientes ecuaciones tienen soluci´ on sobre los conjuntos definidos:
+a) log (cos x) = log (cos(−x)) sobre R
+b) eln x = 2x sobre (−∞, 0]
+1
+----- pagina 2 -----
+c) 2 (ex) = 12 sobre R
+d) log50 xlog50 2 = 2k, k ∈ N, sobre R
+Pregunta 5
+Demuestre las siguientes desigualdades:
+a) √e ≥ 32
+b) ex2 ≥ √x para todo x ∈ [0, ∞)
+c)
+4√eπ > 2+√22 (Hint: ¿Qu´ e relaci´ on guardanx y sin(x) para x >0?)
+Pregunta 6
+Calcule todas las soluciones de las siguientes ecuaciones:
+a) 4 x + 6x = 9x
+b) a2x + (ab)x = b2x, para a, b >0
+2

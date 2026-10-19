@@ -1,0 +1,117 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 8
+1. Calcule l ´ ım
+n→∞
+√n(√n + 1 − √n)
+Soluci´ on.Tenemos que
+l ´ ım
+n→∞
+√n(√n + 1 − √n) = l ´ ım
+n→∞
+√n(√n + 1 − √n) · √n + 1 + √n√n + 1 + √n
+= l ´ ım
+n→∞
+√n · (n + 1) − n√n + 1 + √n
+= l ´ ım
+n→∞
+√n√n + 1 + √n
+= l ´ ım
+n→∞
+√n√n + 1 + √n · 1√n1√n
+= l ´ ım
+n→∞
+1√
+1 + 1n + 1
+= 12 .
+Puntaje Pregunta 1.
+6 puntos por calcular correctamente el l ´ ımite.
+----- pagina 2 -----
+2. Calcule l ´ ım
+n→∞
+3n+1 + 2n+1
+3n + 2n .
+Soluci´ on.Sabemos que si |x| < 1 entonces l ´ ım
+n→∞
+xn = 0. Ahora ampliﬁcando por 1 /3n obtenemos que
+l ´ ım
+n→∞
+3n+1 + 2n+1
+3n + 2n = l ´ ımn→∞
+3n+1 + 2n+1
+3n + 2n ·
+1
+3n
+1
+3n
+= l ´ ım
+n→∞
+3n+1
+3n + 2n+13n
+3n
+3n + 2n3n
+= l ´ ım
+n→∞
+3 + 2
+(2
+3
+)n
+1 +
+(2
+3
+)n = 3 + 2 · 01 + 0 = 3 .
+Puntaje Pregunta 2.
+6 puntos por calcular correctamente el l ´ ımite.
+----- pagina 3 -----
+3. Sean f : R − {−1} → R una funci´ on deﬁnida por f (x) = xx + 1 y {an} una sucesi´ on que satisface la
+siguiente desigualdad
+10n − 21
+2n ⩽ f (an) ⩽ 5√n√n + 1
+para todo n ∈ N. Calcule l ´ ım
+n→∞
+an.
+Soluci´ on.Notemos que f es una funci´ on racional por lo que podemos obtener su gr´ aﬁca:
+1
+2
+3
+−1
+−2
+−3
+1 2 3−1−2−3
+f
+Del gr´ aﬁco de f se ve que f es creciente, entonces su funci´ on inversa f −1(x) = x1 − x tambi´ en es
+creciente. Aplicando f −1 a la desigualdad dada, se obtiene
+f −1
+( 10n − 21
+2n
+)
+⩽ f −1(f (an)) ⩽ f −1
+( 5√n√n + 1 ) ⇐ ⇒10n − 21−8n + 21 ⩽ an ⩽ 5√n√n + 1 − 5√n .
+Ahora bien,
+l ´ ım
+n→∞
+5√n√n + 1 − 5√n = l ´ ımn→∞ 5√1 + 1n − 5 = −54
+l ´ ım
+n→∞
+10n − 21
+−8n + 21 = l ´ ımn→∞
+10 − 21n
+−8 + 21n = −108 = −54
+Por el teorema del Sandwich se sigue que l ´ ım
+n→∞
+an = −54
+Puntaje Pregunta 3.
+2 puntos por obtener cotas para la sucesi´ on an
+1,5 puntos por calcular el l ´ ımite l ´ ım
+n→∞
+5√n√n + 1 − 5√n
+1,5 puntos por calcular el l ´ ımite l ´ ım
+n→∞
+10n − 21
+−8n + 21
+1 punto por usar el teorema del Sandwich para obtener el l ´ ımite d e an.

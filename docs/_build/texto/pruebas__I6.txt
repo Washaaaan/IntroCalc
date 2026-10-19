@@ -1,0 +1,56 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2023
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 6
+1. (a) (3pts) Sean f : R → R y g : R → R funciones biyectivas. Pruebe que f ◦ g es biyectiva y que
+(f ◦ g)−1 = g−1 ◦ f −1.
+(b) (3pts) Sea f : [0, 1] → [0, 1] la funci´ on deﬁnida por
+f (x) = x − 2√x + 1.
+Sabiendo que f es estrictamente decreciente, lo que no debe probar , demuestre que f es biyectiva
+y calcule su inversa.
+Soluci´ on.
+(a) Sea x ∈ R. Veamos que
+(f ◦ g) ◦ (g−1 ◦ f −1)(x) = f ◦ [(g ◦ g−1)(f −1(x))] = f ◦ f −1(x) = x. (1)
+y que
+(g−1 ◦ f −1) ◦ (f ◦ g)(x) = g−1 ◦ [(f −1 ◦ f )(g(x))] = g−1 ◦ g(x) = x. (2)
+Luego, dado que ( f ◦ g) ◦ (g−1 ◦ f −1) = ( g−1 ◦ f −1) ◦ (f ◦ g) = Id R, concluimos que ( f ◦ g) es
+biyectiva y su inversa est´ a dada por g−1 ◦ f −1.
+(b) Dado que f es estrictamente decreciente, deducimos que f es inyectiva. Por lo tanto, para probar
+que es biyectiva, basta con mostrar que es sobreyectiva. Sea y ∈ [0, 1]. Aﬁrmamos que ∃x ∈ [0, 1]
+tal que y = f (x). En efecto,
+y = f (x) ⇐ ⇒ y = x−2√x+1 = ( √x−1)2 ⇐ ⇒ √y = |√x−1| = 1−√x ⇐ ⇒ (1−√y)2 = x ∈ [0, 1].
+Luego, f es sobreyectiva y por lo tanto biyectiva. Adem´ as, f −1 : [0, 1] → [0, 1] est´ a deﬁnida por
+f −1(x) = (1 − √x)2.
+Puntaje Pregunta 1.
+(a) 1 punto por (1), 1 punto por (2) y 1 punto por concluir.
+(b) 0.5 puntos por indicar que f es inyectiva, 1.5 puntos por probar que f es sobreyectiva y 1 punto
+por encontrar f −1.
+----- pagina 2 -----
+2. Sea b ∈ R+ \ {1} y considere la funci´ on biyectivaf : R → Rec(f ) deﬁnida por
+f (x) = bx − b−x
+2 .
+Halle la inversa de la funci´ on f (x).
+Soluci´ on.Debemos despejar x en funci´ on dey en la ecuaci´ on
+y = f (x) ⇐ ⇒y = bx − b−x
+2 .
+Multiplicando por 2 bx, obtenemos
+2ybx = b2x − 1 ⇐ ⇒b2x − 2ybx − 1 = 0 .
+Esta ´ ultima ecuaci´ on es de forma cuadr´ atica, ya que si hacemosz = bx, resulta z2 − 2yz − 2 = 0 .
+Por tanto, despejando z, o sea bx, aplicando la f´ ormula de la ecuaci´ on cuadr´ atica, se obtiene que
+bx = 2y ±
+√
+4y2 + 4
+2 = y ±
+√
+y2 + 1 .
+Descartamos el signo menos ya que bx es siempre positivo y √y2 + 1 > y , se sigue que
+bx = y + √y2 + 1 ⇐ ⇒x = log b(y + √y2 + 1) .
+Por lo tanto, la funci´ on inversa es f −1(x) = log b(x + √x2 + 1).
+Puntaje Pregunta 2.
+2 puntos por resolver y = f (x) y obtener una ecuaci´ on cuadr´ atica realizando el cambioz = bx.
+2 puntos por usar la ecuaci´ on cuadr´ atica y descartar el signo menos.
+2 puntos por resolver la ecuaci´ on b2 = y + √y2 + 1 y exhibir la inversa de f (x).

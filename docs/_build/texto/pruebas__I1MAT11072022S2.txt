@@ -1,0 +1,140 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Segundo semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 1
+1. Sean a, b, c, d n´ umeros reales tales quea2 + b2 = 1 y c2 + d2 = 1. Demuestre que ac + bd ⩽ 1.
+Soluci´ on.Notemos que ( a − c)2 /greaterorequalslant 0 y que ( b − d)2 /greaterorequalslant 0 entonces su suma es un n´ umero no negativo,
+esto es
+(a − c)2 + (b − d)2 /greaterorequalslant 0 ⇐ ⇒ a2 − 2ac + c2 + b2 − 2bd + d2 /greaterorequalslant 0
+⇐ ⇒ (a2 + b2)/bracehtipupleft /bracehtipdownright/bracehtipdownleft /bracehtipupright
+1
++ (c2 + d2)/bracehtipupleft /bracehtipdownright/bracehtipdownleft /bracehtipupright
+1
+−2(ac + bd) /greaterorequalslant 0
+Se sigue que 2 − 2(ac + bd) /greaterorequalslant 0 ⇐ ⇒ac + bd ⩽ 1.
+Puntaje Pregunta 1.
+2 puntos por usar que ( a − c)2 y ( b − d)2 son no negativos.
+2 puntos por usar la hip´ otesis a2 + b2 = 1 y c2 + d2 = 1.
+2 puntos por concluir que ac + bd ⩽ 1.
+----- pagina 2 -----
+2. Resuelva la siguiente inecuaci´ on con valor absoluto
+⏐⏐⏐⏐ x + 2x − 6 ⏐⏐⏐⏐ − ⏐⏐⏐⏐x − 1x − 3 ⏐⏐⏐⏐ < 0 .
+Soluci´ on.Notemos que
+⏐⏐⏐⏐ x + 2x − 6 ⏐⏐⏐⏐ − ⏐⏐⏐⏐x − 1x − 3 ⏐⏐⏐⏐ < 0 ⇐ ⇒⏐⏐⏐⏐ x + 2x − 6 ⏐⏐⏐⏐ < ⏐⏐⏐⏐ x − 1x − 3⏐⏐⏐⏐ ⇐ ⇒⏐⏐⏐⏐ (x + 2)(x − 3)(x − 6)(x − 1) ⏐⏐⏐⏐ < 1 ⇐ ⇒ − 1 < (x + 2)(x − 3)(x − 6)(x − 1) < 1
+Resolviendo separadamenta cada una de estas desigualdades obte nemos
+Tenemos que
+−1 < (x + 2)(x − 3)(x − 6)(x − 1) ⇐ ⇒0 < (x + 2)(x − 3)(x − 6)(x − 1) + 1 ⇐ ⇒0 < 2x(x − 4)(x − 6)(x − 1) .
+Los puntos cr ´ ıticos de la inecuaci´ on son:x = 0, x = 4, x = 6, x = 1 y la tabla de signos es:
+x − + + + +
+x − 4 − − − + +
+x − 6 − − − − +
+x − 1 − − + + +
++ − + − +
+−∞ 0 1 4 6 ∞
+Entonces en la primera desigualdad el conjunto soluci´ on es S1 = (−∞, 0) ∪ (1, 4) ∪ (6, ∞).
+Notemos que
+(x + 2)(x − 3)
+(x − 6)(x − 1) < 1 ⇐ ⇒(x + 2)(x − 3)(x − 6)(x − 1) − 1 < 0 ⇐ ⇒ 6(x − 2)(x − 6)(x − 1) < 0
+Los puntos cr ´ ıticos de la inecuaci´ on son:x = 2, x = 6, x = 1 y la tabla de signos es:
+x − 2 − − + +
+x − 6 − − − +
+x − 1 − + + +
+− + − +
+−∞ 1 2 6 ∞
+El conjunto soluci´ on esS2 = (−∞, 1) ∪ (2, 6).
+Por lo tanto, el conjunto soluci´ on de la inecuaci´ on original es
+S = S1 ∩ S2 = (−∞, 0) ∪ (2, 4) .
+Puntaje Pregunta 2.
+2,5 puntos por resolver la inecuaci´ on −1 < (x + 2)(x − 3)(x − 6)(x − 1)
+2,5 puntos por resolver la inecuaci´ on (x + 2)(x − 3)(x − 6)(x − 1) < 1
+1 punto por obtener el conjunto soluci´ on.
+----- pagina 3 -----
+3. Resuelva la inecuaci´ on x
+x − 4 < x − 4x .
+Soluci´ on.Tenemos que
+x
+x − 4 < x − 4x ⇐ ⇒ xx − 4 − x − 4x < 0 ⇐ ⇒x2 − (x − 4)2x(x − 4) < 0 ⇐ ⇒8(x − 2)x(x − 4) < 0 .
+Los puntos cr ´ ıticos de la inecuaci´ on sonx = 0, x = 2, x = 4 y la tabla de signos es:
+x − 2 − − + +
+x − + + +
+x − 4 − − − +
+− + − +
+−∞ 0 2 4 ∞
+Por lo tanto, el conjunto soluci´ on de la inecuaci´ on esS = (−∞, 0) ∪ (2, 4).
+Puntaje Pregunta 3.
+2 puntos por reducir la inecuaci´ on y obtener una versi´ on factorizada igual a: 8(x − 2)x(x − 4) < 0
+1 punto por encontrar los puntos cr ´ ıticos de la inecuaci´ on.
+2 puntos por realizar la tabla de signos.
+1 punto por obtener el conjunto soluci´ on.
+----- pagina 4 -----
+4. Sea f : [−1, 1] → B la funci´ on deﬁnida por el siguiente gr´ aﬁco:
+1
+−1
+1−1
+X
+Y
+a) Esboce el gr´ aﬁco de la funci´ ong(x) = |f
+(
+− 12 (x + 3)) |.
+b) Encuentre el dominio y el recorrido de la funci´ on g
+Soluci´ on.
+a) Considere las transformaciones:
+h1(x) = f (−x) Reﬂexi´ on con respecto al eje Y .
+h2(x) = h1
+( 1
+2x
+)
+= f
+(
+− 12x) Elongaci´ on horizontal en un fac-
+tor 2.
+h3(x) = h2(x + 3) = h1
+( 1
+2(x + 3)
+)
+= f
+(
+− 12 (x + 3)) Traslaci´ on hacia la izquierda 3
+unidades.
+g(x) = |h3(x)| = |f
+(
+− 12 (x + 3)) | Reﬂeja con respecto al eje X las
+curvas que sean negativas.
+A continuaci´ on se muestran las gr´ aﬁcas de estas transformaciones:
+1
+−1
+1−1
+X
+Y
+y = h1(x)
+1
+−1
+1 2−1−2
+X
+Y
+y = h2(x)
+----- pagina 5 -----
+1
+−1
+−1−2−3−4−5
+X
+Y
+y = h3(x)
+1
+−1
+−1−2−3−4−5
+X
+Y
+y = g(x)
+b) Se sigue que el dominio de g es [ −5, −1] y el recorrido de g es (0 , 1].
+Puntaje Pregunta 4.
+1 punto por describir la transformaci´ on h1 y realizar su gr´ aﬁca.
+1 punto por describir la transformaci´ on h2 y realizar su gr´ aﬁca.
+1 punto por describir la transformaci´ on h3 y realizar su gr´ aﬁca.
+1 punto por describir la transformaci´ on g y realizar su gr´ aﬁca.
+1 punto por encontrar el dominio de g
+1 punto por encontrar el recorrido de g.

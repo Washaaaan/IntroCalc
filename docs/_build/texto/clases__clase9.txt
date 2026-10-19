@@ -1,0 +1,100 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Gr´ aﬁcas 4 de Abril de 2022 1 / 10
+Gr´ aﬁcas de funciones
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontiﬁcia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontiﬁcia Universidad Cat´ olica de Chile, Chile
+4 de Abril de 2022
+----- pagina 2 -----
+Gr´ aﬁcas de funciones
+Deﬁnici´ on.
+1 Sean A, B⊆ R. Diremos que f : A→ B es funci´ on si y solo si
+(∀ a∈ A)(∃ ! y∈ B)(y = f (x)) .
+2 Diremos que el conjunto A es el dominio y el conjunto B el
+recorrido de la funci´ onf .
+3 Si y = f (x) es una regla de asignaci´ on para n´ umeros reales,
+entonces hemos llegado a la convenci´ on de que el dominio de la
+funci´ onf es
+Dom(f ) ={x∈ R| y = f (x)∈ R} .
+En otras palabras, el dominio de la funci´ on es el mayor
+subconjunto de R donde la ley es aplicable para calcular f (x).
+Rodrigo Vargas (LIES) Gr´ aﬁcas 4 de Abril de 2022 2 / 10
+----- pagina 3 -----
+Gr´ aﬁcas de funciones
+Deﬁnici´ on.
+4 Si y = f (x) es una regla de asignaci´ on para n´ umeros reales con
+dominio A, entonces hemos llegado a la convenci´ on de que el
+recorrido de la funci´ on es:
+Rec(f ) ={y∈ R| existe x∈ A tal que y = f (x)} .
+En otras palabras, el recorrido de la funci´ on f es el menor
+subconjunto de R en donde cada elemento y∈ B tiene una
+pre-imagen, esto es existe x∈ A tal que f (x) = y.
+5 El gr´ aﬁco de una funci´ onf : A→ B es el subconjunto
+G (f ) ={(x, y)∈ A× B| y = f (x)} .
+Rodrigo Vargas (LIES) Gr´ aﬁcas 4 de Abril de 2022 3 / 10
+----- pagina 4 -----
+Gr´ aﬁcas de funciones
+La gr´ aﬁca de una funci´ on nos ayuda a representar el dominio y
+recorrido de la funci´ on en el eje x y eje y, como se ve en la ﬁgura
+y
+x0
+Rodrigo Vargas (LIES) Gr´ aﬁcas 4 de Abril de 2022 4 / 10
+----- pagina 5 -----
+Gr´ aﬁcas de funciones
+EJEMPLO 1
+1 Trace la gr´ aﬁca de la funci´ onf (x) =√4− x2.
+2 Encuentre el dominio y recorrido a partir de la gr´ aﬁca.
+Soluci´ onLa gr´ aﬁca def son los pares ordenados ( x, y) tales que
+y = f (x)⇐⇒y =
+√
+4− x2⇐⇒x2 + y 2 = 4 , y > 0 .
+Lo cual corresponde a la parte superior de una circunferencia de
+centro en (0 , 0) y radio 2.
+Dominio
+Rango
+Rodrigo Vargas (LIES) Gr´ aﬁcas 4 de Abril de 2022 5 / 10
+----- pagina 6 -----
+Algunas funciones y sus gr´ aﬁcas
+1 Funciones lineales o aﬁnes. f (x) = mx + b
+2 Funciones potencia. f (x) = x n
+Rodrigo Vargas (LIES) Gr´ aﬁcas 4 de Abril de 2022 6 / 10
+----- pagina 7 -----
+Algunas funciones y sus gr´ aﬁcas
+3 Funciones ra ´ ız.f (x) = n√x
+4 Funciones rec ´ ıprocas.f (x) = 1x n
+Rodrigo Vargas (LIES) Gr´ aﬁcas 4 de Abril de 2022 7 / 10
+----- pagina 8 -----
+Gr´ aﬁcas de funciones
+EJEMPLO 2 Trace la gr´ aﬁca de la funci´ on
+f (x) =
+
+
+
+x2 si x ⩽ 1 ,
+2x + 1 si x > 1 .
+Rodrigo Vargas (LIES) Gr´ aﬁcas 4 de Abril de 2022 8 / 10
+----- pagina 9 -----
+Gr´ aﬁcas de funciones
+EJEMPLO 3 Trace la gr´ aﬁca de la funci´ on valor absolutof (x) =|x|.
+Soluci´ onRecuerde que
+|x| =
+
+
+
+x si x > 0 ,
+−x si x < 0 .
+Observe que la gr´ aﬁca def coincide con la recta y = x a la derecha
+del eje y y coincide con la recta y =−x a la izquierda del eje y.
+Rodrigo Vargas (LIES) Gr´ aﬁcas 4 de Abril de 2022 9 / 10
+----- pagina 10 -----
+Gr´ aﬁcas de funciones
+EJEMPLO 4 Deﬁnimos la funci´ on parte entera [·] : R→ Z deﬁnida
+por
+[x] = n⇐⇒n ⩽ x < n + 1 ∀ n∈ Z .
+cuya gr´ aﬁca se presenta a continuaci´ on
+y
+x0 1
+1
+Rodrigo Vargas (LIES) Gr´ aﬁcas 4 de Abril de 2022 10 / 10

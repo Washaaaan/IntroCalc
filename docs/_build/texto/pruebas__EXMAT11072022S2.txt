@@ -1,0 +1,296 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Segundo semestre de 2022
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Examen
+1. Encontrar el coeﬁciente de xn en (1 + x)2n.
+Soluci´ on.Usando el teorema del binomio
+(1 + x)2n =
+2n∑
+k=0
+(2n
+k
+)
+12n−k · xk =
+2n∑
+k=0
+(2n
+k
+)
+xk
+El coeﬁciente xn se obtiene cuando k = n. Entonces el coeﬁciente que acompa˜ na a xn es
+(2n
+n
+)
+= (2n)!n! · n! .
+Puntaje Pregunta 1.
+3 puntos por usar el teorema del binomio.
+3 puntos por obtener el coeﬁciente.
+----- pagina 2 -----
+2. Calcule
+n∑
+k=1
+3k+1
+4k .
+Soluci´ on.Tenemos que
+n∑
+k=1
+3k+1
+4k =
+n∑
+k=1
+3 3k
+4k = 3
+n∑
+k=1
+(3
+4
+)k
+Tomando r = 34 se ve que
+3
+n∑
+k=1
+(3
+4
+)k
+= 3
+n∑
+k=1
+rk = 3
+[[ n∑
+k=0
+rk
+]
+− 1
+]
+= 3
+[1 − rn+1
+1 − r − 1
+]
+= 3
+[
+1 −
+( 3
+4
+)n+1
+1
+4
+− 1
+]
+= 3
+[
+4 − 4
+(3
+4
+)n+1
+− 1
+]
+= 9 − 12
+(3
+4
+)n+1
+.
+Puntaje Pregunta 2.
+3 puntos por obtener que la suma es igual a S = 3
+n∑
+k=1
+(3
+4
+)k
+.
+3 puntos por calcular la suma.
+----- pagina 3 -----
+3. Calcule l ´ ım
+n→∞
+( n4
+n3 − 1 − n3n2 + n + 1 ).
+Soluci´ on.Tenemos que
+n4
+n3 − 1 − n3n2 + n + 1 = n4(n2 + n + 1) − n3(n3 − 1)(n3 − 1)(n2 + n + 1)
+= n6 + n5 + n4 − n6 + n3
+n5 + n4 + n3 − n2 − n − 1
+= n5 + n4 + n4
+n5 + n4 + n3 − n2 − n − 1
+Ampliﬁcando por 1 /n5 vemos que
+l ´ ım
+n→∞
+n5 + n4 + n4
+n5 + n4 + n3 − n2 − n − 1 = l ´ ımn→∞
+n5 + n4 + n4
+n5 + n4 + n3 − n2 − n − 1 ·
+1
+n5
+1
+n5
+= l ´ ım
+n→∞
+1 + 1n + 1n2
+1 + 1n + 1n2 − 1n3 − 1n4 − 1n5 = 1
+Puntaje Pregunta 3.
+3 puntos por realizar la diferencia y obtener que n4n3−1 − n3n2+n+1 = n5+n4+n4n5+n4+n3−n2−n−1
+3 puntos por calcular el l ´ ımite.
+----- pagina 4 -----
+4. Sea an una sucesi´ on que satisface la siguiente desigualdad
+6√n√n + 1 ⩽ an ⩽ 12n − 22n
+para todo n ∈ N. Calcule l ´ ım
+n→∞
+1
+an
+.
+Soluci´ on.Notemos que
+l ´ ım
+n→∞
+6√n√n + 1 l ´ ımn→∞ 6√n√n + 1 · 1√n1√n = l ´ ımn→∞ 61 + 1√n = 6
+l ´ ım
+n→∞
+12n − 2
+2n = l ´ ımn→∞
+12n − 2
+2n ·
+1
+n
+1
+n
+= l ´ ım
+n→∞
+12 − 2n
+2 = 122 = 6
+En virtud del teorema del Sandwich obtenemos que l ´ ım
+n→∞
+an = 6 y usando el ´ algebra de l ´ ımites:
+l ´ ım
+n→∞
+1
+an
+= 1l ´ ım
+n→∞
+an
+= 16 .
+Puntaje Pregunta 4.
+2 puntos por obtener los l ´ ımites de la cota inferior y superior.
+2 puntos por usar el teorema del sandwich y concluir que el l ´ ımite d e la sucesi´ on es 6.
+2 puntos por usar el ´ algebra de l ´ ımites y concluir que el l ´ ımite pedido es 1 /6.
+----- pagina 5 -----
+5. Considere la sucesi´ on deﬁnida por:
+a1 = 3 , a n+1 = 1 + an
+2 .
+a) Pruebe por inducci´ on que ( ∀ n ∈ N)(an > 1)
+b) Pruebe por inducci´ on que ( ∀ n ∈ N)(an+1 < a n)
+c) Pruebe que an es convergente y encuentre su l ´ ımite.
+Soluci´ on.
+a) Deﬁnimos la f´ ormula proposicional P (n) : an > 1. Entonces, se tiene que
+P (k) : ak > 1
+P (k + 1) : ak+1 > 1
+Caso base: P.D: a1 > 1. En efecto, a1 = 3 lo cual es mayor que 1.
+Paso inductivo: Supongamos que P (k) es verdadero. P.D: P (k + 1) es verdadero.
+En efecto, usando la deﬁnici´ on recursiva vemos que
+ak+1 = 1 + ak2 > 1 + 12 = 1
+en donde la desigualdad es consecuencia de la hip´ otesis inductiva.
+Por el principio de inducci´ on matem´ atico concluimos queP (n) es verdadero para todo n ∈ N.
+b) Deﬁnimos la f´ ormula proposicional Q(n) : an+1 < a n. Entonces, se tiene que
+Q(k) : ak+1 < a k
+Q(k + 1) : ak+2 < a k+1
+Caso base: P.D: P (1) es verdadero o equivalentemete que a2 < a 1.
+En efecto, por la deﬁnici´ on recursiva
+a2 = 1 + a12 = 1 + 32 = 2 < a 1 = 3 .
+Paso inductivo: Supongamos que P (k) es verdadero. P.D: P (k + 1) es verdadero.
+En efecto, usando la deﬁnici´ on recursiva vemos que
+ak+2 = 1 + ak+1
+2 < 1 + ak2 = ak+1
+en donde la desigualdad es consecuencia de la hip´ otesis inductiva.
+Por el principio de inducci´ on matem´ atico concluimos queQ(n) es verdadero para todo n ∈ N.
+----- pagina 6 -----
+c) Como {an} esta acotada inferiormente (inciso (a)) y es mon´ otona decrecien te (inciso (b)) conclui-
+mos que la sucesi´ on es convergente. Sea L = l ´ ım
+n→∞
+an. Haciendo n → ∞ en la f´ ormula recursiva se
+obtiene
+l ´ ım
+n→∞
+an+1 = l ´ ımn→∞
+1 + an
+2 ⇐ ⇒ l ´ ımn→∞ an+1 =
+1 + l ´ ım
+n→∞
+an
+2
+⇐ ⇒ L = 1 + L2
+⇐ ⇒ 2L = 1 + L
+⇐ ⇒ L = 1.
+Puntaje Pregunta 5.
+2 puntos por demostrar que la sucesi´ on es acotada inferiormente .
+2 puntos por demostrar que la sucesi´ on es mon´ otona decreciente.
+2 puntos por concluir que el l ´ ımite existe y vale 1.
+----- pagina 7 -----
+6. Use el hecho de que l ´ ım
+n→∞
+ln(n) = + ∞ para veriﬁcar que
+l ´ ım
+n→∞
+(ln(n + 1)
+ln(n) − 1
+)
+= 0 .
+Soluci´ on.Notemos que
+ln(n + 1)
+ln(n) − 1 = ln(n + 1) − ln(n)ln(n)
+= ln
+( n+1
+n
+)
+ln(n)
+= ln
+(
+1 + 1n) · 1ln(n)
+Como l ´ ım
+n→∞
+ln(n) = + ∞ entonces l ´ ım
+n→∞
+1
+ln(n) = 0 y usando paso al l ´ ımite obtenemos
+l ´ ım
+n→∞
+( ln(n + 1)
+ln(n) − 1
+)
+= l ´ ım
+n→∞
+ln
+(
+1 + 1n) · 1ln(n)
+=
+(
+l ´ ım
+n→∞
+ln
+(
+1 + 1n)) · ( l ´ ımn→∞ 1ln(n) )
+= ln
+(
+1 + l ´ ım
+n→∞
+1
+n
+)
+·
+(
+l ´ ım
+n→∞
+1
+ln(n)
+)
+= ln(1) · 0 = 0
+Puntaje Pregunta 6.
+2 puntos por realizar la resta y obtener que ln(n+1)ln(n) − 1 = ln (1 + 1n ) · 1ln(n).
+2 puntos por concluir que l ´ ım
+n→∞
+1
+ln(n) = 0.
+2 puntos por concluir que l ´ ım
+n→∞
+ln
+(
+1 + 1n) = ln(1) = 0.

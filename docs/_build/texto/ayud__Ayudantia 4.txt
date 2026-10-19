@@ -1,0 +1,30 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Godofredo Iommi – Ayudante: Rodrigo Galaz
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 4 - Repaso I1
+8 de Septiembre de 2023
+1. Sean x, y∈ R. Demuestre que |x| − |y| ≤ ||x| − |y|| ≤ |x − y|
+2. Sean x, y, z∈ R. Demuestre que |x − z| ≤ |x − y| + |y − z|
+3. Demuestre que para todo x ∈ R se tiene que |x2| = |x|2
+4. Demuestre que la ecuaci´ onx2 + 1 = 0 no tiene ra ´ ıces reales.
+5. Demuestre que si 0 < a < b, entonces a2 < b2
+6. Sean a, b, c, dn´ umeros reales tales quea2 + b2 = 1 y c2 + d2 = 1. Demuestre que ac + bd ≤ 1
+7. Demuestre que, si 0 < a < by 0 < c < d, entonces
+a + b
+2 · c + d2 < ac + bd2
+8. Pruebe la desigualdad √
+ab ≤ a + b2
+para cualquier a, b >0.
+9. Demuestre que si a >0
+a + 1a ≤ a3 + 1a3
+10. Si a, b, cson n´ umeros reales positivos, demuestre
+a2 + b2 + c2 ≥ ab + bc + ac
+11. Demuestre que si x, a∈ R \ (−1, 1), entonces
+ 1x − 1a  ≤ |x − a|
+12. Resuelva la inecuaci´ on x
+x − 4 < x − 4x
+1

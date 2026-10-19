@@ -1,0 +1,44 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Rodrigo V argas
+Ayudantes: Mateo de la Cuadra y Math´ıas Luengo
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 2
+16 de Marzo de 2023
+Pregunta 1
+Encuentre los valores de x para los cuales las siguientes inecuaciones se cumplen:
+a) 5x+52 − 8 ≤ 17
+b) (x+2)(x−7)(x−3)2 ≥ 0
+c) (x+2)(x−7)(x+3)2 ≥ 0
+Pregunta 2
+Sea A = (3, 5) y B = (1, 1)
+a) Determine el punto medio entre los puntos.
+b) Entregue, en t´ erminos de A y B la distancia entre los puntos.
+c) ¿Cual es el valor de la distancia?
+d) ¿Para que valor de a (en los reales), el cuadrado de la distancia entre los puntos B y (2 , a)
+es menor a 3?
+Pregunta 3
+¿Para que valores de x se cumple lo siguiente?
+x+1
+x ≤ x+1x−1 − 3x
+Pregunta 4
+Sean a, b, c, d∈ R tales que |a| ̸= |c|. Demuestre que la siguiente ecuaci´ on tiene a lo m´ as dos
+soluciones:
+|ax + b| = |cx + d|
+1
+----- pagina 2 -----
+Pregunta 5
+Encuentre el conjunto soluci´ on de las siguientes inecuaciones:
+x2 − 20x + 91 > 0
+x3 − 20x2 + 91x >0
+x4 − 20x2 + 91 > 0
+¿En qu´ e se diferencian estas inecuaciones?
+Pregunta 6
+Sea z >0, un real fijo y sea Az, el conjunto soluci´ on de la inecuaci´ on
+|x2 + zx + z2|
+zx + 2z2 ≤ 1.
+Considere 0 < z1 < z2 y que x >−2z. ¿Es m´ as grandeAz1 o Az2?
+2

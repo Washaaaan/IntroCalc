@@ -1,0 +1,75 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer Semestre 2025
+Introducci´ on al C´ alculo - MAT1107
+Interrogaci´ on N° 4
+1. La gr´ aﬁca de la funci´ onf (x) = −1 − 12 − x se obtiene a partir de la gr´ aﬁca de g(x) = 1x aplicando
+transformaciones de funciones.
+a) Identiﬁque, en el orden que se aplican, las transformaciones qu e permiten obtener la gr´ aﬁca de f
+a partir de la gr´ aﬁca de g.
+b) Graﬁque cada una de estas transformaciones, identiﬁcando los puntos de intersecci´ on con los ejes
+coordenados.
+Soluci´ on.
+a) Considere las siguientes tranformaciones
+T1(x) = g(−x) Reﬂexi´ on eje Y
+T2(x) = −T1(x) Reﬂexi´ on eje X
+T3(x) = T2(x − 2) Traslaci´ on derecha
+T4(x) = T3(x) − 1 Traslaci´ on abajo
+Observe que
+T4(x) = T3(x) − 1 = T2(x − 2) − 1 = −T1(x − 2) − 1 = −g(−(x − 2)) − 1 = − 1−(x − 2) + 1 = f (x) .
+b) La secuencia de gr´ aﬁcas es
+x
+y
+Gr´ aﬁca dey = T1(x)
+1 x
+y
+Gr´ aﬁca dey = T2(x)
+1
+----- pagina 2 -----
+x
+y
+Gr´ aﬁca dey = T3(x)
+3 x
+y
+Gr´ aﬁca dey = T4(x)
+1
+Otra forma: Note que f (x) = −1 − 12 − x = 1x − 2 − 1 por lo que las transformaciones requeridas
+son T3(x) = g(x − 2) y T4(x) = T3(x) − 1.
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 3 puntos por identiﬁcar las transformaciones requeridas.
+CC 2. 3 puntos por trazar las gr´ aﬁcas de las transformaciones.
+----- pagina 3 -----
+2. Considere la funci´ on racional f (x) = x2 − 3x − 42x2 + 4x .
+a) Determine las as ´ ıntotas verticales de f .
+b) Determine las as ´ ıntotas horizontales, si existen, de f .
+c) Trace la gr´ aﬁca de f .
+d) Determine si la funci´ on f es inyectiva. Justiﬁque su respuesta.
+Soluci´ on.
+a) Notemos que
+f (x) = x2 − 3x − 42x2 + 4x = (x − 4)(x + 1)2x(x + 2) .
+Las as ´ ıntotas verticales se presentan donde el denominador es 0, se sigue que x = 0 y x = −2 son
+as ´ ıntotas verticales def .
+b) Los grados del denominador y numerador son iguales, por lo que f tiene una as ´ ıntota horizontal
+en el cociente entre los coeﬁcientes principales, es decir y = 12.
+c) Realizando una tabla de signos, podemos establecer el signo de la f unci´ onf
+x − 4 − − − − +
+x + 1 − − + + +
+2x − − − + +
+x + 2 − + + + +
++ − + − +
+−∞ − 2 −1 0 4 ∞
+La gr´ aﬁca def es:
+y
+x
+2
+4
+d) Por el test de la recta horizontal, vemos que f no es inyectiva.
+----- pagina 4 -----
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 1,5 puntos por determinar las as ´ ıntotas verticales.
+CC 2. 1,5 puntos por determinar la as ´ ıntota horizontal.
+CC 3. 1,5 puntos por trazar la gr´ aﬁca de f .
+CC 4. 1,5 puntos por justiﬁcar mediante el test de la recta horizontal qu e f no es inyectiva.

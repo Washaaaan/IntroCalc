@@ -1,0 +1,82 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Funci´ on Logaritmo 11 de Mayo de 2022 1 / 7
+Funci´ on Logaritmo
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+11 de Mayo de 2022
+----- pagina 2 -----
+Funci´ on Logaritmo natural
+Definici´ on. (Logaritmo natural)
+La funci´ on exponencial exp :R → R+ es biyectiva. Su funci´ on inversa
+se llama funci´ on logaritmo natural ln :]0, ∞[→ R definida mediante su
+relaci´ on inversa
+y = ln(x) ⇐ ⇒ey = x :
+Observaciones
+Para todo x ∈]0, ∞[, exp(ln( x)) = x.
+Para todo x ∈ R, ln(exp( x)) = x. En particular, ln( e) = 1 y
+ln(1) = 0.
+La funci´ on ln es estrictamente creciente pues es la inversa de una
+funci´ on estrictamente creciente.
+EL ´ unico cero de la funci´ on ln es 1.
+Rodrigo Vargas (LIES) Funci´ on Logaritmo 11 de Mayo de 2022 2 / 7
+----- pagina 3 -----
+Funci´ on Logaritmo natural
+Proposici´ on.
+Para todo x, y ∈]0, ∞[ y z ∈ R se cumple que
+1 ln(x) + ln(y ) = ln(xy )
+2 ln(x) − ln(y ) = ln
+ x
+y
+
+3 ln(x z ) = z ln(x)
+Demostraci´ on
+1 Sean u = ln(x) ⇐ ⇒eu = x y w = ln(y ) ⇐ ⇒ew = y . Entonces
+ln(xy ) = ln(eu · ew ) = ln(eu+w ) = u + w = ln(x) + ln(y ) .
+2 Ejercicio
+3 Sea u = ln(x) ⇐ ⇒eu = x. Entonces
+ln(x z ) = ln((eu)z ) = ln(ezu) = zu = z ln(x) .
+Rodrigo Vargas (LIES) Funci´ on Logaritmo 11 de Mayo de 2022 3 / 7
+----- pagina 4 -----
+Funci´ on Logaritmo natural
+Proposici´ on. (Desigualdad Fundamental)
+La funci´ on logaritmo natural satsiface las siguientes desigualdades.
+Para todo x ∈]0, ∞[ se tiene
+1 ln(x) ⩽ x − 1.
+2 1 − 1x ⩽ ln(x).
+Demostraci´ on
+1 Sabemos que ez ⩾ 1 + z. Como la funci´ on logaritmo natural es
+creciente vemos que
+z = ln(ez ) ⩾ ln(1 + z) .
+Haciendo el cambio de variables z = x − 1 obtenemos
+x − 1 ⩾ ln(1 + (x − 1)) = ln(x) .
+2 Ejercicio.
+Rodrigo Vargas (LIES) Funci´ on Logaritmo 11 de Mayo de 2022 4 / 7
+----- pagina 5 -----
+Funci´ onax
+Definici´ on. (La funci´ onax )
+Para a ∈ R+ − {1} se define la funci´ onax por la f´ ormula
+ax = exp(x ln(a)) .
+Propiedades
+1 Su dominio es R.
+2 Para a ∈ R+ − {1}, la funci´ onax es estrictamente mon´ otona, en
+particular es inyectiva.
+3 Para a ∈ R+ − {1}, la funci´ onax : R →]0, ∞[ es biyectiva. Su
+inversa est´ a dada por la siguiente f´ ormula
+ax = y ⇐ ⇒x = ln(y )ln(a) .
+Rodrigo Vargas (LIES) Funci´ on Logaritmo 11 de Mayo de 2022 5 / 7
+----- pagina 6 -----
+Funci´ on Logaritmo de basea
+Definici´ on (Logaritmos de basea)
+Sea a ∈ R+ − {1}. Se define la funci´ on logaritmo en base a por
+loga(x) = ln(x)ln(a) .
+Rodrigo Vargas (LIES) Funci´ on Logaritmo 11 de Mayo de 2022 6 / 7
+----- pagina 7 -----
+EJEMPLO 1 Resolver la ecuaci´ on 3x+2 = 7.
+EJEMPLO 2 Resolver la ecuaci´ on 3xex + x 2ex = 0.
+EJEMPLO 3 Resolver la ecuaci´ on log(3x + 2) = log(x − 4) + 1.
+EJEMPLO 4 Sea f (x) = log 2(3 log(10x) − 2). Asumiendo que f es
+inyectiva, determine su funci´ on inversa.
+Rodrigo Vargas (LIES) Funci´ on Logaritmo 11 de Mayo de 2022 7 / 7

@@ -1,0 +1,192 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 1 / 14
+L ´ ımites y convergencia
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+25 de Mayo de 2022
+----- pagina 2 -----
+L ´ ımites de Sucesiones
+La sucesi´ on{an} dada por an = nn + 1, se puede representar
+dibujando su gr´ afica como en la figura
+0 n
+an
+1
+1
+2 3 4 5 6 7
+Observe que, como una sucesi´ on es una funci´ on cuyo dominio es el
+conjunto de los n´ umeros naturales, su gr´ afica consta de puntos
+aislados con coordenadas
+(1, a1) (2 , a2) (3 , a3) · · ·(n, an) · · ·
+De acuerdo a la figura los t´ erminos de la sucesi´ onan se aproximan a 1
+cuando n se incrementa.
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 2 / 14
+----- pagina 3 -----
+L ´ ımites de Sucesiones
+En efecto, distancia entre 1 y an es
+d(1, an) = |1 − an| =
+1 − nn + 1 =  1n + 1 = 1n + 1
+y es cada vez m´ as peque˜ na a medida quen se incrementa. Se indica
+lo anterior escribiendo
+l ´ ım
+n→∞
+n
+n + 1 = 1
+En general, se usa la notaci´ on
+l ´ ım
+n→∞
+an = L .
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 3 / 14
+----- pagina 4 -----
+L ´ ımites de Sucesiones
+Definici´ on.
+Una sucesi´ on{an} tiene l ´ ımite aL y se escribe
+l ´ ım
+n→∞
+an = L
+si para todo ε >0 hay un natural N tal que si n > N entonces
+|an − L| < ε.
+En s ´ ımbolos,
+(∀ ε >0)(∃N ∈ N)(n > N =⇒ |an − L| < ε) ⇐ ⇒l ´ ımn→∞ an = L .
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 4 / 14
+----- pagina 5 -----
+L ´ ımites de Sucesiones
+Note que
+|an − L| < ε⇐ ⇒ −ε <an − L < ε⇐ ⇒L − ε <an < L + ε
+En otras palabras, dada un ε >0 lo cual podemos interpretar como
+un error, es decir, un n´ umero peque˜ no, a partir de unN
+suficientemente grande, todos los valores de la sucesi´ on se encuentran
+en la franja ( L − ε, L + ε). En la imagen se presenta la situaci´ on con la
+gr´ afica de la sucesi´ on, no importa qu´ e tan peque˜ no se haya escogido
+ε, pero por lo regular un ε m´ as peque˜ no requiere unN m´ as grande.
+20 n
+y
+1 3 4
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 5 / 14
+----- pagina 6 -----
+L ´ ımites de Sucesiones
+Teorema. (Principio de Arqu ´ ımedes)
+N no est´ a acotado superiormente.
+Observaci´ onOtra forma equivalente de enunciar el Principio de
+Arqu ´ ımedes es:
+Dado un n´ umero real positivoa, existe n ∈ N tal que a < n.
+Teorema. (Propiedad Arquimediana)
+Dada un n´ umero real peque˜ no positivoε <1, siempre existe n ∈ N tal
+que 0 < 1n < ε.
+Demostraci´ onComo 0 < ε <1 tenemos que 0 < 1ε , luego por el
+Principio de Arqu ´ ımedes existen ∈ N tal que 1ε < n. Es decir, 1n < ε.
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 6 / 14
+----- pagina 7 -----
+L ´ ımites de Sucesiones
+EJEMPLO 1 La sucesi´ onan = 1 + 5n + 1 converge a L = 1.
+Soluci´ onEn efecto, dado ε >0 debemos encontrar N tal que si
+n > N, entonces
+|an − L| =
+1 + 5n + 1 − 1 =  5n + 1 = 5n + 1
+debe ser menor que ε. Imponiendo la condici´ on, despejemosn. Para
+que 5n + 1 < εes necesario y suficiente que 5ε − 1 < n. As ´ ı, usando la
+propiedad arquimediana, dado 5ε − 1 existe N tal que 5ε − 1 < N, demodo que si n > N, entonces
+5
+ε − 1 < n ⇐ ⇒5ε < n + 1 ⇐ ⇒1ε < n + 15 ⇐ ⇒5n + 1 < ε .
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 7 / 14
+----- pagina 8 -----
+L ´ ımites de Sucesiones
+Por lo tanto,
+l ´ ım
+n→∞
+
+1 + 5n + 1 = 1 .
+EJEMPLO 2 La sucesi´ on constante con t´ ermino generalan = c para
+todo n, tiene l ´ ımiteL = c. Es decir,
+l ´ ım
+n→∞
+c = c .
+Soluci´ onEn efecto, Dado ε >0 para todo n se tiene que
+|an − L| = |c − c| = 0 < ε .
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 8 / 14
+----- pagina 9 -----
+L ´ ımites de Sucesiones
+EJEMPLO 3 La sucesi´ onan = 1n tiene l ´ ımiteL = 0. Esto es,
+l ´ ım
+n→∞
+1
+n = 0.
+Soluci´ onEn efecto, es consecuencia directa de la propiedad
+Arquimediana, dado ε >0 existe N ∈ N tal que 1N < ε. Entonces, si
+n > N implica que 1N > 1n entonces
+|an − L| =
+ 1n − 0 = 1n < 1N < ε.
+Por lo tanto, l ´ ım
+n→∞
+1
+n = 0.
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 9 / 14
+----- pagina 10 -----
+L ´ ımites de Sucesiones
+EJEMPLO 4 Demuestre que l ´ ım
+n→∞
+n
+n + 1 = 1.
+Soluci´ onDado ε >0 debemos encontrar N ∈ N tal que si n > N
+entonces
+|an − L| =
+ nn + 1 − 1 =  −1n + 1 = 1n + 1
+debe ser menor que ε. Imponemos la condici´ on
+1
+n + 1 < ε⇐ ⇒1ε < n + 1 ⇐ ⇒1ε − 1 < n
+Usando la propiedad arquimediana, dado 1ε − 1 existe N ∈ N tal que1
+ε − 1 < N, de modo que si n > N entonces
+1
+ε − 1 < n ⇐ ⇒1ε < n + 1 ⇐ ⇒1n + 1 < ε .
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 10 / 14
+----- pagina 11 -----
+L ´ ımites de Sucesiones
+Definici´ on.
+Una sucesi´ on que posee l ´ ımite se llamaconvergente. En caso
+contrario se llama divergente.
+Teorema. (Unicidad del l ´ ımite)
+Una sucesi´ on no puede converger a dos l ´ ımites diferentes.
+Demostraci´ onSea l ´ ım
+n→∞
+an = L. Dado M ̸= L podemos tomar ε >0
+tal que los intervalos abiertos I = (L − ε, L + ε) y J = (M − ε, M + ε)
+sean disjuntos. Existe N ∈ N tal que si n > N implica que an ∈ I .
+Entonces, para todo n > N, tenemos an /∈ J. Luego no se tiene que
+l ´ ım
+n→∞
+an = M.
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 11 / 14
+----- pagina 12 -----
+L ´ ımites de Sucesiones
+Definici´ on.
+Se dice que una sucesi´ on{an} est´ a acotada si existe una constante
+M > 0 tal que |an| ⩽ M para todo n ∈ N.
+EJEMPLO 5 La sucesi´ onan = (−1)n est´ a acotada ya que para todo
+n ∈ N se tiene |an| = 1.
+EJEMPLO 6 La sucesi´ onbn = nn + 1 est´ a acotada.
+En efecto, para todo n ∈ N se cumple que
+n < n + 1 ⇐ ⇒nn + 1 < 1 .
+Luego, |an| = nn + 1 < 1 para todo n ∈ N.
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 12 / 14
+----- pagina 13 -----
+L ´ ımites de Sucesiones
+Teorema.
+Toda sucesi´ on convergente es acotada.
+Demostraci´ onSea l ´ ım
+n→∞
+an = L. Dado ε = 1 existe un natural N ∈ N
+tal que si n > N entonces an ∈ (L − 1, L + 1). Sean a el menor y b el
+mayor elemento del conjunto finito {a1, a2, . . . ,aN , L − 1, L + 1}.
+Todos los t´ erminosan de la sucesi´ on est´ an contenidos en el intervalo
+[a, b], luego la sucesi´ on est´ a acotada.
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 13 / 14
+----- pagina 14 -----
+L ´ ımites de Sucesiones
+Observaci´ onSi {an} no es acotada entonces es divergente.
+EJEMPLO 7 La sucesi´ onan = n no est´ a acotada, luego es divergente.
+EJEMPLO 8 La sucesi´ onan = n2, por ser creciente y no acotada
+superiormente, los t´ erminos paran grande no pueden acumularse en
+torno a un n´ umero fijo. Luego es divergente.
+Rodrigo Vargas (LIES) L ´ ımites y convergencia 25 de Mayo de 2022 14 / 14

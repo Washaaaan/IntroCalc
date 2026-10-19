@@ -1,0 +1,19 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Godofredo Iommi – Ayudante: Rodrigo Galaz
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 1
+18 de Agosto de 2023
+1. Demuestre que si 0 < x < yy 0 < u < ventonces xu < yv
+2. Demuestre que si x, y >0 entonces xy + yx ≥ 2
+3. Sean a, b∈ R tales que a + b = 1. Demuestre que 4 ab ≤ 1
+4. Demuestre que si a, b, cson n´ umeros reales positivos entonces
+(a + b + c)(bc + ca + ab) > 9abc
+5. Demuestre que − |x| ≤x ≤ |x|
+6. Demuestre que |x| ≤a ⇐ ⇒ −a ≤ x ≤ a
+7. Desigualdad triangular: Demuestre que para todo x, y∈ R se tiene que
+|x + y| ≤ |x| + |y|
+1

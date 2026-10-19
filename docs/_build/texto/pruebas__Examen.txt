@@ -1,0 +1,249 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2023
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Examen
+1. Sea λ ∈ R. Considere la funci´ on deﬁnida por f (x) = 8 x2 + λx + λ2. Escriba f en su formal normal,
+determine el valor que debe tomar λ de forma que f alcance su m ´ ınimo enx = −2 y encuentre el valor
+de m ´ ınimo de la funci´ on para talλ.
+Soluci´ on.Escribamos primero f en su forma normal. Tenemos
+f (x) = 8
+(
+x2 + λ8) + λ2 = 8(x + λ16)2 − 8λ2162 + λ2.
+Para que f alcance su m ´ ınimo enx = −2, necesariamente
+λ
+16 = 2 ⇐ ⇒ λ = 32.
+Luego, el valor de m ´ ınimo de la funci´ on paraλ = 32 es
+−8λ2
+162 + λ2 = −32 + 322 = 32(32 − 1) = 32 · 31 = 992 .
+Puntaje Pregunta 1.
+2 puntos por escribir f en forma normal, 2 puntos por determinar λ = 32 y 2 puntos por encontrar
+el valor de m ´ ınimo 992 (no descontar puntaje si escriben 32 · 31).
+----- pagina 2 -----
+2. Considere la funci´ on f (x) =
+√
+1 − 21 + x.
+a) Encuentre el dominio de la funci´ on f .
+b) Encuentre el recorrido de la funci´ on f .
+Soluci´ on.Notemos que
+f (x) =
+√
+1 − 21 + x =
+√
+x − 1
+x + 1
+a) Se tiene que
+x ∈ Dom(f ) ⇐ ⇒
+(x − 1
+x + 1 /greaterorequalslant 0
+)
+∧ (x ⁄= −1)
+⇐ ⇒ ((x − 1)(x + 1) /greaterorequalslant 0) ∧ (x ⁄= −1)
+⇐ ⇒ x ∈ (−∞, −1) ∪ [1, ∞)
+Por lo tanto, A = Dom(f ) = ( −∞, −1) ∪ [1, ∞).
+b) Tenemos que
+y ∈ Rec(f ) ⇐ ⇒ (∃ x ∈ A)(y = f (x))
+⇐ ⇒ (∃ x ∈ A)
+(
+y =
+√
+x − 1
+x + 1
+)
+⇐ ⇒ (∃ x ∈ A)
+(
+y2 = x − 1x + 1) ∧ (y /greaterorequalslant 0)
+⇐ ⇒ (∃ x ∈ A)(xy2 + y2 = x − 1) ∧ (y /greaterorequalslant 0)
+⇐ ⇒ (∃ x ∈ A)(x(y2 − 1) = −1 − y2) ∧ (y /greaterorequalslant 0)
+⇐ ⇒ (∃ x ∈ A)
+(
+x = 1 + y2
+1 − y2
+)
+∧ (y /greaterorequalslant 0)
+⇐ ⇒ (y ⁄= 1) ∧ (y /greaterorequalslant 0)
+⇐ ⇒ y ∈ [0, 1) ∪ (1, ∞)
+Entonces B = Rec(f ) = [0 , 1) ∪ (1, ∞).
+Puntaje Pregunta 2.
+3 puntos por calcular el dominio.
+3 puntos por determinar el recorrido de f .
+----- pagina 3 -----
+3. Considere la funci´ on racional r(x) = 2x2 + 7x − 4x2 + x − 2 .
+a) Determine los ceros, signos y la intersecci´ on con el eye Y de la funci´ onr.
+b) Determine las as ´ ıntotas verticales y horizontales (si es que exist en) de r.
+c) Trace la gr´ aﬁca de r.
+Soluci´ on.
+a) Los ceros de r satisfacen
+r(x) = 0 ⇐ ⇒2x2 + 7x − 4 = 0 ⇐ ⇒(2x − 1)(x + 4) = 0 ⇐ ⇒
+(
+x = 12) ∨ (x = −4) .
+Luego, r tiene dos ceros en x = −4 y en x = 1/2. Factorizando el numerador y el denominador se
+obtiene
+r(x) = 2x2 + 7x − 4x2 + x − 2 = (2x − 1)(x + 4)(x − 1)(x + 2) .
+Realizando la tabla de signos se obtiene los signos de la funci´ on:
+2x − 1 − − − + +
+x + 4 − + + + +
+x − 1 − − − − +
+x + 2 − − + + +
++ − + − +
+−∞ − 4 −2 1/2 1 ∞
+La intersecci´ on con el eje Y ocurre cuando x = 0 =⇒ y = r(0) = 2, entonces la curva y = r(x)
+corta al eje Y en (0 , 2).
+b) El grado del numerador de r(x) es igual al grado del denominador, luego por el teorema de las
+as ´ ıntotas horizontales,y = 21 = 2 es una as ´ ıntota horizontal. Notemos que el denominador es cer o
+cuando x = 1 y x = −2, luego las rectas x = 1 y x = −2 son as ´ ıntotal verticales der.
+c) El gr´ aﬁco de la funci´ onr se muestra a continuaci´ on
+1
+2
+3
+4
+5
+−1
+−2
+−3
+−4
+−5
+1 2 3 4 5 6 7 8 9−1−2−3−4−5−6−7−8−9 X
+Y
+----- pagina 4 -----
+Puntaje Pregunta 3.
+1 punto por realizar la tabla de signos.
+1 punto por hallar los ceros y la intersecci´ on con el eje Y .
+1 punto por determinar las as ´ ıntotas verticales.
+1 punto por determinar las as ´ ıntotas horizontales.
+2 puntos por trazar la gr´ aﬁca.
+----- pagina 5 -----
+4. Encuentre el valor de las siguiente suma
+n∑
+k=1
+ln
+(
+1 + 1k).
+Soluci´ on.Considere la sucesi´ onck = log( k) entonces vemos que
+n∑
+k=1
+ln
+(
+1 + 1k) = n∑k=1 ln(k + 1k )
+=
+n∑
+k=1
+ln(k + 1) − ln(k)
+=
+n∑
+k=1
+ck+1 − ck
+= cn+1 − c1
+= ln( n + 1) − ln(1) = ln( n + 1) .
+Puntaje Pregunta 4.
+3 puntos por obtener la igualdad
+n∑
+k=1
+ln
+(
+1 + 1k) = n∑k=1 ln(k + 1) − ln(k)
+3 puntos por usar la propiedad telesc´ opica.
+----- pagina 6 -----
+5. Considere la sucesi´ on deﬁnida mediante la recurrencia
+s1 = 2, s n+1 =
+sn + 2sn
+2 n ∈ N.
+Sabiendo que
+√
+2 < s n para todo n ∈ N (lo que no debe probar ), haga lo siguiente:
+(a) (2.5pts) Pruebe que sn+1 −sn < 0 para todo n ∈ N, es decir, que ( sn)n es estrictamente decreciente.
+Deduzca adem´ as que (sn)n es acotada.
+(b) (3.5pts) Deduzca que ( sn)n converge y calcule su l ´ ımite.
+Soluci´ on.
+(a) Tenemos
+sn+1 − sn = s2n + 2 − 2s2n2sn = (√2 + sn)(√2 − sn)2sn < 0,
+donde la ´ ultima desigualdad se deduce del hecho que sn >
+√
+2.
+Lo anterior signiﬁca que ( sn)n es estrictamente decreciente, y por lo tanto sn < s 1 = 2 para todo
+n ∈ N, n > 1, lo que combinado con
+√
+2 < s n para todo n ∈ N nos permite concluir que ( sn)n es
+acotada.
+(b) De la parte (a) tenemos que ( sn)n es mon´ otona y acotada, por lo que converge. Llamemos L al
+l ´ ımite. De
+√
+2 < s n para todo n ∈ N, deducimos que
+√
+2 ≤ L. Usando la relaci´ on de recurrencia,
+concluimos que
+L = l ´ ım
+n→∞
+sn+1 = l ´ ımn→∞
+sn + 2sn
+2 = L + 2L2 ,
+donde usamos ´ algebra de l ´ ımites y el hecho de que (sn+1)n es una subsucesi´ on de (sn)n, por lo que
+converge a L. Luego,
+(
+√
+2 + L)(
+√
+2 − L)
+2L = 0 ⇐ ⇒ L =
+√
+2,
+ya que L ≥
+√
+2.
+Puntaje Pregunta 5.
+(a) 1 punto por calcular sn+1 − sn factorizando el nominador, 1 punto por deducir que sn+1 − sn < 0
+y 0.5 puntos por deducir que ( sn)n es acotada.
+(b) 0.5 puntos por deducir que ( sn)n converge a L, 0.5 puntos por probar que
+√
+2 ≤ L, 0.5 puntos por
+indicar que ( sn+1)n converge a L al ser subsucesi´ on de (sn)n, 1 punto por utilizar correctamente
+´ algebra de l ´ ımites para obtener la relaci´ on satisfecha porL, 0.5 puntos por factorizar la relaci´ on,
+es decir, obtener (
+√
+2+L)(
+√
+2−L)
+2L = 0 y 0.5 puntos por deducir que L =
+√
+2.
+----- pagina 7 -----
+6. Demuestre que
+l ´ ım
+n→∞
+[
+n√n( 1 + (−1)n
+n2
+)]
+= 0.
+Soluci´ on.Deﬁnimos
+sn =
+n√n(1 + (−1)n
+n2
+)
+.
+Notemos que
+0 ≤ sn ≤ 2 n√n 1n2 .
+Por ´ algebra de l ´ ımites, tenemos que
+l ´ ım
+n→∞
+[
+2
+n√n 1n2
+]
+= 2 l ´ ım
+n→∞
+n√n l ´ ım
+n→∞
+1
+n2 = 2 · 1 · 0 = 0 .
+Finalmente, por el teorema del sandwich, concluimos que
+l ´ ım
+n→∞
+sn = 0.
+Puntaje Pregunta 6.
+2 puntos por probar que 0 ≤ sn ≤ 2 n√n 1n2 , 0.5 puntos por indicar que n√n → 1, 0.5 puntos por
+indicar que 1n2 → 0, 1 punto por deducir con ´ algebra de l ´ ımites que l ´ ımn→∞[2 n√n 1n2] = 0, y 2
+puntos por concluir por el teorema del Sandiwch que sn → 0.

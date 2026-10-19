@@ -1,0 +1,29 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 03 - Jueves 31 de marzo del 2022
+Problema 1.Determine si las siguientes funciones est´ an bien definidas o no.
+a) f : Q → Z, f ( pq ) = p − q.
+b) g : Z → N, n 7→ d, donde d es el natural m´ as grande que divide an.
+c) h : N → R, g(n) = 1n .
+Problema 2.Sea z >0 dado, y llamemos Az al conjunto soluci´ on de la desigualdad
+x2 + zx + z2 ≤ zx + 2z2.
+Demuestre que si 0 < z1 < z2 entonces Az1 ⊂ Az2.
+Problema 3.Sea a una constante real. Encuentre el conjunto soluci´ on de
+|x − a|
+|x + a| > 1.
+Problema 4.Encuentre el dominio y el recorrido de la funci´ on
+f (x) =
+p
+2x − x2
+Problema 5.Considere la funci´ on definida por
+f (x) = x1 − √1 − x .
+a) Encuentre el dominio de f .
+b) Calcule la imagen de f .
+c) Esboce el gr´ afico def .
+Problema 6. Encuentre una funci´ on f : (3 , ∞) → R tal que la siguiente proposici´ on sea
+verdadera:
+(∀x >3)(∀y <0)(4x2y2 = (x − 3)4 =⇒ y = f (x)).

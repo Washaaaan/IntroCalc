@@ -1,0 +1,104 @@
+
+----- pagina 1 -----
+GU´IA 10, INTRODUCCI ´ON AL C ´ALCULO, MAT1107
+GODOFREDO IOMMI
+1. Sucesiones
+(1) Demuestre que la siguiente sucesi´ on es convergente:
+an = 1· 3· 5··· (2n− 1)2· 4· 6··· 2n ,
+acote el valor de su l´ ımite.
+(2) Demuestre que la sucesi´ on deﬁnida por
+a1 = 2 an+1 = an + 62 para n > 1,
+es convergente. Calcule su l´ ımite.
+(3) Calcule
+lim
+n→∞
+n + n2
+n3 .
+(4) Calcule
+lim
+n→∞
+1−
+(
+1− 1n )4
+1−
+(
+1− 1n )3 .
+(5) Calcule
+lim
+n→∞
+n + 1
+n .
+(6) Demuestre que la sucesi´ on deﬁnida por
+a1 =
+√
+2 , an+1 =
+√
+2 + an,
+es convergente.
+(7) Calcule
+lim
+n→∞
+√
+n + 1−√n.
+(8) Considere la sucesi´ on
+an =
+( n + 1
+n
+)n
+.
+Decida su convergencia.
+(9) Considere la sucesi´ on
+an = n√n
+Decida su convergencia.
+(10) Demuestre que, si xn > 0 y limn→∞ xn+1xn = a < 1, entonces limn→∞ xn = 0
+(11) Demuestre que
+lim
+n→∞
+nk
+an = limn→∞
+an
+n! = limn→∞
+n!
+nn = 0.
+1
+----- pagina 2 -----
+2 GODOFREDO IOMMI
+(12) Sea an =
+√
+n2 + n− n. Demuestre que la sucesi´ on es mon´ otona creciente y
+acotada. Calcule su l´ ımite.
+(13) Calcule los siguientes l´ ımites:
+(a)
+lim
+n→∞
+(
+1 + 12n )n ,
+(b)
+lim
+n→∞
+(
+1 + 1n + 1)4n ,
+(c)
+lim
+n→∞
+( n2 + 2n + 3
+n2 + 2n + 1
+)(n+1)2
+.
+(14) Sean a≥ 0 y b≥ 0. Demuestre que lim n→∞
+n√an + bn = max{a, b}.
+(15) Demuestre que si ( an)n es una sucesi´ on de t´ erminos no negativos tal que
+existe K∈ (0, 1) de modo que para todo n∈ N se tiene que an+1≤ Ka n.
+Entonces limn→∞ an = 0.
+(16) En 1615 Galileo not´ o qua la sucesi´ on de los n´ umeros impares tiene la sigu-
+iente propiedad
+1
+3 = 1 + 35 + 7 = 1 + 3 + 57 + 9 + 11 =··· .
+Galileo observ´ o que esta es la ´ unica progresi´ on aritm´ etica con esta propiedad.
+Determine si la aﬁrmaci´ on de Galileo es correcta. Considere sucesiones para
+las cuales la raz´ on de la suma de los primerosn t´ erminos sobre la suma de
+los siguientes n t´ erminos es constante. (Dif´ ıcil).
+Facultad de Matem´aticas, Pontificia Universidad Cat´olica de Chile (PUC), Avenida
+Vicu˜na Mackenna 4860, Santiago, Chile
+E-mail address : giommi@mat.puc.cl
+URL: http://www.mat.puc.cl/~giommi/

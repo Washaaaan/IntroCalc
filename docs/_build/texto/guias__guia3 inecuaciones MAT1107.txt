@@ -1,0 +1,39 @@
+
+----- pagina 1 -----
+GU´IA 3, INTRODUCCI ´ON AL C ´ALCULO, MAT1107
+GODOFREDO IOMMI
+1. Inecuaciones
+Resuelva las siguientes inecuaciones
+(1)
+−2x2 + 8x + 10 > 0
+(2) √
+x2− 3x≤ 2
+(3)
+2|x| <|x− 1|
+(4)
+|x2−| 3 + 2x|| < 4
+(5)
+2x + 1
+x + 2 ≤ 1
+(6)
+x2− 8x + 15
+x− 4 < 0
+(7)
+3 + 1x− 1 > 12x + 1
+(8) √
+x2 + 2
+|x2 + 1| < 0
+(9)
+x2≤ 5x− 6
+(10)
+x(x− 1)2(x− 3) < 0
+(11)
+1 + x
+1− x≥ 1
+(12)
+|3x + 2|≥ 4
+Facultad de Matem´aticas, Pontificia Universidad Cat´olica de Chile (PUC), Avenida
+Vicu˜na Mackenna 4860, Santiago, Chile
+E-mail address : giommi@mat.puc.cl
+URL: http://www.mat.puc.cl/~giommi/
+1

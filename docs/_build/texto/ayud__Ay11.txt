@@ -1,0 +1,27 @@
+
+----- pagina 1 -----
+PONTIFICIA UNIVERSIDAD CAT ´OLICA DE CHILE
+MAT1107 / Introducci´on al C ´alculo / Primer Semestre
+PROFESOR: Alejandra Schild AYUDANTE: Esteban V ´asquez
+Ayudant ´ ıa 11
+1. Dada la sucesi´ on:
+an = 1 + cos (n)√n
+Usando el teorema del sandwich demuestre que:
+l ´ ım
+n→∞
+an = 1
+2. Dada la sucesi´ on:
+bn = sen (n)n
+Usando el teorema del sandwich demuestre que:
+l ´ ım
+n→∞
+bn = 0
+3. Dada la sucesi´ on:
+cn = (−1)n
+Demuestre que no converge
+4. Dada la sucesi´ on:
+dn = (−1)n 2n − 1n2 + 3
+Calcular el l ´ ımite de las siguientes subsucesiones de
+xn = d2n
+yn = d2n−1
+zn = dn2

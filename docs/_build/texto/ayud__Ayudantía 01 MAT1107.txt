@@ -1,0 +1,18 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´ olica de Chile
+Basti´ an Mora - bmor@uc.cl
+Mat ´ ıas Fern´ andez - matias.fernandez@uc.cl
+MAT1107 - Introducci´ on al C´ alculo
+Ayudant ´ ıa 01 - Jueves 17 de marzo del 2022
+Problema 1.Demuestre que si L − ε < Mpara todo ε >0, entonces L ≤ M .
+Problema 2.Si a, b, c son n´ umeros reales, demuestre que
+a2 + b2 + c2 ≥ ab + bc + ac.
+Problema 3.Demuestre que si a + b + c = 3, entonces a2 + b2 + c2 ≥ 3.
+Problema 4.Demuestre la siguiente proposici´ on:
+∀a, b∈ R : (a >1 ∧ a > b) = ⇒ (a2 + b > a+ ab)
+Problema 5.Sea x ≥ −3. Demuestre que 1 + 3x ≤ (1 + x)3.
+Problema 6.Sean x, y∈ R. Entonces
+m´ ax(x, y) = x + y + |x − y|2
+y
+m ´ ın(x, y) = x + y − |x − y|2

@@ -1,0 +1,120 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Zoolog ´ ıa funcionaria 18 de Abril de 2022 1 / 11
+Zoolog ´ ıa funcionaria
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+18 de Abril de 2022
+----- pagina 2 -----
+Inyectiva, sobreyectiva y biyectiva.
+Definici´ on. (Funci´ on Inyectiva)
+Sea f : A → B una funci´ on. Diremos quef es inyectiva si
+(∀ x1, x2 ∈ A)(x1 ̸= x2 =⇒ f (x1) ̸= f (x2))
+Vemos que esta definici´ on es equivalente a
+(∀ x1, x2 ∈ A)(f (x1) = f (x2) =⇒ x1 = x2) .
+Rodrigo Vargas (LIES) Zoolog ´ ıa funcionaria 18 de Abril de 2022 2 / 11
+----- pagina 3 -----
+Inyectiva, sobreyectiva y biyectiva.
+Si una recta horizontal cruza la gr´ afica de f en m´ as de un punto,
+entonces vemos que hay n´ umerosx1 ̸= x2 tales que f (x1) = f (x2).
+Esto significa que f no es inyectiva.
+Por lo tanto tenemos el siguiente m´ etodo geom´ etrico para determinar
+si una funci´ on es inyectiva.
+Proposici´ on. (Test de la recta horizontal)
+Una funci´ on es inyectiva si y solo si no hay recta horizontal que cruce
+su gr´ afica m´ as de una vez.
+Rodrigo Vargas (LIES) Zoolog ´ ıa funcionaria 18 de Abril de 2022 3 / 11
+----- pagina 4 -----
+Inyectiva, sobreyectiva y biyectiva.
+EJEMPLO 1 Dada la funci´ on
+f (x) =
+
+
+
+3x 2 + 1 si −1 ⩽ x < 0
+x
+2 si 0 ⩽ x ⩽ 3
+estudiar la inyectividad de f .
+Soluci´ onEl gr´ afico de la funci´ on se muestra a continuaci´ on
+0 1 2 3 4−1
+1
+2
+3
+4
+Se ve que la funci´ on no es
+inyectiva por el test de la recta
+horizontal.
+Rodrigo Vargas (LIES) Zoolog ´ ıa funcionaria 18 de Abril de 2022 4 / 11
+----- pagina 5 -----
+Inyectiva, sobreyectiva y biyectiva
+EJEMPLO 2 Sea f : R → R, f (x) = x + 1x 2 + 1. Estudiar la inyectividad
+de f .
+Rodrigo Vargas (LIES) Zoolog ´ ıa funcionaria 18 de Abril de 2022 5 / 11
+----- pagina 6 -----
+Inyectiva, sobreyectiva y biyectiva.
+Definici´ on (Funci´ on Sobreyectiva)
+Sea f : A → B una funci´ on. Diremos quef es sobreyectiva si
+Rec(f ) = B o equivalentemente
+(∀ y ∈ B)(∃ x ∈ A)(f (x) = y ) .
+En otras palabras, todo elemento del conjunto de llegada admite al
+menos una pre-imagen. En t´ erminos de ecuaci´ on,f es sobreyectiva si
+para todo y ∈ B, la ecuaci´ onf (x) = y admite una soluci´ on enA.
+En algunos textos se usa el t´ ermino epiyectivas para funciones que son
+sobreyectivas.
+Rodrigo Vargas (LIES) Zoolog ´ ıa funcionaria 18 de Abril de 2022 6 / 11
+----- pagina 7 -----
+Inyectiva, sobreyectiva y biyectiva.
+EJEMPLO 3 Averigue si la funci´ onf : R → R, f (x) = xx 2 + 1 es
+sobreyectiva.
+Soluci´ onEn clases anteriores hemos mostrado que Rec( f ) =
+
+− 12 , 12 .
+Vemos que el conjunto de llegada B = R no coincide con el recorrido
+de f . Luego f no es sobreyectiva.
+Rodrigo Vargas (LIES) Zoolog ´ ıa funcionaria 18 de Abril de 2022 7 / 11
+----- pagina 8 -----
+Inyectiva, sobreyectiva y biyectiva.
+EJEMPLO 4 Sea f : R → [−2, ∞[ definida por f (x) = x 2 − 6x + 7.
+¿Es f sobreyectiva?
+Soluci´ onVamos a calcular el recorrido de la funci´ on f .
+y ∈ Rec(f ) ⇐ ⇒existe x ∈ R tal que x 2 − 6x + 7 = y
+⇐ ⇒existe x ∈ R tal que x 2 − 6x + (7 − y ) = 0
+⇐ ⇒existe x ∈ R tal que x = 6 ±
+p
+36 − 4(7 − y )
+2
+⇐ ⇒existe x ∈ R tal que x = 3 ±
+p
+2 + y
+⇐ ⇒2 + y ⩾ 0
+⇐ ⇒y ⩾ −2
+por lo tanto Rec( f ) = [−2, ∞[= B. Por lo tanto f es sobreyectiva.
+Rodrigo Vargas (LIES) Zoolog ´ ıa funcionaria 18 de Abril de 2022 8 / 11
+----- pagina 9 -----
+Inyectiva, sobreyectiva y biyectiva.
+Observaciones
+1 Si f no es inyectiva siempre es posible tornar a f inyectiva
+restringiendo el dominio.
+2 Sea f : A → R una funci´ on. Entonces, podemos tornar a f
+sobreyectiva cambiando su conjunto de llegada f : A → B donde
+B = Rec(f ).
+Rodrigo Vargas (LIES) Zoolog ´ ıa funcionaria 18 de Abril de 2022 9 / 11
+----- pagina 10 -----
+Inyectiva, sobreyectiva y biyectiva.
+Definici´ on (Funci´ on biyectiva)
+Sean X , Y ⊆ R y f : X → Y una funci´ on. Diremos quef es
+biyectiva si es inyectiva y sobreyectiva, o equivalentemente
+(∀ y ∈ Y )(∃! x ∈ X )(f (x) = y )
+O en t´ erminos de ecuaci´ on para todob ∈ Y la ecuaci´ onf (x) = b
+tiene una ´ unica soluci´ on enA.
+Rodrigo Vargas (LIES) Zoolog ´ ıa funcionaria 18 de Abril de 2022 10 / 11
+----- pagina 11 -----
+Inyectiva, sobreyectiva y biyectiva.
+EJEMPLO 5 La funci´ onf :] − ∞, 1] →] − ∞, 2] definida por
+f (x) = −x 2 + 4x − 1, ¿es biyectiva?
+EJEMPLO 6 Sea f : R → R, f (x) = −
+√
+x 2 + 4. ¿Es f biyectiva?
+Rodrigo Vargas (LIES) Zoolog ´ ıa funcionaria 18 de Abril de 2022 11 / 11

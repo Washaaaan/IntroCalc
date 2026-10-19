@@ -1,0 +1,59 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2024
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 4
+1. Determine el mayor dominio posible y el recorrido correspondient e para cada una de las siguientes reglas
+de asignaci´ on:
+a) f (x) =
+√
+|x| − x
+b) g(x) = 1√
+|x| − x
+.
+Soluci´ on.
+a) Notemos que para todo x ∈ R se cumple que x ≤ | x|, por lo que |x| − x ≥ 0, y f (x) est´ a siempre
+bien deﬁnida. Luego el mayor dominio posible para la regla de asignaci´ o n es R. Ahora notemos que
+f (x) =
+{
+0 si x > 0
+√−2x si x ≤ 0 .
+Es claro que Rec( f ) ⊆ [0, +∞). Aﬁrmamos que se cumple la igualdad. En efecto, sea b ∈ [0, +∞).
+Necesitamos encontrar un a ∈ R tal que f (a) = b. Es decir, necesitamos que √−2a = b. Despejando
+a, obtenemos que a = − b22 . Notemos que a ≤ 0, por lo que f (a) = √−2a = √b2 = b, donde la
+´ ultima igualdad se cumple porque b ≥ 0. Luego b ∈ Rec(f ), y concluimos que Rec( f ) = [0 , +∞).
+Notemos que este recorrido ser ´ ıa el mismo incluso si restringi´ eramos el dominio a ( −∞, 0].
+b) Ya vimos que el argumento de la ra ´ ız es siempre no negativo, por lo que regla de asignaci´ on no
+est´ a bien deﬁnida exactamente cuando el denominador es igual a c ero, es decir, cuando x = |x|,
+que ocurre si y solo si x ≥ 0. Luego el mayor dominio posible para esta regla de asignaci´ on es
+(−∞, 0). Es claro que Rec( g) ⊆ (0, +∞). Para ver que se cumple la igualdad, basta notar que
+f (x) = ( g(x))−1, que f (x) toma todos los valores en (0 , +∞) cuando x ∈ (−∞, 0), y que el conjunto
+de los inversos multiplicativos de (0 , +∞) es (0 , +∞).
+Observaci´ on:Tambi´ en se puede justiﬁcar el recorrido para la parte b usando un razonamiento similar
+al expuesto en la parte a.
+----- pagina 2 -----
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 1 punto por obtener que para todo x ∈ R se cumple que |x| − x /greaterorequalslant 0.
+CC 2. 1 punto por determinar el dominio de f .
+CC 3. 1 punto por determinar el dominio de g
+CC 4. 1,5 punto por mostrar que Rec( f ) = [0 , +∞)
+CC 5. 1,5 punto por mostrar que Rec( g) = (0 , +∞)
+----- pagina 3 -----
+2. Considere la regla de asignaci´ on
+r(x) = 5x + 20x2 + 10x + 25
+deﬁnida en su mayor dominio posible.
+a) Determine, si existen, sus as ´ ıntotas verticales.
+b) Determine, si existen, sus as ´ ıntotas horizontales.
+Soluci´ on.
+a) Observe que
+r(x) = 5x + 20x2 + 10x + 25 = 5(x + 4)(x + 5)2 .
+Notemos que el denominador tiene como ´ unica ra ´ ız a x = −5, mientras que el numerador solo se
+anula en x = −4. Como ambas ra ´ ıces son distintas, la funci´ on tiene una as ´ ıntotavertical en x = −5.
+b) Como el grado del denominador es mayor que el grado del numer ador, la funci´ on racional tiene como
+as ´ ıntota horizontal a la rectay = 0.
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 3 puntos por justiﬁcar que r tiene una as ´ ıntota vertical enx = −5.
+CC 2. 3 puntos por justiﬁca que r tiene una as ´ ıntora horizontal eny = 0.

@@ -1,0 +1,75 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer Semestre 2025
+Introducci´ on al C´ alculo - MAT1107
+Interrogaci´ on N° 1
+1. Considere el polinomio P (x) = x5 − x4 − 2x3 − x2 + x + 2
+a) Use el algoritmo de la divisi´ on para dividir P (x) por x − 2 indicando expl ´ ıcitamente el cociente
+y el resto.
+b) Utilizando el teorema del resto, veriﬁcar el resultado obtenido en la divisi´ on anterior.
+c) Determine, usando el teorema del factor, si x + 1 es un factor del polinomio P (x).
+d) Factorice completamente el polinomio P (x).
+Soluci´ on.
+a) Realizando el algoritmo de la divisi´ on, vemos que:
+x5 − x4 − 2x3 − x2 + x + 2 : x − 2 = x4 + x3 − x − 1
+− x5 − 2x4
+x4 − 2x3 − x2 + x + 2
+− x4 − 2x3
+−x2 + x + 2
+− −x2 + 2x
+−x + 2
+− −x + 2
+0
+Entonces, el cociente de la divisi´ on es Q(x) = x4 + x3 − x − 1 y el resto es 0.
+b) Por el teorema del resto, el resto de la divisi´ on de P (x) por x − 2 es
+R = P (2) = 2 5 − 24 − 2 · 23 − 22 + 2 + 2 = 0 ,
+el cual coincide con el resto obtenido en el inciso a).
+c) Por el teorema del factor x + 1 es factor de P (x) si y solo si −1 es ra ´ ız deP (x).
+En este caso, vemos que
+P (−1) = ( −1)5 − (−1)4 − 2(−1)3 − (−1)2 + (−1) + 2 = 0 ,
+luego −1 es ra ´ ız deP (x) y por el teorema del factor x + 1 es factor de P (x).
+----- pagina 2 -----
+d) Por el inciso a) y c) tenemos que ( x + 1)(x − 2) = x2 − x − 2 es factor de P (x). Realizando la
+divisi´ on se tiene que
+x5 − x4 − 2x3 − x2 + x + 2 : x2 − x − 2 = x3 − 1
+− x5 − x4 − 2x3
+−x2 + x + 2
+− −x2 + x + 2
+0
+Por lo tanto, tenemos que
+P (x) = ( x − 2)(x + 1)(x3 − 1)
+y factorizando ( x3 − 1) se obtiene que la factorizaci´ on de P (x) es:
+P (x) = ( x − 2)(x + 1)(x − 1)(x2 + x + 1) .
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 1,5 puntos por obtener el cociente y el resto de la divisi´ on.
+CC 2. 1,5 puntos por veriﬁcar que el resto es cero usando el teorema de l resto.
+CC 3. 1,5 puntos por veriﬁca que −1 es ra ´ ız y concluir que (x + 1) es factor.
+CC 4. 1,5 puntos por obtener la factorizaci´ on de P (x).
+----- pagina 3 -----
+2. Pruebe que si a > 1 y b > 1 entonces ab + 1 > a + b.
+Soluci´ on.Como b > 1 entonces b−1 > 0. Multiplicando la desigualdad a > 1 por ( b−1) obtenemos
+a(b − 1) > 1 · (b − 1) ⇐ ⇒ab − a > b − 1
+Sumando a a ambos lados de la desigualdad nos da ab > a + b − 1.
+Sumando 1 a ambos lados de la ´ ultima desigualdad obtenemos ab + 1 > a + b.
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 3 puntos por multiplicar correctamente la desigualdad a > 1 por (b−1), mostrando expl ´ ıcitamente
+la obtenci´ on de la desigualdad intermedia ab − a > b − 1.
+CC 2. 2 puntos por sumar claramente a a ambos lados, obteniendo correctamente la desigualdad
+intermedia ab > a + b − 1.
+CC 3. 1 punto por sumar 1 correctamente a ambos lados para concluir la de mostraci´ on, obteniendo
+expl ´ ıcitamente la desigualdad solicitadaab + 1 > a + b.
+----- pagina 4 -----
+3. Demuestre que si x > 0 entonces x + 9x /greaterorequalslant 6.
+Soluci´ on.Queremos probar x + 9x /greaterorequalslant 6 lo cual es equivalente a probar que x + 9x − 6 /greaterorequalslant 0.
+Notemos que
+x + 9x − 6 = x2 + 9 − 6xx = x2 − 6x + 9x = (x − 3)2x .
+Observe que ( x − 3)2 /greaterorequalslant 0 y como por hip´ otesis x > 0 se sigue que (x − 3)2
+x /greaterorequalslant 0, como quer ´ ıamosprobar.
+Criterio de Correcci´ on (CC) Pregunta 3.
+CC 1. 2 puntos por transformar correctamente la expresi´ on original ala forma x+ 9x −6 = (x − 3)2x .
+CC 2. 2 puntos por indicar claramente que ( x − 3)2 /greaterorequalslant 0 para todo x real.
+CC 3. 2 puntos por justiﬁcar expl ´ ıcitamente que la expresi´ on(x − 3)2
+x es no negativa debido a quex > 0 por hip´ otesis.

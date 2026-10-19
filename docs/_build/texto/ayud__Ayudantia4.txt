@@ -1,0 +1,41 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Rodrigo V argas
+Ayudantes: Mateo de la Cuadra y Math´ıas Luengo
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 4
+30 de Marzo de 2023
+Pregunta 1
+Demuestre que para x1, x2, . . . , xn ∈ R+ se cumple que
+x1 + x2 + · · ·+ xn
+n ≥ n√x1x2 · · ·xn
+Pregunta 2
+Compare el conjunto soluci´ on de
+1. |x2 − 2x + 1| ≥0 y x2 − 2|x| + 1 ≥ 0
+2. |x2 − x| < 0 y x2 − |x| < 0
+3. |x3 − 2x2| ≥0 y |x|3 − 2x2 ≥ 0
+Pregunta 3
+Halle condiciones sobre n ∈ N para que la inecuaci´ on√xn + xn ≥ 0 tenga soluci´ on.
+Pregunta 4
+Encuentre los valores de x para los cuales las siguientes inecuaciones se cumplen:
+a) |5x + 5| −8 ≤ 17
+b)
+ x2+5x+4x2−4x−5  > 2
+c) |3x + 2| ≥ |x + 1| + |2x + 1|
+d) |x2 − 2x| + x|x − 3| ≥3
+1
+----- pagina 2 -----
+Pregunta 5
+Resuelva la inecuaci´ on: x
+x − 4 < x − 4x
+Pregunta 6
+Si S es el conjunto soluci´ on de la inecuacion
+p
+|x + 1| − |x − 2| < 2, se puede afirmar:
+I. ( 14 , ∞) ⊂ S
+II. S ⊂ ( 13 , ∞)
+III. S ∩ (- ∞ , 12 ) ̸= ø
+2

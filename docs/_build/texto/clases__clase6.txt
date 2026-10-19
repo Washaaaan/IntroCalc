@@ -1,0 +1,216 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 1 / 18
+Inecuaciones
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+23 de Marzo de 2022
+----- pagina 2 -----
+Inecuaciones
+Enunciaremos un m´ etodo para resolver algunas inecuaciones del tipo
+P(x)
+Q(x) < 0 ,
+donde el signo < puede ser tambi´ en> 0, ⩽ o ⩾.
+Nos concentraremos en el caso en que P(x) y Q(x) son productos de
+factores lineales de primer orden del tipo ( ax + b). Diremos que el
+x = −b/a es un punto cr ´ ıtico para este factor y corresponde al valor
+en el cual el factor es cero.
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 2 / 18
+----- pagina 3 -----
+Resoluci´ on de Inecuaciones
+El m´ etodo para resolver estas inecuaciones es:
+1 Determinar todos los puntos cr ´ ıticos de los factores lineales
+involucrados.
+2 Ordenar los puntos cr ´ ıticos de menor a mayor y formar los
+intervalos encerrados entre ellos.
+3 Mediante una tabla de signos determinar el signo de la expresi´ on
+P(x)
+Q(x) en los intervalos dados por el paso 2.
+4 Escoger los intervalos para los cuales se satisface la inecuaci´ on
+dada.
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 3 / 18
+----- pagina 4 -----
+Inecuaciones
+EJEMPLO 1 Resuelva las siguientes inecuaciones
+1 x 2 + x > 2
+Soluci´ onNotemos que
+x 2 + x > 2 ⇐ ⇒x 2 + x − 2 > 0 ⇐ ⇒(x + 2)(x − 1) > 0 .
+Los factores lineales se anulan cuando x = −2 y x = 1 y estos
+son los puntos cr ´ ıticos de la inecuaci´ on. Ahora realizamos una
+tabla de signos con los factores lineales involucrados:
+El conjunto soluci´ on para la inecuaci´ on es
+S =] − ∞, −2[∪]1, +∞[ .
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 4 / 18
+----- pagina 5 -----
+Inecuaciones
+2
+2x + 1
+x + 2 ⩽ 1
+Soluci´ onNotemos que
+2x + 1
+x + 2 ⩽ 1 ⇐ ⇒2x + 1x + 2 − 1 ⩽ 0
+⇐ ⇒2x + 1x + 2 − x + 2x + 2 ⩽ 0
+⇐ ⇒(2x + 1) − (x + 2)x + 2 ⩽ 0
+⇐ ⇒x − 1x + 2 ⩽ 0 .
+En este caso los puntos cr ´ ıticos sonx = 1; x = −2. Note que en
+este caso tenemos que el punto cr ´ ıticox = −2 es una restricci´ on
+para la inecuaci´ on.
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 5 / 18
+----- pagina 6 -----
+Inecuaciones
+Realizando la tabla de signos
+En este caso el conjunto soluci´ on es S =] − 2, 1]. Note que el punto
+1 /∈ S ya que es una restricci´ on de la inecuaci´ on.
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 6 / 18
+----- pagina 7 -----
+Inecuaciones
+3
+x 2 − 8x + 15
+x − 4 < 0
+Soluci´ onNotemos que
+x 2 − 8x + 15
+x − 4 < 0 ⇐ ⇒(x − 3)(x − 5)x − 4 < 0 .
+Puntos cr ´ ıticos:x = 3, x = 4, x = 5.
+Restricci´ on:x ̸= 4.
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 7 / 18
+----- pagina 8 -----
+Inecuaciones
+Tabla de signos
+Conjunto soluci´ on:S =] − ∞, 3[∪]4, 5[.
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 8 / 18
+----- pagina 9 -----
+Inecuaciones
+4 3 + 1x − 1 > 12x + 1
+Soluci´ onNotemos que tenemos la siguientes equivalencias con la
+inecuaci´ on original
+⇐ ⇒3 + 1x − 1 − 12x + 1 > 0
+⇐ ⇒3(x − 1)(2x + 1) + (2x + 1) − (x − 1)(x − 1)(2x + 1) > 0
+⇐ ⇒ 6x 2 − 2x − 1(x − 1)(2x + 1) > 0 .
+Las ra ´ ıces de la ecuaci´ on 6x 2 − 2x − 1 = 0 son
+x1 = 1−
+√
+7
+6 = −0, 274 . . .y x2 = 1+
+√
+7
+6 = 0, 607 . . .por lo que
+podemos realizar la factorizaci´ on
+6x 2 − 2x − 1 = 6(x − x1)(x − x2)
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 9 / 18
+----- pagina 10 -----
+Inecuaciones
+La inecuaci´ on nos queda
+6
+
+x − 1−
+√
+7
+6
+ 
+x − 1+
+√
+7
+6
+
+(x − 1)(2x + 1) > 0 .
+Puntos cr ´ ıticos:x1 = 1 −
+√
+7
+6 , x2 = 1 +
+√
+7
+6 , x = 1, x = − 12
+Restricciones: x ̸= 1 y x ̸= − 12 .
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 10 / 18
+----- pagina 11 -----
+Inecuaciones
+Tabla de signos
+Por lo tanto el conjunto soluci´ on es
+S =
+
+−∞, − 12  ∪ # 1 − √76 , 1 + √76 " ∪]1, +∞[ .
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 11 / 18
+----- pagina 12 -----
+Inecuaciones
+EJEMPLO 2 Resuelva las siguientes inecuaciones con valor absoluto
+1 2|x| < |x − 1|
+Soluci´ onHay varias formas de resolver este tipo de inecuaciones, se
+pueden usar al menos tres m´ etodos alternativos.
+M´ etodo 1. (Uso de las propiedades de las desigualdades)
+Tenemos que
+0 ⩽ 2|x| < |x − 1| ⇐ ⇒ 4|x|2 < |x − 1|2
+⇐ ⇒4x 2 < (x − 1)2
+⇐ ⇒4x 2 < x 2 − 2x + 1
+⇐ ⇒0 < −3x 2 − 2x + 1
+⇐ ⇒0 < (x + 1)(−3x + 1) .
+Puntos cr ´ ıticos:x = −1, x = 13 :
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 12 / 18
+----- pagina 13 -----
+Inecuaciones
+Tabla de signos
+Conjunto soluci´ on:S =
+
+−1, 13 .
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 13 / 18
+----- pagina 14 -----
+Inecuaciones
+M´ etodo 2. (Uso de las propiedades del valor absoluto) Esta
+t´ ecnica se usa del siguiente modo:
+2|x| < |x − 1| ⇐ ⇒ −|x − 1| < 2x < |x − 1|
+⇐ ⇒(−2x < |x − 1|) ∧ (|x − 1| > 2x)
+⇐ ⇒(x − 1 < 2x ∨ x − 2 > −2x) ∧ (x − 1 < −2x ∨ x − 2 > 2x)
+⇐ ⇒(x > −1 ∨ 3x > 1) ∧ (3x < 1 ∨ x < −1)
+⇐ ⇒(x > −1) ∧ (x < 13 )
+⇐ ⇒x ∈
+
+−1, 13  .
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 14 / 18
+----- pagina 15 -----
+Inecuaciones
+M´ etodo 3. (Uso de los puntos cr ´ ıticos)
+Esta m´ etodo comienza buscando todos los puntos en los cuales los
+factores bajo los valores absolutos cambian de signo.
+Si miramos la expresi´ on
+2|x| < |x − 1| ,
+vemos claramente que los puntos cr ´ ıticos son el 0 para el primer valor
+abosluto y el 1 para el segundo. Estos puntos cr ´ ıticos se ordenan de
+menor a mayor y con ellos se forman los intervalos ( −∞, 0], (0, 1] y
+(1, +∞).
+Caso 1. x ∈ (−∞, 0], los factores x y x − 1 son ambos menores
+o iguales a cero, por lo que
+2|x| < |x − 1| ⇐ ⇒ −2x < −(x − 1)
+⇐ ⇒2x > x − 1
+⇐ ⇒x > −1 .
+Por lo tanto en este intervalo la soluci´ on es S1 = (−1, 0].
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 15 / 18
+----- pagina 16 -----
+Inecuaciones
+Caso 2. x ∈ (0, 1], el factor x es positivo y el factor x − 1 es
+negativo, entonces
+2|x| < |x − 1| ⇐ ⇒ 2x < −(x − 1)
+⇐ ⇒3x < 1
+⇐ ⇒x < 13 .
+Luego en este intervalo la soluci´ on es S2 =
+
+0, 13 .
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 16 / 18
+----- pagina 17 -----
+Inecuaciones
+Caso 3. x ∈ (1, ∞), los factores x y x − 1 son ambos positivos,
+entonces
+2|x| < |x − 1| ⇐ ⇒ 2x < −(x − 1)
+⇐ ⇒x < −1 .
+Esta inecuaci´ on tiene soluci´ on (−∞, −1) en R, pero como lo
+estamos resolviendo en el intervalo (1 , ∞), se deduce que la
+soluci´ on esS3 = ∅.
+En consecuencia la soluci´ on final es
+S = S1 ∪ S2 ∪ S3 = (−1, 0] ∪
+
+0, 13  ∪ ∅ = −1, 13  .
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 17 / 18
+----- pagina 18 -----
+Inecuaciones
+2 |x 2 − |3 + 2x|| < 4
+Rodrigo Vargas (LIES) Inecuaciones 23 de Marzo de 2022 18 / 18

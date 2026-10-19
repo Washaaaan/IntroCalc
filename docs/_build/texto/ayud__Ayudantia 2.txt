@@ -1,0 +1,28 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem´atica
+Profesor: Godofredo Iommi – Ayudante: Rodrigo Galaz
+Introducci´ on al C´ alculo - MAT1107
+Ayudant ´ ıa 2
+25 de Agosto de 2023
+1. Resuelva las siguientes inecuaciones
+a)
+5(x − 1) > 2 − (17 − 3x)
+b)
+−2x2 + 8x + 10> 0
+c)
+2x2 + 3x + 1< 0
+d )
+2 |x| < |x − 1|
+e)
+x + 2
+2x2 − 3x < 0
+f )
+x + 1
+x ≤ x + 1x − 1 − 3x
+g) √
+x2 − 3x ≤ 2
+h)  x2 + 5x + 6x2 − 2x − 15  > 2
+1

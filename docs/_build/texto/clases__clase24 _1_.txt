@@ -1,0 +1,80 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) Sucesiones mon´ otonas y acotadas 15 de Junio de 2022 1 / 6
+Sucesiones mon´ otonas y acotadas
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+15 de Junio de 2022
+----- pagina 2 -----
+Sucesiones mon´ otonas y acotadas
+La demostraci´ on del siguiente teorema se apoya en el axioma de
+completitud de los n´ umeros reales, que dice que si S es un conjunto
+no vac ´ ıo de n´ umeros reales que tiene una cota superiorM, luego S
+tine una cota superior m ´ ınima. El axioma de completitud expresa el
+hecho de que no hay agujeros en la recta real.
+Teorema.
+Toda sucesi´ on mon´ otona y acotada es convergente.
+La idea de la demostraci´ on es ver que si la sucesi´ on es mon´ otona
+creciente y acotada por arriba entonces la sucesi´ on se va a aproximar
+a la menor de las cotas superiores. (De igual manera, una sucesi´ on
+decreciente que est´ a acotada por abajo converge a la mayor de las
+cotas inferiores.)
+Rodrigo Vargas (LIES) Sucesiones mon´ otonas y acotadas 15 de Junio de 2022 2 / 6
+----- pagina 3 -----
+Sucesiones mon´ otonas y acotadas
+EJEMPLO 1 Investigue la sucesi´ on{an} definida por la relaci´ on de
+recurrencia
+a1 = 2 , an+1 = 12 (an + 6)
+para n = 1, 2, 3, . . ..
+Soluci´ onLa sucesi´ onan es creciente; an+1 > an para todo n ∈ N.
+En efecto, es v´ alido paran = 1 ya que a2 = 4 > a1. Suponga que se
+cumple para n = k, es decir
+ak+1 > ak ⇐ ⇒ ak+1 + 6 > ak + 6
+⇐ ⇒ 12 (ak+1 + 6) > 12 (ak + 6)
+⇐ ⇒ ak+2 > ak+1
+Se dedujo que an+1 > an es v´ alida paran = k + 1. Por lo tanto, la
+desigualdad se cumple para toda n por inducci´ on.
+Rodrigo Vargas (LIES) Sucesiones mon´ otonas y acotadas 15 de Junio de 2022 3 / 6
+----- pagina 4 -----
+Sucesiones mon´ otonas y acotadas
+La sucesi´ on{an} est´ a acotada, es deciran < 6 para todo n ∈ N. En
+efecto, a1 < 6, de modo que la afirmaci´ on es v´ alida paran = 1.
+Suponga que se cumple para n = k. En tal caso
+ak < 6 ⇐ ⇒ ak + 6 < 12
+⇐ ⇒ 12 (ak + 6) < 12 (12) = 6
+⇐ ⇒ ak+1 < 6
+Esto demuestra por inducci´ on matem´ atica quean < 6 para todo
+n ∈ N.
+Rodrigo Vargas (LIES) Sucesiones mon´ otonas y acotadas 15 de Junio de 2022 4 / 6
+----- pagina 5 -----
+Sucesiones mon´ otonas y acotadas
+Como la sucesi´ on{an} es creciente y acotada, el teorema anterior
+garantiza que tiene un l ´ ımite. El teorema no dice cu´ al es el valor del
+l ´ ımite, pero ahora que sabe queL = l ´ ım
+n→∞
+an existe, puede aplicar
+l ´ ımite en la relaci´ on de recurrencia
+l ´ ım
+n→∞
+an+1 = l ´ ımn→∞
+1
+2 (an + 6) ⇐ ⇒ L = 12  l ´ ımn→∞ an + 6
+⇐ ⇒ L = 12 (L + 6)
+Al resolver esta ecuaci´ on, se determina que L = 6.
+Rodrigo Vargas (LIES) Sucesiones mon´ otonas y acotadas 15 de Junio de 2022 5 / 6
+----- pagina 6 -----
+Sucesiones mon´ otonas y acotadas
+EJEMPLO 2 Dada la sucesi´ on definida por recurrencia:
+a1 =
+√
+2 , an+1 =
+√
+2 + an
+1 Demuestre que {an} es creciente.
+2 Demuestre que {an} est´ a acotada.
+3 Encuentre l ´ ım
+n→∞
+an.
+Rodrigo Vargas (LIES) Sucesiones mon´ otonas y acotadas 15 de Junio de 2022 6 / 6

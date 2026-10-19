@@ -1,0 +1,23 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+F acultad de Matem´aticas
+Profesor: Alejandra Schild
+Ayudantes: Gustavo Blanco y Esteban V ´asquez
+Ayudant ´ ıa 5 – MAT1107
+Primer Semestre 2024
+Pregunta 1Encuentre las as ´ ıntotas verticales y horizontales de las siguientes funciones racionales.
+a. 3x4−2x2+1x2−16
+b. x2−6x+5x3−x
+c. 2x2−3x+1x2−x−2
+Pregunta 2Sea g: [-2,4) → [1,∞) tal que g(x) = 1 +
+q
+x+2
+4−x .
+Demuestre que g es biyectiva.
+Pregunta 3Considere la funci´ on
+f (x) = 2x + 1x − 1
+• Encuentre las asintotas verticales y horizontales de f
+• Demuestre que f es inyectiva
+• Encuentre dominio y recorrido para f tal que sea biyectiva y calcule f −1
+1

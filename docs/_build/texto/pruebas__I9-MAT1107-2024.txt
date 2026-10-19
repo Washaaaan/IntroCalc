@@ -1,0 +1,51 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2024
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 9
+1. Sea {an}n∈N una sucesi´ on con limn→∞ an = 1. Demuestre que
+lim
+n→∞
+an√n + 1 − √n = +∞
+Soluci´ on.Como lim
+n→∞
+an = 1, existe un N ∈ N tal que an > 12 para todo n > N . Adem´ as, tenemos que
+1√n + 1 − √n = √n + 1 + √n(n + 1) − n = √n + 1 + √n > 2√n > 0.
+Multiplicando las desigualdades anteriores, tenemos que, para todo n > N ,
+an√n + 1 − √n > √n.
+Como el lado derecho diverge a + ∞, el lado izquierdo tambi´ en lo har´ a.
+Criterio de Correcci´ on (CC) Pregunta 1.
+CC 1. 2 puntos por acotar la sucesi´ on an para todo n > N .
+CC 2. 2 puntos por acotar la sucesi´ on 1√n+1−√n .
+CC 3. 2 puntos por usar el Teorema del Sandwich y concluir que la sucesi´ o n diverge a + ∞.
+----- pagina 2 -----
+2. Demuestre que para todo x ≥ 0 se cumple que
+ex ≥ 12 + x + x22 .
+Soluci´ on.Fijemos un x ≥ 0. Sabemos que
+lim
+n→∞
+(
+1 + xn)n = ex.
+Tenemos que existe un N ≥ 3 tal que, si n > N , entonces
+(
+1 + xn )n < e x + 12 .
+La expansi´ on binomial del lado izquierdo es
+(
+1 + xn)n = n∑k=0 (nk) xknk = 1 + n · xn + n(n − 1)2 · x2n2 + n∑k=3 (nk) xknk ≥ 1 + x + n − 12n · x2,
+donde la ´ ultima igualdad se tiene porque x ≥ 0 y n > N ≥ 3. Por lo tanto:
+1 + x + n − 12n · x2 ≤ ex + 12 .
+Aplicando l ´ ımite a la desigualdad anterior, obtenemos que
+1 + x + x2
+2 ≤ ex + 12 ,
+de lo que se concluye lo pedido.
+Observaci´ on:Tambi´ en se admite aﬁrmar directamente que
+(
+1 + xn)n ≤ ex
+para todo n ∈ N (teorema en los apuntes del curso).
+Criterio de Correcci´ on (CC) Pregunta 2.
+CC 1. 2 puntos por acotar (1 + 1 /n)n por ex.
+CC 2. 2 puntos por usar el Teorema del binomio para obtener los t´ ermino s de (1 + 1 /n)n.
+CC 3. 2 puntos por concluir lo pedido.

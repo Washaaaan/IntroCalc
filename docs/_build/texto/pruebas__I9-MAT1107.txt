@@ -1,0 +1,59 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat´olica de Chile
+Facultad de Matem´aticas
+Departamento de Matem´aticas
+Primer semestre de 2020
+Interrogaci´ on 9
+MAT1107 - Introducci´ on al C´ alculo
+(1) Usando la deﬁnici´ on de l´ ımite, demuestre que
+lim
+n→∞
+n2
+2n2 + n + 1 = 12 .
+(3 puntos)
+Soluci´ on.Sea ε > 0.
+Primero,
+⏐⏐⏐⏐ n22n2 + n + 1− 12⏐⏐⏐⏐ = n + 12(2n2 + n + 1) (0.5puntos)
+= 1n· 1 + 1n2(2 + 1n + 1n2 ) .
+Notamos que, para n≥ 1,
+1 + 1n
+2 + 1n + 1n2 ≤ 22 + 1n + 1n2 ≤ 1.
+Luego,
+⏐⏐⏐⏐ n22n2 + n + 1− 12⏐⏐⏐⏐ ≤ 1n . (1punto)
+Sea n0≥ 1 tal que 1n0 < ε. (1 punto)
+Luego, si n≥ n0,⏐⏐⏐⏐ n22n2 + n + 1− 12⏐⏐⏐⏐≤ 1n≤ 1n0 < ε. (0.5puntos)
+Obs: -0.3 puntos por no declarar expl´ ıcitamenteε > 0.
+(2) Considere la sucesi´ on dada por
+a1 = 1 ,
+an+1 = 12(an + 2an) , n ≥ 1.
+(a) Demuestre que an > 0 para todo n≥ 1. (0.5 puntos)
+(b) Demuestre que an≥
+√
+2 para todo n≥ 2. (1 punto)
+(c) Demuestre que an≤ 2 para todo n≥ 1. (1.5 puntos)
+1
+----- pagina 2 -----
+2
+Soluci´ on.
+(a) La aﬁrmaci´ on es verdadera paran = 1. Si an > 0, entonces el lado derecho en la
+deﬁnici´ on dean+1 es claramente positivo. (Puntaje: 0 o 0.5 puntos)
+(b) Sea n≥ 2. Como an−1 > 0, podemos usar la desigualdad PA-PM:
+2an = an−1 + 2an−1≥ 2√an−1·
+√
+2
+an−1
+= 2
+√
+2.
+Esto demuestra lo pedido. (Puntaje: por avance)
+(c) La aﬁrmaci´ on es evidentemente verdadera paran = 1 y n = 2.
+Supongamos que ak≤ 2 para alg´ unk≥ 2.
+Luego,
+ak+1 ≤ 12(2 + 2an) (0.5puntos)
+≤ 12(2 + 2√2) , (0.5puntos)
+gracias a la parte (b). Luego,
+ak+1 ≤ 1 + 1√2≤ 2. (0.5puntos)
+La aﬁrmaci´ on queda demostrada por inducci´ on.
+Obs: -0.2 puntos por no plantear el caso n = 2 y -0.2 puntos por no
+plantear la hip´ otesis de inducci´ on.

@@ -1,0 +1,144 @@
+
+----- pagina 1 -----
+Rodrigo Vargas (LIES) L ´ ımites infinitos 22 de Junio de 2022 1 / 10
+L ´ ımites infinitos
+Introducci´ on al C´ alculo - MAT1107
+Rodrigo Vargas
+1Facultad de Matem´ aticas, Pontificia Universidad Cat´ olica de Chile, Chile
+2LIES Laboratorio Interdisciplinario de Estad ´ ıstica Social, Pontificia Universidad Cat´ olica de Chile, Chile
+22 de Junio de 2022
+----- pagina 2 -----
+L ´ ımites infinitos
+Definici´ on.
+1 Dada una sucesi´ on{an}, se dice que el l ´ ımite dean es m´ as
+infinito y se escribe l ´ ım
+n→∞
+an = +∞, para significar que, dado
+cualquier A > 0, existe N ∈ N tal que si n > N implica an > A.
+2 An´ alogamente, l ´ ım
+n→∞
+an = −∞ significa que, para todo A > 0
+dado, se puede encontrar N ∈ N tal que n > N =⇒ an < −A.
+Se debe enfatizar que + ∞ y −∞ no son n´ umeros y que, si
+l ´ ım
+n→∞
+an = +∞ y l ´ ımn→∞ bn = −∞, las sucesiones {an} y {bn} no sonconvergentes.
+Observaci´ onComo l ´ ım
+n→∞
+(an) = +∞ ⇐ ⇒l ´ ımn→∞(−an) = −∞,
+limitaremos nuestros comentarios al primer caso.
+Rodrigo Vargas (LIES) L ´ ımites infinitos 22 de Junio de 2022 2 / 10
+----- pagina 3 -----
+L ´ ımites infinitos
+Proposici´ on.
+Si l ´ ım
+n→∞
+an = +∞ entonces la sucesi´ on{an} no est´ a acotada
+superiormente.
+EJEMPLO 1 El rec ´ ıproco de la proposici´ on anterior es falso.
+La sucesi´ on dada poran = n + (−1)nn no est´ a acotada
+superiormente, sin embargo no se tiene l ´ ım
+n→∞
+an = +∞, pues
+a2n−1 = 0 para todo n ∈ N.
+Proposici´ on.
+Sea {an} una sucesi´ on creciente.
+Si {an} no esta acotada, entonces l ´ ımn→∞ an = +∞
+Rodrigo Vargas (LIES) L ´ ımites infinitos 22 de Junio de 2022 3 / 10
+----- pagina 4 -----
+L ´ ımites infinitos
+EJEMPLO 2 Se tiene que l ´ ım
+n→∞
+n = +∞
+EJEMPLO 3 Probar que l ´ ım
+n→∞
+exp(n) = +∞.
+Soluci´ onUsando la desigualdad fundamental
+en ⩾ 1 + n ⩾ n
+Haciendo n → ∞se ve que en → +∞.
+EJEMPLO 4 Probar que l ´ ım
+n→∞
+ln(n) = +∞
+EJEMPLO 5 Se tiene que l ´ ım
+n→∞
+arctan(n) = π2 .
+Rodrigo Vargas (LIES) L ´ ımites infinitos 22 de Junio de 2022 4 / 10
+----- pagina 5 -----
+L ´ ımites infinitos
+Teorema.
+1 Si l ´ ım
+n→∞
+an = +∞ y {bn} est´ a acotada inferiormente, entonces
+l ´ ım
+n→∞
+(an + bn) = +∞ .
+2 Si l ´ ım
+n→∞
+an = +∞ y existe c > 0 tal que bn > c para todo n ∈ N
+entonces l ´ ım
+n→∞
+(an · bn) = +∞ .
+3 Si an > c > 0, bn > 0 para todo n ∈ N y l ´ ımn→∞ bn = 0 entonces
+l ´ ım
+n→∞
+an
+bn
+= +∞ .
+4 Si {an} est´ a acotada y l ´ ımn→∞(bn) = +∞ entonces l ´ ımn→∞ anbn = 0 .
+Rodrigo Vargas (LIES) L ´ ımites infinitos 22 de Junio de 2022 5 / 10
+----- pagina 6 -----
+L ´ ımites infinitos
+Demostraci´ on
+1 Existe c ∈ R tal que bn ⩾ c para todo n ∈ N. Dado cualquier
+A > 0, existe N ∈ N tal que n > N entonces an > A − c.
+Se sigue que si n > N entonces an + bn ⩾ A − c + c = A. Luego
+l ´ ım
+n→∞
+(an + bn) = +∞
+2 Dado cualquier A > 0 existe N ∈ N tal que si n > N implica que
+an > A/c. Luego si n > N entonces
+an · bn > (A/c) · bn > (A/c) · c = A
+por lo que l ´ ım
+n→∞
+(an · bn) = +∞.
+3 Dado A > 0, existe N ∈ N tal que n > N =⇒ bn < c/A.
+Entonces, n > N =⇒ an/bn > c · A/c = A, de donde
+l ´ ım
+n→∞
+(an/bn) = +∞.
+Rodrigo Vargas (LIES) L ´ ımites infinitos 22 de Junio de 2022 6 / 10
+----- pagina 7 -----
+L ´ ımites infinitos
+1 Existe c > 0 tal que |an| ⩽ c para todo n ∈ N. Dado cualquier
+ε >0, existe N ∈ N tal que n > N =⇒ bn > c/ε. Entonces
+n > N =⇒ |an/bn| < c · ε/c = ε, luego l ´ ımn→∞(an/bn) = 0.
+EJEMPLO 6 Si l ´ ım
+n→∞
+an = 0 no implica que l ´ ımn→∞
+1
+an
+= +∞. Por
+ejemplo, si an = (−1)nn converge a cero, pero 1an = (−1)nn nodiverge a ∞ ni a −∞.
+Rodrigo Vargas (LIES) L ´ ımites infinitos 22 de Junio de 2022 7 / 10
+----- pagina 8 -----
+L ´ ımites infinitos
+EJEMPLO 7 Si x > 1 entonces l ´ ım
+n→∞
+x n = +∞.
+En efecto, si x > 1 entonces 0 < 1x < 1 entonces bn = 1x n > 0 y
+l ´ ım
+n→∞
+bn = l ´ ımn→∞
+ 1
+x
+n
+= 0
+Por el inciso 3 del teorema se deduce que
+l ´ ım
+n→∞
+1
+bn
+= l ´ ım
+n→∞
+x n = +∞
+Rodrigo Vargas (LIES) L ´ ımites infinitos 22 de Junio de 2022 8 / 10

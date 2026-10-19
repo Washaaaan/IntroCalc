@@ -1,0 +1,173 @@
+
+----- pagina 1 -----
+Pontiﬁcia Universidad Cat´ olica de Chile
+Facultad de Matem´ aticas
+Departamento de Matem´ atica
+05/septiembre/2024.
+MAT 1207
+Pauta Interrogaci´ on 1.
+1. a) Se deﬁne el conectivo l´ ogico∗ de forma que p∗ q es falso solo si ambas proposiciones
+son verdaderas. Determine si la proposici´ on
+[
+(p−→ q)∨ q
+]
+| {z }
+A
+←→
+[
+(p∧ ¯q)∗ ¯q
+]
+| {z }
+B
+es o no una Tautolog´ ıa.
+Soluci´ on:Una forma de determinar si la proposici´ on dada es o no una tautolog´ ıa, es
+usando tabla de verdad, se tiene:
+p q ¯q p−→ q (p−→ q)∨ q p∧ ¯q (p∧ ¯q)∗ ¯q A←→ B
+V V F V V F V V
+V F V F F V F V
+F V F V V F V V
+F F V V V F V V
+Como resultado de la tabla de verdad, se tiene que la proposici´ on dada es una tautolog´ ıa.
+Puntaje:
+3 puntos por concluir correctamente que es una tautolog´ ıa.
+Otra forma de desarrollo es:
+a) Probar primero que p∗ q≡ p∧ q.
+b) Usando a), se prueba que
+(p∧ ¯q)∗¯q⇐⇒(p∧ ¯q)∧ ¯q⇐⇒(p∧ ¯q)⇐⇒ ¯p∨ q⇐⇒(¯p∨ q)∨ q⇐⇒(p−→ q)∨ q
+Puntaje:
+1, 5 puntos por a).
+1, 5 puntos por b).
+----- pagina 2 -----
+b) Sin usar tabla de verdad, determine el valor de verdad de p, q, r y s, sabiendo que la
+proposici´ on: [
+p−→ s
+]
+−→
+[
+(s−→ q)−→(p∨ r)
+]
+es falsa.
+Soluci´ on:Como la proposici´ on dada es falsa, entonces
+[
+p−→ s
+]
+es verdadera y
+[
+(s−→ q)−→(p∨ r)
+]
+es falsa.
+Ahora si,
+[
+(s−→ q)−→(p∨ r)
+]
+es falsa, entonces ( s−→ q) es verdadera y ( p∨ r)
+es falsa.
+Como (p∨ r) es falsa, entonces p y r son falsas.
+Por otra parte como
+[
+p−→ s
+]
+es verdadera y p es falsa, de donde p es verdadera,
+luego necesariamente s debe ser verdadera.
+Por ´ ultimo, como (s−→ q) es verdadera, como s es verdadera, entonces q es verda-
+dera.
+Por lo tanto p y r son falsas y s y q son verdaderas.
+Puntaje:
+0, 5 puntos por cada item.
+----- pagina 3 -----
+2. a) [4 puntos.] Demuestre usando el m´ etodo de reducci´ on al absurdo o por contradicci´ on
+que si n es un n´ umero entero, tal quen2 es par, entonces n es par.
+Soluci´ on:
+i) Debemos probar que si n∈ Z, entonces
+n2 es par =⇒ n es par
+luego la hip´ otesis es H:n2 es par
+y la t´ esis es T:n es par.
+ii) Seg´ un el m´ etodo de reducci´ on al absurdo consideramosH∧ T , esto es:
+Suponemos que n2 par y que n no es par.
+iii) Pero entonces n es impar, por lo tanto es de la forma
+n = 2k + 1 , con k∈ Z
+=⇒ n2 = (2k + 1)2 = 4k2 + 4k + 1 = 2 (2k2 + 2k)| {z }
+∈Z
++1
+de donde se obtiene que n2 es impar, lo que es un absurdo, ya que por hip´ otesis n2
+es par.
+iv) As´ ı hemos probado que paran∈ Z: n2 es par =⇒ n es par
+Puntaje:
+0, 5 puntos por i).
+1 punto por ii).
+2 puntos por iii).
+0, 5 puntos por iv).
+b) [2 puntos.] Niegue la siguiente proposici´ on:
+(∀ x∈ A)(∃ y∈ B)(x + y > 2 =⇒ x < 5)
+Soluci´ on:
+(∀ x∈ A)(∃ y∈ B)(x + y > 2 =⇒ x < 5)≡ (∀ x∈ A) (∃ y∈ B) (x + y > 2 =⇒ x < 5)
+≡ (∃ x∈ A)(∀ y∈ B)
+[
+(x+y > 2)∧ (x < 5)
+]
+≡ (∃ x∈ A)(∀ y∈ B)
+[
+(x+y > 2)∧ (x≥ 5)
+]
+Puntaje:
+0, 5 puntos por la negaci´ on de (∀ x∈ A).
+0, 5 puntos por la negaci´ on de (∃ y∈ B).
+1 punto por la negaci´ on de (x + y > 2 =⇒ x < 5).
+----- pagina 4 -----
+3. Demuestre usando inducci´ on que:
+6n− 1 es divisible por 5 ,∀n∈ N
+Soluci´ on:Sea p(n) : 6n− 1 es divisible por 5.
+i) Si n=1, se tiene:
+61− 1 = 5 y es divisible por 5
+luego se cumple p(1).
+ii) H.I.:
+Suponemos que se cumple p(k), esto es que 6 k− 1 es divisible por 5.
+iii) Para p(k + 1), debemos probar que 6 k+1− 1 es divisible por 5. Se tiene:
+6k+1− 1 = 6k· 6− 1 = 6k· (5 + 1)− 1 = 6k· 5| {z }
+I
++ 6k− 1| {z }
+II
+y es divisible por 5
+ya que I es divisible por 5, pues 6k∈ N y II es divisible por 5 por H.I., as´ ı se tienep(k+1).
+Entonces por i), ii) y iii) y por primer principio de inducci´ on: p(n) es v´ alida∀n∈ N.
+luego
+6n− 1 es divisible por 5 ,∀n∈ N
+Puntaje:
+1 puntos por p(1).
+1 puntos por la H.I.
+3 puntos por la demostraci´ on dep(k + 1).
+1 puntos por la conclusi´ on.
+----- pagina 5 -----
+4. a) Sean A y B conjuntos en un universo U, demuestre que:
+A⊆ B =⇒ Bc⊆ Ac
+Soluci´ on:
+i) La hip´ otesis H y la t´ esis T, est´ an dadas por
+H: A⊆ B
+T: Bc⊆ Ac
+ii) Sea x arbitrario, se tiene:
+x∈ Bc =⇒ x /∈ B (deﬁnici´ on de complemento)
+=⇒ x /∈ A (por hip´ otesis puesA⊆ B)
+=⇒ x∈ Ac (deﬁnici´ on de complemento)
+iii) Por lo tanto Bc⊆ Ac.
+Puntaje:
+1 punto por i).
+1, 5 puntos por ii).
+0, 5 puntos por iii).
+----- pagina 6 -----
+b) En un Universo de 34 elementos, se consideran tres conjuntos A, B y C tales que C⊆ B,
+n(C) = 8 , n(A∪ C) = 24 , n(A∩ B) = 10 , n(B) = 22 , n(A∩ C) = 6.
+¿Cu´ antos elementos se encuentran s´ olo en A?
+Soluci´ on:
+i) Considerando las condiciones sobre A, B y C, se tiene
+ii) Considerando las condiciones: n(C) = 8, n(A∩ B) = 10 y que n(A∩ C) = 6, se
+tiene:
+iii) Falta determinar x.
+Como n(A∪ C) = n(A) + n(C)− n(A∩ C) =⇒ n(A) = 24− 8 + 6 = 22
+iv) luego
+n(A− B) = 22− 10 = 12
+Por lo tanto hay 12 elementos que se encuentran solo en A. La condici´ on n(B)=22,
+asegura que no hay elementos que no est´ en emA∩ B.
+Puntaje:
+1 punto por obtener ii).
+1 punto por iii).
+1 puntos por iv) y concluir que n(A− B) = 12.

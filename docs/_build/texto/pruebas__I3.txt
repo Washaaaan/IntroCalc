@@ -1,0 +1,108 @@
+
+----- pagina 1 -----
+Pontificia Universidad Cat ´olica de Chile
+F acultad de Matem´aticas
+Departamento de Matem ´aticas
+Primer semestre de 2023
+MAT1107 – Introducci´ on al C´ alculo
+Soluci´ on Interrogaci´ on N◦ 3
+1. (a) (2pts) Determine el dominio de la funci´ on (real de variable re al) deﬁnida por
+f (x) =
+√
+|x| − 4
+x2 − 16 .
+(b) (4pts) Determine el rango (o conjunto imagen) de la funci´ on f : [−4, 4] → R deﬁnida por
+f (x) = 5 −
+√
+16 − x2.
+Instrucci´ on:debe calcular el rango por deﬁnici´ on. En particular, deducir el ran go a partir del
+gr´ aﬁco de la funci´ onno tiene puntaje.
+Soluci´ on.
+(a) La expresi´ on
+√
+|x|−4
+x2−16 est´ a bien deﬁnida enR si |x| −4 ≥ 0 y x2 − 16 ⁄= 0. Notando que |x| ≥ 4 ⇐ ⇒
+x ∈ (−∞, −4] ∪ [4, ∞) y que x2 ⁄= 16 ⇐ ⇒ x ∈ R \ {−4, 4}, concluimos que
+Dom(f ) = [( −∞, −4] ∪ [4, ∞)] ∩ [R \ {−4, 4}] = ( −∞, −4) ∪ (4, ∞).
+(b) Debemos determinar el conjunto {y ∈ R | ∃ x ∈ [−4, 4] tal que y = f (x)}. Luego, para x ∈ [−4, 4]
+consideramos la ecuaci´ ony = 5 −
+√
+16 − x2 ⇐ ⇒ 5 − y = √16 − x2. Para que esto sea cierto,
+necesariamente 5 ≥ y, en cuyo caso se tiene
+(5 − y)2 = 16 − x2 ⇐ ⇒ x2 = 16 − (5 − y)2.
+Esta ecuaci´ on posee soluci´ on si y s´ olo si
+16 − (5 − y)2 ≥ 0 ⇐ ⇒ 0 ≥ y2 − 10y + 9 ⇐ ⇒ 0 ≥ (y − 1)(y − 9) ⇐ ⇒ y ∈ [1, 9].
+Finalmente, deducimos que si y ∈ [1, 9] ∩ (−∞, 5] = [1 , 5], entonces x = ±
+√
+16 − (5 − y)2 ∈ [−4, 4]
+es tal que y = f (x), por lo que
+{y ∈ R | ∃ x ∈ [−4, 4] tal que y = f (x)} = [1, 5].
+Puntaje Pregunta 1.
+Respecto a la parte (a)
+1 punto por obtener las restricciones |x| − 4 ≥ 0 y x2 − 16 ⁄= 0.
+1 punto por obtener el dominio de la funci´ on.
+Respecto a la parte (b)
+1 punto por obtener la condici´ on 5 ≥ y.
+1 punto por obtener la ecuaci´ on x2 = 16 − (5 − y)2.
+1 punto por deducir que esta ecuaci´ on posee soluci´ on si y s´ olo siy ∈ [1, 9].
+1 punto por obtener el rango o imagen de la funci´ on.
+----- pagina 2 -----
+2. La gr´ aﬁca de g(x) = −√2 − x − 1 se obtiene a partir de la gr´ aﬁca de f (x) = √x aplicando trans-
+formaciones de funciones elementales vistas en c´ atedra, como tr aslaciones horizontales y verticales,
+dilataciones y contracciones horizontales y verticales y reﬂexiones .
+a) Identiﬁque en orden las transformaciones elementales que permit en obtener el gr´ aﬁco de g(x) a
+partir del gr´ aﬁco def (x).
+b) Graﬁque cada una de estas transformaciones del inciso a), indica ndo los puntos donde la gr´ aﬁca
+intersecta los ejes coordenados. Tenga en cuenta que solo se pue de aplicar una transformaci´ on a
+la vez.
+Soluci´ on.
+a) Podemos ver que g(x) = −f (−(x − 2)) − 1. Luego, una forma de identiﬁcar el orden en que se
+realizar las transformaciones es:
+Orden Transformaci´ on Descripci´ on
+1 h1(x) = f (−x) Reﬂexi´ on ejeY
+2 h2(x) = −h1(x) = −f (−x) Reﬂexi´ on ejeX
+3 h3(x) = h2(x − 2) = −f (−(x − 2)) Traslaci´ on derecha
+4 g(x) = h3(x) − 1 = −f (−(x − 2)) − 1 Traslaci´ on abajo
+b) A continuaci´ on se muestran las transformaciones en el orden da do.
+1
+2
+3
+4
+−1
+−1−2−3−4−5−6
+X
+Y1
+y = √−x
+1
+−1
+−2
+−3
+−4
+−1−2−3−4−5−6
+X
+Y2
+y = −√−x
+1
+−1
+−2
+−3
+−4
+1 2−1−2−3−4
+X
+Y3
+y = −√2 − x
+1
+−1
+−2
+−3
+−4
+1 2−1−2−3−4
+X
+Y4
+y = −√2 − x − 1
+----- pagina 3 -----
+Puntaje Pregunta 2.
+1,5 puntos por dar el orden de las reﬂexiones, las reﬂexiones puede n conmutar su orden.
+1,5 puntos por dar el orden de las translaciones, las traslaciones pu eden conmutar su orden.
+1,5 puntos por graﬁcar las reﬂexiones.
+1,5 puntos por graﬁcar las traslaciones.
